@@ -347,6 +347,9 @@ p.about-mail-number {position:relative; top:-10px; left:-74px;  }
 		.size-tablet{width:50%;float: left;}
 		#desktop-navbar {display: none;}
 		.med-mat-mobile{background: #9ed05e;}
+		#responsive-menu-button{position:absolute; top:7px !important; left:0 !important}
+		.med-logo{padding-left: 54px;}
+		#responsive-menu-title{color:#78be20 !important;}
 }
 
 @media (max-width:575px){
