@@ -219,8 +219,9 @@ ol.commentlist li ul {
 		#desktop-navbar {display: none;}
 		.med-mat-mobile{background: #9ed05e;}
 		#responsive-menu-button{position:absolute; top:7px !important; left:0 !important}
-		.med-logo{padding-left: 54px;}
+		.med-logo{padding:0 54px 0 0;}
 		#responsive-menu-title{color:#78be20 !important;}
+
 }
 
 @media (max-width:575px){
