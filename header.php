@@ -39,7 +39,6 @@
 
 			echo '<span class="mm-right-contact-1">' . 'CONTACT US: (877) 593-6011' . '</span>';
 			echo '<span class="mm-right-contact-2">' . '   (M-F: 7-6 EST)' . '</span>' . '<br />';
-
 																		?>
 </div> <!-- #mm-right-contact -->
 	</div>
