@@ -43,7 +43,50 @@
 </div> <!-- #mm-right-contact -->
 	</div>
 	</div>
-			<nav id="desktop-navbar" class="navbar navbar-topbar med-mat">
+
+
+	<?php
+/*
+	echo '<div id="benz-main-menu-wrap"><div id="benz-main-menu-box">';
+	$benzitems = '<ul id="%1$s" class="%2$s sf-menu sf-js-enabled">%3$s</ul>';
+	$benzmenu ='benz-menu';
+
+	wp_nav_menu( array( 'theme_location'  => 'mattresses',
+	                    'items_wrap'      => $benzitems,
+	                    'container_class' => $benzmenu . ' ' . $benzmenu . '-mattress',
+	                    'walker'          => new BENZ_Walker_Nav_Menu_MATT
+	            ) );
+
+	wp_nav_menu( array( 'theme_location'  => 'replacement-covers',
+	                    'items_wrap'      => $benzitems,
+	                    'container_class' => $benzmenu . ' ' . $benzmenu . '-covers',
+	                    'walker'          => new BENZ_Walker_Nav_Menu_COV
+	            ) );
+
+	wp_nav_menu( array( 'theme_location'  => 'accessories',
+	                    'items_wrap'      => $benzitems,
+	                    'container_class' => $benzmenu . ' ' . $benzmenu . '-accessories',
+	                    'walker'          => new BENZ_Walker_Nav_Menu_ACC
+	            ) );
+	wp_nav_menu( array( 'theme_location'  => 'manufacturers',
+	                    'items_wrap'      => $benzitems,
+	                    'container_class' => $benzmenu . ' ' . $benzmenu . '-manufacturers',
+	                    'walker'          => new BENZ_Walker_Nav_Menu_MFT
+	            ) );
+	wp_nav_menu( array( 'theme_location'  => 'about-us',
+	                    'items_wrap'      => $benzitems,
+	                    'container_class' => $benzmenu . ' ' . $benzmenu . '-about',
+	                    'walker'          => new BENZ_Walker_Nav_Menu_ABOUT
+	            ) );
+
+							echo '</div></div>';
+*/	 ?>
+
+
+
+
+
+		<!--	<nav id="desktop-navbar" class="navbar navbar-topbar med-mat">
 				<div class="container">
 					<div class="navbar-header">
 						<a>MATTRESSES</a>
@@ -53,7 +96,7 @@
 						<a>ABOUT US</a>
 					</div>
 				</div>
-			</nav>
+			</nav> -->
 			<div class="navbar navbar-topbar med-mat">
 				<div class="mobile-search-bar"><?php get_template_part('navbar-search'); ?></div>
 			</div>

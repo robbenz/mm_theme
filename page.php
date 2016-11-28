@@ -10,11 +10,6 @@
           <?php get_template_part('includes/home-index', 'page'); ?>
         </div><!-- /#content -->
       </div>
-
-  <!--    <div class="col-sm-4" id="sidebar" role="navigation"> -->
-         <?php //   get_sidebar(); ?>
-  <!--     </div> -->
-
     </div><!-- /.row -->
   </div><!-- /.container -->
 
