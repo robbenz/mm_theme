@@ -359,7 +359,6 @@ class RRHE {
 new RRHE();
 
 
-
 //  -- Sidebars Register
 add_action( 'widgets_init', 'my_register_sidebars' );
 function my_register_sidebars() {
@@ -376,9 +375,8 @@ function my_register_sidebars() {
     );
 }
 
-
-//CUSTOM MENU SHIT
-
+//  --  CUSTOM MENU SHIT
+add_action( 'init', 'register_my_menus' );
 function register_my_menus() {
   register_nav_menus(
     array(
@@ -393,8 +391,6 @@ function register_my_menus() {
     )
   );
 }
-add_action( 'init', 'register_my_menus' );
-
 
 class BENZ_Walker_Nav_Menu extends Walker_Nav_Menu {
    function start_lvl(&$output, $depth) {
