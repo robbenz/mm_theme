@@ -97,7 +97,7 @@ no-touch .cs-style-8 figure:hover img, .cs-style-8 figure.cs-hover img { -webkit
 .woocommerce-tabs ul, .woocommerce-tabs ol { margin-left: 1em; }
 .woocommerce div.product .woocommerce-tabs ul.tabs li::after, .woocommerce div.product .woocommerce-tabs ul.tabs li::before { border: 0px !important; content: none !important; }
 /* END */
-
+``
 /*product page*/
 .woocommerce-main-image img {max-width:300px; border: 5px solid #004ea8; border-radius: 0 !important; min-width:240px;}
 .entry-content .images{ width:30% !important; }
