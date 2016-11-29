@@ -81,7 +81,7 @@ no-touch .cs-style-8 figure:hover img, .cs-style-8 figure.cs-hover img { -webkit
 
 
 #landing_nav-wrap{width:100%; background-color:#fff; margin-bottom:20px; height:40px; }
-#landing_nav-wrap a.landing_nav{color:#464444; padding:0.4em 0; text-align:center; width:14%; display:block; float:left; }
+#landing_nav-wrap a.landing_nav{color:#464444; padding:0.4em 0; text-align:center; width:14%; display:block; float:left; font-size: 0.7em; font-weight: 600 !important; font-family: "Open Sans",sans-serif;}
 #landing_nav-wrap a.landing_nav:hover{text-decoration:none; color:#fff;}
 
 
