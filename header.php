@@ -53,7 +53,7 @@ ga('send', 'pageview');
 				<div id="">
 					<input type="text" size="20" name="s" id="s" class="search-bar" value="Search Here" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;"/>
 					<input type="submit" id="searchsubmit" value="" class="btn"/>
-					<i class="fa icon-search" style="pointer-events:none; color:#9ed05e; position:relative; left:-41px; top:2px;"></i>
+					<i class="fa icon-search magnifying-icon"></i>
 				</div>
 			</form>
 		</div>

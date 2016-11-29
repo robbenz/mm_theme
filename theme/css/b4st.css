@@ -83,6 +83,7 @@ no-touch .cs-style-8 figure:hover img, .cs-style-8 figure.cs-hover img { -webkit
 #landing_nav-wrap{width:100%; background-color:#fff; margin-bottom:20px; height:40px; }
 #landing_nav-wrap a.landing_nav{color:#464444; padding:0.4em 0; text-align:center; width:14%; display:block; float:left; font-size: 0.7em; font-weight: 600 !important; font-family: "Open Sans",sans-serif;}
 #landing_nav-wrap a.landing_nav:hover{text-decoration:none; color:#fff;}
+.magnifying-icon{pointer-events:none;color:#9ed05e;position:relative;left: -39px;}
 
 
 /*END*/
@@ -240,8 +241,8 @@ ol.commentlist li ul {
 .menu-sign_in-container input[type="text"], .menu-sign_in-container input[type="email"], .menu-sign_in-container input[type="url"], .menu-sign_in-container input[type="password"], .menu-sign_in-container input[type="search"], .menu-sign_in-container textarea { width:100%;}
 .menu-need_help-container {top: -5px; }
 .menu-need_help-container ul li{list-style: none; text-align:left; }
-#searchform #searchsubmit {background-color: #ebebeb; -moz-border-radius-bottomright: 10px; border-bottom-right-radius: 10px;-moz-border-radius-topright: 10px; border-top-right-radius: 10px; position:relative; left:-5px; top:6px; border-top: 1px solid #aeaeae; border-right: 1px solid #aeaeae; border-bottom: 1px solid #aeaeae;}
-@-moz-document url-prefix() { #searchform #searchsubmit { top:0px; } }
+#searchform #searchsubmit {background-color: #ebebeb; border-bottom-right-radius: 10px; border-top-right-radius: 10px; position:relative; left:-5px; top:6px; border-top: 1px solid #aeaeae; border-right: 1px solid #aeaeae; border-bottom: 1px solid #aeaeae;}
+@-moz-document url-prefix() { #searchform #searchsubmit {padding: 17px 20px;} }
 input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="tel"], textarea {padding:7px 15px; }
 button, html input[type="button"], input[type="reset"], input[type="submit"] { padding: 7px 20px; }
 .festi-cart-text-before-quantity{font-weight: 600 !important;}
@@ -458,7 +459,7 @@ div.pp_woocommerce div.ppt {display:none !important;}
 /* END */
 
 /* Main Page */
-#homerotator:parent{margin-bottom:10px; width:100%; }
+#homerotator{margin:20px 0 10px 0; width:100%; }
 /* END */
 
 /* Responsive Stuff */
