@@ -133,6 +133,20 @@ ga('send', 'pageview');
 		 ?>
 		</div>
 		</div>
+
+		<?php
+
+if ( 'failed' == $_GET["login"] ) {
+	echo '<p class="woo-ma-login-failed woo-ma-error error-home-class-red">';
+	_e('Login failed, please try again','woocommerce-my-account-widget');
+	echo '</p>';
+}
+
+?>
+
+<?php woocommerce_breadcrumb(); ?>
+
+
 		<!--	<nav id="desktop-navbar" class="navbar navbar-topbar med-mat">
 				<div class="container">
 					<div class="navbar-header">
@@ -144,6 +158,8 @@ ga('send', 'pageview');
 					</div>
 				</div>
 			</nav> -->
+
+			<!-- WHAT DOES THIS DO -->
 			<div class="navbar navbar-topbar med-mat">
 				<div class="mobile-search-bar"><?php get_template_part('navbar-search'); ?></div>
 			</div>
