@@ -44,10 +44,6 @@ ga('send', 'pageview');
 		</div>
 		<div class="container">
 			<div id="fixed-row" class="row">
-  <!--<button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
-    	&#9776;
-  	</button> -->
-  	<!--<div class="collapse navbar-toggleable-xs" id="collapsingNavbar">-->
 		<div id="logo" class="size-tablet size-laptop size-desktop">
     	<a href="<?php echo site_url(); ?>">
 			<img class="med-logo" src="<?php echo site_url(); ?>/wp-content/imgs/medmattresslogo.png"></a>
@@ -146,22 +142,15 @@ if ( 'failed' == $_GET["login"] ) {
 
 <?php woocommerce_breadcrumb(); ?>
 
-
-		<!--	<nav id="desktop-navbar" class="navbar navbar-topbar med-mat">
-				<div class="container">
-					<div class="navbar-header">
-						<a>MATTRESSES</a>
-						<a>REPLACEMENT COVERS</a>
-						<a>ACCESSORIES</a>
-						<a>MANUFACTURERS</a>
-						<a>ABOUT US</a>
+		<!--WHAT DOES THIS DO-->	<!--INSERTS SEARCH BAR ON GREEN BAR FOR MOBILE-->
+			<div class="navbar navbar-topbar med-mat-mobile">
+				<form method="get" id="searchform-mobile" action="<?php bloginfo('home'); ?>/">
+					<div>
+						<input type="text" size="20" name="m" id="m" class="search-bar" value="Search Here" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;"/>
+						<input type="submit" id="searchsubmit" value="" class="btn">
+						<i class="fa icon-search magnifying-icon"></i>
 					</div>
-				</div>
-			</nav> -->
-
-			<!-- WHAT DOES THIS DO -->
-			<div class="navbar navbar-topbar med-mat">
-				<div class="mobile-search-bar"><?php get_template_part('navbar-search'); ?></div>
+				</form>
 			</div>
 </div>
 <?php /*

@@ -4,12 +4,9 @@
 
   <div class="container">
     <div class="row">
-
-      <div class="col-sm-8">
         <div id="content" role="main">
           <?php get_template_part('includes/home-index', 'page'); ?>
         </div><!-- /#content -->
-      </div>
     </div><!-- /.row -->
   </div><!-- /.container -->
 
