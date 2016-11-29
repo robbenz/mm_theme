@@ -61,81 +61,78 @@ ga('send', 'pageview');
 				</div>
 			</form>
 		</div>
-		<div id="mm-right-contact" class="size-laptop size-desktop">
-			<?php
+		<div id="mm-right-contact">
+		<?php
+		$benzitems = '<ul id="%1$s" class="%2$s sf-menu sf-js-enabled">%3$s</ul>';
+		$benzmenu ='benz-menu';
 
-			$benzitems = '<ul id="%1$s" class="%2$s sf-menu sf-js-enabled">%3$s</ul>';
 
-			echo '<span class="mm-right-contact-1">' . 'CONTACT US: (877) 593-6011' . '</span>';
-			echo '<span class="mm-right-contact-2">' . '   (M-F: 7-6 EST)' . '</span>' . '<br />';
+		echo '<span class="mm-right-contact-1">' . 'CONTACT US: (877) 593-6011' . '</span>';
+		echo '<span class="mm-right-contact-2">' . '   (M-F: 7-6 EST)' . '</span>' . '<br />';
 
-			wp_nav_menu( array( 'theme_location'  => 'header-menu',
-													'items_wrap'      => $benzitems,
-													'walker' => new BENZ_Walker_Nav_Menu
-													 ) );
+		wp_nav_menu( array( 'theme_location'  => 'header-menu',
+		                    'items_wrap'      => $benzitems,
+		                    'walker' => new BENZ_Walker_Nav_Menu
+		                     ) );
 
-			 if ( is_user_logged_in() ) {
-					wp_nav_menu( array( 'theme_location'  => 'myaccount',
-															'items_wrap'      => $benzitems,
-															'walker'          => new BENZ_Walker_Nav_Menu_MYACCOUNT
-														) );
-			} else {
-					wp_nav_menu( array( 'theme_location'  => 'sign-in-menu',
-															'items_wrap'      => $benzitems,
-															'walker'          => new BENZ_Walker_Nav_Menu_SIGNIN
-													 ) );
-			};
+		 if ( is_user_logged_in() ) {
+		    wp_nav_menu( array( 'theme_location'  => 'myaccount',
+		                        'items_wrap'      => $benzitems,
+		                        'walker'          => new BENZ_Walker_Nav_Menu_MYACCOUNT
+		                      ) );
+		} else {
+		    wp_nav_menu( array( 'theme_location'  => 'sign-in-menu',
+		                        'items_wrap'      => $benzitems,
+		                        'walker'          => new BENZ_Walker_Nav_Menu_SIGNIN
+		                     ) );
+		};
 
-			echo do_shortcode('[WooCommerceWooCartPro]');
+		echo do_shortcode('[WooCommerceWooCartPro]');
 
 		?>
+		</div>
 
-</div> <!-- #mm-right-contact -->
-	</div>
-	</div>
+		<?php do_action( 'generate_after_header_content'); ?>
 
+		</div><!-- .inside-header -->
+		</header><!-- #masthead -->
 
-	<?php
-
-	echo '<div id="benz-main-menu-wrap"><div id="benz-main-menu-box">';
-	$benzitems = '<ul id="%1$s" class="%2$s sf-menu sf-js-enabled">%3$s</ul>';
-	$benzmenu ='benz-menu';
-
-	wp_nav_menu( array( 'theme_location'  => 'mattresses',
-	                    'items_wrap'      => $benzitems,
-	                    'container_class' => $benzmenu . ' ' . $benzmenu . '-mattress',
-	                    'walker'          => new BENZ_Walker_Nav_Menu_MATT
-	            ) );
-
-	wp_nav_menu( array( 'theme_location'  => 'replacement-covers',
-	                    'items_wrap'      => $benzitems,
-	                    'container_class' => $benzmenu . ' ' . $benzmenu . '-covers',
-	                    'walker'          => new BENZ_Walker_Nav_Menu_COV
-	            ) );
-
-	wp_nav_menu( array( 'theme_location'  => 'accessories',
-	                    'items_wrap'      => $benzitems,
-	                    'container_class' => $benzmenu . ' ' . $benzmenu . '-accessories',
-	                    'walker'          => new BENZ_Walker_Nav_Menu_ACC
-	            ) );
-	wp_nav_menu( array( 'theme_location'  => 'manufacturers',
-	                    'items_wrap'      => $benzitems,
-	                    'container_class' => $benzmenu . ' ' . $benzmenu . '-manufacturers',
-	                    'walker'          => new BENZ_Walker_Nav_Menu_MFT
-	            ) );
-	wp_nav_menu( array( 'theme_location'  => 'about-us',
-	                    'items_wrap'      => $benzitems,
-	                    'container_class' => $benzmenu . ' ' . $benzmenu . '-about',
-	                    'walker'          => new BENZ_Walker_Nav_Menu_ABOUT
-	            ) );
-
-							echo '</div></div>';
-	 ?>
+		<div id="benz-main-menu-wrap">
+		<div id="benz-main-menu-box" class="grid-container">
+		<?php
 
 
+		wp_nav_menu( array( 'theme_location'  => 'mattresses',
+		                    'items_wrap'      => $benzitems,
+		                    'container_class' => $benzmenu . ' ' . $benzmenu . '-mattress',
+		                    'walker'          => new BENZ_Walker_Nav_Menu_MATT
+		            ) );
 
+		wp_nav_menu( array( 'theme_location'  => 'replacement-covers',
+		                    'items_wrap'      => $benzitems,
+		                    'container_class' => $benzmenu . ' ' . $benzmenu . '-covers',
+		                    'walker'          => new BENZ_Walker_Nav_Menu_COV
+		            ) );
 
+		wp_nav_menu( array( 'theme_location'  => 'accessories',
+		                    'items_wrap'      => $benzitems,
+		                    'container_class' => $benzmenu . ' ' . $benzmenu . '-accessories',
+		                    'walker'          => new BENZ_Walker_Nav_Menu_ACC
+		            ) );
+		wp_nav_menu( array( 'theme_location'  => 'manufacturers',
+		                    'items_wrap'      => $benzitems,
+		                    'container_class' => $benzmenu . ' ' . $benzmenu . '-manufacturers',
+		                    'walker'          => new BENZ_Walker_Nav_Menu_MFT
+		            ) );
+		wp_nav_menu( array( 'theme_location'  => 'about-us',
+		                    'items_wrap'      => $benzitems,
+		                    'container_class' => $benzmenu . ' ' . $benzmenu . '-about',
+		                    'walker'          => new BENZ_Walker_Nav_Menu_ABOUT
+		            ) );
 
+		 ?>
+		</div>
+		</div>
 		<!--	<nav id="desktop-navbar" class="navbar navbar-topbar med-mat">
 				<div class="container">
 					<div class="navbar-header">

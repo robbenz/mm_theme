@@ -18,7 +18,8 @@
 	border-top-color: inherit;
 	margin-top: -5px;
 	border-color: transparent;
-	border-left-color: inherit; 
+	border-left-color: inherit;
+	display: none;
 }
 .sf-menu > .menu-item-has-children > a:first-child:after,
 .sf-menu > .page_item_has_children > a:first-child:after {

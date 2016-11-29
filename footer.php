@@ -1,4 +1,3 @@
-Footer goes here
 <footer class="container">
   <hr/>
 	<div class="row">

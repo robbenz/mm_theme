@@ -1,12 +1,8 @@
-<?php get_header();
-
-woocommerce_breadcrumb();
-
-?>
+<?php get_header(); ?>
 
 <div class="container">
   <div class="row">
-
+<?php // woocommerce_breadcrumb(); ?>
       <div id="content" role="main">
         <?php
                         if ( is_singular( 'product' ) ) {
