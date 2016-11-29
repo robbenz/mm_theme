@@ -505,10 +505,13 @@ div.pp_woocommerce div.ppt {display:none !important;}
 	.size-desktop{width:33.333%; float: left;}
 	.mobile-search-bar{display:none;}
 }
+
+
 @media (max-width:1199px){
 	#landing_nav-wrap div a.landing_nav{font-size: .8rem;}
 	.size-laptop{width:33.333%; float: left;}
 	.mobile-search-bar{display:none;}
+
 }
 
 @media (max-width:991px){
@@ -528,6 +531,15 @@ div.pp_woocommerce div.ppt {display:none !important;}
 	.search-form {display: none;}
 	#searchsubmit{float: right; margin-top: -38px;}
 	.mobile-search-bar{display:inline-block;width:80%;}
+
+}
+
+
+
+
+@media (min-width:991px) {
+	#menu-item-1916 a, #menu-item-1917 a, #menu-item-1905 a, #menu-item-1918 a, #menu-item-1919 a { color: #000; font-size: 19px; font-weight: 600; padding: 12px 32.1px 10px; }
+@-moz-document url-prefix() { #menu-item-1916 a, #menu-item-1917 a, #menu-item-1905 a, #menu-item-1918 a, #menu-item-1919 a {padding-bottom:9px;} }
 
 }
 /* END */
