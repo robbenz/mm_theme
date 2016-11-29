@@ -71,11 +71,14 @@ no-touch .cs-style-8 figure:hover img, .cs-style-8 figure.cs-hover img { -webkit
 .hos-links-menu a:visited{color:#c3e2ff;text-decoration:none; background-color: none !important;}
 .med-logo{width:100%;}
 .search-form, #mm-right-contact{margin-top:15px;}
-.form-control{margin-right:-10px;}
-#searchsubmit{border-radius: 0 .25rem .25rem 0;}
+.form-control{margin-right:-10px;display: inline-block; width: 60%; margin-top: 20px;}
+#searchsubmit{border-radius: 0 .25rem .25rem 0; margin-top: -16px;}
 .float-sm-right{float:none !important;}
 .fa-search{font-size: 1.2rem;}
 .navbar-header a{font-size: 19px; font-weight: 600; margin:0 20px;}
+.search-bar{border-color: #aeaeae; -moz-border-radius-bottomleft: 10px; border-bottom-left-radius: 10px;-moz-border-radius-topleft: 10px; border-top-left-radius: 10px;}
+#searchform #searchsubmit { background-color: #ebebeb; -moz-border-radius-bottomright: 10px; border-bottom-right-radius: 10px; -moz-border-radius-topright: 10px; border-top-right-radius: 10px; position: relative; left: -5px; top: 6px; border-top: 1px solid #aeaeae; border-right: 1px solid #aeaeae; border-bottom: 1px solid #aeaeae;}
+
 /*END*/
 
 	.med-mat{background: #9ed05e;}

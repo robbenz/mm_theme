@@ -13,6 +13,12 @@ require_once locate_template('/functions/index-pagination.php');
 require_once locate_template('/functions/split-post-pagination.php');
 require_once locate_template('/functions/feedback.php');
 
+function benzy_enqueue_styles() {
+    wp_enqueue_style( 'superfish', get_template_directory_uri() . '/theme/css/superfish.css', false, false, 'all' );
+}
+add_action( 'wp_enqueue_scripts', 'benzy_enqueue_styles' );
+
+
 // --  ADD woocommerce support to theme
 remove_action( 'woocommerce_before_main_content', 'woocommerce_output_content_wrapper', 10);
 remove_action( 'woocommerce_after_main_content', 'woocommerce_output_content_wrapper_end', 10);
@@ -210,3 +216,58 @@ function hide_all_shipping_when_free_is_available( $rates, $package ) {
 /** END SHIPPING STUFF **/
 
 /****** END WOOCOMMERCE SPECIFIC  ******/
+
+
+//CUSTOM MENU SHIT
+
+function register_my_menus() {
+  register_nav_menus(
+    array(
+      'header-menu'          => __( 'Header Menu' ),
+      'sign-in-menu'         => __( 'Sign In Menu' ),
+      'mattresses'           => __( 'Mattresses Menu' ),
+      'replacement-covers'   => __( 'Replacement Covers Menu' ),
+      'accessories'          => __( 'Accessories Menu' ),
+      'manufacturers'        => __( 'Manufacturers Menu' ),
+      'myaccount'            => __( 'My Account' ),
+      'about-us'             => __( 'About Us Menu' )
+    )
+  );
+}
+add_action( 'init', 'register_my_menus' );
+
+class BENZ_Walker_Nav_Menu extends Walker_Nav_Menu {
+   function start_lvl(&$output, $depth) {
+        $output .= '<ul class="sub-menu" style="color:#004ea8; font-weight:700;"><div class="arrow-up-mm"></div><div class="insert-img-here">NEED SOME ASSISTANCE?<br>';
+        $output .= '<span style="color:#000; font-weight:normal;"><em>Browse these pages to read<br>our policies or to drop us a line!</em></span></div>';
+    }
+        function end_lvl(&$output, $depth) {
+        $output .= '</ul>';
+    }
+}
+
+$link = '<a href="' . wp_logout_url( $redirect ) . '" title="' .  __( 'Logout' ) .'">' . __( 'Logout' ) . '</a>';
+
+class BENZ_Walker_Nav_Menu_MYACCOUNT extends Walker_Nav_Menu {
+   function start_lvl(&$output, $depth) {
+        $output .= '<ul class="sub-menu" style="color:#004ea8; font-weight:700;"><div class="arrow-up-mm"></div><div class="insert-img-here">MANAGE YOUR ACCOUNT<br></div>';
+
+    }
+        function end_lvl(&$output, $depth) {
+        $output .= '<li class="log-in-out-link"><a href="'. wp_logout_url() .'">Log Out</a></li>';
+        $output .= '</ul>';
+    }
+}
+
+class BENZ_Walker_Nav_Menu_SIGNIN extends BENZ_Walker_Nav_Menu {
+
+   function start_lvl(&$output, $depth) {
+        $output .= '<ul class="sub-menu"><div class="arrow-up-mm"></div><div class="insert-img-here"><strong>SIGN IN</strong>' . do_shortcode('[wppb-login]') . '</div>';
+    }
+        function end_lvl(&$output, $depth) {
+        $output .= '<div class="insert-img-here" style="line-height: 22px; width:auto; height:110px; color:#004ea8; font-weight:700; text-align:center; border-top: 1px solid #cccccc; ">';
+        $output .= 'NEW CUSTOMER? <br><span style="color:#000; font-weight:normal;"><em>Registration is easy and<br>only takes a few seconds!</em></span>';
+        $output .= '<a href="http://www.medmattress.com/my-account" id="benz-register-link">REGISTER</a></div></ul>';
+    }
+
+}
