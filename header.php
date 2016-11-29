@@ -96,7 +96,7 @@ ga('send', 'pageview');
 
 
 	<?php
-/*
+
 	echo '<div id="benz-main-menu-wrap"><div id="benz-main-menu-box">';
 	$benzitems = '<ul id="%1$s" class="%2$s sf-menu sf-js-enabled">%3$s</ul>';
 	$benzmenu ='benz-menu';
@@ -130,7 +130,7 @@ ga('send', 'pageview');
 	            ) );
 
 							echo '</div></div>';
-*/	 ?>
+	 ?>
 
 
 
