@@ -69,7 +69,7 @@ no-touch .cs-style-8 figure:hover img, .cs-style-8 figure.cs-hover img { -webkit
 .hos-links-menu a{color:#c3e2ff;text-decoration:none; background-color: none !important; }
 .hos-links-menu a:hover{color:#c3e2ff;text-decoration: none; background-color: none !important;}
 .hos-links-menu a:visited{color:#c3e2ff;text-decoration:none; background-color: none !important;}
-.med-logo{width:100%;}
+.med-logo{width:100%; margin-bottom: 23px;}
 .search-form, #mm-right-contact{margin-top:15px;}
 .form-control{margin-right:-10px;display: inline-block; width: 60%; margin-top: 20px;}
 #searchsubmit{border-radius: 0 .25rem .25rem 0; margin-top: -16px;}
@@ -77,8 +77,8 @@ no-touch .cs-style-8 figure:hover img, .cs-style-8 figure.cs-hover img { -webkit
 .fa-search{font-size: 1.2rem;}
 .navbar-header a{font-size: 19px; font-weight: 600; margin:0 20px;}
 .search-bar{border-color: #aeaeae; -moz-border-radius-bottomleft: 10px; border-bottom-left-radius: 10px;-moz-border-radius-topleft: 10px; border-top-left-radius: 10px;}
-#searchform #searchsubmit { background-color: #ebebeb; -moz-border-radius-bottomright: 10px; border-bottom-right-radius: 10px; -moz-border-radius-topright: 10px; border-top-right-radius: 10px; position: relative; left: -5px; top: 6px; border-top: 1px solid #aeaeae; border-right: 1px solid #aeaeae; border-bottom: 1px solid #aeaeae;}
-
+#searchform #searchsubmit { background-color: #ebebeb; border-color: transparent; -moz-border-radius-bottomright: 10px; border-bottom-right-radius: 10px; -moz-border-radius-topright: 10px; border-top-right-radius: 10px; position: relative; left: -5px; top: 6px; border-top: 1px solid #aeaeae; border-right: 1px solid #aeaeae; border-bottom: 1px solid #aeaeae;}
+#fixed-row{margin-bottom: 10px;}
 
 #landing_nav-wrap{width:100%; background-color:#fff; margin-bottom:20px; height:40px; }
 #landing_nav-wrap a.landing_nav{color:#464444; padding:0.4em 0; text-align:center; width:14%; display:block; float:left; font-size: 0.7em; font-weight: 600 !important; font-family: "Open Sans",sans-serif;}
@@ -89,48 +89,6 @@ no-touch .cs-style-8 figure:hover img, .cs-style-8 figure.cs-hover img { -webkit
 /*END*/
 
 
-/* Tabs */
-.wc-tabs-wrapper .wc-tab { overflow:scroll; border:4px solid #cccccc; padding:1em !important; }
-.wc-tabs-wrapper ul ul { margin: 0 !important}
-.wc-tabs-wrapper ul {padding-left:0px !important; margin-bottom:0px !important; }
-.wc-tabs-wrapper .active { background-color:#5d8dc3 !important; color:#fff !important; border-bottom: 0 !important;}
-.wc-tabs-wrapper #tab-description{ padding:1em !important; }
-.woocommerce-tabs ul, .woocommerce-tabs ol { margin-left: 1em; }
-.woocommerce div.product .woocommerce-tabs ul.tabs li::after, .woocommerce div.product .woocommerce-tabs ul.tabs li::before { border: 0px !important; content: none !important; }
-/* END */
-``
-/*product page*/
-.woocommerce-main-image img {max-width:300px; border: 5px solid #004ea8; border-radius: 0 !important; min-width:240px;}
-.entry-content .images{ width:30% !important; }
-.woocommerce div.product .product_title {font-size:28px; color: #004ea8; font-family: 'Open Sans', sans-serif !important; font-weight:600; }
-.products h2{ border-bottom:3px dotted #78be20; font-size:1.2em;}
-.type-product .inside-article{padding-top: 20px;}
-.sku_wrapper{font-family: 'Open Sans', sans-serif; font-size:0.83em; font-weight: 600;  }
-.woocommerce div.product form.cart .variations select { width: 60%; min-width:60%; }
-.woocommerce div.product p.price, .woocommerce div.product span.price {font-family: "Open Sans",sans-serif; color: #d6001c; font-size: 1.45em; margin-bottom:15px; font-weight:600;}
-.variations select { font-family: "Open Sans",sans-serif; font-size: 16px;}
-.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {background-color:#5d8dc3; }
-.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover {background-color:#004ea8; }
-.woocommerce #respond input#submit.alt.disabled, .woocommerce #respond input#submit.alt.disabled:hover, .woocommerce #respond input#submit.alt:disabled, .woocommerce #respond input#submit.alt:disabled:hover, .woocommerce #respond input#submit.alt[disabled]:disabled, .woocommerce #respond input#submit.alt[disabled]:disabled:hover, .woocommerce a.button.alt.disabled, .woocommerce a.button.alt.disabled:hover, .woocommerce a.button.alt:disabled, .woocommerce a.button.alt:disabled:hover, .woocommerce a.button.alt[disabled]:disabled, .woocommerce a.button.alt[disabled]:disabled:hover, .woocommerce button.button.alt.disabled, .woocommerce button.button.alt.disabled:hover, .woocommerce button.button.alt:disabled, .woocommerce button.button.alt:disabled:hover, .woocommerce button.button.alt[disabled]:disabled, .woocommerce button.button.alt[disabled]:disabled:hover, .woocommerce input.button.alt.disabled, .woocommerce input.button.alt.disabled:hover, .woocommerce input.button.alt:disabled, .woocommerce input.button.alt:disabled:hover, .woocommerce input.button.alt[disabled]:disabled, .woocommerce input.button.alt[disabled]:disabled:hover {background-color:#004ea8;}
-.woocommerce div.product form.cart .reset_variations { font-size: 1em; }
-.woocommerce div.product form.cart .button {margin-left:0.6em; }
-.variations_button{ margin-top:0.6em;}
-.woocommerce .quantity, .woocommerce-page .quantity { /*float:right !important; margin: -52px 350px 0 0 !important; */}
-.woocommerce div.product form.cart .variations {margin-bottom:0.1em; }
-.variations td {height:20px; padding-top:0px }
-.single-product .images .thumbnails{display:none;}
-/* END */
-
-/* FREE SHIPPING PRODUCTS */
-#free_ship-productpage { float:left; font-family: 'Open Sans', sans-serif; width:300px; margin-bottom:0.6em;  margin-top:1em; }
-#free_ship-productpage span {margin-top:1em;  }
-#free_ship-productpage p.add_shipp {font-family: 'Open Sans', sans-serif; font-size:15px; color:#464444; }
-#free_ship-productpage .red_free { }
-#free_ship-productpage img { margin-right:1em; margin-left:-1em; width:110px !important; max-width: 110px !important; min-width: 101px !important;}
-/* END */
-
-
-	.med-mat{background: #9ed05e;}
 /*END*/
 
 /* Main content */
@@ -501,24 +459,26 @@ div.pp_woocommerce div.ppt {display:none !important;}
 .woocommerce ul.products li.product, .woocommerce-page ul.products li.product { margin-bottom:1px; }
 /* END */
 
-
 /* Main Page */
 #homerotator{margin:20px 0 10px 0; width:100%;}
+#homerotator{margin:20px 0 10px 0; width:100%; }
+#home-custom-size-mattress{ background-image: url(http://medmattress.com/wp-content/imgs/Custom-Size-Mattress-home.png); height: 138px; background-repeat: no-repeat; margin: 0; position:relative; }
+#home-custom-size-mattress #box-link{position: absolute; top: 4px; left: 0px; background-color: transparent; width:100%; height:129px; }
+#home-custom-size-mattress a{color:#fff; text-align:left; position:relative; left:359px; top:59px; font-size: 16px; font-family: 'Open Sans', sans-serif;}
+#home-custom-size-mattress a:hover {color:#fff; font-weight:bolder; }
 /* END */
-
 
 /* Responsive Stuff */
 @media(min-width:1200px){
 	.size-desktop{width:33.333%; float: left;}
-	.med-mat-mobile{display:none;}
+	.mobile-search-bar{display:none;}
+		.med-mat-mobile{background: #9ed05e;display: none;}
 }
-
-
 @media (max-width:1199px){
-	#landing_nav-wrap div a.landing_nav{font-size: .8rem;}
+	#landing_nav-wrap div a.landing_nav{font-size: .7rem;}
 	.size-laptop{width:33.333%; float: left;}
-	.med-mat-mobile{display:none;}
-
+	.mobile-search-bar{display:none;}
+	.med-mat-mobile{background: #9ed05e;display: none;}
 }
 
 @media (max-width:991px){
@@ -526,9 +486,9 @@ div.pp_woocommerce div.ppt {display:none !important;}
 		#mm-right-contact{display: none; }
 		.size-tablet{width:50%;float: left;}
 		#desktop-navbar {display: none;}
-		.med-mat-mobile{background: #9ed05e;}
+
 		#responsive-menu-button{position:absolute; top:7px !important; left:0 !important}
-		.med-logo{padding:0 54px 0 0;}
+		.med-logo{padding:13px 0px 0 25px;}
 		#responsive-menu-title{color:#78be20 !important;}
 
 }
@@ -536,17 +496,14 @@ div.pp_woocommerce div.ppt {display:none !important;}
 @media (max-width:575px){
 	#logo {width:100%;}
 	.search-form {display: none;}
-	#searchsubmit{float: right; margin-top: -38px;}
-	.med-mat-mobile{display:inline-block;width:80%;}
-
+	.mobile-search-bar{display:inline-block;}
+	.med-logo {padding: 0 0px 0 44px;}
+	#benz-main-menu-wrap{display: none;}
+	.med-mat-mobile{display:inline-block; width:100%; text-align: center;}
+	#search-place{display: none;}
+	.form-control{margin:0 0 0 5%; display: inline-block; width: 80%; margin-top: 0px;padding: 8px 15px !important;}
+	#searchsubmit{margin:-5px 0 0 -37px;background-color: #ebebeb; border-color: #ebebeb;border-top-right-radius: 10px; border-bottom-right-radius: 10px;}
+  .magnifying-icon{pointer-events:none;color:#9ed05e;position:relative;left: -34px;}
 }
 
-
-
-
-@media (min-width:991px) {
-	#menu-item-1916 a, #menu-item-1917 a, #menu-item-1905 a, #menu-item-1918 a, #menu-item-1919 a { color: #000; font-size: 19px; font-weight: 600; padding: 12px 32.1px 10px; }
-@-moz-document url-prefix() { #menu-item-1916 a, #menu-item-1917 a, #menu-item-1905 a, #menu-item-1918 a, #menu-item-1919 a {padding-bottom:9px;} }
-
-}
 /* END */
