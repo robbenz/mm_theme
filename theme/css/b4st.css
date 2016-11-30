@@ -485,11 +485,10 @@ div.pp_woocommerce div.ppt {display:none !important;}
 		#mm-right-contact{display: none; }
 		.size-tablet{width:50%;float: left;}
 		#desktop-navbar {display: none;}
-
 		#responsive-menu-button{position:absolute; top:7px !important; left:0 !important}
 		.med-logo{padding:13px 0px 0 25px;}
 		#responsive-menu-title{color:#78be20 !important;}
-
+		@-moz-document url-prefix() {#searchform #searchsubmit{top:5px;}}
 }
 
 @media (max-width:575px){
@@ -502,6 +501,7 @@ div.pp_woocommerce div.ppt {display:none !important;}
 	#search-place{display: none;}
 	.form-control{margin:0 0 0 5%; display: inline-block; width: 80%; margin-top: 0px;padding: 8px 15px !important;}
 	#searchsubmit{margin:-5px 0 0 -37px;background-color: #ebebeb; border-color: #ebebeb;border-top-right-radius: 10px; border-bottom-right-radius: 10px;}
+	@-moz-document url-prefix() {input[type="submit"]{padding: 17px 20px !important;}}
   .magnifying-icon{pointer-events:none;color:#9ed05e;position:relative;left: -34px;}
 }
 
