@@ -259,13 +259,13 @@ ol.commentlist li ul {
 /* SIGN IN && NEED HELP MENU */
 #mm-right-contact .sub-menu { background-color: #ffffff; border: 1px solid #d7d7d7; left: -71px; padding: 5px; width: 300px; top:40px; }
 #menu-item-1887 .sub-menu { }
-#menu-item-1887 .sub-menu li { list-style:disc; margin: 10px 0 0 26px; }
+#menu-item-1887 .sub-menu li,
 #menu-item-2041 .sub-menu li { list-style:disc; margin: 10px 0 0 26px; }
-#menu-item-1887 .sub-menu li a { color:#004ea8; line-height:24px; }
-#menu-item-2041 .sub-menu li a { color:#004ea8; line-height:24px; }
-#menu-item-1887 .sub-menu li a:hover{ background-color:#fff; color:#636363; }
+#menu-item-1887 .sub-menu li a,
+#menu-item-2041 .sub-menu li a  { color:#004ea8; line-height:24px; }
+#menu-item-1887 .sub-menu li a:hover,
 #menu-item-2041 .sub-menu li a:hover{ background-color:#fff; color:#636363; }
-#menu-item-1887 .sub-menu .insert-img-here {text-align:center; padding-top:6px; padding-left:0;}
+#menu-item-1887 .sub-menu .insert-img-here,
 #menu-item-2041 .sub-menu .insert-img-here {text-align:center; padding-top:6px; padding-left:0;}
 #menu-item-1895 .sub-menu { }
 #menu-item-1895 .sub-menu li { list-style:none; }
@@ -411,7 +411,8 @@ p.about-mail-number {position:relative; top:-10px; left:-74px;  }
 /* END */
 
 
-
+.benz-menu > ul > li > a:active { background-color: #004ea8; text-decoration: none;}
+.benz-menu > ul > li > a:hover { background-color: #004ea8; text-decoration: none;}
 
 /*Special sub-menu widths and display for header menus*/
 #menu-item-1922 .sub-menu,
@@ -502,7 +503,7 @@ div.pp_woocommerce div.ppt {display:none !important;}
 
 
 /* Main Page */
-#homerotator{margin:20px 0 10px 0; width:100%; }
+#homerotator{margin:20px 0 10px 0; width:100%;}
 /* END */
 
 
