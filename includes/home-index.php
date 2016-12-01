@@ -26,9 +26,9 @@
           <div id="home-mini-rotate" class="col-xs-12 col-sm-6 col-md-5"><?php if ( function_exists( 'soliloquy' ) ) { soliloquy( '2004' ); } ?>
           </div>
         </div>
-      </div><!-- /#content -->
-    </div><!-- /.row -->
-</div><!-- /.container -->
+      </div><!-- #content -->
+    </div><!-- .row -->
+</div><!-- .container -->
 <div id="green-bar" class="container">
   <div class="row">
     <div id="mattress-homepage-greenad">
@@ -39,12 +39,12 @@
           for your Hill-Rom, Stryker, Hausted, MidMark, Span America beds and stretchers!<p>
         </div>
         <div id="mattresshomeimgwrap" class="row">
-        <img src="wp-content/imgs/haustedlogo.png" alt="Hausted Mattresses" />
-        <img src="wp-content/imgs/hill-rom-logo.png" alt="Hill-Rom Mattresses" />
-        <img src="wp-content/imgs/midmarklogo.png" alt="Midmark Mattresses" />
-        <img src="wp-content/imgs/strykerlogo.png" alt="Stryker Mattress Pads" />
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+          <img src="wp-content/imgs/haustedlogo.png" alt="Hausted Mattresses" />
+          <img src="wp-content/imgs/hill-rom-logo.png" alt="Hill-Rom Mattresses" />
+          <img src="wp-content/imgs/midmarklogo.png" alt="Midmark Mattresses" />
+          <img src="wp-content/imgs/strykerlogo.png" alt="Stryker Mattress Pads" />
+        </div><!-- #mattresshomeimgwrap -->
+      </div><!-- #greenad-container -->
+    </div><!-- #mattress-homepage-greenad -->
+  </div><!-- .row -->
+</div><!-- #green-bar -->
