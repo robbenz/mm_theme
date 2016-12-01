@@ -94,9 +94,12 @@ ga('send', 'pageview');
 		</header><!-- #masthead -->
 
 		<div id="benz-main-menu-wrap">
-		<div id="benz-main-menu-box" class="grid-container">
+		<div id="benz-main-menu-box" class="container">
 		<?php
-
+		wp_nav_menu( array( 'theme_location'  => 'home',
+												'items_wrap'      => $benzitems,
+												'container_class' => $benzmenu
+								) );
 
 		wp_nav_menu( array( 'theme_location'  => 'mattresses',
 		                    'items_wrap'      => $benzitems,
@@ -131,18 +134,16 @@ ga('send', 'pageview');
 		</div>
 
 		<?php
-
-if ( 'failed' == $_GET["login"] ) {
-	echo '<p class="woo-ma-login-failed woo-ma-error error-home-class-red">';
-	_e('Login failed, please try again','woocommerce-my-account-widget');
-	echo '</p>';
-}
-
-?>
+		if ( 'failed' == $_GET["login"] ) {
+			echo '<p class="woo-ma-login-failed woo-ma-error error-home-class-red">';
+			_e('Login failed, please try again','woocommerce-my-account-widget');
+			echo '</p>';
+		}
+		?>
 
 <?php woocommerce_breadcrumb(); ?>
 
-		<!--WHAT DOES THIS DO-->	<!--INSERTS SEARCH BAR ON GREEN BAR FOR MOBILE-->
+<!--INSERTS SEARCH BAR ON GREEN BAR FOR MOBILE-->
 			<div class="navbar navbar-topbar med-mat-mobile">
 				<form method="get" id="searchform-mobile" action="<?php bloginfo('home'); ?>/">
 					<div>
@@ -153,20 +154,3 @@ if ( 'failed' == $_GET["login"] ) {
 				</form>
 			</div>
 </div>
-<?php /*
-Site Title
-==========
-If you are displaying your site title in the "brand" link in the Bootstrap navbar,
-then you probably don't require a site title. Alternatively you can use the example below.
-See also the accompanying CSS example in theme/css/b4st.css .
-
-<div class="container">
-  <div class="row">
-    <div class="col-sm-12">
-      <h1 id="site-title">
-      	<a class="text-muted" href="<?php echo home_url('/'); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home"><?php bloginfo('name'); ?></a>
-      </h1>
-    </div>
-  </div>
-</div>
-*/ ?>

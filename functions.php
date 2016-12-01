@@ -387,6 +387,7 @@ function register_my_menus() {
       'accessories'          => __( 'Accessories Menu' ),
       'manufacturers'        => __( 'Manufacturers Menu' ),
       'myaccount'            => __( 'My Account' ),
+      'home'                 => __( 'Home' ),
       'about-us'             => __( 'About Us Menu' )
     )
   );
