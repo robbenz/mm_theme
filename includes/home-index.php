@@ -26,9 +26,9 @@
           <div id="home-mini-rotate" class="col-xs-12 col-sm-6 col-md-5"><?php if ( function_exists( 'soliloquy' ) ) { soliloquy( '2004' ); } ?>
           </div>
         </div>
-      </div><!-- /#content -->
-    </div><!-- /.row -->
-</div><!-- /.container -->
+      </div><!-- #content -->
+    </div><!-- .row -->
+</div><!-- .container -->
 <div id="green-bar" class="container">
   <div class="row">
     <div id="mattress-homepage-greenad">
