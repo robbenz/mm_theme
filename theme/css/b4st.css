@@ -20,6 +20,7 @@
   margin-left: 0 !important;
 }
 
+body {top:100px;}
 
 
 /*
@@ -193,7 +194,7 @@ ol.commentlist li ul {
 /* Site footer */
 
 .site-footer {
-  padding: 40px 0
+  padding: 40px 0 0;
 }
 .site-footer ul,
 .site-footer ol {
@@ -208,7 +209,7 @@ ol.commentlist li ul {
 }
 
 .site-footer p {
-  text-align: center
+  text-align: left
 }
 
 
@@ -502,10 +503,10 @@ div.pp_woocommerce div.ppt {display:none !important;}
 
 /* Main Page */
 #homerotator{margin:20px 0 10px 0; width:100%;}
-#home-custom-size-mattress{ background-image: url(http://medmattress.com/wp-content/imgs/Custom-Size-Mattress-home.png); background-size: cover; height: 138px; width:100%;background-repeat: no-repeat; margin: 0; position:relative; margin-bottom: 10px;}
+#home-custom-size-mattress{display: block;background-image: url(http://medmattress.com/wp-content/imgs/Custom-Size-Mattress-home.png); background-size: cover; height: 138px; width:100%;background-repeat: no-repeat; margin: 0; position:relative; margin-bottom: 10px;}
 #home-custom-size-mattress #box-link{ top: 4px; left: 0px; background-color: transparent; width:100%; height:129px; }
-#home-custom-size-mattress a{color:#fff; text-align:left; position:relative; width:65%; float:right; top:59px; font-size: 16px; font-family: 'Open Sans', sans-serif;}
-#home-custom-size-mattress a:hover {color:#fff; font-weight:bolder; }
+#home-custom-size-mattress div{color:#fff; text-align:left; position:relative; width:65%; float:right; top:59px; font-size: 16px; font-family: 'Open Sans', sans-serif;}
+#home-custom-size-mattress div:hover {color:#fff; font-weight:bolder; }
 #home-healthcare-mattresses-row {margin:0px;}
 #soliloquy-container-2004 {margin:0 auto;}
 .soliloquy-container .soliloquy-pager{display: none;}
@@ -525,6 +526,35 @@ div.pp_woocommerce div.ppt {display:none !important;}
 #mattress-green-content p{ font-size: 16px; margin-bottom: 15px;}
 #mattresshomeimgwrap {height:80px; width:100%; margin:0 auto; clear:both; align-content: center; align-items: center; padding: 0 19%;}
 #mattresshomeimgwrap img {margin: 0 1em; display:inline; float:left; width:auto; height: auto;}
+#mattress-home-box2{background-image: url(http://medmattress.com/wp-content/imgs/Custim-size-mattresses.png);     background-size: cover; background-repeat: no-repeat;padding: 60px 0px 0px 0px; height:262px; position: relative; top: 4.2px; text-align: left; display:block; text-decoration: none;}
+#mattress-home-box2 p{color:#004ea8; margin:0.3em 0px 0.2em 50px; font-size: 22px; text-transform: uppercase; }
+#mattress-home-box2 h3{color:#004ea8; font-size: 37px; margin-left: 50px; font-weight: bold;}
+#mattress-home-box1 img, #mattress-home-box3 img{width:100%;}
+/* END */
+
+/* Footer */
+#footerwrap { width: 992px; height: 102px; font-family: 'Open Sans', sans-serif; }
+#footer2014 {background: #2a66b1; clear: both; }
+.connecttop { font-size: 16px; color: #fff; line-height: 24px; }
+.connectbottom { font-size: 13px; color: #fff; line-height: 24px; }
+.socialicons2014 { line-height: 0px; margin: -80px 0 0 118px; float:left; clear: both;}
+.socialicons2014 img {margin:0 2px;}
+#footerlinks1 { color: #a6d179; float: left; font-size: 14px; line-height: 23px; margin: 0 0 0 24px; width: 154px; font-weight: 800; }
+#footerlinks1 a { color: #a6d179; float: left; font-size: 14px; line-height: 23px; text-decoration: none; font-weight: 600; }
+#footerlinks1 a:visited { color: #a6d179; float: left; font-size: 15px; line-height: 23px; text-decoration: none; }
+#footerlinks1 a:hover { color: #fff; text-decoration: none; }
+#footerlinks2 { float: left; font-size: 15px; line-height: 20px; margin: 0 0 0 44px; width: 140px; }
+#footerlinks2 a { color: #fff; float: left; font-size: 13px; line-height: 20px; text-decoration: none; }
+#footerlinks2 a:visited { color: #fff; float: left; font-size: 13px; line-height: 20px; text-decoration: none; }
+#footerlinks2 a:hover { color: #a6d179; text-decoration: none; }
+.popularproducts { font-weight: 600; padding: 0px; color: #a6d179; text-decoration: none; font-size: 14px; margin-bottom: -19px; margin-top: 2px; }
+#footerlinks3 { float: left; font-size: 15px; line-height: 20px; margin: 0 0 0 33px; width: 170px; }
+#footerlinks3 a { color: #fff; float: left; font-size: 13px; line-height: 20px; text-decoration: none; }
+#footerlinks3 a:visited { color: #fff; float: left; font-size: 13px; line-height: 20px; text-decoration: none; }
+#footerlinks3 a:hover { color: #a6d179; text-decoration: none; }
+#logo-border {width:100%; height: 2px; border-top: solid; border-top-color: #1f1e1e; border-top-width: 2px;}
+#footer-links {padding-bottom: 15px;}
+#footerconnect p {margin-bottom:0;}
 
 
 /* END */
@@ -536,6 +566,15 @@ div.pp_woocommerce div.ppt {display:none !important;}
 	.med-mat-mobile{background: #9ed05e;display: none;}
 	#landing_nav-wrap a.landing_nav{font-size:1.1em; font-weight: 600 !important; }
 	#landing_nav-wrap .container { padding:0;}
+	#footerconnect { height: 172px; float: left; padding: 20px 25px 20px 25px; margin: -17px 0 0 112px; }
+
+}
+
+@media (min-width:992px){
+	#footerlogos { width: 980px; height: 100px; }
+	#diamedicallogo { height: 100px; width: 300px; float: left; margin: 20px 0px 0px 40px; }
+	#medmatlogo { height: 100px; width: 300px; float: left; margin: 28px 0px 0px 30px; }
+	#simlablogo { height: 100px; width: 300px; float: left; margin: 26px 0px 0px 10px; }
 
 }
 @media (max-width:1199px){
@@ -544,13 +583,17 @@ div.pp_woocommerce div.ppt {display:none !important;}
 	.mobile-search-bar{display:none;}
 	.med-mat-mobile{background: #9ed05e;display: none;}
 	#home-custom-size-mattress{height: 117px;}
-	#home-custom-size-mattress a{top:53px;}
+	#home-custom-size-mattress div{top:53px;}
 	#mattresshomeimgwrap{padding:0 12%;}
 	#mattress-green-content {width:70%;}
+	#mattress-home-box2{height:218px; padding: 50px 0px 0px 0px;}
+	#footerconnect { height: 172px; float: left; padding: 20px 25px 20px 25px; margin: -17px 0 0 67px;}
+	.socialicons2014{margin: -80px 0 0 72px;}
+
 }
 
 @media (max-width:991px){
-		#landing_nav-wrap div a.landing_nav{display:none;}
+		#landing_nav-wrap .container:first-child{display:none;}
 		#mm-right-contact{display: none; }
 		.size-tablet{width:50%;float: left;}
 		#desktop-navbar {display: none;}
@@ -559,15 +602,42 @@ div.pp_woocommerce div.ppt {display:none !important;}
 		#responsive-menu-title{color:#78be20 !important;}
 		@-moz-document url-prefix() {#searchform #searchsubmit{top:5px;}}
 		#home-custom-size-mattress{height: 11vw;}
-		#home-custom-size-mattress a {top:0px; margin: 4.4vw 10px 0 0px; font-size: 2vw;}
+		#home-custom-size-mattress div {top:0px; margin: 4.4vw 10px 0 0px; font-size: 2vw;}
 		#body-container{width: 95%;}
 		#mattress-green-content {width:100%;}
 		#mattresshomeimgwrap{padding:0;}
+		#mattress-home-box2{height:156px; padding: 30px 0px 0px 0px;}
+		#mattress-home-box2 h3 {font-size: 30px;}
+		#mattress-home-box2 p{font-size: 15px;}
+		#footerwrap {width:100%;}
+		#diamedicallogo {width:30%;margin: 20px 0px 0px 20px; }
+		#medmatlogo {width:30%; margin: 28px 0px 0px 15px; }
+		#simlablogo {width:30%; margin: 26px 0px 0px 0px; }
+		#footerconnect {padding: 20px 25px 20px 25px; margin: -39px 0 0 27px; }
+		#diamedicallogo a img, #medmatlogo a img, #simlablogo a img {width:99%;}
+		#footerlogos{border-bottom: solid; border-bottom-width: 2px; border-bottom-color: #1f1e1e; height:auto;}
+		#logo-border{display: none;}
+		#footerconnect {margin: 0px 0 0 -23px; width: 29%;}
+		.socialicons2014{margin: -80px 0 0 -21px;}
+		#footer-links{margin-top:-17px;}
+		#footerlinks1{ margin:20px 0 0 13px;}
+		#footerlinks2 {margin:20px 0 0 24px; width: 140px;}
+		#footerlinks3{margin:21px 0 0 26px;}
+
 }
 @media (max-width:767px){
 	#greenad-container{width:100%;}
 	#mattresshomeimgwrap{display: none;}
-}
+	#mattress-home-box2{height:22vw; padding: 22px 0px 0px 0px;}
+	#mattress-home-box2 h3 {font-size: 20px;}
+	#mattress-home-box2 p{font-size: 12px;}
+	#mattress-home-container {width:100%;}
+	#footerlinks2, #footerlinks3 {display: none;}
+	#footerlinks1 {float:right; margin:0px 0 0 33px;}
+	#footerconnect {margin: -20px 0 0 0; width:50%;}
+	.socialicons2014{margin: -35px 0 0 0px;}
+	#footer-links {width:90%; margin-top: -1.5vw;}
+
 
 @media (max-width:575px){
 	#logo {width:100%;}
@@ -581,6 +651,16 @@ div.pp_woocommerce div.ppt {display:none !important;}
 	#searchsubmit{margin:-5px 0 0 -37px;background-color: #ebebeb; border-color: #ebebeb;border-top-right-radius: 10px; border-bottom-right-radius: 10px;}
 	@-moz-document url-prefix() {input[type="submit"]{padding: 17px 20px !important;}}
   .magnifying-icon{pointer-events:none;color:#9ed05e;position:relative;left: -34px;}
+	#mattress-home-box1, #mattress-home-box3{width: 100%; text-align: center;}
+	#mattress-home-box1 img, #mattress-home-box3 img{width: 75.8vw;}
+	#mattress-home-box2 {width: 75.5%; height:56.8vw; margin:0 0 10px 12.3vw;     padding: 10vw 0px 0px 0px;}
+	#mattress-home-box2 h3 {font-size: 11vw; margin-left: 10vw;}
+	#mattress-home-box2 p{font-size: 5vw; margin-left: 10vw;}
+	#footerlinks1{display: none;}
+	#footerwrap{display: none;}
+	#logo-border{display: block;}
+	#footerconnect {margin: -10px 0 0 0; width:100%;}
+	.socialicons2014{margin: -25px 0 0 0px;}
 }
 
 @media (min-width:992px) {
