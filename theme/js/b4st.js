@@ -1,22 +1,33 @@
-(function ($) {
+(function($) {
 
-	'use strict';
+    'use strict';
 
-	$(document).ready(function() {
+    $(document).ready(function() {
 
-		// Comments
-		$('.commentlist li').addClass('card');
-		$('.comment-reply-link').addClass('btn btn-secondary');
+        // Comments
+        $('.commentlist li').addClass('card');
+        $('.comment-reply-link').addClass('btn btn-secondary');
 
-		// Forms
-		$('select, input[type=text], input[type=email], input[type=password], textarea').addClass('form-control');
-		$('input[type=submit]').addClass('btn btn-primary');
+        // Forms
+        $('select, input[type=text], input[type=email], input[type=password], textarea').addClass('form-control');
+        $('input[type=submit]').addClass('btn btn-primary');
 
-    // Pagination fix for ellipsis
-    $('.pagination .dots').addClass('page-link').parent().addClass('disabled');
+        // Pagination fix for ellipsis
+        $('.pagination .dots').addClass('page-link').parent().addClass('disabled');
 
-		// You can put your own code in here
+        // You can put your own code in here
 
-	});
+        function addClassesMobile($when) {
+            $(window).on($when, function() {
+                if ($(window).width() < 992) {
+                    $("#fixed-top-header").addClass("navbar navbar-default navbar-fixed-top");
+                } else {
+                    $("#fixed-top-header").removeClass("navbar navbar-default navbar-fixed-top");
+                }
+            })
+        }
+        addClassesMobile('load');
+        addClassesMobile('resize');
+    });
 
 }(jQuery));
