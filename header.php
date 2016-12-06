@@ -32,8 +32,9 @@ ga('send', 'pageview');
 
 <body itemtype="http://schema.org/WebPage" itemscope="itemscope" <?php body_class(); ?>>
 <header id="masthead" role-"banner" class="">
+		<nav id="fixed-top-header" class="">
 	<div id="landing_nav-wrap">
-		<div class="container">
+		<div id="landing-menu" class="container">
 			<a class="landing_nav hvr-shutter-out-horizontal landing_nav-hospital" href="http://www.diamedicalusa.com/hospital-equipment">Hospitals</a>
 			<a class="landing_nav hvr-shutter-out-horizontal landing_nav-mattresses" target="_blank" href="<?php echo site_url(); ?>">Mattresses</a>
 			<a class="landing_nav hvr-shutter-out-horizontal landing_nav-schools" href="http://www.diamedicalusa.com/healthcare-education">Healthcare Education</a>
@@ -42,7 +43,7 @@ ga('send', 'pageview');
 			<a class="landing_nav hvr-shutter-out-horizontal landing_nav-ltc" href="http://www.diamedicalusa.com/long-term-care">Long Term Care</a>
 			<a class="landing_nav hvr-shutter-out-horizontal landing_nav-qq" href="http://www.diamedicalusa.com/request-quote">Quick Quote</a>
 		</div>
-		<div class="container">
+		<div id="header-container" class="container">
 			<div id="fixed-row" class="row">
 		<div id="logo" class="size-tablet size-laptop size-desktop">
     	<a href="<?php echo site_url(); ?>">
@@ -87,10 +88,21 @@ ga('send', 'pageview');
 
 		?>
 		</div>
-
+		<div class="navbar navbar-topbar med-mat-mobile">
+			<form method="get" id="searchform-mobile" action="<?php bloginfo('home'); ?>/">
+				<div id="search-bar-div">
+					<input type="text" size="20" name="m" id="m" class="search-bar" value="Search Here" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;"/>
+					<input type="submit" id="searchsubmit" value="" class="btn">
+					<i class="fa icon-search magnifying-icon"></i>
+				</div>
+			</form>
+		</div>
 		<?php do_action( 'generate_after_header_content'); ?>
 
 		</div><!-- .inside-header -->
+		<!--INSERTS SEARCH BAR ON GREEN BAR FOR MOBILE-->
+
+		</nav>
 		</header><!-- #masthead -->
 
 		<div id="benz-main-menu-wrap">
@@ -143,14 +155,5 @@ ga('send', 'pageview');
 
 <?php woocommerce_breadcrumb(); ?>
 
-<!--INSERTS SEARCH BAR ON GREEN BAR FOR MOBILE-->
-			<div class="navbar navbar-topbar med-mat-mobile">
-				<form method="get" id="searchform-mobile" action="<?php bloginfo('home'); ?>/">
-					<div>
-						<input type="text" size="20" name="m" id="m" class="search-bar" value="Search Here" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;"/>
-						<input type="submit" id="searchsubmit" value="" class="btn">
-						<i class="fa icon-search magnifying-icon"></i>
-					</div>
-				</form>
-			</div>
+</div>
 </div>

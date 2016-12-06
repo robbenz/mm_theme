@@ -22,6 +22,7 @@
 
 
 
+
 /*
 Header logo
 If you require a Site title and a logo, an example of how to do this is provided below (use your own logo):
@@ -77,7 +78,6 @@ no-touch .cs-style-8 figure:hover img, .cs-style-8 figure.cs-hover img { -webkit
 .fa-search{font-size: 1.2rem;}
 .navbar-header a{font-size: 19px; font-weight: 600; margin:0 20px;}
 .search-bar{border-color: #aeaeae; -moz-border-radius-bottomleft: 10px; border-bottom-left-radius: 10px;-moz-border-radius-topleft: 10px; border-top-left-radius: 10px;}
-#searchform #searchsubmit { background-color: #ebebeb; border-color: transparent; -moz-border-radius-bottomright: 10px; border-bottom-right-radius: 10px; -moz-border-radius-topright: 10px; border-top-right-radius: 10px; position: relative; left: -5px; top: 6px; border-top: 1px solid #aeaeae; border-right: 1px solid #aeaeae; border-bottom: 1px solid #aeaeae;}
 #fixed-row{margin-bottom: 10px;}
 
 #landing_nav-wrap{width:100%; background-color:#fff; margin-bottom:20px; height:40px; }
@@ -193,7 +193,7 @@ ol.commentlist li ul {
 /* Site footer */
 
 .site-footer {
-  padding: 40px 0
+  padding: 40px 0 0;
 }
 .site-footer ul,
 .site-footer ol {
@@ -208,7 +208,7 @@ ol.commentlist li ul {
 }
 
 .site-footer p {
-  text-align: center
+  text-align: left
 }
 
 
@@ -241,9 +241,10 @@ ol.commentlist li ul {
 .menu-sign_in-container input[type="text"], .menu-sign_in-container input[type="email"], .menu-sign_in-container input[type="url"], .menu-sign_in-container input[type="password"], .menu-sign_in-container input[type="search"], .menu-sign_in-container textarea { width:100%;}
 .menu-need_help-container {top: -5px; }
 .menu-need_help-container ul li{list-style: none; text-align:left; }
-#searchform #searchsubmit {background-color: #ebebeb; border-bottom-right-radius: 10px; border-top-right-radius: 10px; position:relative; left:-5px; top:6px; border-top: 1px solid #aeaeae; border-right: 1px solid #aeaeae; border-bottom: 1px solid #aeaeae;}
+#searchform #searchsubmit {background-color: #ebebeb; border-bottom-right-radius: 10px; border-top-right-radius: 10px; position:relative; left:-5px; top:6px; border-top: 1px solid #aeaeae; border-right: 1px solid #aeaeae; border-bottom: 1px solid #aeaeae; border-left-color: transparent; border-top-left-radius: 3px; border-bottom-left-radius: 3px; border-style: solid; -moz-border-radius-bottomright: 10px;-moz-border-radius-topright: 10px;}
 @-moz-document url-prefix() { #searchform #searchsubmit {padding: 17px 20px;} }
-input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="tel"], textarea {padding:7px 15px; }
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="tel"], textarea {padding:7px 15px; border-width: 1px; border-style: solid;}
+input[type="text"]{border-right: transparent;}
 button, html input[type="button"], input[type="reset"], input[type="submit"] { padding: 7px 20px; }
 .festi-cart-text-before-quantity{font-weight: 600 !important;}
 .festi-cart-text-after-quantity{font-weight: 600 !important;}
@@ -502,10 +503,10 @@ div.pp_woocommerce div.ppt {display:none !important;}
 
 /* Main Page */
 #homerotator{margin:20px 0 10px 0; width:100%;}
-#home-custom-size-mattress{ background-image: url(http://medmattress.com/wp-content/imgs/Custom-Size-Mattress-home.png); background-size: cover; height: 138px; width:100%;background-repeat: no-repeat; margin: 0; position:relative; margin-bottom: 10px;}
+#home-custom-size-mattress{display: block;background-image: url(http://medmattress.com/wp-content/imgs/Custom-Size-Mattress-home.png); background-size: cover; height: 138px; width:100%;background-repeat: no-repeat; margin: 0; position:relative; margin-bottom: 10px;}
 #home-custom-size-mattress #box-link{ top: 4px; left: 0px; background-color: transparent; width:100%; height:129px; }
-#home-custom-size-mattress a{color:#fff; text-align:left; position:relative; width:65%; float:right; top:59px; font-size: 16px; font-family: 'Open Sans', sans-serif;}
-#home-custom-size-mattress a:hover {color:#fff; font-weight:bolder; }
+#home-custom-size-mattress div{color:#fff; text-align:left; position:relative; width:65%; float:right; top:59px; font-size: 16px; font-family: 'Open Sans', sans-serif;}
+#home-custom-size-mattress div:hover {color:#fff; font-weight:bolder; }
 #home-healthcare-mattresses-row {margin:0px;}
 #soliloquy-container-2004 {margin:0 auto;}
 .soliloquy-container .soliloquy-pager{display: none;}
@@ -525,7 +526,71 @@ div.pp_woocommerce div.ppt {display:none !important;}
 #mattress-green-content p{ font-size: 16px; margin-bottom: 15px;}
 #mattresshomeimgwrap {height:80px; width:100%; margin:0 auto; clear:both; align-content: center; align-items: center; padding: 0 19%;}
 #mattresshomeimgwrap img {margin: 0 1em; display:inline; float:left; width:auto; height: auto;}
+#mattress-home-box2{background-image: url(http://medmattress.com/wp-content/imgs/Custim-size-mattresses.png);     background-size: cover; background-repeat: no-repeat;padding: 60px 0px 0px 0px; height:262px; position: relative; top: 4.2px; text-align: left; display:block; text-decoration: none;}
+#mattress-home-box2 p{color:#004ea8; margin:0.3em 0px 0.2em 50px; font-size: 22px; text-transform: uppercase; }
+#mattress-home-box2 h3{color:#004ea8; font-size: 37px; margin-left: 50px; font-weight: bold;}
+#mattress-home-box1 img, #mattress-home-box3 img{width:100%;}
+/* END */
 
+/* Footer */
+#footerwrap { width: 992px; height: 102px; font-family: 'Open Sans', sans-serif; }
+#footer2014 {background: #2a66b1; clear: both; }
+.connecttop { font-size: 16px; color: #fff; line-height: 24px; }
+.connectbottom { font-size: 13px; color: #fff; line-height: 24px; }
+.socialicons2014 { line-height: 0px; margin: -80px 0 0 118px; float:left; clear: both;}
+.socialicons2014 img {margin:0 2px;}
+#footerlinks1 { color: #a6d179; float: left; font-size: 14px; line-height: 23px; margin: 0 0 0 24px; width: 154px; font-weight: 800; }
+#footerlinks1 a { color: #a6d179; float: left; font-size: 14px; line-height: 23px; text-decoration: none; font-weight: 600; }
+#footerlinks1 a:visited { color: #a6d179; float: left; font-size: 15px; line-height: 23px; text-decoration: none; }
+#footerlinks1 a:hover { color: #fff; text-decoration: none; }
+#footerlinks2 { float: left; font-size: 15px; line-height: 20px; margin: 0 0 0 44px; width: 140px; }
+#footerlinks2 a { color: #fff; float: left; font-size: 13px; line-height: 20px; text-decoration: none; }
+#footerlinks2 a:visited { color: #fff; float: left; font-size: 13px; line-height: 20px; text-decoration: none; }
+#footerlinks2 a:hover { color: #a6d179; text-decoration: none; }
+.popularproducts { font-weight: 600; padding: 0px; color: #a6d179; text-decoration: none; font-size: 14px; margin-bottom: -19px; margin-top: 2px; }
+#footerlinks3 { float: left; font-size: 15px; line-height: 20px; margin: 0 0 0 33px; width: 170px; }
+#footerlinks3 a { color: #fff; float: left; font-size: 13px; line-height: 20px; text-decoration: none; }
+#footerlinks3 a:visited { color: #fff; float: left; font-size: 13px; line-height: 20px; text-decoration: none; }
+#footerlinks3 a:hover { color: #a6d179; text-decoration: none; }
+#logo-border {width:100%; height: 2px; border-top: solid; border-top-color: #1f1e1e; border-top-width: 2px;}
+#footer-links {padding-bottom: 15px;}
+#footerconnect p {margin-bottom:0;}
+
+/* Product Pages */
+.woocommerce-main-image img {max-width:300px; border: 5px solid #004ea8; border-radius: 0 !important; min-width:240px;}
+.entry-content .images{ width:30% !important; }
+.woocommerce div.product .product_title {font-size:28px; color: #004ea8; font-family: 'Open Sans', sans-serif !important; font-weight:600; }
+.products h2{ border-bottom:3px dotted #78be20; font-size:1.2em;}
+.type-product .inside-article{padding-top: 20px;}
+.sku_wrapper{font-family: 'Open Sans', sans-serif; font-size:0.83em; font-weight: 600;  }
+.woocommerce div.product form.cart .variations select { width: 60%; min-width:60%; }
+.woocommerce div.product p.price, .woocommerce div.product span.price {font-family: "Open Sans",sans-serif; color: #d6001c; font-size: 1.45em; margin-bottom:15px; font-weight:600;}
+.variations select { font-family: "Open Sans",sans-serif; font-size: 16px;}
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {background-color:#5d8dc3; }
+.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover {background-color:#004ea8; }
+.woocommerce #respond input#submit.alt.disabled, .woocommerce #respond input#submit.alt.disabled:hover, .woocommerce #respond input#submit.alt:disabled, .woocommerce #respond input#submit.alt:disabled:hover, .woocommerce #respond input#submit.alt[disabled]:disabled, .woocommerce #respond input#submit.alt[disabled]:disabled:hover, .woocommerce a.button.alt.disabled, .woocommerce a.button.alt.disabled:hover, .woocommerce a.button.alt:disabled, .woocommerce a.button.alt:disabled:hover, .woocommerce a.button.alt[disabled]:disabled, .woocommerce a.button.alt[disabled]:disabled:hover, .woocommerce button.button.alt.disabled, .woocommerce button.button.alt.disabled:hover, .woocommerce button.button.alt:disabled, .woocommerce button.button.alt:disabled:hover, .woocommerce button.button.alt[disabled]:disabled, .woocommerce button.button.alt[disabled]:disabled:hover, .woocommerce input.button.alt.disabled, .woocommerce input.button.alt.disabled:hover, .woocommerce input.button.alt:disabled, .woocommerce input.button.alt:disabled:hover, .woocommerce input.button.alt[disabled]:disabled, .woocommerce input.button.alt[disabled]:disabled:hover {background-color:#004ea8;}
+.woocommerce div.product form.cart .reset_variations { font-size: 1em; }
+.woocommerce div.product form.cart .button {margin-left:0.6em; }
+.variations_button{ margin-top:0.6em;}
+.woocommerce .quantity, .woocommerce-page .quantity { /*float:right !important; margin: -52px 350px 0 0 !important; */}
+.woocommerce div.product form.cart .variations {margin-bottom:0.1em; }
+.variations td {height:20px; padding-top:0px }
+.single-product .images .thumbnails{display:none;}
+.woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary{float:left;}
+.woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images{width:39%;}
+.inside-article{padding:20px 50px 5px;}
+body > div.container {width:50%;}
+/* Tabs */
+.wc-tabs-wrapper .wc-tab { overflow:scroll; border:4px solid #cccccc; padding:1em !important; }
+.wc-tabs-wrapper ul ul { margin: 0 !important}
+.wc-tabs-wrapper ul {padding-left:0px !important; margin-bottom:0px !important; }
+.wc-tabs-wrapper .active { background-color:#5d8dc3 !important; color:#fff !important; border-bottom: 0 !important;}
+.wc-tabs-wrapper #tab-description{ padding:1em !important; }
+.woocommerce-tabs ul, .woocommerce-tabs ol { margin-left: 1em; }
+.woocommerce div.product .woocommerce-tabs ul.tabs li::after, .woocommerce div.product .woocommerce-tabs ul.tabs li::before { border: 0px !important; content: none !important; }
+.wc-tabs-wrapper li:last-child { border-top-right-radius: 18px !important; -moz-border-radius-topright: 18px !important; }
+.wc-tabs-wrapper .description_tab { border-top-left-radius: 18px !important; -moz-border-radius-topleft: 18px !important; border-left: 1px solid #d3ced2 !important; margin-left:0px !important;}
+.woocommerce div.product .woocommerce-tabs ul.tabs li{ border-radius: 0; padding: 0 1.6em; width: 23.5%; text-align: center;}
 
 /* END */
 
@@ -536,6 +601,16 @@ div.pp_woocommerce div.ppt {display:none !important;}
 	.med-mat-mobile{background: #9ed05e;display: none;}
 	#landing_nav-wrap a.landing_nav{font-size:0.91em; font-weight: 600 !important; }
 	#landing_nav-wrap .container, #benz-main-menu-wrap .container{ padding:0;}
+	#footerconnect { height: 172px; float: left; padding: 20px 25px 20px 25px; margin: -17px 0 0 112px; }
+
+}
+
+@media (min-width:992px){
+	#footerlogos { width: 980px; height: 100px; }
+	#diamedicallogo { height: 100px; width: 300px; float: left; margin: 20px 0px 0px 40px; }
+	#medmatlogo { height: 100px; width: 300px; float: left; margin: 28px 0px 0px 30px; }
+	#simlablogo { height: 100px; width: 300px; float: left; margin: 26px 0px 0px 10px; }
+
 
 }
 @media (max-width:1199px){
@@ -544,43 +619,90 @@ div.pp_woocommerce div.ppt {display:none !important;}
 	.mobile-search-bar{display:none;}
 	.med-mat-mobile{background: #9ed05e;display: none;}
 	#home-custom-size-mattress{height: 117px;}
-	#home-custom-size-mattress a{top:53px;}
+	#home-custom-size-mattress div{top:53px;}
 	#mattresshomeimgwrap{padding:0 12%;}
 	#mattress-green-content {width:70%;}
+	#mattress-home-box2{height:218px; padding: 50px 0px 0px 0px;}
+	#footerconnect { height: 172px; float: left; padding: 20px 25px 20px 25px; margin: -17px 0 0 67px;}
+	.socialicons2014{margin: -80px 0 0 72px;}
+
 }
 
 @media (max-width:991px){
-		#landing_nav-wrap div a.landing_nav{display:none;}
-		#mm-right-contact{display: none; }
+	  body {padding-top: 20.2vw;}
+		.med-mat-mobile{display:inline-block; width:100%; text-align: center; height:50px;}
+		#header-container{width: 100%; padding:0;}
+		.navbar-fixed-top{background:#fff;  height: 150px;}
+		#fixed-row{margin-bottom: -15px;}
+		#landing-menu, #mm-right-contact, #benz-main-menu-wrap, #search-bar-div{display:none;}
 		.size-tablet{width:50%;float: left;}
 		#desktop-navbar {display: none;}
 		#responsive-menu-button{position:absolute; top:7px !important; left:0 !important}
-		.med-logo{padding:13px 0px 0 25px;}
+		.med-logo{padding:13px 0px 0 44px;}
 		#responsive-menu-title{color:#78be20 !important;}
 		@-moz-document url-prefix() {#searchform #searchsubmit{top:5px;}}
 		#home-custom-size-mattress{height: 11vw;}
-		#home-custom-size-mattress a {top:0px; margin: 4.4vw 10px 0 0px; font-size: 2vw;}
+		#home-custom-size-mattress div {top:0px; margin: 4.4vw 10px 0 0px; font-size: 2vw;}
 		#body-container{width: 95%;}
 		#mattress-green-content {width:100%;}
 		#mattresshomeimgwrap{padding:0;}
+		#mattress-home-box2{height:156px; padding: 30px 0px 0px 0px;}
+		#mattress-home-box2 h3 {font-size: 30px;}
+		#mattress-home-box2 p{font-size: 15px;}
+		#footerwrap {width:100%;}
+		#diamedicallogo {width:30%;margin: 20px 0px 0px 20px; }
+		#medmatlogo {width:30%; margin: 28px 0px 0px 15px; }
+		#simlablogo {width:30%; margin: 26px 0px 0px 0px; }
+		#footerconnect {padding: 20px 25px 20px 25px; margin: -39px 0 0 27px; }
+		#diamedicallogo a img, #medmatlogo a img, #simlablogo a img {width:99%;}
+		#footerlogos{border-bottom: solid; border-bottom-width: 2px; border-bottom-color: #1f1e1e; height:auto;}
+		#logo-border{display: none;}
+		#footerconnect {margin: 0px 0 0 -23px; width: 29%;}
+		.socialicons2014{margin: -80px 0 0 -21px;}
+		#footer-links{margin-top:-17px;}
+		#footerlinks1{ margin:20px 0 0 13px;}
+		#footerlinks2 {margin:20px 0 0 24px; width: 140px;}
+		#footerlinks3{margin:21px 0 0 26px;}
+		#desktop-searchbar{margin-top: 27px;}
+
 }
 @media (max-width:767px){
 	#greenad-container{width:100%;}
 	#mattresshomeimgwrap{display: none;}
-}
+	#mattress-home-box2{height:22vw; padding: 22px 0px 0px 0px;}
+	#mattress-home-box2 h3 {font-size: 20px;}
+	#mattress-home-box2 p{font-size: 12px;}
+	#mattress-home-container {width:100%;}
+	#footerlinks2, #footerlinks3 {display: none;}
+	#footerlinks1 {float:right; margin:0px 0 0 33px;}
+	#footerconnect {margin: -20px 0 0 0; width:50%;}
+	.socialicons2014{margin: -35px 0 0 0px;}
+	#footer-links {width:90%; margin-top: -1.5vw;}
+	body {padding-top: 23vw;}
 
 @media (max-width:575px){
+	body {padding-top:35%;}
 	#logo {width:100%;}
 	.search-form {display: none;}
 	.mobile-search-bar{display:inline-block;}
 	.med-logo {padding: 0 0px 0 44px;}
 	#benz-main-menu-wrap{display: none;}
-	.med-mat-mobile{display:inline-block; width:100%; text-align: center;}
 	#search-place{display: none;}
+	#search-bar-div{display:block;margin-top: -3px;}
 	.form-control{margin:0 0 0 5%; display: inline-block; width: 80%; margin-top: 0px;padding: 8px 15px !important;}
 	#searchsubmit{margin:-5px 0 0 -37px;background-color: #ebebeb; border-color: #ebebeb;border-top-right-radius: 10px; border-bottom-right-radius: 10px;}
 	@-moz-document url-prefix() {input[type="submit"]{padding: 17px 20px !important;}}
   .magnifying-icon{pointer-events:none;color:#9ed05e;position:relative;left: -34px;}
+	#mattress-home-box1, #mattress-home-box3{width: 100%; text-align: center;}
+	#mattress-home-box1 img, #mattress-home-box3 img{width: 75.8vw;}
+	#mattress-home-box2 {width: 75.5%; height:56.8vw; margin:0 0 10px 12.3vw;     padding: 10vw 0px 0px 0px;}
+	#mattress-home-box2 h3 {font-size: 11vw; margin-left: 10vw;}
+	#mattress-home-box2 p{font-size: 5vw; margin-left: 10vw;}
+	#footerlinks1{display: none;}
+	#footerwrap{display: none;}
+	#logo-border{display: block;}
+	#footerconnect {margin: -10px 0 0 0; width:100%;}
+	.socialicons2014{margin: -25px 0 0 0px;}
 }
 
 @media (min-width:992px) {
