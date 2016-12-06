@@ -71,7 +71,7 @@ dia_free_shipping_array();
     } else {
         echo '<div id="free_ship-productpage">';
         echo '<img width="110" alt="Free Shipping Mattresses" src="../../wp-content/imgs/Free_shipping.png" style="float:left;">';
-				echo '<div style="padding-top:10px;"><span class="red_free">FREE SHIPPING</span><br>on This Product</div>';
+				echo '<div style="padding-top:10px;"><span class="red_free">FREE SHIPPING</span><br>On This Product</div>';
         echo '<span style="font-size:12px; margin-top:0px;position: relative; top: -7px;">*Contiguous US only </span>';
         echo '</div>';
     }
