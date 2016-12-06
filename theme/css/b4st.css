@@ -264,7 +264,6 @@ span.festi-cart-product-count { margin-left:80%; text-align:right;}
 /*BENZ MAIN MENU(S)*/
 #benz-main-menu-wrap { clear:both; background-color:#9ed05e; width:100%; text-align:center; font-family: 'Open Sans', sans-serif; height:50px; }
 #benz-main-menu-box .benz-menu .sub-menu {background-color: #ffffff; border-right: 1px solid #636363; border-bottom: 1px solid #636363; border-left: 1px solid #636363; padding: 25px; width: 976px; }
-#benz-main-menu-box { width:100%; padding:0 4%; }
 #benz-main-menu-box a { font-family: 'Open Sans', sans-serif; text-transform:uppercase;}
 #benz-main-menu-box .benz-menu .sub-menu .menu-item-has-children {float:left; text-align:left; overflow: none;}
 #benz-main-menu-box .sub-menu { overflow: hidden;}
@@ -364,6 +363,7 @@ p.about-mail-number {position:relative; top:-10px; left:-74px;  }
 #custom-size-imgmenu a{ padding:0px !important; }
 #custom-size-imgmenu img{max-width: 290px !important; max-height: 86px!important;}
 #benz-menu-img-matt1 { left: -21px; top: -40px; width: 289px; }
+#mm-right-contact .sf-menu .menu-item-has-children > a:first-child, .sf-menu .page_item_has_children > a:first-child {padding-right: 3px; }
 /* END */
 
 /*Special sub-menu widths and display for header menus*/
@@ -535,7 +535,7 @@ div.pp_woocommerce div.ppt {display:none !important;}
 	.mobile-search-bar{display:none;}
 	.med-mat-mobile{background: #9ed05e;display: none;}
 	#landing_nav-wrap a.landing_nav{font-size:0.91em; font-weight: 600 !important; }
-	#landing_nav-wrap .container { padding:0;}
+	#landing_nav-wrap .container, #benz-main-menu-wrap .container{ padding:0;}
 
 }
 @media (max-width:1199px){
@@ -584,7 +584,7 @@ div.pp_woocommerce div.ppt {display:none !important;}
 }
 
 @media (min-width:992px) {
-#menu-item-3544 a,	#menu-item-1916 a, #menu-item-1917 a, #menu-item-1905 a, #menu-item-1918 a, #menu-item-1919 a { color: #000; font-size: 19px; font-weight: 600; padding: 12px 32.1px 10px;}
+#menu-item-3544 a,	#menu-item-1916 a, #menu-item-1917 a, #menu-item-1905 a, #menu-item-1918 a, #menu-item-1919 a { color: #000; font-size: 19px; font-weight: 600; padding: 12px 31.15px 10px;}
 
 @-moz-document url-prefix() {#menu-item-3544 a, #menu-item-1916 a, #menu-item-1917 a, #menu-item-1905 a, #menu-item-1918 a, #menu-item-1919 a {padding-bottom:9px;} }
 
