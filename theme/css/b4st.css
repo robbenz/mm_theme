@@ -311,9 +311,9 @@ span.festi-cart-product-count { margin-left:80%; text-align:right;}
 #benz-menu-img-mft2 { left: -24px; top: 20px; }
 #benz-menu-img-mft3 { left: 338px; top: -5px; }
 /*ABOUT MENU*/
-#menu-about-us .sub-menu{ height: 277px; display:block; }
-@-moz-document url-prefix() { #menu-about-us .sub-menu{ height: 278px; } }
-#menu-about-us .benz-bottom-colors { top: -75px; z-index: 999; }
+#menu-about-us .sub-menu{ height: 299px; }
+@-moz-document url-prefix() { #menu-about-us .sub-menu{ height: 300px; } }
+#menu-about-us .benz-bottom-colors { top: -49px; z-index: 999; }
 #menu-about-us > li:hover {color:#fff;}
 #menu-about-us > li:hover a{color:#fff;}
 #menu-about-us .arrow-down {  left: 914px; top: -26px; }
