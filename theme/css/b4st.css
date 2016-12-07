@@ -398,6 +398,7 @@ li.main-header-link:hover, .benz-menu > ul > li > a:hover {background-color:#004
 .wc-tabs-wrapper #tab-description{ padding:1em !important; }
 .woocommerce-tabs ul, .woocommerce-tabs ol { margin-left: 1em; }
 .woocommerce div.product .woocommerce-tabs ul.tabs li::after, .woocommerce div.product .woocommerce-tabs ul.tabs li::before { border: 0px !important; content: none !important; }
+.woocommerce-tabs.wc-tabs-wrapper {width:1030px;}
 /* END */
 
 /* FREE SHIPPING PRODUCTS */
@@ -640,6 +641,7 @@ input {font-family: "Rokkitt", serif;}
 	.woocommerce-breadcrumb {font-size: 15px !important;}
 	.woocommerce div.product .woocommerce-tabs ul.tabs li a {font-size: 1.38vw;}
 	.woocommerce div.product .woocommerce-tabs ul.tabs li {width:25%;}
+	.woocommerce-tabs.wc-tabs-wrapper {width:832px;}
 }
 
 @media (max-width:991px){
@@ -684,7 +686,7 @@ input {font-family: "Rokkitt", serif;}
 		.woocommerce div.product .woocommerce-tabs ul.tabs li a {font-size: 1.7vw;}
 		.practive-blue1:after, .practive-blue2:after, .practive-blue3:after {top:239px; border-width: 45px 15.8vw 0;}
 		.proactive-foam-wrap{width:100%; height:1090px}
-
+		.woocommerce-tabs.wc-tabs-wrapper {width: 80%;}
 
 
 }
@@ -712,6 +714,7 @@ input {font-family: "Rokkitt", serif;}
 	.proactive-3span{width:100%; margin-bottom: 10px;}
 	.practive-blue1:after, .practive-blue2:after, .practive-blue3:after {border-width: 45px 148px 0;}
 	.products h2 {clear: both;}
+	.woocommerce-tabs.wc-tabs-wrapper {width: 100%;}
 }
 
 @media (max-width:575px){
