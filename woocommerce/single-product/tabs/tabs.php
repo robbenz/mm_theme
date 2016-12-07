@@ -60,7 +60,8 @@ if ( 'yes' == get_post_meta( get_the_ID(), 'product_checkbox', true ) ) : ?>
       <li><strong>Fire Retardant:</strong> Conforms to 16 CFR Part 1632 &amp; 1633 and NFPA 702 Class 1</li>
     </ul>
     <p><strong>Weight Capacity: 300 lbs</strong><br /> <strong>Warranty: 4 Year, Non-Prorated</strong></p>
-  </div></div>
+  </div>
+</div>
   <div class="proactive-3span">
       <div class="practive-blue2">
     <img src="../../wp-content/imgs/customsize/Plus-Foam.png" alt="Premium Foam Custom Size Mattress" />
@@ -86,7 +87,7 @@ if ( 'yes' == get_post_meta( get_the_ID(), 'product_checkbox', true ) ) : ?>
           </div>
     <h4>Premium</h4>
       <div class="proactive-foam-copy">
-          <img style="margin-top:-1em;" src="../../wp-content/imgs/customsize/Most-Popular.png" />
+          <img src="../../wp-content/imgs/customsize/Most-Popular.png" />
     <p>The Visco Gel Polymer Technology is a revolutionary support surface that provides unprecedented pressure redistribution, rapid heat dissipation, and vast increases in breathability compared to traditional foam.</p>
     <p>VGPT™ is an open-cell memory foam that is infused with gel polymers. Designed for clinical superiority as well as patient comfort, some of the many benefits of VGPT™ include:</p>
     <ul>
@@ -101,7 +102,8 @@ if ( 'yes' == get_post_meta( get_the_ID(), 'product_checkbox', true ) ) : ?>
     </ul>
     <p><strong>Weight Capacity: 1,000 lbs</strong><br /><strong>Warranty: 15 Year, Non-Prorated</strong></p>
   </div>
-</div></div>
+</div>
+</div>
 
 <?php else: ?>
 

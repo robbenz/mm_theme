@@ -539,7 +539,7 @@ div.pp_woocommerce div.ppt {display:none !important;}
 .woocommerce-main-image img {max-width:300px; border: 5px solid #004ea8; border-radius: 0 !important; min-width:240px;}
 .entry-content .images{ width:30% !important; }
 .woocommerce div.product .product_title {font-size:28px; color: #004ea8; font-family: 'Open Sans', sans-serif !important; font-weight:600; }
-.products h2{ border-bottom:3px dotted #78be20; font-size:1.4em;}
+.products h2{ border-bottom:3px dotted #78be20; font-size:1.4em; margin-top: 10px;}
 .type-product .inside-article{padding-top: 20px;}
 .sku_wrapper{font-family: 'Open Sans', sans-serif; font-size:0.83em; font-weight: 600;  }
 .single-product .woocommerce div.product form.cart .variations select { width: 80%; min-width:60%;}
@@ -558,7 +558,6 @@ div.pp_woocommerce div.ppt {display:none !important;}
 .woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary{float:left;}
 .woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images{ float:left;width:360px;}
 .inside-article{padding:20px 50px 5px;}
-.single-product > div.container {width:60%;}
 .woocommerce div.product .product_title{font-family: 'Open Sans', sans-serif !important}
 .woocommerce div.product {margin-top: 30px;}
 .woocommerce div.product .product_title{font-weight: 600;font-size: 28px;}
@@ -572,6 +571,7 @@ input {font-family: "Rokkitt", serif;}
 .single-product .woocommerce ul.products li.product a img{width: 70%; margin: 0 35px 1em;}
 .single-product select.form-control:not([size]):not([multiple]){height: calc(2.5rem - 15px);}
 .variations .form-control{padding: 0rem 0.25rem; color: #373a3c; border-color: #aaa; margin-top: 10px;}
+.single-product .woocommerce ul.products li.product, .single-product .woocommerce-page ul.products li.product{width:30%;}
 
 /* Tabs */
 .wc-tabs-wrapper .wc-tab { overflow:scroll; border:4px solid #cccccc; padding:1em !important; }
@@ -587,6 +587,23 @@ input {font-family: "Rokkitt", serif;}
 .woocommerce div.product .woocommerce-tabs ul.tabs li a{font-size: 1vw;}
 #tab-description h2 {font-weight: bold; font-size: 28px; margin-bottom: 25px;}
 #tab-description li {font-size: 19px;}
+/* END */
+
+/*PROACTIVE FOAM*/
+.proactive-foam-wrap { font-family: 'Open Sans', sans-serif; clear:both; width:946px; height:900px; margin-bottom:1.8em; border:1px solid #a7a7a7; margin: 0 auto; }
+.proactive-foam-wrap ul {  margin: 0 0 0.5em 0; padding: 2px 20px !important;}
+.proactive-foam-wrap img { max-height: 187px; max-width: 314px; width:100%; margin-top:0.87em; padding:0 3%; }
+.proactive-foam-wrap li { font-size:12px;  }
+.proactive-foam-wrap p { font-size:13px; margin-bottom:0.3em}
+.proactive-foam-wrap h4 { color: #fff; font-family: "Rokkitt",serif; font-size: 2em; margin-bottom: -1em; padding-top: 0.41em; position: relative; text-align: center; top: -2.3em; z-index: 999 !important; }
+.proactive-3span { float:left; margin:0; border:1px solid #a7a7a7;  width: 33.319% ;height:100%; }
+.practive-blue1 { background-color:#93b9d6;  height:240px; position:relative; margin-bottom:2em; }
+.practive-blue2 { background-color:#5d97c2;  height:240px; position:relative; margin-bottom:2em; }
+.practive-blue3 { background-color:#2774ae;  height:240px; position:relative; margin-bottom:2em; }
+.practive-blue1:after {content:''; position:absolute; 	width: 0; height: 0; top:239px; border-style: solid; border-width: 45px 158px 0; border-color: #93b9d6 transparent transparent transparent; z-index:9 !important; left: 0px;}
+.practive-blue2:after {content:''; position:absolute; 	width: 0; height: 0; top:239px; border-style: solid; border-width: 45px 158px 0; border-color: #5d97c2 transparent transparent transparent; z-index:9 !important; left: 0px;}
+.practive-blue3:after {content:''; position:absolute; 	width: 0; height: 0; top:239px; border-style: solid; border-width: 45px 157px 0; border-color: #2774ae transparent transparent transparent; z-index:9 !important; left: 0px;}
+.proactive-foam-copy{ padding: 0px 5%;}
 /* END */
 
 /* Responsive Stuff */
@@ -621,7 +638,6 @@ input {font-family: "Rokkitt", serif;}
 	#footerconnect { height: 172px; float: left; padding: 20px 25px 20px 25px; margin: -17px 0 0 67px;}
 	.socialicons2014{margin: -50px 0 0 72px;}
 	.woocommerce-breadcrumb {font-size: 15px !important;}
-	.single-product > div.container {width:75%;}
 	.woocommerce div.product .woocommerce-tabs ul.tabs li a {font-size: 1.38vw;}
 	.woocommerce div.product .woocommerce-tabs ul.tabs li {width:25%;}
 }
@@ -666,6 +682,9 @@ input {font-family: "Rokkitt", serif;}
 		.single-product > div.container {width:95%;}
 		.woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary{float:left; width:48%;}
 		.woocommerce div.product .woocommerce-tabs ul.tabs li a {font-size: 1.7vw;}
+		.practive-blue1:after, .practive-blue2:after, .practive-blue3:after {top:239px; border-width: 45px 15.8vw 0;}
+		.proactive-foam-wrap{width:100%; height:1090px}
+
 
 
 }
@@ -689,6 +708,10 @@ input {font-family: "Rokkitt", serif;}
 	.woocommerce div.product form.cart .variations select {padding:0 !important;}
 	.woocommerce ul.products li.product, .woocommerce-page ul.products li.product{float: left !important; clear: none; width:33%;}
 	.socialicons2014 img{margin:0 6.6px}
+	.proactive-foam-wrap{width:300px; height:auto;}
+	.proactive-3span{width:100%; margin-bottom: 10px;}
+	.practive-blue1:after, .practive-blue2:after, .practive-blue3:after {border-width: 45px 148px 0;}
+	.products h2 {clear: both;}
 }
 
 @media (max-width:575px){
@@ -725,6 +748,9 @@ input {font-family: "Rokkitt", serif;}
 	.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {width:100%}
 	.single-product {padding-top: 33.5vw;}
 	.woocommerce div.product .woocommerce-tabs ul.tabs li a {font-size: 20px;}
+	.woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary{font-size: 15px;}
+	.products h2 {font-size: 5vw;}
+	.woocommerce div.product form.cart .variations select {margin-right: 0;}
 }
 
 @media (max-width:500px) {
