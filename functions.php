@@ -489,7 +489,7 @@ function end_lvl( &$output, $depth, $args ) {
     if( 0 == $depth ) {
         $output .= '<div id="custom-size-imgmenu">';
         $output .= '<a href="http://www.medmattress.com/custom-sizing-form/"><img src="https://www.medmattress.com/wp-content/imgs/custom-size-blue.png" id="benz-menu-img-matt1" class="benz-menu-img" /></a></div>';
-        $output .= '<div id="benz-menu-img-matt2"><p class="benz-menu-copy">Looking for an unusual mattress<br>size? We’ll customize a mattress<br>just for you!</p></div>';
+        $output .= '<div id="benz-menu-img-matt2"><p class="benz-menu-copy">Looking for an unusual mattress size?<br>We’ll customize a mattress just for you!</p></div>';
         $output .= '<img src="https://www.medmattress.com/wp-content/imgs/Custom-size-Mattress-menu.png" id="benz-menu-img-matt3" class="benz-menu-img" />';
         $output .= '<div class="benz-bottom-colors" style="background-color:#efea43">Search over 500 healthcare mattresses or browse by manufacturer or part number.</div>';
         $output .= '<div class="arrow-down"></div>';
