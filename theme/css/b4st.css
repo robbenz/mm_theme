@@ -260,6 +260,16 @@ span.festi-cart-product-count { margin-left:80%; text-align:right;}
 .festi-cart-product-price .amount { text-align:right;}
 /*END*/
 
+/* Modal POP UP */
+#Modal-1{background-color:#fff !important; border:3px solid #00426a; }
+#emodal-overlay{background-color: rgba(0, 0, 0, 0.4) !important ;}
+.emodal-close{background-color:#78be20 !important; font-family: sans-serif !important;}
+#popmake-32596 a{font-size:16px;}
+#popmake-32596 a:hover{color:#00426a;}
+.emodal-content a:hover{color:#00426a;}
+.emodal-content a{font-size:16px;}
+/* ENd */
+
 /*BENZ MAIN MENU(S)*/
 #benz-main-menu-wrap { clear:both; background-color:#9ed05e; width:100%; text-align:center; font-family: 'Open Sans', sans-serif; height:50px; }
 #benz-main-menu-box .benz-menu .sub-menu {background-color: #ffffff; border-right: 1px solid #636363; border-bottom: 1px solid #636363; border-left: 1px solid #636363; padding: 25px;  }
@@ -316,33 +326,33 @@ span.festi-cart-product-count { margin-left:80%; text-align:right;}
 #menu-about-us .benz-bottom-colors { top: -49px; z-index: 999; }
 #menu-about-us > li:hover {color:#fff;}
 #menu-about-us > li:hover a{color:#fff;}
-#menu-about-us .arrow-down {  left: 914px; top: -26px; }
+#menu-about-us .arrow-down { left: 1045px; top: -26px; }
 #benz-menu-about{ width:615px; height:300px; text-align:left; font-family: 'Open Sans', sans-serif; padding-left:10px; float:left; color:#000;}
 #menu-item-1920:hover{ color:#000;}
 #menu-item-1920 a:hover{ color:#000;}
 #benz-menu-about .benz-menu-about-copy { font-size:14px; color:#000; }
 #benz-menu-about .benz-menu-about-header { margin-top:6px; color:#2668b5; font-weight:600;}
 /*about-phone*/
-p.about-phone {position:relative; top:15px; left:-109px;  }
-p.about-phone-number {position:relative; top:15px; left:-123px;  }
-.about-phone-number i {position:relative; top:5px; left:-8px;}
+p.about-phone {position:relative;top: -30px;left: -109px; }
+p.about-phone-number {position:relative; top: -27px;left: -123px; }
+.about-phone-number i {position:relative; top: 2px; left:-8px;}
 /*about-fax*/
-p.about-fax {  position: relative; top: -43px; left: 84px;}
-p.about-fax-number {position:relative; top:-42px; left:81px;  }
-.about-fax-number i {position:relative; top:5px; left:-8px;}
+p.about-fax {  position: relative; top: -77px; left: 84px;}
+p.about-fax-number {position:relative; top: -75px;left: 78px; }
+.about-fax-number i {position:relative; top: 0px; left:-8px;}
 /*about-email*/
-p.about-email {position:relative; top:-26px; left:-113px;  }
-p.about-email-number {position:relative; top:-24px; left:-83px;  }
-.about-email-number i {position:relative; top:5px; left:-8px;}
+p.about-email {position:relative; top: -59px; left:-113px;  }
+p.about-email-number {position:relative; top: -59px; left: -89px; }
+.about-email-number i {position:relative; top:0px; left:-8px;}
 /*about-mail*/
-p.about-mail {position:relative; top:-7px; left:-106px;  }
-p.about-mail-number {position:relative; top:-10px; left:-74px;  }
-.about-mail-number i {position:relative; top:2px; left:-8px;}
+p.about-mail {position:relative; top: -46px; left: -105px; }
+p.about-mail-number {position:relative; top: -45px; left:-74px;  }
+.about-mail-number i {position:relative; top:0px; left:-8px;}
 /*LEAVE THIS MENU STUFF AT THE END!!!!*/
 #benz-main-menu-box p.benz-menu-copy{ padding-top:10px; color:#000; display: inline; float: right; font-size: 16px; font-style: italic; font-weight: 600; text-align:left;}
 #benz-main-menu-box p.benz-menu-copy:hover { color:#000;}
 .benz-menu-img { float: right; position: relative; z-index: 999; }
-#menu-item-1920{float:right; width:440px; position: relative; top: -315px; }
+#menu-item-1920{float: right; width: 502px; position: relative; top: -31px; left: -17px; }
 #menu-item-1920 a{color: #004ea8 !important}
 #menu-item-1920 a:hover{font-weight:bold; !important; color: #004ea8 !important}
 #benz-main-menu-box .benz-blueheader a{color:#004ea8 !important; padding:0; font-weight:600; font-size: 15px; margin-bottom: 0px;}
