@@ -260,6 +260,16 @@ span.festi-cart-product-count { margin-left:80%; text-align:right;}
 .festi-cart-product-price .amount { text-align:right;}
 /*END*/
 
+/* Modal POP UP */
+#Modal-1{background-color:#fff !important; border:3px solid #00426a; }
+#emodal-overlay{background-color: rgba(0, 0, 0, 0.4) !important ;}
+.emodal-close{background-color:#78be20 !important; font-family: sans-serif !important;}
+#popmake-32596 a{font-size:16px;}
+#popmake-32596 a:hover{color:#00426a;}
+.emodal-content a:hover{color:#00426a;}
+.emodal-content a{font-size:16px;}
+/* ENd */
+
 /*BENZ MAIN MENU(S)*/
 #benz-main-menu-wrap { clear:both; background-color:#9ed05e; width:100%; text-align:center; font-family: 'Open Sans', sans-serif; height:50px; }
 #benz-main-menu-box .benz-menu .sub-menu {background-color: #ffffff; border-right: 1px solid #636363; border-bottom: 1px solid #636363; border-left: 1px solid #636363; padding: 25px;  }
@@ -316,33 +326,33 @@ span.festi-cart-product-count { margin-left:80%; text-align:right;}
 #menu-about-us .benz-bottom-colors { top: -49px; z-index: 999; }
 #menu-about-us > li:hover {color:#fff;}
 #menu-about-us > li:hover a{color:#fff;}
-#menu-about-us .arrow-down {  left: 914px; top: -26px; }
+#menu-about-us .arrow-down { left: 1045px; top: -26px; }
 #benz-menu-about{ width:615px; height:300px; text-align:left; font-family: 'Open Sans', sans-serif; padding-left:10px; float:left; color:#000;}
 #menu-item-1920:hover{ color:#000;}
 #menu-item-1920 a:hover{ color:#000;}
 #benz-menu-about .benz-menu-about-copy { font-size:14px; color:#000; }
 #benz-menu-about .benz-menu-about-header { margin-top:6px; color:#2668b5; font-weight:600;}
 /*about-phone*/
-p.about-phone {position:relative; top:15px; left:-109px;  }
-p.about-phone-number {position:relative; top:15px; left:-123px;  }
-.about-phone-number i {position:relative; top:5px; left:-8px;}
+p.about-phone {position:relative;top: -30px;left: -109px; }
+p.about-phone-number {position:relative; top: -27px;left: -123px; }
+.about-phone-number i {position:relative; top: 2px; left:-8px;}
 /*about-fax*/
-p.about-fax {  position: relative; top: -43px; left: 84px;}
-p.about-fax-number {position:relative; top:-42px; left:81px;  }
-.about-fax-number i {position:relative; top:5px; left:-8px;}
+p.about-fax {  position: relative; top: -77px; left: 84px;}
+p.about-fax-number {position:relative; top: -75px;left: 78px; }
+.about-fax-number i {position:relative; top: 0px; left:-8px;}
 /*about-email*/
-p.about-email {position:relative; top:-26px; left:-113px;  }
-p.about-email-number {position:relative; top:-24px; left:-83px;  }
-.about-email-number i {position:relative; top:5px; left:-8px;}
+p.about-email {position:relative; top: -59px; left:-113px;  }
+p.about-email-number {position:relative; top: -59px; left: -89px; }
+.about-email-number i {position:relative; top:0px; left:-8px;}
 /*about-mail*/
-p.about-mail {position:relative; top:-7px; left:-106px;  }
-p.about-mail-number {position:relative; top:-10px; left:-74px;  }
-.about-mail-number i {position:relative; top:2px; left:-8px;}
+p.about-mail {position:relative; top: -46px; left: -105px; }
+p.about-mail-number {position:relative; top: -45px; left:-74px;  }
+.about-mail-number i {position:relative; top:0px; left:-8px;}
 /*LEAVE THIS MENU STUFF AT THE END!!!!*/
 #benz-main-menu-box p.benz-menu-copy{ padding-top:10px; color:#000; display: inline; float: right; font-size: 16px; font-style: italic; font-weight: 600; text-align:left;}
 #benz-main-menu-box p.benz-menu-copy:hover { color:#000;}
 .benz-menu-img { float: right; position: relative; z-index: 999; }
-#menu-item-1920{float:right; width:440px; position: relative; top: -315px; }
+#menu-item-1920{float: right; width: 502px; position: relative; top: -31px; left: -17px; }
 #menu-item-1920 a{color: #004ea8 !important}
 #menu-item-1920 a:hover{font-weight:bold; !important; color: #004ea8 !important}
 #benz-main-menu-box .benz-blueheader a{color:#004ea8 !important; padding:0; font-weight:600; font-size: 15px; margin-bottom: 0px;}
@@ -398,7 +408,6 @@ li.main-header-link:hover, .benz-menu > ul > li > a:hover {background-color:#004
 .wc-tabs-wrapper #tab-description{ padding:1em !important; }
 .woocommerce-tabs ul, .woocommerce-tabs ol { margin-left: 1em; }
 .woocommerce div.product .woocommerce-tabs ul.tabs li::after, .woocommerce div.product .woocommerce-tabs ul.tabs li::before { border: 0px !important; content: none !important; }
-.woocommerce-tabs.wc-tabs-wrapper {width:1030px;}
 /* END */
 
 /* FREE SHIPPING PRODUCTS */
@@ -600,16 +609,30 @@ input {font-family: "Rokkitt", serif;}
 .proactive-foam-wrap p { font-size:13px; margin-bottom:0.3em}
 .proactive-foam-wrap h4 { color: #fff; font-family: "Rokkitt",serif; font-size: 2em; margin-bottom: -1em; padding-top: 0.41em; position: relative; text-align: center; top: -2.3em; z-index: 999 !important; }
 .proactive-3span { float:left; margin:0; border:1px solid #a7a7a7;  width: 33.319% ;height:100%; }
-.practive-blue1 { background-color:#93b9d6;  height:240px; position:relative; margin-bottom:2em; }
-.practive-blue2 { background-color:#5d97c2;  height:240px; position:relative; margin-bottom:2em; }
-.practive-blue3 { background-color:#2774ae;  height:240px; position:relative; margin-bottom:2em; }
-.practive-blue1:after {content:''; position:absolute; 	width: 0; height: 0; top:239px; border-style: solid; border-width: 45px 158px 0; border-color: #93b9d6 transparent transparent transparent; z-index:9 !important; left: 0px;}
-.practive-blue2:after {content:''; position:absolute; 	width: 0; height: 0; top:239px; border-style: solid; border-width: 45px 158px 0; border-color: #5d97c2 transparent transparent transparent; z-index:9 !important; left: 0px;}
-.practive-blue3:after {content:''; position:absolute; 	width: 0; height: 0; top:239px; border-style: solid; border-width: 45px 157px 0; border-color: #2774ae transparent transparent transparent; z-index:9 !important; left: 0px;}
+.practive-blue1 { background-color:#93b9d6; height:240px; position:relative; margin-bottom:2em; }
+.practive-blue2 { background-color:#5d97c2; height:240px; position:relative; margin-bottom:2em; }
+.practive-blue3 { background-color:#2774ae; height:240px; position:relative; margin-bottom:2em; }
+.practive-blue1:after {content:''; position:absolute; width: 0; height: 0; top:239px; border-style: solid; border-width: 45px 158px 0; border-color: #93b9d6 transparent transparent transparent; z-index:9 !important; left: 0px;}
+.practive-blue2:after {content:''; position:absolute;	width: 0; height: 0; top:239px; border-style: solid; border-width: 45px 158px 0; border-color: #5d97c2 transparent transparent transparent; z-index:9 !important; left: 0px;}
+.practive-blue3:after {content:''; position:absolute;	width: 0; height: 0; top:239px; border-style: solid; border-width: 45px 157px 0; border-color: #2774ae transparent transparent transparent; z-index:9 !important; left: 0px;}
 .proactive-foam-copy{ padding: 0px 5%;}
 /* END */
 
 /* Responsive Stuff */
+@media (min-width:992px){
+	#footerlogos { width: 980px; height: 100px; }
+	#diamedicallogo { height: 100px; width: 300px; float: left; margin: 20px 0px 0px 40px; }
+	#medmatlogo { height: 100px; width: 300px; float: left; margin: 28px 0px 0px 30px; }
+	#simlablogo { height: 100px; width: 300px; float: left; margin: 26px 0px 0px 10px; }
+	#menu-item-3544 a,	#menu-item-1916 a, #menu-item-1917 a, #menu-item-1905 a, #menu-item-1918 a, #menu-item-1919 a { color: #000; font-size: 19px; font-weight: 600; padding: 12px 31.15px 10px;}
+	@-moz-document url-prefix() { #menu-item-3544 a, #menu-item-1916 a, #menu-item-1917 a, #menu-item-1905 a, #menu-item-1918 a, #menu-item-1919 a {padding-bottom:9px;} }
+
+	/* figure out if this does anything */
+	.benz-menu > ul > li > a{ padding: 11px 0.961em; }
+	.benz-menu .sub-menu{ width: 971px; }
+
+}
+
 @media(min-width:1200px){
 	.size-desktop{width:30.333%; float: left;}
 	.mobile-search-bar{display:none;}
@@ -617,17 +640,15 @@ input {font-family: "Rokkitt", serif;}
 	#landing_nav-wrap a.landing_nav{font-size:0.91em; font-weight: 600 !important; }
 	#landing_nav-wrap .container, #benz-main-menu-wrap .container{ padding:0;}
 	#footerconnect { height: 172px; float: left; padding: 20px 25px 20px 25px; margin: -17px 0 0 112px; }
-
+	.benz-menu .sub-menu{width: 1171px;}
+	.benz-menu > ul > li > a{ padding: 11px 1.8198em; }
+	#menu-mattresses > li > .sub-menu {left:-140px;}
+	#menu-replacement-covers-menu > li > .sub-menu {left: -319px;}
+	#menu-accessories > li > .sub-menu {left: -592px;}
+	#menu-manufacturers > li > .sub-menu {left: -776px;}
+	#menu-about-us > li > .sub-menu {left: -1003px;}
 }
 
-@media (min-width:992px){
-	#footerlogos { width: 980px; height: 100px; }
-	#diamedicallogo { height: 100px; width: 300px; float: left; margin: 20px 0px 0px 40px; }
-	#medmatlogo { height: 100px; width: 300px; float: left; margin: 28px 0px 0px 30px; }
-	#simlablogo { height: 100px; width: 300px; float: left; margin: 26px 0px 0px 10px; }
-
-
-}
 @media (max-width:1199px){
 	#landing_nav-wrap div a.landing_nav{font-size: .7rem;}
 	.size-laptop{width:26.333%; float: left;}
@@ -643,7 +664,6 @@ input {font-family: "Rokkitt", serif;}
 	.woocommerce-breadcrumb {font-size: 15px !important;}
 	.woocommerce div.product .woocommerce-tabs ul.tabs li a {font-size: 1.38vw;}
 	.woocommerce div.product .woocommerce-tabs ul.tabs li {width:25%;}
-	.woocommerce-tabs.wc-tabs-wrapper {width:832px;}
 }
 
 @media (max-width:991px){
@@ -687,15 +707,14 @@ input {font-family: "Rokkitt", serif;}
 		.woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary{float:left; width:48%;}
 		.woocommerce div.product .woocommerce-tabs ul.tabs li a {font-size: 1.7vw;}
 		.practive-blue1:after, .practive-blue2:after, .practive-blue3:after {top:239px; border-width: 45px 15.8vw 0;}
-		.proactive-foam-wrap{width:100%; height:1090px}
-		.woocommerce-tabs.wc-tabs-wrapper {width: 80%;}
-
-
+		.proactive-foam-wrap { width:100%; height:1090px }
 }
+
 @media (width:768px){
 	.woocommerce ul.products li.last, .woocommerce-page ul.products li.last {clear:none;}
 	.woocommerce ul.products li.product:nth-child(2n), .woocommerce-page ul.products li.product:nth-child(2n){float: left;}
 }
+
 @media (max-width:767px){
 	#greenad-container{width:100%;}
 	#mattresshomeimgwrap{display: none;}
@@ -720,7 +739,6 @@ input {font-family: "Rokkitt", serif;}
 	.proactive-3span{width:100%; margin-bottom: 10px;}
 	.practive-blue1:after, .practive-blue2:after, .practive-blue3:after {border-width: 45px 148px 0;}
 	.products h2 {clear: both;}
-	.woocommerce-tabs.wc-tabs-wrapper {width: 100%;}
 }
 
 @media (max-width:575px){
@@ -769,27 +787,4 @@ input {font-family: "Rokkitt", serif;}
 @media (max-width:400px) {
 	.single-product {padding-top: 44vw;}
 }
-
-
-@media (min-width:992px) {
-#menu-item-3544 a,	#menu-item-1916 a, #menu-item-1917 a, #menu-item-1905 a, #menu-item-1918 a, #menu-item-1919 a { color: #000; font-size: 19px; font-weight: 600; padding: 12px 31.15px 10px;}
-
-@-moz-document url-prefix() {#menu-item-3544 a, #menu-item-1916 a, #menu-item-1917 a, #menu-item-1905 a, #menu-item-1918 a, #menu-item-1919 a {padding-bottom:9px;} }
-
-.benz-menu > ul > li > a{ padding: 11px 0.961em; }
-.benz-menu .sub-menu{ width: 971px; }
-
-}
-
-@media (min-width: 1200px) {
-.benz-menu .sub-menu{width: 1171px;}
-
-.benz-menu > ul > li > a{ padding: 11px 1.8198em; }
-#menu-mattresses > li > .sub-menu {left:-140px;}
-#menu-replacement-covers-menu > li > .sub-menu {left: -319px;}
-#menu-accessories > li > .sub-menu {left: -592px;}
-#menu-manufacturers > li > .sub-menu {left: -776px;}
-#menu-about-us > li > .sub-menu {left: -1003px;}
-}
-
 /* END */
