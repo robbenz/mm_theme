@@ -596,7 +596,7 @@ input {font-family: "Rokkitt", serif;}
 .wc-tabs-wrapper li:last-child { border-top-right-radius: 18px !important; -moz-border-radius-topright: 18px !important; }
 .wc-tabs-wrapper .description_tab { border-top-left-radius: 18px !important; -moz-border-radius-topleft: 18px !important; border-left: 1px solid #d3ced2 !important; margin-left:0px !important;}
 .woocommerce div.product .woocommerce-tabs ul.tabs li{ border-radius: 0; padding: 0 1.6em; width: 25%; text-align: center;}
-.woocommerce div.product .woocommerce-tabs ul.tabs li a{font-size: 1vw;}
+.woocommerce div.product .woocommerce-tabs ul.tabs li a{font-size: 17px;}
 #tab-description h2 {font-weight: bold; font-size: 28px; margin-bottom: 25px;}
 #tab-description li {font-size: 19px;}
 /* END */
@@ -688,8 +688,8 @@ input {font-family: "Rokkitt", serif;}
 	#footerconnect { height: 172px; float: left; padding: 20px 25px 20px 25px; margin: -17px 0 0 67px;}
 	.socialicons2014{margin: -50px 0 0 72px;}
 	.woocommerce-breadcrumb {font-size: 15px !important;}
-	.woocommerce div.product .woocommerce-tabs ul.tabs li a {font-size: 1.38vw;}
-	.woocommerce div.product .woocommerce-tabs ul.tabs li {width:25%;}
+	.woocommerce div.product .woocommerce-tabs ul.tabs li a {font-size: 13px;}
+	.woocommerce div.product .woocommerce-tabs ul.tabs li {width:33.8%;}
 	.wc-tabs-wrapper {width:834px; margin:0 auto;}
 	.camp-right-table, .left-camp-cell{width:50%;}
 }
@@ -733,13 +733,14 @@ input {font-family: "Rokkitt", serif;}
 		#desktop-searchbar{margin-top: 27px;}
 		.single-product > div.container {width:95%;}
 		.woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary{float:left; width:48%;}
-		.woocommerce div.product .woocommerce-tabs ul.tabs li a {font-size: 1.7vw;}
+		.woocommerce div.product .woocommerce-tabs ul.tabs li a {font-size: 1.6vw;}
 		.practive-blue1:after, .practive-blue2:after, .practive-blue3:after {top:239px; border-width: 45px 15.8vw 0;}
 		.proactive-foam-wrap { width:100%; height:1090px;}
 		.wc-tabs-wrapper {width:80%;}
 		.product_cat-camp-mattresses .wc-tabs-wrapper {width:90%;}
 		.tg {width:100%;}
 		.tg td {font-size: 1.5vw;}
+		.woocommerce div.product .woocommerce-tabs ul.tabs li {width:33.9%;}
 }
 /* woocommerce messes up the related products images at specifically this width */
 @media (width:768px){
@@ -763,7 +764,7 @@ input {font-family: "Rokkitt", serif;}
 	.woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images {width:100%;}
 	.woocommerce div.product div.images img {width:100%; margin: 0 auto;}
 	.woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary {width: 100%;}
-	.woocommerce div.product .woocommerce-tabs ul.tabs li {width:27.5%;}
+	.woocommerce div.product .woocommerce-tabs ul.tabs li {width:34%;}
 	.woocommerce div.product form.cart .variations select {padding:0 !important;}
 	.woocommerce ul.products li.product, .woocommerce-page ul.products li.product{float: left !important; clear: none; width:33%;}
 	.socialicons2014 img{margin:0 6.6px}
@@ -776,6 +777,7 @@ input {font-family: "Rokkitt", serif;}
 	.holding-cell{height: auto;}
 	.tg td {font-size:2.5vw;}
 	#tab-description li{font-size: 15px;}
+  .woocommerce div.product .woocommerce-tabs ul.tabs li a {font-size: 1.4vw;}
 
 }
 
@@ -812,7 +814,7 @@ input {font-family: "Rokkitt", serif;}
 	.woocommerce ul.products li.product a img{margin: 0 auto 1em; width:50vw;}
 	.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {width:100%}
 	.single-product {padding-top: 25.5vw;}
-	.woocommerce div.product .woocommerce-tabs ul.tabs li a {font-size: 20px;}
+	.woocommerce div.product .woocommerce-tabs ul.tabs li a {font-size: 16px;}
 	.woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary{font-size: 15px;}
 	.products h2 {font-size: 5vw;}
 	.woocommerce div.product form.cart .variations select {margin-right: 0;}
