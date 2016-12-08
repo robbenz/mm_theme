@@ -1,40 +1,35 @@
+/* Theme defaults - out of the box stuff */
 /* Max content widths */
-
 .size-auto,
 .size-full,
 .size-large,
 .size-medium,
-.size-thumbnail {
-	max-width: 100%;
-	height: auto
-}
+.size-thumbnail { max-width: 100%; height: auto }
+/* Site footer */
+.site-footer { padding: 40px 0 0; }
+.site-footer ul,
+.site-footer ol { list-style-type: none; padding: 0 }
+.site-footer li { margin: 10px 0 }
+.site-sub-footer p { text-align: center }
+.site-footer p { text-align: left }
+/* Main content */
+#content article { margin: 40px 0 }
+#content header { margin: 20px 0 }
+#content section { margin-bottom: 20px }
+#content footer { padding-bottom: 20px }
+/* Sidebar */
+.sidebar { margin-top: 20px }
+.sidebar section { margin-bottom: 40px }
+.sidebar ul,
+.sidebar ol { list-style-type: none; padding: 0 }
+.sidebar li { margin: 10px 0 }
+/* END */
 
-/* Navbar */
+body{font-family: "Rokkitt", serif;}
 
-.navbar-topbar {
-  border-radius: 0;
-}
-
-.navbar .dropdown-menu li {
-  width: 100%;
-  margin-left: 0 !important;
-}
-
-
-
-
-/*
-Header logo
-If you require a Site title and a logo, an example of how to do this is provided below (use your own logo):
-
-#site-title a {
-  display: inline-block;
-	padding-left 60px;
-  background: url('../../img/logo.png') 0 0 no-repeat;
-}
-*/
-/* Header */
 /* Landing Nav*/
+.navbar-topbar { border-radius: 0; }
+.navbar .dropdown-menu li { width: 100%; margin-left: 0 !important; }
 .landing_page ul.products li.product { margin: 0 2% !important;}
 #landing_nav-wrap{width:100%; background-color:#fff; !important; text-align: center;}
 #landing_nav-wrap div a.landing_nav{color:#464444; padding:0.4em 0; text-align:center; width:14%; display:block; float:left; }
@@ -83,134 +78,16 @@ no-touch .cs-style-8 figure:hover img, .cs-style-8 figure.cs-hover img { -webkit
 #landing_nav-wrap a.landing_nav{color:#464444; padding:0.4em 0; text-align:center; width:14%; display:block; float:left; font-size: 0.7em; font-weight: 600 !important; font-family: "Open Sans",sans-serif;}
 #landing_nav-wrap a.landing_nav:hover{text-decoration:none; color:#fff;}
 .magnifying-icon{pointer-events:none;color:#9ed05e;position:relative;left: -39px;}
-
-
-
 /*END*/
 
-/* Main content */
-
-#content article {
-  margin: 40px 0
-}
-#content header {
-  margin: 20px 0
-}
-#content section {
-  margin-bottom: 20px
-}
-#content footer {
-  padding-bottom: 20px
-}
-
-/* Sidebar */
-
-.sidebar {
-  margin-top: 20px
-}
-.sidebar section {
-  margin-bottom: 40px
-}
-.sidebar ul,
-.sidebar ol {
-  list-style-type: none;
-  padding: 0
-}
-.sidebar li {
-  margin: 10px 0
-}
-
 /* Hide form placeholders on focus */
-
 input:focus::-webkit-input-placeholder { color: transparent; }
 input:focus:-moz-placeholder { color: transparent; } /* FF 4-18 */
 input:focus::-moz-placeholder { color: transparent; } /* FF 19+ */
 textarea:focus::-webkit-input-placeholder { color: transparent; }
 textarea:focus:-moz-placeholder { color: transparent; } /* FF 4-18 */
 textarea:focus::-moz-placeholder { color: transparent; } /* FF 19+ */
-
-/* Comments */
-body{font-family: "Rokkitt", serif;}
-
-#respond {
-  margin-top: 40px
-}
-ol.commentlist {
-	counter-reset: li; /* Initiate a counter */
-	padding: 0
-}
-ol.commentlist ul {
-  padding: 0
-}
-ol.commentlist > li {
-	position: relative;
-	margin: 0 0 20px 0;
-	list-style: none /* Disable the normal item numbering */
-}
-ol.commentlist > li:before {
-  content: "Thread " counter(li); /* Use the counter as content */
-  counter-increment: li; /* Increment the counter by 1 */
-  position:absolute;
-  top: 0;
-  right: 0;
-  border-bottom: 1px solid #ddd;
-  border-left: 1px solid #ddd;
-  border-bottom-left-radius: 4px;
-  padding: 5px 20px 5px 10px;
-  color: #999
-}
-ol.commentlist li ol,
-ol.commentlist li ul {
-  list-style-type: none;
-  margin: 0
-}
-
-.commentlist li li {
-  background: #f9f9f9;
-}
-.commentlist li li li {
-  background: #fff
-}
-.commentlist li li li li {
-  background: #f9f9f9
-}
-.commentlist li li li li li li {
-  background: #fff
-}
-.commentlist li {
-  padding: 20px
-}
-.commentlist ul li {
-  margin-top: 20px;
-  margin-bottom: 0
-}
-.reply p {
-  margin: 0
-}
-
-/* Site footer */
-
-.site-footer {
-  padding: 40px 0 0;
-}
-.site-footer ul,
-.site-footer ol {
-  list-style-type: none;
-  padding: 0
-}
-.site-footer li {
-  margin: 10px 0
-}
-.site-sub-footer p {
-  text-align: center
-}
-
-.site-footer p {
-  text-align: left
-}
-
-
-
+/* END */
 
 /* SIGN IN && NEED HELP MENU */
 #mm-right-contact .sub-menu { background-color: #ffffff; border: 1px solid #d7d7d7; left: -71px; padding: 5px; width: 300px; top:40px; }
@@ -310,13 +187,13 @@ span.festi-cart-product-count { margin-left:80%; text-align:right;}
 #menu-accessories .arrow-down { left: 631px; top: -276px; }
 #benz-menu-img-acc { left: -10px; top: -101px; }
 /*MFT MENU*/
-#menu-manufacturers .sub-menu{  height: 145px; }
+#menu-manufacturers .sub-menu{  height: 145px; display:block}
 @-moz-document url-prefix() { #menu-manufacturers .sub-menu{ height: 146px; } }
 #menu-manufacturers .benz-bottom-colors { top: 27px;}
 #menu-manufacturers .sub-menu .menu-item-type-custom { width: 210px; }
 #menu-manufacturers > li:hover {color:#fff;}
 #menu-manufacturers > li:hover a{color:#fff;}
-#menu-manufacturers .arrow-down { left: 846px; top: -120px; }
+#menu-manufacturers .arrow-down { left: 74%; top: -120px; }
 #benz-menu-img-mft1 { left: -383px; top: 11px; }
 #benz-menu-img-mft2 { left: -24px; top: 20px; }
 #benz-menu-img-mft3 { left: 338px; top: -5px; }
@@ -333,21 +210,21 @@ span.festi-cart-product-count { margin-left:80%; text-align:right;}
 #benz-menu-about .benz-menu-about-copy { font-size:14px; color:#000; }
 #benz-menu-about .benz-menu-about-header { margin-top:6px; color:#2668b5; font-weight:600;}
 /*about-phone*/
-p.about-phone {position:relative;top: -30px;left: -109px; }
-p.about-phone-number {position:relative; top: -27px;left: -123px; }
-.about-phone-number i {position:relative; top: 2px; left:-8px;}
+p.about-phone { position:relative;top: -30px; left: -109px; }
+p.about-phone-number { position:relative; top: -27px; left: -123px; }
+.about-phone-number i { position:relative; top: 2px; left:-8px;}
 /*about-fax*/
-p.about-fax {  position: relative; top: -77px; left: 84px;}
-p.about-fax-number {position:relative; top: -75px;left: 78px; }
-.about-fax-number i {position:relative; top: 0px; left:-8px;}
+p.about-fax { position: relative; top: -77px; left: 84px;}
+p.about-fax-number { position:relative; top: -75px; left: 78px; }
+.about-fax-number i { position:relative; top: 0px; left:-8px;}
 /*about-email*/
-p.about-email {position:relative; top: -59px; left:-113px;  }
-p.about-email-number {position:relative; top: -59px; left: -89px; }
-.about-email-number i {position:relative; top:0px; left:-8px;}
+p.about-email { position:relative; top: -59px; left:-113px;  }
+p.about-email-number { position:relative; top: -59px; left: -89px; }
+.about-email-number i { position:relative; top:0px; left:-8px;}
 /*about-mail*/
-p.about-mail {position:relative; top: -46px; left: -105px; }
-p.about-mail-number {position:relative; top: -45px; left:-74px;  }
-.about-mail-number i {position:relative; top:0px; left:-8px;}
+p.about-mail { position:relative; top: -46px; left: -105px; }
+p.about-mail-number { position:relative; top: -45px; left:-74px;  }
+.about-mail-number i { position:relative; top:0px; left:-8px; }
 /*LEAVE THIS MENU STUFF AT THE END!!!!*/
 #benz-main-menu-box p.benz-menu-copy{ padding-top:10px; color:#000; display: inline; float: right; font-size: 16px; font-style: italic; font-weight: 600; text-align:left;}
 #benz-main-menu-box p.benz-menu-copy:hover { color:#000;}
@@ -399,7 +276,6 @@ li.main-header-link:hover, .benz-menu > ul > li > a:hover {background-color:#004
 #menu-item-3544 a:hover {color:#fff;}
 /* END */
 
-
 /* Tabs */
 .wc-tabs-wrapper .wc-tab { overflow:scroll; border:4px solid #cccccc; padding:1em !important; }
 .wc-tabs-wrapper ul ul { margin: 0 !important}
@@ -418,7 +294,6 @@ li.main-header-link:hover, .benz-menu > ul > li > a:hover {background-color:#004
 #free_ship-productpage img { margin-right:1em; margin-left:-1em; width:110px !important; max-width: 110px !important; min-width: 101px !important;}
 /* END */
 
-
 /*CART STUFF DROP*/
 body a#festi-cart.festi-cart.festi-cart-customize {padding: 0 !important; }
 div.festi-cart-content{color:#636363 !important; font-family: 'Open Sans', sans-serif !important; font-weight: 600 !important; font-size:15px !important; }
@@ -430,8 +305,6 @@ div.festi-cart-content{color:#636363 !important; font-family: 'Open Sans', sans-
 div.pp_woocommerce div.ppt {display:none !important;}
 .woocommerce-breadcrumb a:hover{color:#78be20 !important;font-size:20px !important;}
 /* END */
-
-
 
 /*Gallery Headers ETC*/
 .header-wrap-text-mattress{ width:auto; height:214px; padding:20px; border:8px solid #004ea8; margin-bottom: 10px; }
@@ -486,9 +359,6 @@ div.pp_woocommerce div.ppt {display:none !important;}
 .single-product ul.products li.product { width: 33.3333%; margin:0px 0 1px 0; }
 .single-product ul.products li.product a img {width:80%;}
 /* END */
-
-
-
 
 /* Main Page */
 #homerotator{margin:20px 0 10px 0; width:100%;}
@@ -545,6 +415,7 @@ div.pp_woocommerce div.ppt {display:none !important;}
 #logo-border {width:100%; height: 2px; border-top: solid; border-top-color: #1f1e1e; border-top-width: 2px;}
 #footer-links {padding-bottom: 15px;}
 #footerconnect p {margin-bottom:0;}
+/* END */
 
 /* Product Pages */
 .woocommerce-main-image img {max-width:300px; border: 5px solid #004ea8; border-radius: 0 !important; min-width:240px;}
@@ -583,7 +454,7 @@ input {font-family: "Rokkitt", serif;}
 .single-product select.form-control:not([size]):not([multiple]){height: calc(2.5rem - 15px);}
 .variations .form-control{padding: 0rem 0.25rem; color: #373a3c; border-color: #aaa; margin-top: 10px;}
 .single-product .woocommerce ul.products li.product, .single-product .woocommerce-page ul.products li.product{width:30%;}
-
+/* END */
 
 /* Tabs */
 .wc-tabs-wrapper .wc-tab { overflow:scroll; border:4px solid #cccccc; padding:1em !important; }
@@ -624,13 +495,15 @@ input {font-family: "Rokkitt", serif;}
 	#diamedicallogo { height: 100px; width: 300px; float: left; margin: 20px 0px 0px 40px; }
 	#medmatlogo { height: 100px; width: 300px; float: left; margin: 28px 0px 0px 30px; }
 	#simlablogo { height: 100px; width: 300px; float: left; margin: 26px 0px 0px 10px; }
-	#menu-item-3544 a,	#menu-item-1916 a, #menu-item-1917 a, #menu-item-1905 a, #menu-item-1918 a, #menu-item-1919 a { color: #000; font-size: 19px; font-weight: 600; padding: 12px 31.15px 10px;}
+	#menu-item-3544 a,	#menu-item-1916 a, #menu-item-1917 a, #menu-item-1905 a, #menu-item-1918 a, #menu-item-1919 a { color: #000; font-size: 19px; font-weight: 600; padding: 12px 13px 10px;}
 	@-moz-document url-prefix() { #menu-item-3544 a, #menu-item-1916 a, #menu-item-1917 a, #menu-item-1905 a, #menu-item-1918 a, #menu-item-1919 a {padding-bottom:9px;} }
-
-	/* figure out if this does anything */
-	.benz-menu > ul > li > a{ padding: 11px 0.961em; }
-	.benz-menu .sub-menu{ width: 971px; }
-
+	.benz-menu > ul > li > a { padding: 11px 0.961em; }
+	.benz-menu .sub-menu { width: 971px; }
+	#menu-mattresses > li > .sub-menu { left:-102px; }
+	#menu-replacement-covers-menu > li > .sub-menu { left: -245px; }
+	#menu-accessories > li > .sub-menu { left: -481px; }
+	#menu-manufacturers > li > .sub-menu { left: -629px; }
+	#menu-about-us > li > .sub-menu { left: -819px; }
 }
 
 @media(min-width:1200px){
@@ -647,6 +520,9 @@ input {font-family: "Rokkitt", serif;}
 	#menu-accessories > li > .sub-menu {left: -592px;}
 	#menu-manufacturers > li > .sub-menu {left: -776px;}
 	#menu-about-us > li > .sub-menu {left: -1003px;}
+	#menu-item-3544 a,	#menu-item-1916 a, #menu-item-1917 a, #menu-item-1905 a, #menu-item-1918 a, #menu-item-1919 a { padding: 12px 31.15px 10px;}
+	@-moz-document url-prefix() { #menu-item-3544 a, #menu-item-1916 a, #menu-item-1917 a, #menu-item-1905 a, #menu-item-1918 a, #menu-item-1919 a {padding-bottom:9px;} }
+
 }
 
 @media (max-width:1199px){
@@ -664,6 +540,7 @@ input {font-family: "Rokkitt", serif;}
 	.woocommerce-breadcrumb {font-size: 15px !important;}
 	.woocommerce div.product .woocommerce-tabs ul.tabs li a {font-size: 1.38vw;}
 	.woocommerce div.product .woocommerce-tabs ul.tabs li {width:25%;}
+
 }
 
 @media (max-width:991px){
