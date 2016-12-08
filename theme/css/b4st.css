@@ -474,7 +474,8 @@ div.pp_woocommerce div.ppt {display:none !important;}
 .product .price { text-align: center; }
 .summary .price { text-align: left; }
 .product a{ font-family: 'Open Sans', sans-serif; color:#004ea8;}
-.single-product .woocommerce ul.products li.product, .single-product .woocommerce-page ul.products li.product { width: 30%; margin:0px 0 1px 0; }
+.single-product ul.products li.product { width: 33.3333%; margin:0px 0 1px 0; }
+.single-product ul.products li.product a img {width:80%;}
 /* END */
 
 
@@ -690,6 +691,10 @@ input {font-family: "Rokkitt", serif;}
 		.woocommerce-tabs.wc-tabs-wrapper {width: 80%;}
 
 
+}
+@media (width:768px){
+	.woocommerce ul.products li.last, .woocommerce-page ul.products li.last {clear:none;}
+	.woocommerce ul.products li.product:nth-child(2n), .woocommerce-page ul.products li.product:nth-child(2n){float: left;}
 }
 @media (max-width:767px){
 	#greenad-container{width:100%;}
