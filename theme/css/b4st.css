@@ -408,7 +408,6 @@ li.main-header-link:hover, .benz-menu > ul > li > a:hover {background-color:#004
 .wc-tabs-wrapper #tab-description{ padding:1em !important; }
 .woocommerce-tabs ul, .woocommerce-tabs ol { margin-left: 1em; }
 .woocommerce div.product .woocommerce-tabs ul.tabs li::after, .woocommerce div.product .woocommerce-tabs ul.tabs li::before { border: 0px !important; content: none !important; }
-.woocommerce-tabs.wc-tabs-wrapper {width:1030px;}
 /* END */
 
 /* FREE SHIPPING PRODUCTS */
@@ -608,16 +607,30 @@ input {font-family: "Rokkitt", serif;}
 .proactive-foam-wrap p { font-size:13px; margin-bottom:0.3em}
 .proactive-foam-wrap h4 { color: #fff; font-family: "Rokkitt",serif; font-size: 2em; margin-bottom: -1em; padding-top: 0.41em; position: relative; text-align: center; top: -2.3em; z-index: 999 !important; }
 .proactive-3span { float:left; margin:0; border:1px solid #a7a7a7;  width: 33.319% ;height:100%; }
-.practive-blue1 { background-color:#93b9d6;  height:240px; position:relative; margin-bottom:2em; }
-.practive-blue2 { background-color:#5d97c2;  height:240px; position:relative; margin-bottom:2em; }
-.practive-blue3 { background-color:#2774ae;  height:240px; position:relative; margin-bottom:2em; }
-.practive-blue1:after {content:''; position:absolute; 	width: 0; height: 0; top:239px; border-style: solid; border-width: 45px 158px 0; border-color: #93b9d6 transparent transparent transparent; z-index:9 !important; left: 0px;}
-.practive-blue2:after {content:''; position:absolute; 	width: 0; height: 0; top:239px; border-style: solid; border-width: 45px 158px 0; border-color: #5d97c2 transparent transparent transparent; z-index:9 !important; left: 0px;}
-.practive-blue3:after {content:''; position:absolute; 	width: 0; height: 0; top:239px; border-style: solid; border-width: 45px 157px 0; border-color: #2774ae transparent transparent transparent; z-index:9 !important; left: 0px;}
+.practive-blue1 { background-color:#93b9d6; height:240px; position:relative; margin-bottom:2em; }
+.practive-blue2 { background-color:#5d97c2; height:240px; position:relative; margin-bottom:2em; }
+.practive-blue3 { background-color:#2774ae; height:240px; position:relative; margin-bottom:2em; }
+.practive-blue1:after {content:''; position:absolute; width: 0; height: 0; top:239px; border-style: solid; border-width: 45px 158px 0; border-color: #93b9d6 transparent transparent transparent; z-index:9 !important; left: 0px;}
+.practive-blue2:after {content:''; position:absolute;	width: 0; height: 0; top:239px; border-style: solid; border-width: 45px 158px 0; border-color: #5d97c2 transparent transparent transparent; z-index:9 !important; left: 0px;}
+.practive-blue3:after {content:''; position:absolute;	width: 0; height: 0; top:239px; border-style: solid; border-width: 45px 157px 0; border-color: #2774ae transparent transparent transparent; z-index:9 !important; left: 0px;}
 .proactive-foam-copy{ padding: 0px 5%;}
 /* END */
 
 /* Responsive Stuff */
+@media (min-width:992px){
+	#footerlogos { width: 980px; height: 100px; }
+	#diamedicallogo { height: 100px; width: 300px; float: left; margin: 20px 0px 0px 40px; }
+	#medmatlogo { height: 100px; width: 300px; float: left; margin: 28px 0px 0px 30px; }
+	#simlablogo { height: 100px; width: 300px; float: left; margin: 26px 0px 0px 10px; }
+	#menu-item-3544 a,	#menu-item-1916 a, #menu-item-1917 a, #menu-item-1905 a, #menu-item-1918 a, #menu-item-1919 a { color: #000; font-size: 19px; font-weight: 600; padding: 12px 31.15px 10px;}
+	@-moz-document url-prefix() { #menu-item-3544 a, #menu-item-1916 a, #menu-item-1917 a, #menu-item-1905 a, #menu-item-1918 a, #menu-item-1919 a {padding-bottom:9px;} }
+
+	/* figure out if this does anything */
+	.benz-menu > ul > li > a{ padding: 11px 0.961em; }
+	.benz-menu .sub-menu{ width: 971px; }
+
+}
+
 @media(min-width:1200px){
 	.size-desktop{width:30.333%; float: left;}
 	.mobile-search-bar{display:none;}
@@ -625,17 +638,15 @@ input {font-family: "Rokkitt", serif;}
 	#landing_nav-wrap a.landing_nav{font-size:0.91em; font-weight: 600 !important; }
 	#landing_nav-wrap .container, #benz-main-menu-wrap .container{ padding:0;}
 	#footerconnect { height: 172px; float: left; padding: 20px 25px 20px 25px; margin: -17px 0 0 112px; }
-
+	.benz-menu .sub-menu{width: 1171px;}
+	.benz-menu > ul > li > a{ padding: 11px 1.8198em; }
+	#menu-mattresses > li > .sub-menu {left:-140px;}
+	#menu-replacement-covers-menu > li > .sub-menu {left: -319px;}
+	#menu-accessories > li > .sub-menu {left: -592px;}
+	#menu-manufacturers > li > .sub-menu {left: -776px;}
+	#menu-about-us > li > .sub-menu {left: -1003px;}
 }
 
-@media (min-width:992px){
-	#footerlogos { width: 980px; height: 100px; }
-	#diamedicallogo { height: 100px; width: 300px; float: left; margin: 20px 0px 0px 40px; }
-	#medmatlogo { height: 100px; width: 300px; float: left; margin: 28px 0px 0px 30px; }
-	#simlablogo { height: 100px; width: 300px; float: left; margin: 26px 0px 0px 10px; }
-
-
-}
 @media (max-width:1199px){
 	#landing_nav-wrap div a.landing_nav{font-size: .7rem;}
 	.size-laptop{width:26.333%; float: left;}
@@ -651,7 +662,6 @@ input {font-family: "Rokkitt", serif;}
 	.woocommerce-breadcrumb {font-size: 15px !important;}
 	.woocommerce div.product .woocommerce-tabs ul.tabs li a {font-size: 1.38vw;}
 	.woocommerce div.product .woocommerce-tabs ul.tabs li {width:25%;}
-	.woocommerce-tabs.wc-tabs-wrapper {width:832px;}
 }
 
 @media (max-width:991px){
@@ -695,11 +705,9 @@ input {font-family: "Rokkitt", serif;}
 		.woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary{float:left; width:48%;}
 		.woocommerce div.product .woocommerce-tabs ul.tabs li a {font-size: 1.7vw;}
 		.practive-blue1:after, .practive-blue2:after, .practive-blue3:after {top:239px; border-width: 45px 15.8vw 0;}
-		.proactive-foam-wrap{width:100%; height:1090px}
-		.woocommerce-tabs.wc-tabs-wrapper {width: 80%;}
-
-
+		.proactive-foam-wrap { width:100%; height:1090px }
 }
+
 @media (max-width:767px){
 	#greenad-container{width:100%;}
 	#mattresshomeimgwrap{display: none;}
@@ -724,7 +732,6 @@ input {font-family: "Rokkitt", serif;}
 	.proactive-3span{width:100%; margin-bottom: 10px;}
 	.practive-blue1:after, .practive-blue2:after, .practive-blue3:after {border-width: 45px 148px 0;}
 	.products h2 {clear: both;}
-	.woocommerce-tabs.wc-tabs-wrapper {width: 100%;}
 }
 
 @media (max-width:575px){
@@ -773,27 +780,4 @@ input {font-family: "Rokkitt", serif;}
 @media (max-width:400px) {
 	.single-product {padding-top: 44vw;}
 }
-
-
-@media (min-width:992px) {
-#menu-item-3544 a,	#menu-item-1916 a, #menu-item-1917 a, #menu-item-1905 a, #menu-item-1918 a, #menu-item-1919 a { color: #000; font-size: 19px; font-weight: 600; padding: 12px 31.15px 10px;}
-
-@-moz-document url-prefix() {#menu-item-3544 a, #menu-item-1916 a, #menu-item-1917 a, #menu-item-1905 a, #menu-item-1918 a, #menu-item-1919 a {padding-bottom:9px;} }
-
-.benz-menu > ul > li > a{ padding: 11px 0.961em; }
-.benz-menu .sub-menu{ width: 971px; }
-
-}
-
-@media (min-width: 1200px) {
-.benz-menu .sub-menu{width: 1171px;}
-
-.benz-menu > ul > li > a{ padding: 11px 1.8198em; }
-#menu-mattresses > li > .sub-menu {left:-140px;}
-#menu-replacement-covers-menu > li > .sub-menu {left: -319px;}
-#menu-accessories > li > .sub-menu {left: -592px;}
-#menu-manufacturers > li > .sub-menu {left: -776px;}
-#menu-about-us > li > .sub-menu {left: -1003px;}
-}
-
 /* END */

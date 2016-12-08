@@ -442,7 +442,7 @@ function end_lvl( &$output, $depth, $args ) {
     }
     $indent = str_repeat( "\t", $depth );
     $output .= "{$indent}</ul>\n";
-}
+  }
 }
 
     class BENZ_Walker_Nav_Menu_MFT extends Walker_Nav_Menu {
@@ -460,7 +460,7 @@ function end_lvl( &$output, $depth, $args ) {
     }
     $indent = str_repeat( "\t", $depth );
     $output .= "{$indent}</ul>\n";
-}
+  }
 }
 
 class BENZ_Walker_Nav_Menu_COV extends Walker_Nav_Menu {
@@ -478,7 +478,7 @@ function end_lvl( &$output, $depth, $args ) {
     }
     $indent = str_repeat( "\t", $depth );
     $output .= "{$indent}</ul>\n";
-}
+  }
 }
 class BENZ_Walker_Nav_Menu_MATT extends Walker_Nav_Menu {
     function start_lvl(&$output, $depth) {
@@ -496,7 +496,7 @@ function end_lvl( &$output, $depth, $args ) {
     }
     $indent = str_repeat( "\t", $depth );
     $output .= "{$indent}</ul>\n";
-}
+  }
 }
 
 class BENZ_Walker_Nav_Menu_ABOUT extends Walker_Nav_Menu {
