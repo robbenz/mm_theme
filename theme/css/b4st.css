@@ -461,13 +461,13 @@ input {font-family: "Rokkitt", serif;}
 .wc-tabs-wrapper ul ul { margin: 0 !important}
 .wc-tabs-wrapper ul {padding-left:0px !important; margin-bottom:0px !important; }
 .wc-tabs-wrapper .active { background-color:#5d8dc3 !important; color:#fff !important; border-bottom: 0 !important;}
-.wc-tabs-wrapper #tab-description{ padding:1em !important; height:350px;}
+.wc-tabs-wrapper #tab-description{ padding:1em !important; height:392px;}
 .woocommerce-tabs ul, .woocommerce-tabs ol { margin-left: 1em; }
 .woocommerce div.product .woocommerce-tabs ul.tabs li::after, .woocommerce div.product .woocommerce-tabs ul.tabs li::before { border: 0px !important; content: none !important; }
 .wc-tabs-wrapper li:last-child { border-top-right-radius: 18px !important; -moz-border-radius-topright: 18px !important; }
 .wc-tabs-wrapper .description_tab { border-top-left-radius: 18px !important; -moz-border-radius-topleft: 18px !important; border-left: 1px solid #d3ced2 !important; margin-left:0px !important;}
 .woocommerce div.product .woocommerce-tabs ul.tabs li{ border-radius: 0; padding: 0 1.6em; width: 25%; text-align: center;}
-.woocommerce div.product .woocommerce-tabs ul.tabs li a{font-size: 1vw;}
+.woocommerce div.product .woocommerce-tabs ul.tabs li a{font-size: 17px;}
 #tab-description h2 {font-weight: bold; font-size: 28px; margin-bottom: 25px;}
 #tab-description li {font-size: 19px;}
 /* END */
@@ -487,6 +487,31 @@ input {font-family: "Rokkitt", serif;}
 .practive-blue2:after {content:''; position:absolute;	width: 0; height: 0; top:239px; border-style: solid; border-width: 45px 158px 0; border-color: #5d97c2 transparent transparent transparent; z-index:9 !important; left: 0px;}
 .practive-blue3:after {content:''; position:absolute;	width: 0; height: 0; top:239px; border-style: solid; border-width: 45px 157px 0; border-color: #2774ae transparent transparent transparent; z-index:9 !important; left: 0px;}
 .proactive-foam-copy{ padding: 0px 5%;}
+/* END */
+
+/*CAMP*/
+.term-16 #post-2186 ul.products li{margin:0 1.65em; width:26%;}
+.term-16 #post-2186 ul.products li h3{font-family: "Rokkitt",serif; font-size: 1.4em; font-weight: 300; letter-spacing: 0.8px; text-transform: uppercase; }
+#post-2186 .shipp_comment_wrap, #post-2139 .shipp_comment_wrap, #post-2185 .shipp_comment_wrap, #post-748 .shipp_comment_wrap {width:320px; text-align:left;  margin-top:-6px; margin-left:6px;}
+.product_cat-camp-mattress-covers ul.products li {margin:0 1.65em; width:26%;}
+#post-748 .upsells  ul.products li { width:22%; margin:0 15%; }
+.term-camp-mattresses #post-748 ul.products li{margin:0 0.65em; width: 22.05%;}
+#post-2139 .category_desc, #post-2186 .category_desc,#post-748 .category_desc, #post-2185 .category_desc { padding-top: 27px; height:114px;}
+/*camp table*/
+.holding-cell{height: 280px; width: 100%; padding: 10px 10px; margin: 0px; overflow: hidden;}
+.left-camp-cell{float: left; width: 60%; padding: 10px; height: 260px; overflow: auto; color: #000;}
+.camp-right-table{float: right; width: 40%; padding: 0px; height: 260px; overflow: auto;}
+.tg { border-collapse:collapse;border-spacing:0;border-color:#aabcfe;margin:0px auto;width:363px; }
+.tg td{ font-family:serif; font-size:16px; font-weight:600; padding:6px 3px; border-style:solid; border-width:2px; overflow:hidden; word-break:normal; border-color:#aabcfe; color:#669;background-color:#e8edff; width:111px; text-align:left;}
+.tg th{ font-family:serif; font-size:14px; font-weight:normal; padding:10px 5px; border-style:solid; border-width:2px; overflow:hidden; word-break:normal; border-color:#aabcfe; color:#039;background-color:#b9c9fe;}
+.tg .tg-s6z2{ text-align:center; font-size: 18px; color:#fff; background-color:#135ab4;}
+.tg .tg-vn4c{ background-color:#135ab4; color:#fff; }
+.tg .tg-0ord{ text-align:left; }
+.tg .tg-ifyx{ background-color:#D2E4FC; text-align:right; }
+.product_cat-camp-mattresses .woocommerce-tabs ul, .product_cat-camp-mattresses .woocommerce-tabs ol { margin-left: 0em; }
+.camp-table-freight-text{color: #464444; font-family: serif; font-size: 16px; text-align: center;}
+.camp-table-custom-sizing-text{font-size: 28px; color: red; text-align: center; font-family: serif;}
+/* END */
 /* END */
 
 /* Responsive Stuff */
@@ -522,6 +547,7 @@ input {font-family: "Rokkitt", serif;}
 	#menu-about-us > li > .sub-menu {left: -1003px;}
 	#menu-item-3544 a,	#menu-item-1916 a, #menu-item-1917 a, #menu-item-1905 a, #menu-item-1918 a, #menu-item-1919 a { padding: 12px 31.15px 10px;}
 	@-moz-document url-prefix() { #menu-item-3544 a, #menu-item-1916 a, #menu-item-1917 a, #menu-item-1905 a, #menu-item-1918 a, #menu-item-1919 a {padding-bottom:9px;} }
+  .wc-tabs-wrapper {width:1030px; margin:0 auto;}
 
 }
 
@@ -538,13 +564,14 @@ input {font-family: "Rokkitt", serif;}
 	#footerconnect { height: 172px; float: left; padding: 20px 25px 20px 25px; margin: -17px 0 0 67px;}
 	.socialicons2014{margin: -50px 0 0 72px;}
 	.woocommerce-breadcrumb {font-size: 15px !important;}
-	.woocommerce div.product .woocommerce-tabs ul.tabs li a {font-size: 1.38vw;}
-	.woocommerce div.product .woocommerce-tabs ul.tabs li {width:25%;}
-
+	.woocommerce div.product .woocommerce-tabs ul.tabs li a {font-size: 13px;}
+	.woocommerce div.product .woocommerce-tabs ul.tabs li {width:33.8%;}
+	.wc-tabs-wrapper {width:834px; margin:0 auto;}
+	.camp-right-table, .left-camp-cell{width:50%;}
 }
 
 @media (max-width:991px){
-	  body {padding-top: 20.2vw;}
+	  body {padding-top: 16.2vw;}
 		.med-mat-mobile{display:inline-block; width:100%; text-align: center; height:50px;}
 		#header-container{width: 100%; padding:0;}
 		.navbar-fixed-top{background:#fff;  height: 150px;}
@@ -582,11 +609,16 @@ input {font-family: "Rokkitt", serif;}
 		#desktop-searchbar{margin-top: 27px;}
 		.single-product > div.container {width:95%;}
 		.woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary{float:left; width:48%;}
-		.woocommerce div.product .woocommerce-tabs ul.tabs li a {font-size: 1.7vw;}
+		.woocommerce div.product .woocommerce-tabs ul.tabs li a {font-size: 1.6vw;}
 		.practive-blue1:after, .practive-blue2:after, .practive-blue3:after {top:239px; border-width: 45px 15.8vw 0;}
-		.proactive-foam-wrap { width:100%; height:1090px }
+		.proactive-foam-wrap { width:100%; height:1090px;}
+		.wc-tabs-wrapper {width:80%;}
+		.product_cat-camp-mattresses .wc-tabs-wrapper {width:90%;}
+		.tg {width:100%;}
+		.tg td {font-size: 1.5vw;}
+		.woocommerce div.product .woocommerce-tabs ul.tabs li {width:33.9%;}
 }
-
+/* woocommerce messes up the related products images at specifically this width */
 @media (width:768px){
 	.woocommerce ul.products li.last, .woocommerce-page ul.products li.last {clear:none;}
 	.woocommerce ul.products li.product:nth-child(2n), .woocommerce-page ul.products li.product:nth-child(2n){float: left;}
@@ -604,11 +636,11 @@ input {font-family: "Rokkitt", serif;}
 	#footerconnect {margin: -20px 0 0 0; width:50%;}
 	.socialicons2014{margin: -35px 0 0 0px;}
 	#footer-links {width:90%; margin-top: -1.5vw;}
-	body {padding-top: 23vw;}
+	body {padding-top: 16vw;}
 	.woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images {width:100%;}
 	.woocommerce div.product div.images img {width:100%; margin: 0 auto;}
 	.woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary {width: 100%;}
-	.woocommerce div.product .woocommerce-tabs ul.tabs li {width:27.5%;}
+	.woocommerce div.product .woocommerce-tabs ul.tabs li {width:34%;}
 	.woocommerce div.product form.cart .variations select {padding:0 !important;}
 	.woocommerce ul.products li.product, .woocommerce-page ul.products li.product{float: left !important; clear: none; width:33%;}
 	.socialicons2014 img{margin:0 6.6px}
@@ -616,6 +648,13 @@ input {font-family: "Rokkitt", serif;}
 	.proactive-3span{width:100%; margin-bottom: 10px;}
 	.practive-blue1:after, .practive-blue2:after, .practive-blue3:after {border-width: 45px 148px 0;}
 	.products h2 {clear: both;}
+	.camp-right-table{width:100%; height:auto;}
+	.left-camp-cell{width:100%; height:auto;}
+	.holding-cell{height: auto;}
+	.tg td {font-size:2.5vw;}
+	#tab-description li{font-size: 15px;}
+  .woocommerce div.product .woocommerce-tabs ul.tabs li a {font-size: 1.4vw;}
+
 }
 
 @media (max-width:575px){
@@ -650,18 +689,30 @@ input {font-family: "Rokkitt", serif;}
 	.woocommerce ul.products li.product h3{margin: 0 auto 0 0px; padding: 0 10px;}
 	.woocommerce ul.products li.product a img{margin: 0 auto 1em; width:50vw;}
 	.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {width:100%}
-	.single-product {padding-top: 33.5vw;}
-	.woocommerce div.product .woocommerce-tabs ul.tabs li a {font-size: 20px;}
+	.single-product {padding-top: 25.5vw;}
+	.woocommerce div.product .woocommerce-tabs ul.tabs li a {font-size: 16px;}
 	.woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary{font-size: 15px;}
 	.products h2 {font-size: 5vw;}
 	.woocommerce div.product form.cart .variations select {margin-right: 0;}
+	.product_cat-camp-mattresses .wc-tabs-wrapper{width:100%;}
+	.tg td{font-size: 3.5vw;}
+	.camp-right-table > a {font-size: 18px;}
+	.camp-table-custom-sizing-text{font-size: 6vw;}
 }
 
 @media (max-width:500px) {
-	.single-product {padding-top: 37vw;}
+	.single-product {padding-top: 26vw;}
+}
+
+@media (max-width:425px) {
+	.tg td {font-size: 5vw;}
+	#tab-description li {font-size:14px;}
+	.woocommerce-breadcrumb{font-size: 3.5vw !important;}
+	.woocommerce-breadcrumb a {font-size: 4vw !important;}
+	.woocommerce-breadcrumb a:hover{font-size: 4vw !important;}
 }
 
 @media (max-width:400px) {
-	.single-product {padding-top: 44vw;}
+	.single-product {padding-top: 29vw;}
 }
 /* END */
