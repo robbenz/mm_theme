@@ -28,6 +28,8 @@ function my_theme_wrapper_start() {
   echo '';
 }
 
+
+
 function my_theme_wrapper_end() {
   echo '';
 }
@@ -201,68 +203,57 @@ function logout_redirect(){
  * Hide ALL shipping options when free shipping is available and customer is NOT in certain states
  * Hide Free Shipping if customer IS in those states
  */
-add_filter( 'woocommerce_package_rates', 'hide_all_shipping_when_free_is_available' , 10, 2 );
+ function my_free_shipping( $is_available ) {
+ 	global $woocommerce, $product_notfree_ship;
+   // set the product ids that are $product_notfree_ship
+ 	$product_notfree_ship = array( '799', '781', '768', '748', '2175', '2177', '2179', '2181', '2183', '2185', '2186', '2188', '2190', '2192', '2194', '2196', '2198' );
 
-// Hide ALL Shipping option when free shipping is available
-function hide_all_shipping_when_free_is_available( $rates, $package ) {
+ 	// get cart contents
+ 	$cart_items = $woocommerce->cart->get_cart();
 
-	$excluded_states = array( 'AK','HI', 'GU', 'PR', 'AB', 'BC', 'MB', 'NB', 'NL', 'NT', 'NS', 'NU', 'ON', 'PE', 'QC', 'SK', 'YT' );
-	if( isset( $rates['free_shipping'] ) AND !in_array( WC()->customer->shipping_state, $excluded_states ) ) :
-		// Get Free Shipping array into a new array
-		$freeshipping = array();
-		$freeshipping = $rates['free_shipping'];
+ 	// loop through the items looking for one in the ineligible array
+ 	foreach ( $cart_items as $key => $item ) {
+ 		if( in_array( $item['product_id'], $product_notfree_ship ) ) {
+ 			return false;
+ 		}
+ 	}
 
-		// Empty the $available_methods array
-		unset( $rates );
+ 	// nothing found return the default value
+ 	return $is_available;
+ }
+ add_filter( 'woocommerce_shipping_free_shipping_is_available', 'my_free_shipping', 20 );
 
-		// Add Free Shipping back into $avaialble_methods
-		$rates = array();
-		$rates[] = $freeshipping;
+ /**
+  * woocommerce_package_rates is a 2.1+ hook
+  */
+ add_filter( 'woocommerce_package_rates', 'hide_shipping_when_free_is_available', 10, 2 );
 
-	endif;
+ /**
+  * Hide shipping rates when free shipping is available
+  *
+  * @param array $rates Array of rates found for the package
+  * @param array $package The package array/object being shipped
+  * @return array of modified rates
+  */
+ function hide_shipping_when_free_is_available( $rates, $package ) {
 
-	if( isset( $rates['free_shipping'] ) AND in_array( WC()->customer->shipping_state, $excluded_states ) ) {
-		unset( $rates['free_shipping'] );
-	}
-	return $rates;
-}
+  	// Only modify rates if free_shipping is present
+   	if ( isset( $rates['free_shipping'] ) ) {
 
-/**
- * Disable free shipping for select products
- */
+   		// To unset a single rate/method, do the following. This example unsets flat_rate shipping
+   		unset( $rates['flat_rate'] );
 
-// make global array for later use & in other files
-add_action( 'after_theme_setup', 'dia_free_shipping_array' );
-function dia_free_shipping_array() {
-  global $product_notfree_ship;
-  $product_notfree_ship = array( '799', '781', '768', '748', '2175', '2177', '2179', '2181', '2183', '2185', '2186', '2188', '2190', '2192', '2194', '2196', '2198' );
-  return $product_notfree_ship;
-}
-// -- set the products that DONT get free shipping
-add_filter( 'woocommerce_shipping_free_shipping_is_available', 'my_free_shipping', 20 );
-function my_free_shipping( $is_available ) {
-  global $woocommerce;
+   		// To unset all methods except for free_shipping, do the following
+   		$free_shipping          = $rates['free_shipping'];
+   		$rates                  = array();
+   		$rates['free_shipping'] = $free_shipping;
+ 	}
 
-  // set the product ids that are $product_notfree_ship returns above array
-  global $product_notfree_ship;
-  if (function_exists('dia_free_shipping_array')) {
-    dia_free_shipping_array();
-  }
-
-	// get cart contents
-	$cart_items = $woocommerce->cart->get_cart();
-
-	// loop through the items looking for one in the $product_notfree_ship=array();
-	foreach ( $cart_items as $key => $item ) {
-		if( in_array( $item['product_id'], $product_notfree_ship ) ) {
-			return false;
-		}
-	}
-
-	// nothing found return the default value
-	return $is_available;
-}
+ 	return $rates;
+ }
 /** END SHIPPING STUFF **/
+
+
 
 //  --  Email preview file to include
 $preview = get_stylesheet_directory() . '/woocommerce/emails/woo-preview-emails.php';

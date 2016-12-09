@@ -5,37 +5,25 @@ The Single Posts Loop
 */
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?> <?php generate_article_schema( 'BlogPosting' ); ?>>
-	<div class="inside-article">
-
-
-
-		<header class="entry-header">
-			<?php if ( generate_show_title() ) : ?>
-				<?php the_title( '<h1 class="entry-title" itemprop="headline">', '</h1>' ); ?>
-			<?php endif; ?>
-			<div class="entry-meta">
-				<?php generate_posted_on(); ?>
-			</div><!-- .entry-meta -->
-		</header><!-- .entry-header -->
-<?php do_action( 'generate_before_content'); ?>
-		<?php do_action( 'generate_after_entry_header'); ?>
-		<div class="entry-content" itemprop="text">
-			<?php the_content(); ?>
-			<?php
-			wp_link_pages( array(
-				'before' => '<div class="page-links">' . __( 'Pages:', 'generate' ),
-				'after'  => '</div>',
-			) );
-			?>
-		</div><!-- .entry-content -->
-		<?php do_action( 'generate_after_entry_content'); ?>
-
-		<footer class="entry-meta">
-			<?php generate_entry_meta(); ?>
-			<?php generate_content_nav( 'nav-below' ); ?>
-			<?php edit_post_link( __( 'Edit', 'generate' ), '<span class="edit-link">', '</span>' ); ?>
-		</footer><!-- .entry-meta -->
-		<?php do_action( 'generate_after_content'); ?>
-	</div><!-- .inside-article -->
-</article><!-- #post-## -->
+<?php if(have_posts()): while(have_posts()): the_post(); ?>
+    <article role="article" id="post_<?php the_ID()?>" <?php post_class()?>>
+        <header>
+            <h2 style="display:block !important;"><?php the_title()?></h2>
+            <h4>
+                <em>
+                    <time  class="text-muted" datetime="<?php the_time('d-m-Y')?>"><?php the_time('F jS Y') ?></time>
+                </em>
+            </h4>
+            <p class="text-muted" style="margin-bottom: 30px;">
+                <i class="glyphicon glyphicon-folder-open"></i>&nbsp; <?php _e('Filed under', 'b4st'); ?>: <?php the_category(', ') ?><br/>
+            </p>
+        </header>
+        <section>
+            <?php the_post_thumbnail('large'); ?>
+            <?php the_content()?>
+            <?php wp_link_pages(); ?>
+        </section>
+    </article>
+<?php endwhile; ?>
+<?php else: get_template_part('includes/loops/content', 'none'); ?>
+<?php endif; ?>

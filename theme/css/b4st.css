@@ -187,7 +187,7 @@ span.festi-cart-product-count { margin-left:80%; text-align:right;}
 #menu-accessories .arrow-down { left: 631px; top: -276px; }
 #benz-menu-img-acc { left: -10px; top: -101px; }
 /*MFT MENU*/
-#menu-manufacturers .sub-menu{  height: 145px; display:block}
+#menu-manufacturers .sub-menu{  height: 145px;}
 @-moz-document url-prefix() { #menu-manufacturers .sub-menu{ height: 146px; } }
 #menu-manufacturers .benz-bottom-colors { top: 27px;}
 #menu-manufacturers .sub-menu .menu-item-type-custom { width: 210px; }
