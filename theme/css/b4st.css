@@ -392,23 +392,39 @@ div.pp_woocommerce div.ppt {display:none !important;}
 #mattress-home-container{font-family: "Open Sans", sans-serif;}
 /* END */
 
+/* BLOG STUFF */
+#primary_blog { width:69%; float:right;}
+#sidebar { width:31%; float:left; padding-top:75px; margin-right: 25px;}
+#sidebar div { margin-bottom:5px; padding: 10px; }
+#sidebar h4 { margin: 10px 0; background-color: #9ed05e; border-radius: 0.25em; padding: 0.25em 0; text-align: center; color:#000; font-weight: 600; font-size:19px !important; font-family: "Open Sans",sans-serif; text-transform: uppercase;}
+#sidebar select, #blog_sidebar_wrap input { width:100% !important;}
+#sidebar ul li a { color:#2a6abb; }
+.social-icons-widget ul li {margin: 0 6%; }
+#robly_embedded_subscribe_form #robly_embedded_subscribe { margin-top: 5%; width: 100%; }
+#sidebar #text-4 h3{margin-bottom:-15px; }
+#robly_embedded_subscribe_form{margin-top: -30px; text-align: center;}
+.screen-reader-text{display: none;}
+#sidebar .widget_categories #cat {margin-left: 0px;}
+#robly_embed_signup{margin-bottom: -20px;}
+/* END */
+
 /* Footer */
 #footerwrap { width: 992px; height: 102px;}
 #footer2014 {background: #2a66b1; clear: both; font-family: 'Open Sans', sans-serif;}
 .connecttop { font-size: 16px; color: #fff; line-height: 24px; }
 .connectbottom { font-size: 13px; color: #fff; line-height: 24px; }
-.socialicons2014 { line-height: 0px; margin: -50px 0 0 118px; float:left; clear: both;}
+.socialicons2014 { line-height: 0px; margin: -35px 0 0 118px; float:left; clear: both;}
 .socialicons2014 img {margin:0 5px;}
-#footerlinks1 { color: #a6d179; float: left; font-size: 14px; line-height: 23px; margin: 0 0 0 24px; width: 154px; font-weight: 800; }
+#footerlinks1 { color: #a6d179; float: left; font-size: 14px; line-height: 23px; margin: 0 0 0 24px; width: 170px; font-weight: 800; }
 #footerlinks1 a { color: #a6d179; float: left; font-size: 14px; line-height: 23px; text-decoration: none; font-weight: 600; }
 #footerlinks1 a:visited { color: #a6d179; float: left; font-size: 15px; line-height: 23px; text-decoration: none; }
 #footerlinks1 a:hover { color: #fff; text-decoration: none; }
-#footerlinks2 { float: left; font-size: 15px; line-height: 20px; margin: 0 0 0 44px; width: 140px; }
+#footerlinks2 { float: left; font-size: 15px; line-height: 20px; margin: 0 0 0 44px; width: 163px; }
 #footerlinks2 a { color: #fff; float: left; font-size: 13px; line-height: 20px; text-decoration: none; }
 #footerlinks2 a:visited { color: #fff; float: left; font-size: 13px; line-height: 20px; text-decoration: none; }
 #footerlinks2 a:hover { color: #a6d179; text-decoration: none; }
 .popularproducts { font-weight: 600; padding: 0px; color: #a6d179; text-decoration: none; font-size: 14px; margin-bottom: -19px; margin-top: 2px; }
-#footerlinks3 { float: left; font-size: 15px; line-height: 20px; margin: 0 0 0 33px; width: 170px; }
+#footerlinks3 { float: left; font-size: 15px; line-height: 20px; margin: 0 0 0 33px; width: 150px; }
 #footerlinks3 a { color: #fff; float: left; font-size: 13px; line-height: 20px; text-decoration: none; }
 #footerlinks3 a:visited { color: #fff; float: left; font-size: 13px; line-height: 20px; text-decoration: none; }
 #footerlinks3 a:hover { color: #a6d179; text-decoration: none; }
@@ -562,12 +578,13 @@ input {font-family: "Rokkitt", serif;}
 	#mattress-green-content {width:70%;}
 	#mattress-home-box2{height:218px; padding: 50px 0px 0px 0px;}
 	#footerconnect { height: 172px; float: left; padding: 20px 25px 20px 25px; margin: -17px 0 0 67px;}
-	.socialicons2014{margin: -50px 0 0 72px;}
+	.socialicons2014{margin: -35px 0 0 70px;}
 	.woocommerce-breadcrumb {font-size: 15px !important;}
 	.woocommerce div.product .woocommerce-tabs ul.tabs li a {font-size: 13px;}
 	.woocommerce div.product .woocommerce-tabs ul.tabs li {width:33.8%;}
 	.wc-tabs-wrapper {width:834px; margin:0 auto;}
 	.camp-right-table, .left-camp-cell{width:50%;}
+  #sidebar{margin-right: 0;}
 }
 
 @media (max-width:991px){
@@ -698,6 +715,8 @@ input {font-family: "Rokkitt", serif;}
 	.tg td{font-size: 3.5vw;}
 	.camp-right-table > a {font-size: 18px;}
 	.camp-table-custom-sizing-text{font-size: 6vw;}
+  #sidebar{display: none;}
+  #content section {text-align: center;}
 }
 
 @media (max-width:500px) {
