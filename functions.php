@@ -362,6 +362,13 @@ function my_register_sidebars() {
     );
 }
 
+// kill standard pagination
+remove_action('woocommerce_pagination', 'woocommerce_pagination', 10);
+function woocommerce_pagination() {
+  wp_pagenavi();
+}
+add_action( 'woocommerce_pagination', 'woocommerce_pagination', 10);
+
 //  --  CUSTOM MENU SHIT
 add_action( 'init', 'register_my_menus' );
 function register_my_menus() {
