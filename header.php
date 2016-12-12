@@ -63,7 +63,6 @@ ga('send', 'pageview');
 		$benzitems = '<ul id="%1$s" class="%2$s sf-menu sf-js-enabled">%3$s</ul>';
 		$benzmenu ='benz-menu';
 
-
 		echo '<span class="mm-right-contact-1">' . 'CONTACT US: (877) 593-6011' . '</span>';
 		echo '<span class="mm-right-contact-2">' . '   (M-F: 7-6 EST)' . '</span>' . '<br />';
 
@@ -99,9 +98,7 @@ ga('send', 'pageview');
 		</div>
 		<?php do_action( 'generate_after_header_content'); ?>
 
-		</div><!-- .inside-header -->
-		<!--INSERTS SEARCH BAR ON GREEN BAR FOR MOBILE-->
-
+	</div><!-- .inside-header -->
 		</nav>
 		</header><!-- #masthead -->
 

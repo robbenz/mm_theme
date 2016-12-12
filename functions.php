@@ -28,8 +28,6 @@ function my_theme_wrapper_start() {
   echo '';
 }
 
-
-
 function my_theme_wrapper_end() {
   echo '';
 }
@@ -86,13 +84,13 @@ remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_singl
 remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_price', 10 );
 remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 20 );
 remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40 );
-remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_add_to_cart', 30 );// Button
+remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_add_to_cart', 30 ); // Button
 
 add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_title', 5 );
 add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_price', 11 );
 add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 40 );
 add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_meta',   10 );
-add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_add_to_cart', 30 );// Button
+add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_add_to_cart', 30 ); // Button
 /** END **/
 
 //  --  Price Things -- "From: $20" for variable products
@@ -252,8 +250,6 @@ function logout_redirect(){
  	return $rates;
  }
 /** END SHIPPING STUFF **/
-
-
 
 //  --  Email preview file to include
 $preview = get_stylesheet_directory() . '/woocommerce/emails/woo-preview-emails.php';

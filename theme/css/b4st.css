@@ -65,7 +65,7 @@ no-touch .cs-style-8 figure:hover img, .cs-style-8 figure.cs-hover img { -webkit
 .hos-links-menu a{color:#c3e2ff;text-decoration:none; background-color: none !important; }
 .hos-links-menu a:hover{color:#c3e2ff;text-decoration: none; background-color: none !important;}
 .hos-links-menu a:visited{color:#c3e2ff;text-decoration:none; background-color: none !important;}
-.med-logo{width:100%; margin-bottom: 23px;}
+.med-logo{width: 90%; margin-bottom: 16px; margin-top: 10px; }
 .search-form, #mm-right-contact{margin-top:15px;}
 .form-control{margin-right:-10px;display: inline-block; width: 69%; margin-top: 20px; margin-left: 23px;}
 #searchsubmit{border-radius: 0 .25rem .25rem 0; margin-top: -16px;}
@@ -116,8 +116,8 @@ textarea:focus::-moz-placeholder { color: transparent; } /* FF 19+ */
 .menu-sign_in-container input[type="text"], .menu-sign_in-container input[type="email"], .menu-sign_in-container input[type="url"], .menu-sign_in-container input[type="password"], .menu-sign_in-container input[type="search"], .menu-sign_in-container textarea { width:100%;}
 .menu-need_help-container {top: -5px; }
 .menu-need_help-container ul li{list-style: none; text-align:left; }
-#searchform #searchsubmit {background-color: #ebebeb; border-bottom-right-radius: 10px; border-top-right-radius: 10px; position:relative; left:-5px; top:7px; border-top: 1px solid #aeaeae; border-right: 1px solid #aeaeae; border-bottom: 1px solid #aeaeae; border-left-color: transparent; border-top-left-radius: 3px; border-bottom-left-radius: 3px; border-style: solid; -moz-border-radius-bottomright: 10px;-moz-border-radius-topright: 10px;}
-@-moz-document url-prefix() { #searchform #searchsubmit {padding: 17px 20px;} }
+#searchform #searchsubmit {background-color: #ebebeb; border-bottom-right-radius: 10px; top:8px;  border-top-right-radius: 10px; position:relative; left:-5px; border-top: 1px solid #aeaeae; border-right: 1px solid #aeaeae; border-bottom: 1px solid #aeaeae; border-left-color: transparent; border-top-left-radius: 3px; border-bottom-left-radius: 3px; border-style: solid; -moz-border-radius-bottomright: 10px;-moz-border-radius-topright: 10px;}
+@-moz-document url-prefix() { #searchform #searchsubmit { padding: 17px 20px; } }
 input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="tel"], textarea {padding:7px 15px; border-width: 1px; border-style: solid;}
 input[type="text"]{border-right: transparent;}
 button, html input[type="button"], input[type="reset"], input[type="submit"] { padding: 7px 20px; }
@@ -135,6 +135,15 @@ body div.festi-cart-products-content > table.festi-cart-list tr, body div.festi-
 body div.festi-cart-total{border-bottom: 1px solid #cccccc !important; border-radius: 0 !important;}
 span.festi-cart-product-count { margin-left:80%; text-align:right;}
 .festi-cart-product-price .amount { text-align:right;}
+.sf-menu .menu-item-has-children > a:first-child::after, .sf-menu .page_item_has_children > a:first-child::after {border:none !important; }
+#mm-right-contact{color: #636363; float: right; font-family: "Open Sans",sans-serif; font-size: 15px; text-align: right; width: 434px; }
+.logged-in #mm-right-contact{ width: 358px; }
+.mm-right-drops {color:#464444; font-weight: 600; position:relative; top:5px; }
+.mm-right-contact-1 { font-weight:700; line-height:26px; }
+.mm-right-contact-2 { font-weight:400; }
+#mm-right-contact .sub-menu a:hover{ background-color:#ececec; }
+#mm-right-contact .sf-menu .menu-item-has-children > a:first-child, .sf-menu .page_item_has_children > a:first-child {padding-right:3px;}
+#mm-right-contact a{color: #000000; font-size: 15px; font-weight: 600; }
 /*END*/
 
 /* Modal POP UP */
@@ -160,14 +169,14 @@ span.festi-cart-product-count { margin-left:80%; text-align:right;}
 @-moz-document url-prefix() { #menu-mattresses .sub-menu{ height: 411px; } }
 #menu-mattresses .benz-bottom-colors { top: 11px; }
 #menu-mattresses .sub-menu .menu-item-type-custom { width: 260px; }
-#menu-mattresses > li:hover {color:#fff;}
-#menu-mattresses > li:hover a{color:#fff;}
-#menu-mattresses .arrow-down { left: 186px; top: -399px; }
-#benz-menu-img-matt2 { left: 179px; position: relative; top: 27px; z-index: 999; }
+#menu-mattresses > li:hover { color:#fff; }
+#menu-mattresses > li:hover a{ color:#fff; }
+#menu-mattresses .arrow-down { left: 15.5%; top: -399px; }
+#benz-menu-img-matt2 { position: relative; top: 27px; z-index: 999; }
 #benz-menu-img-matt2:hover { color:#000; }
-#benz-menu-img-matt3 { left: 606px; position: relative; top: 49px; }
+#benz-menu-img-matt3 { position: relative; top: 49px; }
 /*COVERS MENU*/
-#menu-replacement-covers-menu .sub-menu{  height: 257px;}
+#menu-replacement-covers-menu .sub-menu{  height: 257px; }
 @-moz-document url-prefix() { #menu-replacement-covers-menu .sub-menu{ height: 258px; } }
 #menu-replacement-covers-menu .benz-bottom-colors { top: 13px; }
 #menu-replacement-covers-menu .sub-menu .menu-item-type-custom { width: 271px; }
@@ -201,8 +210,7 @@ span.festi-cart-product-count { margin-left:80%; text-align:right;}
 #menu-about-us .sub-menu{ height: 299px; }
 @-moz-document url-prefix() { #menu-about-us .sub-menu{ height: 300px; } }
 #menu-about-us .benz-bottom-colors { top: -49px; z-index: 999; }
-#menu-about-us > li:hover {color:#fff;}
-#menu-about-us > li:hover a{color:#fff;}
+#menu-about-us > li:hover, #menu-about-us > li:hover a { color:#fff; }
 #menu-about-us .arrow-down { left: 1045px; top: -26px; }
 #benz-menu-about{ width:615px; height:300px; text-align:left; font-family: 'Open Sans', sans-serif; padding-left:10px; float:left; color:#000;}
 #menu-item-1920:hover{ color:#000;}
@@ -239,16 +247,16 @@ p.about-mail-number { position:relative; top: -45px; left:-74px;  }
 #benz-main-menu-box .mmregular-item a{margin-bottom:0; font-size:14px;color:#000 !important; text-transform: capitalize;font-weight: 500;}
 #benz-main-menu-box .mmregular-item a:hover{font-weight:700; font-weight: 600; color:#000;}
 .benz-blueheader .sub-menu { width:250px !important; }
-#benz-main-menu-box .mmregular-item-bari a{margin-bottom:3px; font-size:14px;color:#000 !important; text-transform: capitalize;font-weight: 500;}
-#benz-main-menu-box .mmregular-item-bari a:hover{font-weight:700; font-weight: 600; color:#000;}
+#benz-main-menu-box .mmregular-item-bari a{ margin-bottom:3px; font-size:14px;color:#000 !important; text-transform: capitalize;font-weight: 500;}
+#benz-main-menu-box .mmregular-item-bari a:hover{ font-weight:700; font-weight: 600; color:#000;}
 .benz-blueheader .sub-menu { width:250px !important; }
-#menu-item-1961 a{font-size:1.4em !important; text-decoration:underline; }
-#menu-item-1962 a{text-transform: none !important; }
-#menu-item-2345 a{ line-height:17px !important;}
-#custom-size-imgmenu{ float:right; width:289px;}
-#custom-size-imgmenu a{ padding:0px !important; }
-#custom-size-imgmenu img{max-width: 310px !important; }
-#benz-menu-img-matt1 { left: -91px; top: -20px; width: 310px; }
+#menu-item-1961 a { font-size:1.4em !important; text-decoration:underline; }
+#menu-item-1962 a { text-transform: none !important; }
+#menu-item-2345 a { line-height:17px !important; }
+#custom-size-imgmenu { float:right; width: 138px; }
+#custom-size-imgmenu a { padding:0px !important; }
+#custom-size-imgmenu img { max-width: 310px !important; }
+#benz-menu-img-matt1 { top: -20px; width: 310px; }
 #mm-right-contact .sf-menu .menu-item-has-children > a:first-child, .sf-menu .page_item_has_children > a:first-child {padding-right: 3px; }
 /* END */
 
@@ -369,8 +377,8 @@ div.pp_woocommerce div.ppt {display:none !important;}
 #home-healthcare-mattresses-row {margin:0px;}
 #soliloquy-container-2004 {margin:0 auto;}
 .soliloquy-container .soliloquy-pager{display: none;}
-#home-healthcare-mattresses p{margin-bottom:-2px; font-family: 'Open Sans', sans-serif; }
-#home-healthcare-mattresses {padding: 12px 22px 22px; background-image: url(http://medmattress.com/wp-content/imgs/Healthcare-Mattresses.png); background-size: cover; background-repeat: no-repeat; float: left; height: 277px; margin-bottom:0.8em;}
+#home-healthcare-mattresses p{margin-bottom:-2px; font-family: 'Open Sans', sans-serif; font-size:19px;}
+#home-healthcare-mattresses {padding: 12px 22px 22px; background-image: url(http://medmattress.com/wp-content/imgs/Healthcare-Mattresses.png); background-size: cover; background-repeat: no-repeat; float: left; height: 307px; margin-bottom:0.8em;}
 #home-healthcare-mattresses div a{ font-family: 'Open Sans', sans-serif; color:#000;}
 #home-healthcare-mattresses div a:hover{ font-weight: bold; }
 #home-healthcare-mattresses h3 a{color: #000; font-family: "Open Sans",sans-serif; font-size: 29px; font-weight: 700; line-height: 27px; text-transform: uppercase; }
@@ -424,13 +432,13 @@ div.pp_woocommerce div.ppt {display:none !important;}
 #footerlinks2 a:visited { color: #fff; float: left; font-size: 13px; line-height: 20px; text-decoration: none; }
 #footerlinks2 a:hover { color: #a6d179; text-decoration: none; }
 .popularproducts { font-weight: 600; padding: 0px; color: #a6d179; text-decoration: none; font-size: 14px; margin-bottom: -19px; margin-top: 2px; }
-#footerlinks3 { float: left; font-size: 15px; line-height: 20px; margin: 0 0 0 33px; width: 150px; }
+#footerlinks3 { float: left; font-size: 15px; line-height: 20px; margin: 0 0 0 33px; width: 180px; }
 #footerlinks3 a { color: #fff; float: left; font-size: 13px; line-height: 20px; text-decoration: none; }
 #footerlinks3 a:visited { color: #fff; float: left; font-size: 13px; line-height: 20px; text-decoration: none; }
 #footerlinks3 a:hover { color: #a6d179; text-decoration: none; }
-#logo-border {width:100%; height: 2px; border-top: solid; border-top-color: #1f1e1e; border-top-width: 2px;}
-#footer-links {padding-bottom: 15px;}
-#footerconnect p {margin-bottom:0;}
+#logo-border { width:100%; height: 2px; border-top: solid; border-top-color: #1f1e1e; border-top-width: 2px; }
+#footer-links { padding-bottom: 15px; }
+#footerconnect p { margin-bottom:0; }
 /* END */
 
 /* Product Pages */
@@ -528,7 +536,6 @@ input {font-family: "Rokkitt", serif;}
 .camp-table-freight-text{color: #464444; font-family: serif; font-size: 16px; text-align: center;}
 .camp-table-custom-sizing-text{font-size: 28px; color: red; text-align: center; font-family: serif;}
 /* END */
-/* END */
 
 /* Responsive Stuff */
 @media (min-width:992px){
@@ -542,9 +549,14 @@ input {font-family: "Rokkitt", serif;}
 	.benz-menu .sub-menu { width: 971px; }
 	#menu-mattresses > li > .sub-menu { left:-102px; }
 	#menu-replacement-covers-menu > li > .sub-menu { left: -245px; }
-	#menu-accessories > li > .sub-menu { left: -481px; }
+	#menu-accessories > li > .sub-menu { left: -481px; display:block }
 	#menu-manufacturers > li > .sub-menu { left: -629px; }
 	#menu-about-us > li > .sub-menu { left: -819px; }
+  #benz-menu-img-matt3 { left: 608px; }
+  #benz-menu-img-matt2 { left: 146px;}
+  #benz-menu-img-matt1 { left: 19px; }
+  #search-place {margin-top:0px; }
+  @-moz-document url-prefix() {  #searchform #searchsubmit {top:7px} }
 }
 
 @media(min-width:1200px){
@@ -556,15 +568,19 @@ input {font-family: "Rokkitt", serif;}
 	#footerconnect { height: 172px; float: left; padding: 20px 25px 20px 25px; margin: -17px 0 0 112px; }
 	.benz-menu .sub-menu{width: 1171px;}
 	.benz-menu > ul > li > a{ padding: 11px 1.8198em; }
-	#menu-mattresses > li > .sub-menu {left:-140px;}
-	#menu-replacement-covers-menu > li > .sub-menu {left: -319px;}
-	#menu-accessories > li > .sub-menu {left: -592px;}
-	#menu-manufacturers > li > .sub-menu {left: -776px;}
-	#menu-about-us > li > .sub-menu {left: -1003px;}
+	#menu-mattresses > li > .sub-menu { left:-140px; }
+	#menu-replacement-covers-menu > li > .sub-menu { left: -319px; }
+	#menu-accessories > li > .sub-menu { left: -592px; }
+	#menu-manufacturers > li > .sub-menu { left: -776px; }
+	#menu-about-us > li > .sub-menu { left: -1003px; }
 	#menu-item-3544 a,	#menu-item-1916 a, #menu-item-1917 a, #menu-item-1905 a, #menu-item-1918 a, #menu-item-1919 a { padding: 12px 31.15px 10px;}
 	@-moz-document url-prefix() { #menu-item-3544 a, #menu-item-1916 a, #menu-item-1917 a, #menu-item-1905 a, #menu-item-1918 a, #menu-item-1919 a {padding-bottom:9px;} }
-  .wc-tabs-wrapper {width:1030px; margin:0 auto;}
-
+  .wc-tabs-wrapper { width:1030px; margin:0 auto; }
+  #benz-menu-img-matt3 { left: 508px; }
+  #benz-menu-img-matt2 { left: 46px; }
+  #benz-menu-img-matt1 { left: -91px; }
+  @-moz-document url-prefix() {  #searchform #searchsubmit { top:8px;} }
+  #search-place { margin-top:10px; }
 }
 
 @media (max-width:1199px){

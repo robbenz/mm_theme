@@ -9,7 +9,7 @@
         <strong>Click Here</strong> to submit your unique dimensions!</div>
       </a>
       <div id="home-healthcare-mattresses-row" class="row">
-          <div id="home-healthcare-mattresses" class="col-xs-12 col-sm-6 col-md-7">SHOP
+          <div id="home-healthcare-mattresses" class="col-xs-12 col-sm-6 col-md-7"><p>SHOP</p>
             <h3 class="healthcare-mattress"><a href="product-category/mattresses/">HEALTHCARE </br>MATTRESSES</a></h3>
             <div class="mattress-links">
               <a href="product-category/mattresses/med-surg-mattresses/">Med-Surg</a>
