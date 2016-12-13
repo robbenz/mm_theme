@@ -34,8 +34,8 @@ get_header( 'shop' ); ?>
 
 <?php if (is_product_category( array('camp-mattresses', 'bunk-beds', 'camp-dorm') ) ) : ?>
 <?php else: ?>
-		<span style="position: relative; top: -10px; font-size:1em; font-weight: 700; font-family: 'Open Sans', sans-serif; color:#d6001c;">FREE SHIPPING </span>
-		<span style="position: relative; top: -10px;font-size:0.8em; font-family: 'Open Sans', sans-serif;">on Most Mattress Orders</span>
+		<span style="position: relative; top: -3px; font-size:1em; font-weight: 700; font-family: 'Open Sans', sans-serif; color:#d6001c;">FREE SHIPPING </span>
+		<span style="position: relative; top: -3px;font-size:0.8em; font-family: 'Open Sans', sans-serif;">on Most Mattress Orders</span>
 <?php endif; ?>
 
 		<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
