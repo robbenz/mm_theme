@@ -597,7 +597,7 @@ input {font-family: "Rokkitt", serif;}
   #benz-menu-img-matt3 { left: 508px; }
   #benz-menu-img-matt2 { left: 46px; }
   #benz-menu-img-matt1 { left: -91px; }
-  @-moz-document url-prefix() {  #searchform #searchsubmit { top:7px;} }
+  @-moz-document url-prefix() {  #searchform #searchsubmit { top:8px;} }
   #search-place { margin-top:10px; }
   #menu-accessories .benz-bottom-colors { top: -91px; }
   #menu-accessories .arrow-down { left: 631px; top: -276px; }
