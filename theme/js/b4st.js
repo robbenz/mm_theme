@@ -17,6 +17,12 @@
 
         // You can put your own code in here
 
+        /*** Remove blue bar when previous button is clicked on checkout page ***/
+        $("[href='#previous']").click(function() {
+          $(".current").next().removeClass("done");
+        });
+        /*** END ***/
+
         function addClassesMobile($when) {
             $(window).on($when, function() {
                 if ($(window).width() < 992) {

@@ -179,23 +179,17 @@ span.festi-cart-product-count { margin-left:80%; text-align:right;}
 /*COVERS MENU*/
 #menu-replacement-covers-menu .sub-menu{  height: 257px; }
 @-moz-document url-prefix() { #menu-replacement-covers-menu .sub-menu{ height: 258px; } }
-#menu-replacement-covers-menu .benz-bottom-colors { top: 13px; }
 #menu-replacement-covers-menu .sub-menu .menu-item-type-custom { width: 271px; }
 #menu-replacement-covers-menu > li:hover {color:#fff;}
 #menu-replacement-covers-menu > li:hover a{color:#fff;}
-#menu-replacement-covers-menu .arrow-down { left: 437px; top: -246px; }
-#benz-menu-img-cov1 { left: 13px; top: -36px; }
-#benz-menu-img-cov2 { left: 100px; top: 41px; width: 351px; }
-#benz-menu-img-cov3 { left: 531px; position: relative; top: 109px; z-index: 9999;}
 /*ACC MENU*/
 #menu-accessories .sub-menu{height: 184px; }
 @-moz-document url-prefix() { #menu-accessories .sub-menu{ height: 185px; } }
-#menu-accessories .benz-bottom-colors { top: -91px; }
 #menu-accessories .sub-menu .menu-item-type-custom { width: 250px; }
 #menu-accessories > li:hover {color:#fff;}
 #menu-accessories > li:hover a{color:#fff;}
-#menu-accessories .arrow-down { left: 631px; top: -276px; }
-#benz-menu-img-acc { left: -10px; top: -101px; }
+#menu-replacement-covers-menu .benz-bottom-colors { top: 30px; }
+#menu-replacement-covers-menu .arrow-down { left: 40%; top: -229px;}
 /*MFT MENU*/
 #menu-manufacturers .sub-menu{  height: 145px;}
 @-moz-document url-prefix() { #menu-manufacturers .sub-menu{ height: 146px; } }
@@ -204,15 +198,12 @@ span.festi-cart-product-count { margin-left:80%; text-align:right;}
 #menu-manufacturers > li:hover {color:#fff;}
 #menu-manufacturers > li:hover a{color:#fff;}
 #menu-manufacturers .arrow-down { left: 74%; top: -120px; }
-#benz-menu-img-mft1 { left: -383px; top: 11px; }
-#benz-menu-img-mft2 { left: -24px; top: 20px; }
-#benz-menu-img-mft3 { left: 338px; top: -5px; }
 /*ABOUT MENU*/
 #menu-about-us .sub-menu{ height: 299px; }
 @-moz-document url-prefix() { #menu-about-us .sub-menu{ height: 300px; } }
 #menu-about-us .benz-bottom-colors { top: -49px; z-index: 999; }
 #menu-about-us > li:hover, #menu-about-us > li:hover a { color:#fff; }
-#menu-about-us .arrow-down { left: 1045px; top: -26px; }
+#menu-about-us .arrow-down { left: 92%; top: -26px; }
 #benz-menu-about{ width:615px; height:300px; text-align:left; font-family: 'Open Sans', sans-serif; padding-left:10px; float:left; color:#000;}
 #menu-item-1920:hover{ color:#000;}
 #menu-item-1920 a:hover{ color:#000;}
@@ -238,7 +229,7 @@ p.about-mail-number { position:relative; top: -45px; left:-74px;  }
 #benz-main-menu-box p.benz-menu-copy{ padding-top:10px; color:#000; display: inline; float: right; font-size: 16px; font-style: italic; font-weight: 600; text-align:left;}
 #benz-main-menu-box p.benz-menu-copy:hover { color:#000;}
 .benz-menu-img { float: right; position: relative; z-index: 999; }
-#menu-item-1920{float: right; width: 502px; position: relative; top: -31px; left: -17px; }
+#menu-item-1920{ float: right; position: relative; top: -31px; left: -17px; }
 #menu-item-1920 a{color: #004ea8 !important}
 #menu-item-1920 a:hover{font-weight:bold; !important; color: #004ea8 !important}
 #benz-main-menu-box .benz-blueheader a{color:#004ea8 !important; padding:0; font-weight:600; font-size: 15px; margin-bottom: 0px;}
@@ -285,16 +276,6 @@ li.main-header-link:hover, .benz-menu > ul > li > a:hover {background-color:#004
 #menu-item-3544 a:hover {color:#fff;}
 /* END */
 
-/* Tabs */
-.wc-tabs-wrapper .wc-tab { overflow:scroll; border:4px solid #cccccc; padding:1em !important; }
-.wc-tabs-wrapper ul ul { margin: 0 !important}
-.wc-tabs-wrapper ul {padding-left:0px !important; margin-bottom:0px !important; }
-.wc-tabs-wrapper .active { background-color:#5d8dc3 !important; color:#fff !important; border-bottom: 0 !important;}
-.wc-tabs-wrapper #tab-description{ padding:1em !important; }
-.woocommerce-tabs ul, .woocommerce-tabs ol { margin-left: 1em; }
-.woocommerce div.product .woocommerce-tabs ul.tabs li::after, .woocommerce div.product .woocommerce-tabs ul.tabs li::before { border: 0px !important; content: none !important; }
-/* END */
-
 /* FREE SHIPPING PRODUCTS */
 #free_ship-productpage { float:left; font-family: 'Open Sans', sans-serif; width:300px; margin-bottom:0.6em;  margin-top:1em; }
 #free_ship-productpage span {margin-top:1em;  }
@@ -314,6 +295,95 @@ div.festi-cart-content{color:#636363 !important; font-family: 'Open Sans', sans-
 div.pp_woocommerce div.ppt {display:none !important;}
 .woocommerce-breadcrumb a:hover{color:#78be20 !important;font-size:20px !important;}
 /* END */
+
+
+/*Custom Size Form*/
+h3.form-header {font-size:1.3em; font-family: "Rokkitt",serif !important;}
+#vfbp-form-1 { font-size:1.4em; }
+.custom-steps {color:#78be20; font-size: 1.2em; }
+.green-custom { width: 150px; height: 200px; }
+.custom-center { }
+.custom-mat-wrap{ float: left; padding: 0 54px; width: 30%; }
+.custom-quality{ }
+.quality-good { background-color:#bbe461; height:100px;  margin-top:100px;}
+.quality-better { background-color:#9fd161; height:150px; margin-top:50px;}
+.quality-best { background-color:#78be20; height:200px;}
+.custom-mocks{ float:right; }
+#vfb-field-47,
+#vfb-field-17,
+#vfb-field-21,
+#vfb-field-22,
+#vfb-field-46 { width:300px; }
+#vfbField43,
+#vfbField45,
+#vfbField44 { float: right; left: 100px; margin-bottom: -300px; position: relative; width: 300px; }
+#vfbField44 img, #vfbField43 img, #vfbField45 img { max-width:300px; }
+#vfbField43 { top:-337px }
+#vfbField44 { top:-400px }
+#vfbField45 { top:-351px }
+.page-id-316 .woocommerce-breadcrumb{display:none !important;}
+.blue-border-h4{ background-color: #004ea8; float: right; height: 3px; margin-right: -60px; margin-top: -34px; width: 653px; }
+.page-id-6 .blue-border-h4{ width: 81%; }
+.page-id-6 .woocommerce-breadcrumb { display:none !important; }
+.page-id-7 .woocommerce-breadcrumb { display:none !important; }
+.page-id-7 .blue-border-h4{ width: 89%; }
+.page-id-8 .blue-border-h4{ width: 85%; }
+.page-id-8 input.button{ width: 25%; background-color:#5e8fc8; color:#fff; min-width: 100px; }
+.wooheader-green {font-size: 1.2em; border-bottom: 2px dotted #78be20;  }
+.descriptwraps{width:100%; text-align:center; padding: 0 auto; margin-bottom:10px;}
+h4.pageheaders{ color: #004ea8; font-size: 42px; font-weight: 500; margin-bottom: 4px; margin-top: -50px; text-transform: uppercase; }
+.pagedescripts{ color: #004ea8; font-family: "Open Sans",sans-serif; font-size: 18px; font-weight: 600; line-height: 14px; width: 300px; }
+#vfbField4 .vfb-inline-group .vfb-radio{ width:30%; margin-right:0px !important; text-align:center;}
+#vfbField4 label { display:none;}
+.vfb-col-10 label { display:block !important; font-size:16px; font-weight:600;}
+.custom-mat-wrap p { color: #000; font-family: "Open Sans",sans-serif; font-size: 14.2px; font-weight: 600; text-align: center; }
+#vfbField4 .vfb-col-10, #vfbField24 .vfb-col-10 { width:100%;  }
+#vfbField48 .vfb-col-2,
+#vfbField49 .vfb-col-2,
+#vfbField50 .vfb-col-2 {width:52%; font-size: 26px; text-align:center; color:#004ea8; border-bottom:2px solid #004ea8; }
+#vfbField48 .vfb-col-10,
+#vfbField49 .vfb-col-10,
+#vfbField50 .vfb-col-10 {clear:both; width:50%;}
+#vfbField48 p,
+#vfbField49 p,
+#vfbField50 p {margin-bottom:0px;}
+#vfbField49 .vfb-help-block,
+#vfbField50 .vfb-help-block,
+#vfbField48 .vfb-help-block { clear:both; width: 104% !important;  font-size:1em; text-align:center; }
+#vfbField24 .vfb-inline-group .vfb-radio{ width:30%; margin-right:0px !important; text-align:center;}
+#vfbField24 label { display:none;}
+#vfbField24 { margin-bottom:1em; position:relative; height: 9em;}
+#vfbField24 .vfb-col-10 { position:absolute; bottom:0; }
+label.foam-qual{ margin-top:100px;}
+#vfbField29 button { padding: 8px 80px; font-size:22px;}
+#vfbField29 { text-align: center; }
+#eModal-3, #eModal-4, #eModal-5 { background-color: #ffffff !important; border: 3px solid #78be20 !important; min-height: 537px; }
+#eModal-7, #eModal-8 { background-color: #ffffff !important; border: 3px solid #78be20 !important; }
+#eModal-3 .emodal-content p,
+#eModal-4 .emodal-content p,
+#eModal-7 .emodal-content p,
+#eModal-8 .emodal-content p,
+#eModal-5 .emodal-content p{ font-size: 15px !important; color:#004ea8 !important; font-family: "Open Sans",sans-serif !important; }
+#eModal-3 .emodal-content li,
+#eModal-4 .emodal-content li,
+#eModal-5 .emodal-content li{ font-size: 15px !important; color:#004ea8 !important; font-family: "Open Sans",sans-serif !important; }
+#eModal-3 .emodal-title,
+#eModal-4 .emodal-title,
+#eModal-7 .emodal-title,
+#eModal-8 .emodal-title,
+#eModal-5 .emodal-title { font-size:28px !important; color:#78be20 !important; font-family: "Rokkitt",serif !important; }
+.custom-pop-wrap ul { margin: 0px 0 0.5em 1.8em;}
+.custom-pop-wrap p { margin: 0px }
+.custom-pop-left{width:56%; float:left; padding-right:4%;}
+.custom-pop-right{width:40%; float:left; height:384px; }
+#eModal-4 .custom-pop-right{height:364px; }
+#eModal-5 .custom-pop-right{height:361px; }
+img.custom-zoom {border:2px solid #004ea8;}
+.vfb-col-1, .vfb-col-2, .vfb-col-3, .vfb-col-4, .vfb-col-5, .vfb-col-6, .vfb-col-7, .vfb-col-8, .vfb-col-9, .vfb-col-10, .vfb-col-11, .vfb-col-12 { padding-left:6px; }
+#vfbField24 .vfb-col-10 .vfb-inline-group .vfb-radio:first-child { position: relative; top: 100px; }
+#vfbField24 .vfb-col-10 .vfb-inline-group .vfb-radio:nth-child(2) {  position: relative; top: 50px; }
+/* END */
+
 
 /*Gallery Headers ETC*/
 .header-wrap-text-mattress{ width:auto; height:272px; padding:20px; border:8px solid #004ea8; margin-bottom: 10px; }
@@ -486,7 +556,33 @@ input {font-family: "Rokkitt", serif;}
 .woocommerce ul.products li.product .price {font-size: 1em;}
 .diva{clear:both;}
 .mark, mark{display: none;}
+/* END */
 
+
+/*Checkout*/
+.woocommerce .woocommerce-info { border-top-color: #2a6abb; margin: 30px 0 0em !important;}
+form.login .button, .woocommerce form.login input[type="submit"] {background-color: #2a6abb; color: #FFFFFF;font-size: 19px; border:none; border-radius: 0;font-weight: normal; }
+.po-application{margin-top:30px;}
+.po-application button{background-color: #2a6abb; color: #FFFFFF;font-size: 19px; border:none; }
+.blue-border-h4 { background-color: #004ea8; float: right; height: 3px; margin-right: -60px; margin-top: -34px; width: 653px; }
+.page-id-7 .blue-border-h4 { width: 89%; }
+article > header > h2{ display: none !important; }
+h4.pageheaders{ color: #004ea8; font-size: 42px; font-weight: 500; margin-bottom: 4px;  text-transform: uppercase; margin-left:-50px; }
+.wizard.wizard > .steps a::before {content: none; }
+.wizard.wizard > .steps a::after { right:-2%; height:0px; }
+#wizard li.current,
+#wizard li.current a  { background-color:#5e8fc8; }
+#wizard .steps,
+#wizard li.current a:after  { background-color:#e1e1e1; }
+#wizard .number { background-color: transparent; border:none !important; width: 12px; font-size:1.08em; position:relative; top:2px;}
+.wizard.wizard > .steps li.current span,
+.wizard.wizard > .steps li.done span  { color:#fff; }
+.wizard > .steps li.done a::after { border-top: 30px solid #5e8fc8; border-bottom: 30px solid #5e8fc8; }
+.wizard > .steps li.current a::after {border-left: 28px solid #5e8fc8 !important; margin-right:3px; }
+.wizard > .steps li span {color: auto; }
+.wizard > .steps > ul { padding-left:0px; margin-left:0px; }
+.wizard.wizard > .steps a { padding: 10px 10px 10px 16px; width: 100%; }
+.wizard.wizard > .steps.clearfix:after { margin-bottom:0px; }
 /* END */
 
 /* PAGES */
@@ -498,7 +594,7 @@ input {font-family: "Rokkitt", serif;}
 /* END */
 
 /* Tabs */
-.wc-tabs-wrapper .wc-tab { overflow:scroll; border:4px solid #cccccc; padding:1em !important; }
+.wc-tabs-wrapper .wc-tab { overflow:scroll; border:4px solid #cccccc; padding:1em !important; height: 392px;}
 .wc-tabs-wrapper ul ul { margin: 0 !important}
 .wc-tabs-wrapper ul {padding-left:0px !important; margin-bottom:0px !important; }
 .wc-tabs-wrapper .active { background-color:#5d8dc3 !important; color:#fff !important; border-bottom: 0 !important;}
@@ -574,6 +670,19 @@ input {font-family: "Rokkitt", serif;}
   #benz-menu-img-matt1 { left: 19px; }
   #search-place {margin-top:0px; }
   @-moz-document url-prefix() {  #searchform #searchsubmit {top:7px} }
+  #menu-accessories .benz-bottom-colors { top: -112px; }
+  #menu-accessories .arrow-down { left: 500px; top: -299px; }
+  #benz-menu-img-acc {left: 67px; top: -101px; }
+  #benz-menu-img-mft1 { left: -200px; top: 11px; }
+  #benz-menu-img-mft2 { display:none;}
+  #benz-menu-img-mft3 { left: 171px; top: -5px; }
+  #menu-item-1920{width: 303px;}
+  #menu-item-1920 a{font-size:16.3px}
+  #menu-item-1920 a:hover{text-decoration:none !important; font-size:16.3px; font-weight: bold;}
+  #benz-menu-img-cov1 { left: 13px; top: -36px; width:375px; }
+  #benz-menu-img-cov2 { left: 360px; top: 98px; width: 351px; }
+  #benz-menu-img-cov3 { display:none;}
+
 }
 
 @media(min-width:1200px){
@@ -583,7 +692,7 @@ input {font-family: "Rokkitt", serif;}
 	#landing_nav-wrap a.landing_nav{font-size:0.91em; font-weight: 600 !important; }
 	#landing_nav-wrap .container, #benz-main-menu-wrap .container{ padding:0;}
 	#footerconnect { height: 172px; float: left; padding: 20px 25px 20px 25px; margin: -17px 0 0 112px; }
-	.benz-menu .sub-menu{width: 1171px;}
+	.benz-menu .sub-menu{ width: 1171px; }
 	.benz-menu > ul > li > a{ padding: 11px 1.8198em; }
 	#menu-mattresses > li > .sub-menu { left:-140px; }
 	#menu-replacement-covers-menu > li > .sub-menu { left: -319px; }
@@ -596,8 +705,18 @@ input {font-family: "Rokkitt", serif;}
   #benz-menu-img-matt3 { left: 508px; }
   #benz-menu-img-matt2 { left: 46px; }
   #benz-menu-img-matt1 { left: -91px; }
-  @-moz-document url-prefix() {  #searchform #searchsubmit { top:7px;} }
+  @-moz-document url-prefix() {  #searchform #searchsubmit { top:8px;} }
   #search-place { margin-top:10px; }
+  #menu-accessories .benz-bottom-colors { top: -91px; }
+  #menu-accessories .arrow-down { left: 631px; top: -276px; }
+  #benz-menu-img-acc { left: -10px;  }
+  #benz-menu-img-mft1 { left: -383px; }
+  #benz-menu-img-mft2 { left: -24px; top: 20px; display:block }
+  #benz-menu-img-mft3 { left: 338px; }
+  #menu-item-1920{width: 502px; }
+  #benz-menu-img-cov2 { left: 100px; top: 41px; }
+  #benz-menu-img-cov3 { left: 531px; position: relative; top: 109px; z-index: 9999; display:block}
+
 }
 
 @media (max-width:1199px){

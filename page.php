@@ -4,6 +4,14 @@
 
 <?php get_template_part('includes/home-index', 'page'); ?>
 
+<?php elseif ( is_cart() || is_checkout() || is_account_page() || is_page('316')): ?>
+  <div class="container">
+    <div class="row">
+      <div id="content" role="main">
+        <?php get_template_part('loops/content', 'page'); ?>
+      </div><!-- /#content -->
+    </div><!-- /.row -->
+  </div><!-- /.container -->
 <?php else : ?>
 
 
