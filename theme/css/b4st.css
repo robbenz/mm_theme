@@ -461,7 +461,7 @@ img.custom-zoom {border:2px solid #004ea8;}
 .mattress-links a {float:left; clear: both; margin-top: 2px;}
 .healthcare-mattress{margin-bottom: 15px;}
 #mattress-homepage-greenad {z-index:-1; background-color:#daedc3; height:auto; width:100%; clear:both; margin-bottom:0.8em; position:relative; overflow-x: hidden; overflow-x: none; }
-#green-bar{width:100%;}
+#green-bar{width:100%; padding:0 !important;}
 #mattress-green-content{font-family: "Open Sans",sans-serif; width:58%; margin: 0 auto; padding-top: 13px; text-align: center; }
 #mattress-green-content h3{font-size:22px; font-weight: 700; margin-bottom: 15px;}
 #mattress-green-content p{ font-size: 16px; margin-bottom: 15px;}
@@ -472,6 +472,8 @@ img.custom-zoom {border:2px solid #004ea8;}
 #mattress-home-box2 h3{color:#004ea8; font-size: 37px; margin-left: 50px; font-weight: bold;}
 #mattress-home-box1 img, #mattress-home-box3 img{width:100%;}
 #mattress-home-container{font-family: "Open Sans", sans-serif;}
+#body-container, #mattress-home-container{padding:0 !important;}
+
 /* END */
 
 /* BLOG STUFF */
@@ -556,7 +558,9 @@ input {font-family: "Rokkitt", serif;}
 .woocommerce ul.products li.product h3 {font-size: 1.2em; font-weight: 700;}
 .woocommerce ul.products li.product .price {font-size: 1em;}
 .diva{clear:both;}
+.mark, mark{display: none;}
 /* END */
+
 
 /*Checkout*/
 .woocommerce .woocommerce-info { border-top-color: #2a6abb; margin: 30px 0 0em !important;}
