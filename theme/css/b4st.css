@@ -68,7 +68,7 @@ no-touch .cs-style-8 figure:hover img, .cs-style-8 figure.cs-hover img { -webkit
 .hos-links-menu a:visited{color:#c3e2ff;text-decoration:none; background-color: none !important;}
 .med-logo{width: 90%; margin-bottom: 16px; margin-top: 10px; }
 .search-form, #mm-right-contact{margin-top:15px;}
-.form-control{margin-right:-10px;display: inline-block; width: 69%; margin-top: 20px; margin-left: 23px;}
+#search-place .form-control{margin-right:-10px;display: inline-block; width: 69%; margin-top: 20px; margin-left: 23px;}
 #searchsubmit{border-radius: 0 .25rem .25rem 0; margin-top: -16px;}
 .float-sm-right{float:none !important;}
 .fa-search{font-size: 1.2rem;}
@@ -91,6 +91,9 @@ textarea:focus::-moz-placeholder { color: transparent; } /* FF 19+ */
 /* END */
 
 /* SIGN IN && NEED HELP MENU */
+.login-submit #wppb-submit {border:0; border-radius:0;}
+#wppb-login-wrap .form-control{ display: inline-block; margin: 0}
+#wppb-login-wrap input { border-radius:0;}
 #mm-right-contact .sub-menu { background-color: #ffffff; border: 1px solid #d7d7d7; left: -71px; padding: 5px; width: 300px; top:40px; }
 #menu-item-1887 .sub-menu { }
 #menu-item-1887 .sub-menu li,
@@ -101,7 +104,7 @@ textarea:focus::-moz-placeholder { color: transparent; } /* FF 19+ */
 #menu-item-2041 .sub-menu li a:hover{ background-color:#fff; color:#636363; }
 #menu-item-1887 .sub-menu .insert-img-here,
 #menu-item-2041 .sub-menu .insert-img-here {text-align:center; padding-top:6px; padding-left:0;}
-#menu-item-1895 .sub-menu { }
+#menu-item-1895 .sub-menu {height: 429px; }
 #menu-item-1895 .sub-menu li { list-style:none; }
 #menu-item-1895 .sub-menu li a { color:#004ea8; line-height:24px; }
 #menu-item-1895 .sub-menu li a:hover{ background-color:#fff; color:#636363; }
