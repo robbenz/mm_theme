@@ -178,23 +178,17 @@ span.festi-cart-product-count { margin-left:80%; text-align:right;}
 /*COVERS MENU*/
 #menu-replacement-covers-menu .sub-menu{  height: 257px; }
 @-moz-document url-prefix() { #menu-replacement-covers-menu .sub-menu{ height: 258px; } }
-#menu-replacement-covers-menu .benz-bottom-colors { top: 13px; }
 #menu-replacement-covers-menu .sub-menu .menu-item-type-custom { width: 271px; }
 #menu-replacement-covers-menu > li:hover {color:#fff;}
 #menu-replacement-covers-menu > li:hover a{color:#fff;}
-#menu-replacement-covers-menu .arrow-down { left: 437px; top: -246px; }
-#benz-menu-img-cov1 { left: 13px; top: -36px; }
-#benz-menu-img-cov2 { left: 100px; top: 41px; width: 351px; }
-#benz-menu-img-cov3 { left: 531px; position: relative; top: 109px; z-index: 9999;}
 /*ACC MENU*/
 #menu-accessories .sub-menu{height: 184px; }
 @-moz-document url-prefix() { #menu-accessories .sub-menu{ height: 185px; } }
-#menu-accessories .benz-bottom-colors { top: -91px; }
 #menu-accessories .sub-menu .menu-item-type-custom { width: 250px; }
 #menu-accessories > li:hover {color:#fff;}
 #menu-accessories > li:hover a{color:#fff;}
-#menu-accessories .arrow-down { left: 631px; top: -276px; }
-#benz-menu-img-acc { left: -10px; top: -101px; }
+#menu-replacement-covers-menu .benz-bottom-colors { top: 30px; }
+#menu-replacement-covers-menu .arrow-down { left: 40%; top: -229px;}
 /*MFT MENU*/
 #menu-manufacturers .sub-menu{  height: 145px;}
 @-moz-document url-prefix() { #menu-manufacturers .sub-menu{ height: 146px; } }
@@ -203,15 +197,12 @@ span.festi-cart-product-count { margin-left:80%; text-align:right;}
 #menu-manufacturers > li:hover {color:#fff;}
 #menu-manufacturers > li:hover a{color:#fff;}
 #menu-manufacturers .arrow-down { left: 74%; top: -120px; }
-#benz-menu-img-mft1 { left: -383px; top: 11px; }
-#benz-menu-img-mft2 { left: -24px; top: 20px; }
-#benz-menu-img-mft3 { left: 338px; top: -5px; }
 /*ABOUT MENU*/
 #menu-about-us .sub-menu{ height: 299px; }
 @-moz-document url-prefix() { #menu-about-us .sub-menu{ height: 300px; } }
 #menu-about-us .benz-bottom-colors { top: -49px; z-index: 999; }
 #menu-about-us > li:hover, #menu-about-us > li:hover a { color:#fff; }
-#menu-about-us .arrow-down { left: 1045px; top: -26px; }
+#menu-about-us .arrow-down { left: 92%; top: -26px; }
 #benz-menu-about{ width:615px; height:300px; text-align:left; font-family: 'Open Sans', sans-serif; padding-left:10px; float:left; color:#000;}
 #menu-item-1920:hover{ color:#000;}
 #menu-item-1920 a:hover{ color:#000;}
@@ -237,7 +228,7 @@ p.about-mail-number { position:relative; top: -45px; left:-74px;  }
 #benz-main-menu-box p.benz-menu-copy{ padding-top:10px; color:#000; display: inline; float: right; font-size: 16px; font-style: italic; font-weight: 600; text-align:left;}
 #benz-main-menu-box p.benz-menu-copy:hover { color:#000;}
 .benz-menu-img { float: right; position: relative; z-index: 999; }
-#menu-item-1920{float: right; width: 502px; position: relative; top: -31px; left: -17px; }
+#menu-item-1920{ float: right; position: relative; top: -31px; left: -17px; }
 #menu-item-1920 a{color: #004ea8 !important}
 #menu-item-1920 a:hover{font-weight:bold; !important; color: #004ea8 !important}
 #benz-main-menu-box .benz-blueheader a{color:#004ea8 !important; padding:0; font-weight:600; font-size: 15px; margin-bottom: 0px;}
@@ -548,8 +539,8 @@ input {font-family: "Rokkitt", serif;}
 	.benz-menu > ul > li > a { padding: 11px 0.961em; }
 	.benz-menu .sub-menu { width: 971px; }
 	#menu-mattresses > li > .sub-menu { left:-102px; }
-	#menu-replacement-covers-menu > li > .sub-menu { left: -245px; }
-	#menu-accessories > li > .sub-menu { left: -481px; display:block }
+	#menu-replacement-covers-menu > li > .sub-menu { left: -245px;  }
+	#menu-accessories > li > .sub-menu { left: -481px; }
 	#menu-manufacturers > li > .sub-menu { left: -629px; }
 	#menu-about-us > li > .sub-menu { left: -819px; }
   #benz-menu-img-matt3 { left: 608px; }
@@ -557,6 +548,19 @@ input {font-family: "Rokkitt", serif;}
   #benz-menu-img-matt1 { left: 19px; }
   #search-place {margin-top:0px; }
   @-moz-document url-prefix() {  #searchform #searchsubmit {top:7px} }
+  #menu-accessories .benz-bottom-colors { top: -112px; }
+  #menu-accessories .arrow-down { left: 500px; top: -299px; }
+  #benz-menu-img-acc {left: 67px; top: -101px; }
+  #benz-menu-img-mft1 { left: -200px; top: 11px; }
+  #benz-menu-img-mft2 { display:none;}
+  #benz-menu-img-mft3 { left: 171px; top: -5px; }
+  #menu-item-1920{width: 303px;}
+  #menu-item-1920 a{font-size:16.3px}
+  #menu-item-1920 a:hover{text-decoration:none !important; font-size:16.3px; font-weight: bold;}
+  #benz-menu-img-cov1 { left: 13px; top: -36px; width:375px; }
+  #benz-menu-img-cov2 { left: 360px; top: 98px; width: 351px; }
+  #benz-menu-img-cov3 { display:none;}
+
 }
 
 @media(min-width:1200px){
@@ -566,7 +570,7 @@ input {font-family: "Rokkitt", serif;}
 	#landing_nav-wrap a.landing_nav{font-size:0.91em; font-weight: 600 !important; }
 	#landing_nav-wrap .container, #benz-main-menu-wrap .container{ padding:0;}
 	#footerconnect { height: 172px; float: left; padding: 20px 25px 20px 25px; margin: -17px 0 0 112px; }
-	.benz-menu .sub-menu{width: 1171px;}
+	.benz-menu .sub-menu{ width: 1171px; }
 	.benz-menu > ul > li > a{ padding: 11px 1.8198em; }
 	#menu-mattresses > li > .sub-menu { left:-140px; }
 	#menu-replacement-covers-menu > li > .sub-menu { left: -319px; }
@@ -581,6 +585,16 @@ input {font-family: "Rokkitt", serif;}
   #benz-menu-img-matt1 { left: -91px; }
   @-moz-document url-prefix() {  #searchform #searchsubmit { top:8px;} }
   #search-place { margin-top:10px; }
+  #menu-accessories .benz-bottom-colors { top: -91px; }
+  #menu-accessories .arrow-down { left: 631px; top: -276px; }
+  #benz-menu-img-acc { left: -10px;  }
+  #benz-menu-img-mft1 { left: -383px; }
+  #benz-menu-img-mft2 { left: -24px; top: 20px; display:block }
+  #benz-menu-img-mft3 { left: 338px; }
+  #menu-item-1920{width: 502px; }
+  #benz-menu-img-cov2 { left: 100px; top: 41px; }
+  #benz-menu-img-cov3 { left: 531px; position: relative; top: 109px; z-index: 9999; display:block}
+
 }
 
 @media (max-width:1199px){
