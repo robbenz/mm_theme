@@ -61,8 +61,8 @@ global $post, $woocommerce, $product;
 
 // begin if statement for free shipping icons on product pages
 global $product_notfree_ship;
-if (function_exists('dia_free_shipping_array')) {
-dia_free_shipping_array();
+if (function_exists('mm_free_shipping_array')) {
+mm_free_shipping_array();
 }
 		if ( is_single($product_notfree_ship) ) {
         echo '<div id="free_ship-productpage">';

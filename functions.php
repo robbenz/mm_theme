@@ -201,6 +201,20 @@ function logout_redirect(){
  * Hide ALL shipping options when free shipping is available and customer is NOT in certain states
  * Hide Free Shipping if customer IS in those states
  */
+
+
+ // make global array for later use & in other files
+ add_action( 'after_theme_setup', 'mm_free_shipping_array' );
+ function mm_free_shipping_array() {
+   global $product_notfree_ship;
+   $product_notfree_ship = array( '799', '781', '768', '748', '2175', '2177', '2179', '2181', '2183', '2185', '2186', '2188', '2190', '2192', '2194', '2196', '2198' );
+   return $product_notfree_ship;
+ }
+
+
+
+
+
  function my_free_shipping( $is_available ) {
  	global $woocommerce, $product_notfree_ship;
    // set the product ids that are $product_notfree_ship
