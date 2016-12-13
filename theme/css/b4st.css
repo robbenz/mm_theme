@@ -474,7 +474,32 @@ input {font-family: "Rokkitt", serif;}
 .woocommerce ul.products li.product h3 {font-size: 1.2em; font-weight: 700;}
 .woocommerce ul.products li.product .price {font-size: 1em;}
 .diva{clear:both;}
+/* END */
 
+/*Checkout*/
+.woocommerce .woocommerce-info { border-top-color: #2a6abb; margin: 30px 0 0em !important;}
+form.login .button, .woocommerce form.login input[type="submit"] {background-color: #2a6abb; color: #FFFFFF;font-size: 19px; border:none; border-radius: 0;font-weight: normal; }
+.po-application{margin-top:30px;}
+.po-application button{background-color: #2a6abb; color: #FFFFFF;font-size: 19px; border:none; }
+.blue-border-h4 { background-color: #004ea8; float: right; height: 3px; margin-right: -60px; margin-top: -34px; width: 653px; }
+.page-id-7 .blue-border-h4 { width: 89%; }
+article > header > h2{ display: none !important; }
+h4.pageheaders{ color: #004ea8; font-size: 42px; font-weight: 500; margin-bottom: 4px;  text-transform: uppercase; margin-left:-50px; }
+.wizard.wizard > .steps a::before {content: none; }
+.wizard.wizard > .steps a::after { right:-2%; height:0px; }
+#wizard li.current,
+#wizard li.current a  { background-color:#5e8fc8; }
+#wizard .steps,
+#wizard li.current a:after  { background-color:#e1e1e1; }
+#wizard .number { background-color: transparent; border:none !important; width: 12px; font-size:1.08em; position:relative; top:2px;}
+.wizard.wizard > .steps li.current span,
+.wizard.wizard > .steps li.done span  { color:#fff; }
+.wizard > .steps li.done a::after { border-top: 30px solid #5e8fc8; border-bottom: 30px solid #5e8fc8; }
+.wizard > .steps li.current a::after {border-left: 28px solid #5e8fc8 !important; margin-right:3px; }
+.wizard > .steps li span {color: auto; }
+.wizard > .steps > ul { padding-left:0px; margin-left:0px; }
+.wizard.wizard > .steps a { padding: 10px 10px 10px 16px; width: 100%; }
+.wizard.wizard > .steps.clearfix:after { margin-bottom:0px; }
 /* END */
 
 /* PAGES */
