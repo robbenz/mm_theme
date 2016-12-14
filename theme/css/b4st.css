@@ -104,12 +104,13 @@ textarea:focus::-moz-placeholder { color: transparent; } /* FF 19+ */
 #menu-item-2041 .sub-menu li a:hover{ background-color:#fff; color:#636363; }
 #menu-item-1887 .sub-menu .insert-img-here,
 #menu-item-2041 .sub-menu .insert-img-here {text-align:center; padding-top:6px; padding-left:0;}
-#menu-item-1895 .sub-menu {height: 429px; }
+#menu-item-1895 .sub-menu {height: 429px; display: block }
 #menu-item-1895 .sub-menu li { list-style:none; }
 #menu-item-1895 .sub-menu li a { color:#004ea8; line-height:24px; }
 #menu-item-1895 .sub-menu li a:hover{ background-color:#fff; color:#636363; }
 #menu-item-1895 .sub-menu .insert-img-here { padding:12px; color:#000; line-height:29px;}
-#menu-item-1895 .sub-menu #wppb-submit { text-transform:uppercase; font-family: 'Open Sans', sans-serif; padding: 8px 107px; background-color:#78be20; margin-top:3px;}
+#menu-item-1895 .sub-menu #wppb-submit { font-size: 19px; font-weight: 500; text-transform:uppercase; font-family: 'Open Sans', sans-serif; padding: 12px 107px; background-color:#78be20; margin-top:3px;}
+#menu-item-1895 .sub-menu #wppb-submit:hover{text-decoration: underline;}
 #menu-item-1895 .sub-menu #benz-register-link { color:#fff; text-transform:uppercase; font-family: 'Open Sans', sans-serif; padding: 12px 0px; background-color:#004ea8; margin-top:5px;margin-bottom:5px; font-size:19px; font-weight:500;}
 .menu-sign_in-container, .menu-my-account-container {text-align:left; color:#636363; font-family: 'Open Sans', sans-serif; float:left; }
 .menu-sign_in-container ul li{list-style: none; }
@@ -124,6 +125,7 @@ textarea:focus::-moz-placeholder { color: transparent; } /* FF 19+ */
 @-moz-document url-prefix() { #searchform #searchsubmit { padding: 17px 20px; } }
 input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="tel"], textarea {padding:7px 15px; border-width: 1px; border-style: solid;}
 input[type="text"]{border-right: transparent;}
+input[id="user_login"]{border-right: 1px solid rgba(0,0,0,.15);}
 button, html input[type="button"], input[type="reset"], input[type="submit"] { padding: 7px 20px; }
 .festi-cart-text-before-quantity{font-weight: 600 !important;}
 .festi-cart-text-after-quantity{font-weight: 600 !important;}
@@ -274,6 +276,16 @@ p.about-mail-number { position:relative; top: -45px; left:-74px;  }
 #menu-item-1979 .sub-menu { height:335px; }
 /* END */
 
+/* CART */
+.woocommerce-cart table.cart img { width:90px; }
+.woocommerce table.shop_table td {padding: 6px 5px 1px; border-right: 1px solid rgba(0,0,0,.1); text-align:center;}
+.woocommerce-cart td.product-thumbnail {width:8em;}
+.woocommerce table.shop_table td.product-name {text-align:left;}
+.woocommerce table.shop_table td.actions {padding: 6px 5px; }
+.woocommerce table.shop_table #coupon_code {padding: 10.5px 5px; width:200px !important; }
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button {letter-spacing: 0.6px; font-weight:normal; }
+/* END */
+
 /*ACTUAL HEADERS*/
 li.main-header-link:hover, .benz-menu > ul > li > a:hover {background-color:#004ea8;text-decoration: none; }
 #menu-item-3544 a:hover {color:#fff;}
@@ -326,15 +338,12 @@ h3.form-header {font-size:1.3em; font-family: "Rokkitt",serif !important;}
 #vfbField45 { top:-351px }
 .page-id-316 .woocommerce-breadcrumb{display:none !important;}
 .blue-border-h4{ background-color: #004ea8; float: right; height: 3px; margin-right: -60px; margin-top: -34px; width: 653px; }
-.page-id-6 .blue-border-h4{ width: 81%; }
 .page-id-6 .woocommerce-breadcrumb { display:none !important; }
 .page-id-7 .woocommerce-breadcrumb { display:none !important; }
-.page-id-7 .blue-border-h4{ width: 89%; }
-.page-id-8 .blue-border-h4{ width: 85%; }
 .page-id-8 input.button{ width: 25%; background-color:#5e8fc8; color:#fff; min-width: 100px; }
 .wooheader-green {font-size: 1.2em; border-bottom: 2px dotted #78be20;  }
 .descriptwraps{width:100%; text-align:center; padding: 0 auto; margin-bottom:10px;}
-h4.pageheaders{ color: #004ea8; font-size: 42px; font-weight: 500; margin-bottom: 4px; margin-top: -50px; text-transform: uppercase; }
+
 .pagedescripts{ color: #004ea8; font-family: "Open Sans",sans-serif; font-size: 18px; font-weight: 600; line-height: 14px; width: 300px; }
 #vfbField4 .vfb-inline-group .vfb-radio{ width:30%; margin-right:0px !important; text-align:center;}
 #vfbField4 label { display:none;}
@@ -386,7 +395,6 @@ img.custom-zoom {border:2px solid #004ea8;}
 #vfbField24 .vfb-col-10 .vfb-inline-group .vfb-radio:first-child { position: relative; top: 100px; }
 #vfbField24 .vfb-col-10 .vfb-inline-group .vfb-radio:nth-child(2) {  position: relative; top: 50px; }
 /* END */
-
 
 /*Gallery Headers ETC*/
 .header-wrap-text-mattress{ width:auto; height:272px; padding:20px; border:8px solid #004ea8; margin-bottom: 10px; }
@@ -563,14 +571,13 @@ input {font-family: "Rokkitt", serif;}
 
 
 /*Checkout*/
+#s2id_billing_country, #s2id_billing_state {padding:0; border: 0;}
 .woocommerce .woocommerce-info { border-top-color: #2a6abb; margin: 30px 0 0em !important;}
 form.login .button, .woocommerce form.login input[type="submit"] {background-color: #2a6abb; color: #FFFFFF;font-size: 19px; border:none; border-radius: 0;font-weight: normal; }
 .po-application{margin-top:30px;}
 .po-application button{background-color: #2a6abb; color: #FFFFFF;font-size: 19px; border:none; }
-.blue-border-h4 { background-color: #004ea8; float: right; height: 3px; margin-right: -60px; margin-top: -34px; width: 653px; }
-.page-id-7 .blue-border-h4 { width: 89%; }
 article > header > h2{ display: none !important; }
-h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; margin-bottom: 4px;  text-transform: uppercase; margin-left:-50px; }
+h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; margin-bottom: 4px;  text-transform: uppercase; }
 .wizard.wizard > .steps a::before {content: none; }
 .wizard.wizard > .steps a::after { right:-2%; height:0px; }
 #wizard li.current,
@@ -586,6 +593,7 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
 .wizard > .steps > ul { padding-left:0px; margin-left:0px; }
 .wizard.wizard > .steps a { padding: 10px 10px 10px 16px; width: 100%; }
 .wizard.wizard > .steps.clearfix:after { margin-bottom:0px; }
+.woocommerce-checkout ul[role="tablist"] {overflow:hidden}
 /* END */
 
 /* PAGES */
@@ -654,7 +662,7 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
 /* END */
 
 /* Responsive Stuff */
-@media (min-width:992px){
+@media (min-width:992px) {
 	#footerlogos { width: 980px; height: 100px; }
 	#diamedicallogo { height: 100px; width: 300px; float: left; margin: 20px 0px 0px 40px; }
 	#medmatlogo { height: 100px; width: 300px; float: left; margin: 28px 0px 0px 30px; }
@@ -719,7 +727,9 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
   #menu-item-1920{width: 502px; }
   #benz-menu-img-cov2 { left: 100px; top: 41px; }
   #benz-menu-img-cov3 { left: 531px; position: relative; top: 109px; z-index: 9999; display:block}
-
+  .page-id-6 .blue-border-h4 {width:77%; }
+  .page-id-7 .blue-border-h4{ width: 85%; }
+  .page-id-8 .blue-border-h4{ width: 85%; }
 }
 
 @media (max-width:1199px){
@@ -740,6 +750,10 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
 	.wc-tabs-wrapper {width:100%; margin:0 auto;}
 	.camp-right-table, .left-camp-cell{width:50%;}
   #sidebar{margin-right: 0;}
+  h4.pageheaders { margin-left:-5%; text-align: left; }
+  .page-id-6 .blue-border-h4 {width:79%; }
+  .page-id-7 .blue-border-h4{ width: 89%; }
+  .page-id-8 .blue-border-h4{ width: 85%; }
 }
 
 @media (max-width:991px){
@@ -751,7 +765,8 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
 		#landing-menu, #mm-right-contact, #benz-main-menu-wrap, #search-bar-div{display:none;}
 		.size-tablet{width:50%;float: left; height:110px;}
 		#desktop-navbar {display: none;}
-		#responsive-menu-button{position:absolute; top:7px !important; left:0 !important}
+		#responsive-menu-button{position:absolute; top: 118px !important; left:0 !important}
+    #responsive-menu-container {top: 168px !important;}
 		.med-logo{padding:13px 0px 0 44px;}
 		#responsive-menu-title{color:#78be20 !important;}
 		@-moz-document url-prefix() {#searchform #searchsubmit{top:5px;}}
@@ -791,6 +806,9 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
 		.tg td {font-size: 1.5vw;}
 		.woocommerce div.product .woocommerce-tabs ul.tabs li {width:33.9%;}
     .practive-blue1 img, .practive-blue2 img, .practive-blue3 img {height: 187px;}
+    .page-id-6 .blue-border-h4 {width:69%; }
+    .page-id-7 .blue-border-h4{ width: 81%; }
+    .page-id-8 .blue-border-h4{ width: 85%; }
 }
 /* woocommerce messes up the related products images at specifically this width */
 @media (width:768px){
@@ -827,6 +845,8 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
 	.tg td {font-size:2.5vw;}
 	#tab-description li{font-size: 15px;}
   .woocommerce div.product .woocommerce-tabs ul.tabs li a {font-size: 1.4vw;}
+  h4.pageheaders {width:100%; text-align: center; }
+  .blue-border-h4{display:none;}
 
 }
 
@@ -838,7 +858,7 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
 	#benz-main-menu-wrap{display: none;}
 	#search-place{display: none;}
 	#search-bar-div{display:block;margin-top: -3px;}
-	.form-control{margin:0 0 0 5%; display: inline-block; width: 80%; margin-top: 0px;padding: 8px 15px !important;}
+	.form-control{margin:0 0 0 11%; display: inline-block; width: 80%; margin-top: 0px;padding: 8px 15px !important;}
 	#searchsubmit{margin:-3px 0 0 -37px;background-color: #ebebeb; border-color: #ebebeb;border-top-right-radius: 10px; border-bottom-right-radius: 10px;}
 	@-moz-document url-prefix() {input[type="submit"]{padding: 17px 20px !important;}}
   .magnifying-icon{pointer-events:none;color:#9ed05e;position:relative;left: -34px;}
@@ -871,6 +891,8 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
 	.camp-table-custom-sizing-text{font-size: 6vw;}
   #sidebar{display: none;}
   #content section {text-align: center;}
+  .po-application{display:none;}
+
 }
 
 
