@@ -28,6 +28,7 @@
 body{font-family: "Rokkitt", serif;}
 body > .container{padding: 0px 5%;}
 
+
 /* Landing Nav*/
 .navbar-topbar { border-radius: 0; }
 .navbar .dropdown-menu li { width: 100%; margin-left: 0 !important; }
@@ -104,7 +105,7 @@ textarea:focus::-moz-placeholder { color: transparent; } /* FF 19+ */
 #menu-item-2041 .sub-menu li a:hover{ background-color:#fff; color:#636363; }
 #menu-item-1887 .sub-menu .insert-img-here,
 #menu-item-2041 .sub-menu .insert-img-here {text-align:center; padding-top:6px; padding-left:0;}
-#menu-item-1895 .sub-menu {height: 429px; display: block }
+#menu-item-1895 .sub-menu { height: 429px; }
 #menu-item-1895 .sub-menu li { list-style:none; }
 #menu-item-1895 .sub-menu li a { color:#004ea8; line-height:24px; }
 #menu-item-1895 .sub-menu li a:hover{ background-color:#fff; color:#636363; }
@@ -311,7 +312,6 @@ div.pp_woocommerce div.ppt {display:none !important;}
 .woocommerce-breadcrumb a:hover{color:#78be20 !important;font-size:20px !important;}
 /* END */
 
-
 /*Custom Size Form*/
 h3.form-header {font-size:1.3em; font-family: "Rokkitt",serif !important;}
 #vfbp-form-1 { font-size:1.4em; }
@@ -343,7 +343,6 @@ h3.form-header {font-size:1.3em; font-family: "Rokkitt",serif !important;}
 .page-id-8 input.button{ width: 25%; background-color:#5e8fc8; color:#fff; min-width: 100px; }
 .wooheader-green {font-size: 1.2em; border-bottom: 2px dotted #78be20;  }
 .descriptwraps{width:100%; text-align:center; padding: 0 auto; margin-bottom:10px;}
-
 .pagedescripts{ color: #004ea8; font-family: "Open Sans",sans-serif; font-size: 18px; font-weight: 600; line-height: 14px; width: 300px; }
 #vfbField4 .vfb-inline-group .vfb-radio{ width:30%; margin-right:0px !important; text-align:center;}
 #vfbField4 label { display:none;}
@@ -481,7 +480,6 @@ img.custom-zoom {border:2px solid #004ea8;}
 #mattress-home-box1 img, #mattress-home-box3 img{width:100%;}
 #mattress-home-container{font-family: "Open Sans", sans-serif;}
 #body-container, #mattress-home-container{padding:0 !important;}
-
 /* END */
 
 /* BLOG STUFF */
@@ -568,7 +566,6 @@ input {font-family: "Rokkitt", serif;}
 .diva{clear:both;}
 .mark, mark{display: none;}
 /* END */
-
 
 /*Checkout*/
 #s2id_billing_country, #s2id_billing_state {padding:0; border: 0;}
@@ -772,11 +769,11 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
 		@-moz-document url-prefix() {#searchform #searchsubmit{top:5px;}}
 		#home-custom-size-mattress{height: 11vw;}
 		#home-custom-size-mattress div {top:0px; margin: 4.4vw 10px 0 0px; font-size: 2vw;}
-		#body-container{width: 95%;}
-		#mattress-green-content {width:100%;}
-		#mattresshomeimgwrap{padding:0;}
-		#mattress-home-box2{height:156px; padding: 30px 0px 0px 0px;}
-		#mattress-home-box2 h3 {font-size: 30px;}
+		#body-container{ width: 95%; }
+		#mattress-green-content { width:100%; }
+		#mattresshomeimgwrap{ padding:0; }
+		#mattress-home-box2{ height:156px; padding: 30px 0px 0px 0px; }
+		#mattress-home-box2 h3 { font-size: 30px; }
 		#mattress-home-box2 p{font-size: 15px;}
 		#footerwrap {width:100%;}
 		#diamedicallogo {width:30%;margin: 20px 0px 0px 20px; }
@@ -809,6 +806,7 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
     .page-id-6 .blue-border-h4 {width:69%; }
     .page-id-7 .blue-border-h4{ width: 81%; }
     .page-id-8 .blue-border-h4{ width: 85%; }
+    #searchform #searchsubmit { top: 7px; }
 }
 /* woocommerce messes up the related products images at specifically this width */
 @media (width:768px){
@@ -848,6 +846,7 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
   h4.pageheaders {width:100%; text-align: center; }
   .blue-border-h4{display:none;}
 
+
 }
 
 @media (max-width:575px){
@@ -858,8 +857,8 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
 	#benz-main-menu-wrap{display: none;}
 	#search-place{display: none;}
 	#search-bar-div{display:block;margin-top: -3px;}
-	.form-control{margin:0 0 0 11%; display: inline-block; width: 80%; margin-top: 0px;padding: 8px 15px !important;}
-	#searchsubmit{margin:-3px 0 0 -37px;background-color: #ebebeb; border-color: #ebebeb;border-top-right-radius: 10px; border-bottom-right-radius: 10px;}
+	#searchform-mobile .form-control{margin:0 0 0 14%; display: inline-block; width: 75%; margin-top: 0px;padding: 8px 15px !important;}
+	#searchsubmit{margin:-2px 0 0 -37px;background-color: #ebebeb; border-color: #ebebeb;border-top-right-radius: 10px; border-bottom-right-radius: 10px;}
 	@-moz-document url-prefix() {input[type="submit"]{padding: 17px 20px !important;}}
   .magnifying-icon{pointer-events:none;color:#9ed05e;position:relative;left: -34px;}
 	#mattress-home-box1, #mattress-home-box3{width: 100%; text-align: center;}
