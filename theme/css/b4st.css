@@ -889,11 +889,11 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
 	#mattress-home-box2 {width: 75.5%; height:56.8vw; margin:0 0 10px 12.3vw; padding: 10vw 0px 0px 0px;}
 	#mattress-home-box2 h3 {font-size: 11vw; margin-left: 10vw;}
 	#mattress-home-box2 p{font-size: 5vw; margin-left: 10vw;}
-	#footerlinks1{display: none;}
-	#footerwrap{display: none;}
-	#logo-border{display: block;}
-	#footerconnect {margin: -10px 0 0 0; width:100%;}
-	.socialicons2014{margin: -25px 0 0 0px;}
+	#footerlinks1{ display: none; }
+	#footerwrap{ display: none; }
+	#logo-border{ display: block; }
+	#footerconnect { margin: -10px 0 0 0; width:100%; }
+	.socialicons2014{ margin: -25px 0 0 0px; }
 	.woocommerce div.product div.images, .woocommerce div.product div.summary {margin-bottom: 0;}
 	.woocommerce div.product .product_title{font-size: 20px;}
 	.woocommerce div.product form.cart .variations select, .woocommerce div.product .woocommerce-tabs ul.tabs li {width:100%;}
@@ -924,6 +924,11 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
 	.tg td {font-size: 5vw;}
 	#tab-description li {font-size:14px;}
 	.woocommerce-breadcrumb, .woocommerce-breadcrumb a, .woocommerce-breadcrumb a:hover {font-size: 3.5vw !important;}
+  #header-container #logo { height:78px; }
+  #header-container #logo .med-logo { padding: 3px 0px 0 1px; margin-top: -1vw; max-width: 325px; }
+  #responsive-menu-button { top: 87px !important; }
+  #responsive-menu-container { top: 136px !important; }
+  body { padding-top: 129px; }
 }
 
 /* END */
