@@ -285,7 +285,6 @@ p.about-mail-number { position:relative; top: -45px; left:-74px;  }
 .woocommerce-cart td.product-thumbnail {width:8em;}
 .woocommerce table.shop_table td.product-name {text-align:left;}
 .woocommerce table.shop_table td.actions {padding: 6px 5px; }
-.woocommerce table.shop_table #coupon_code {padding: 10.5px 5px; width:200px !important; }
 .woocommerce-cart .wc-proceed-to-checkout a.checkout-button {letter-spacing: 0.6px; font-weight:normal; }
 /* END */
 
@@ -320,7 +319,7 @@ h3.form-header {font-size:1.3em; font-family: "Rokkitt",serif !important;}
 .custom-steps {color:#78be20; font-size: 1.2em; }
 .green-custom { width: 150px; height: 200px; }
 .custom-center { }
-.custom-mat-wrap{ float: left; padding: 0 54px; width: 33%; text-align: center;}
+.custom-mat-wrap{ float: left; padding: 0px; width: 33%; text-align: center;}
 .custom-quality{ }
 .quality-good { background-color:#bbe461; height:100px;  margin-top:100px;}
 .quality-better { background-color:#9fd161; height:150px; margin-top:50px;}
@@ -346,7 +345,7 @@ h3.form-header {font-size:1.3em; font-family: "Rokkitt",serif !important;}
 .wooheader-green {font-size: 1.2em; border-bottom: 2px dotted #78be20;  }
 .descriptwraps{width:100%; text-align:center; padding: 0 auto; margin-bottom:10px;}
 .pagedescripts{ color: #004ea8; font-family: "Open Sans",sans-serif; font-size: 18px; font-weight: 600; line-height: 14px; width: 300px; }
-#vfbField4 .vfb-inline-group .vfb-radio{ width:30%; margin-right:0px !important; text-align:center;}
+#vfbField4 .vfb-inline-group .vfb-radio{ width:33%; margin-right:0px !important; text-align:center;}
 #vfbField4 label { display:none;}
 .vfb-col-10 label { display:block !important; font-size:16px; font-weight:600;}
 .custom-mat-wrap p { color: #000; font-family: "Open Sans",sans-serif; font-size: 14.2px; font-weight: 600; text-align: center; }
@@ -363,20 +362,20 @@ h3.form-header {font-size:1.3em; font-family: "Rokkitt",serif !important;}
 #vfbField49 .vfb-help-block,
 #vfbField50 .vfb-help-block,
 #vfbField48 .vfb-help-block { clear:both; width: 104% !important;  font-size:1em; text-align:center; }
-#vfbField24 .vfb-inline-group .vfb-radio{ width:30%; margin-right:0px !important; text-align:center;}
+#vfbField24 .vfb-inline-group .vfb-radio{ width:33%; margin-right:0px !important; text-align:center;}
 #vfbField24 label { display:none;}
 #vfbField24 { margin-bottom:1em; position:relative; height: 9em;}
 #vfbField24 .vfb-col-10 { position:absolute; bottom:0; }
 label.foam-qual{ margin-top:100px;}
 #vfbField29 button { padding: 8px 80px; font-size:22px;}
 #vfbField29 { text-align: center; }
-#eModal-3, #eModal-4, #eModal-5 { background-color: #ffffff !important; border: 3px solid #78be20 !important; min-height: 537px; }
+#eModal-3, #eModal-4, #eModal-5 { background-color: #ffffff !important; border: 3px solid #78be20 !important; height: 572px; overflow: scroll;}
 #eModal-7, #eModal-8 { background-color: #ffffff !important; border: 3px solid #78be20 !important; }
 #eModal-3 .emodal-content p,
 #eModal-4 .emodal-content p,
-#eModal-7 .emodal-content p,
-#eModal-8 .emodal-content p,
 #eModal-5 .emodal-content p{ font-size: 15px !important; color:#004ea8 !important; font-family: "Open Sans",sans-serif !important; }
+#eModal-7 .emodal-content p {font-size: 1.7vw !important; color:#004ea8 !important; font-family: "Open Sans",sans-serif !important;}
+#eModal-8 .emodal-content p {font-size: 1.2vw !important; color:#004ea8 !important; font-family: "Open Sans",sans-serif !important;}
 #eModal-3 .emodal-content li,
 #eModal-4 .emodal-content li,
 #eModal-5 .emodal-content li{ font-size: 15px !important; color:#004ea8 !important; font-family: "Open Sans",sans-serif !important; }
@@ -399,7 +398,7 @@ img.custom-zoom {border:2px solid #004ea8;}
 #post_316 .blue-border-h4 {margin-right: -20px; margin-top: -25px;}
 #post_316 .descriptwraps { margin-top: 20px;}
 #post_316 .vfb-radio{font-family: "Open Sans", sans-serif; }
-#post_316 .vfb-radio label {font-size: 16px;}
+#post_316 .vfb-radio label {font-size: 16px; float: none; clear: both;}
 .custom-mat-wrap p {margin-top: 10px;}
 .vfbp-form .vfb-help-block {margin-top: 10px;}
 .vfbp-form label{font-size: 12.9px; font-family: "Open Sans", sans-serif;}
@@ -407,6 +406,12 @@ img.custom-zoom {border:2px solid #004ea8;}
  #vfbField37 label, #vfbField31 label, #vfbField34 label, #vfbField38 label, #vfbField52 label {font-size: 14px !important;}
  #vfb-field-29 {font-family: "Open Sans", sans-serif; transition: all 0.1s ease-in-out;}
  .page-id-316 > .container{padding:0 70px;}
+ #vfbField24 .custom-mat-wrap {padding:0 10%;}
+ /* Pop out pages */
+ #eModal-3 .custom-pop-left, #eModal-4 .custom-pop-left, #eModal-5 .custom-pop-left {width: 66%; height: auto;}
+ #eModal-3 .custom-pop-right, #eModal-4 .custom-pop-right, #eModal-5 .custom-pop-right {width: 34%; height: auto;}
+ #eModal-3 .custom-pop-right img, #eModal-4 .custom-pop-right img, #eModal-5 .custom-pop-right img {width:100%; max-width: 375px;}
+ .custom-pop-left, .custom-pop-wrap {text-align: left;}
 
 /* END */
 
@@ -741,6 +746,7 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
   .page-id-6 .blue-border-h4 {width:77%; }
   .page-id-7 .blue-border-h4{ width: 85%; }
   .page-id-8 .blue-border-h4{ width: 85%; }
+  .woocommerce table.shop_table #coupon_code {padding: 10.5px 5px; width:200px !important; }
 }
 
 @media (max-width:1199px){
@@ -761,12 +767,17 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
 	.wc-tabs-wrapper {width:100%; margin:0 auto;}
 	.camp-right-table, .left-camp-cell{width:50%;}
   #sidebar{margin-right: 0;}
-  h4.pageheaders { margin-left:-5%; text-align: left; }
-  .page-id-6 .blue-border-h4 {width:79%; }
+  h4.pageheaders { margin-left:0px; text-align: left; }
+  .page-id-6 h4.pageheaders, .page-id-7 h4.pageheaders { margin-left:-45px;  }
+  .page-id-6 .blue-border-h4 {width:79%;  }
   .page-id-7 .blue-border-h4{ width: 89%; }
   .page-id-8 .blue-border-h4{ width: 85%; }
   .blue-border-h4 {width:472px;}
   #vfbField43, #vfbField44, #vfbField45 {margin-right: 230px;}
+  #eModal-3 .custom-pop-left, #eModal-4 .custom-pop-left, #eModal-5 .custom-pop-left {width: 100%;}
+  #eModal-3 .custom-pop-right, #eModal-4 .custom-pop-right, #eModal-5 .custom-pop-right {width: 100%; text-align: center;}
+  .custom-pop-wrap ul {margin: 0 0 .5em 0;}
+  .woocommerce table.shop_table #coupon_code {padding: 10.5px 5px; width:200px !important; }
 }
 
 @media (max-width:991px){
@@ -824,8 +835,11 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
     .page-id-7 .blue-border-h4{ width: 81%; }
     .page-id-8 .blue-border-h4{ width: 85%; }
     #searchform #searchsubmit { top: 7px; }
-    #vfbField43, #vfbField44, #vfbField45{margin-right: 54px;}
-    #vfbField43, #vfbField44, #vfbField45{top:0; float:none;}
+    #vfbField43, #vfbField44, #vfbField45{top:0; left:0; float:none; margin:0 auto;}
+    #vfbField48 .vfb-col-2, #vfbField49 .vfb-col-2, #vfbField50 .vfb-col-2 {width: 100%; font-size: 5.4vw;}
+    #vfb-field-47, #vfb-field-17, #vfb-field-21, #vfb-field-22, #vfb-field-46 {width:100%;}
+    #eModal-8 .emodal-content p {font-size: 1.7vw !important;}
+    #vfbField72 .vfb-radio {clear: both;}
 
 }
 /* woocommerce messes up the related products images at specifically this width */
@@ -867,7 +881,12 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
   #post_316 h4 {border-bottom: 3px #004ea8 solid; text-align: center;}
   .pagedescripts br {display: none;}
   .page-id-316 > .container, .custom-mat-wrap {padding: 0;}
-  .blue-border-h4 {display:none;}
+  .blue-border-h4 {display: none;}
+  #vfbField43, #vfbField44, #vfbField45 {margin-bottom:0px;width: 100%; text-align: center;}
+  .vfbp-form label {float:left;}
+  #vfbField72 .vfb-radio {float:left; clear: both;}
+  #eModal-7 .emodal-content p {font-size: 2.3vw !important;}
+  #eModal-8 .emodal-content p {font-size: 2.3vw !important;}
 }
 
 @media (max-width:575px){
@@ -915,6 +934,23 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
   #vfbField24 .vfb-col-10 {position: inherit;}
   .page-id-316{text-align: center;}
   .row {margin-right: 0; margin-left: 0;}
+  #vfbField29 button {font-size: 4vw; padding: 8px 40px;}
+  #post_316 h4 {font-size: 10vw;}
+  #vfbp-form-1 {font-size: 4.8vw;}
+  .custom-mat-wrap img {width: 80%;}
+  #vfbField48 .vfb-col-2, #vfbField49 .vfb-col-2, #vfbField50 .vfb-col-2 {width: 100%; font-size: 7vw;}
+  #vfb-field-47, #vfb-field-17, #vfb-field-21, #vfb-field-22, #vfb-field-46 {width:100%;}
+  #vfbField72 .vfb-col-10 .vfb-inline-group .vfb-radio:last-child label{padding-left: 0px;}
+  #vfbField53 .vfb-radio label {float: left;}
+  #vfbField24 .vfb-col-10 .vfb-inline-group .vfb-radio:first-child label{font-size: 3.9vw;}
+  #vfbField24 .vfb-col-10 .vfb-inline-group .vfb-radio:last-child label{font-size: 3.8vw;}
+  #vfbField24 .vfb-col-10 .vfb-inline-group .vfb-radio:nth-child(2) label{font-size: 3.7vw;}
+  .custom-pop-wrap ul {margin:0 0 .5em -25px;}
+  #eModal-3 .emodal-title, #eModal-4 .emodal-title, #eModal-5 .emodal-title{font-size: 7vw !important;}
+  #eModal-8 .emodal-title {font-size: 5.4vw !important;}
+  #eModal-7 .emodal-title {font-size: 6.3vw !important;}
+  #eModal-7 .emodal-content p {font-size: 7.7vw !important;}
+  #eModal-8 .emodal-content p {font-size: 4vw !important;}
 }
 
 @media (max-width:425px) {
@@ -926,6 +962,7 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
   #responsive-menu-button { top: 87px !important; }
   #responsive-menu-container { top: 136px !important; }
   body { padding-top: 129px; }
+  .woocommerce table.shop_table #coupon_code {width:100% !important; margin-bottom:0.23em;}
 }
 
 /* END */
