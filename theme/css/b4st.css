@@ -705,7 +705,6 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
   #benz-menu-img-cov1 { left: 13px; top: -36px; width:375px; }
   #benz-menu-img-cov2 { left: 360px; top: 98px; width: 351px; }
   #benz-menu-img-cov3 { display:none;}
-
 }
 
 @media(min-width:1200px){
@@ -774,7 +773,7 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
 	  body {padding-top: 160px;}
 		.med-mat-mobile{display:inline-block; width:100%; text-align: center; height:50px;}
 		#header-container{width: 100%; padding:0;}
-		.navbar-fixed-top{background:#fff;  height: 150px;}
+		.navbar-fixed-top{background:#fff;  height: auto;}
 		#fixed-row{margin-bottom: -15px;}
 		#landing-menu, #mm-right-contact, #benz-main-menu-wrap, #search-bar-div{display:none;}
 		.size-tablet{width:50%;float: left; height:110px;}
@@ -868,15 +867,14 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
   #post_316 h4 {border-bottom: 3px #004ea8 solid; text-align: center;}
   .pagedescripts br {display: none;}
   .page-id-316 > .container, .custom-mat-wrap {padding: 0;}
-
-
+  .blue-border-h4 {display:none;}
 }
 
 @media (max-width:575px){
 	#logo {width:100%; height: 110px;}
 	.search-form {display: none;}
 	.mobile-search-bar{display:inline-block;}
-	.med-logo {padding: 0 0px 0 44px;}
+	.med-logo { padding: 0 0px; max-width: 431px; margin-top: -0.1vw; }
 	#benz-main-menu-wrap{display: none;}
 	#search-place{display: none;}
 	#search-bar-div{display:block;margin-top: -3px;}
@@ -889,9 +887,9 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
 	#mattress-home-box2 {width: 75.5%; height:56.8vw; margin:0 0 10px 12.3vw; padding: 10vw 0px 0px 0px;}
 	#mattress-home-box2 h3 {font-size: 11vw; margin-left: 10vw;}
 	#mattress-home-box2 p{font-size: 5vw; margin-left: 10vw;}
-	#footerlinks1{ display: none; }
-	#footerwrap{ display: none; }
-	#logo-border{ display: block; }
+	#footerlinks1 { display: none; }
+	#footerwrap { display: none; }
+	#logo-border { display: block; }
 	#footerconnect { margin: -10px 0 0 0; width:100%; }
 	.socialicons2014{ margin: -25px 0 0 0px; }
 	.woocommerce div.product div.images, .woocommerce div.product div.summary {margin-bottom: 0;}
@@ -918,7 +916,6 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
   .page-id-316{text-align: center;}
   .row {margin-right: 0; margin-left: 0;}
 }
-
 
 @media (max-width:425px) {
 	.tg td {font-size: 5vw;}
