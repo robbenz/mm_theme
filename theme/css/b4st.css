@@ -106,7 +106,7 @@ textarea:focus::-moz-placeholder { color: transparent; } /* FF 19+ */
 #menu-item-1887 .sub-menu li a:hover,
 #menu-item-2041 .sub-menu li a:hover{ background-color:#fff; color:#636363; }
 #menu-item-1887 .sub-menu .insert-img-here,
-#menu-item-2041 .sub-menu .insert-img-here {text-align:center; padding-top:6px; padding-left:0;}
+#menu-item-2041 .sub-menu .insert-img-here {text-align:center; padding-top:33px; padding-left:0; margin-top: -21px;}
 #menu-item-1895 .sub-menu { height: 429px; }
 #menu-item-1895 .sub-menu li { list-style:none; }
 #menu-item-1895 .sub-menu li a { color:#004ea8; line-height:24px; }
@@ -342,7 +342,7 @@ h3.form-header {font-size:1.3em; font-family: "Rokkitt",serif !important;}
 .page-id-6 .woocommerce-breadcrumb { display:none !important; }
 .page-id-7 .woocommerce-breadcrumb { display:none !important; }
 .page-id-8 input.button{ width: 25%; background-color:#5e8fc8; color:#fff; min-width: 100px; }
-.wooheader-green {font-size: 1.2em; border-bottom: 2px dotted #78be20;  }
+.wooheader-green {font-size: 1.2em; border-bottom: 2px dotted #78be20; margin-top: 10px; }
 .descriptwraps{width:100%; text-align:center; padding: 0 auto; margin-bottom:10px;}
 .pagedescripts{ color: #004ea8; font-family: "Open Sans",sans-serif; font-size: 18px; font-weight: 600; line-height: 14px; width: 300px; }
 #vfbField4 .vfb-inline-group .vfb-radio{ width:33%; margin-right:0px !important; text-align:center;}
@@ -574,7 +574,7 @@ img.custom-zoom {border:2px solid #004ea8;}
 input {font-family: "Rokkitt", serif;}
 .woocommerce .quantity input.qty, .woocommerce-page .quantity input.qty{width: 3.018em; height: 2.5em;}
 .woocommerce .quantity .plus, .woocommerce .quantity .minus, .woocommerce-page .quantity .plus, .woocommerce-page .quantity .minus{height: 1.25em;}
-.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button{padding:0.718em 1em;}
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button{padding:0.718em .5em;}
 .single-product .woocommerce ul.products li.product, .single-product .woocommerce-page ul.products li.product{width:30.05%; clear:none !important;}
 .single-product .woocommerce ul.products li.product a img{width: 70%; margin: 0 35px 1em;}
 .single-product select.form-control:not([size]):not([multiple]){height: calc(2.5rem - 15px);}
@@ -590,7 +590,7 @@ input {font-family: "Rokkitt", serif;}
 /*Checkout*/
 #s2id_billing_country, #s2id_billing_state {padding:0; border: 0;}
 .woocommerce .woocommerce-info { border-top-color: #2a6abb; margin: 30px 0 0em !important;}
-form.login .button, .woocommerce form.login input[type="submit"] {background-color: #2a6abb; color: #FFFFFF;font-size: 19px; border:none; border-radius: 0;font-weight: normal; }
+form.login .button, .woocommerce form.login input[type="submit"] {background-color: ##5e8fc8; color: #FFFFFF;font-size: 19px; border:none; border-radius: 4px;font-weight: normal; }
 .po-application{margin-top:30px;}
 .po-application button{background-color: #2a6abb; color: #FFFFFF;font-size: 19px; border:none; }
 article > header > h2{ display: none !important; }
@@ -611,6 +611,9 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
 .wizard.wizard > .steps a { padding: 10px 10px 10px 16px; width: 100%; }
 .wizard.wizard > .steps.clearfix:after { margin-bottom:0px; }
 .woocommerce-checkout ul[role="tablist"] {overflow:hidden}
+.woocommerce form .form-row .required {text-decoration: none;}
+#post_8 .pageheaders {margin-left:-5vw;}
+#post_8
 /* END */
 
 /* PAGES */
@@ -677,6 +680,7 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
 .camp-table-freight-text{color: #464444; font-family: serif; font-size: 16px; text-align: center;}
 .camp-table-custom-sizing-text{font-size: 28px; color: red; text-align: center; font-family: serif;}
 /* END */
+
 
 /* Responsive Stuff */
 @media (min-width:992px) {
@@ -745,7 +749,7 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
   #benz-menu-img-cov3 { left: 531px; position: relative; top: 109px; z-index: 9999; display:block}
   .page-id-6 .blue-border-h4 {width:77%; }
   .page-id-7 .blue-border-h4{ width: 85%; }
-  .page-id-8 .blue-border-h4{ width: 85%; }
+  .page-id-8 .blue-border-h4{ width: 88%; margin-top: -30px;}
   .woocommerce table.shop_table #coupon_code {padding: 10.5px 5px; width:200px !important; }
 }
 
@@ -832,8 +836,9 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
     .practive-blue1 img, .practive-blue2 img, .practive-blue3 img {height: 187px;}
     .blue-border-h4{width: 231px;}
     .page-id-6 .blue-border-h4 {width:69%; }
-    .page-id-7 .blue-border-h4{ width: 81%; }
-    .page-id-8 .blue-border-h4{ width: 85%; }
+    .page-id-7 .blue-border-h4{ width: 77%; margin-top: -24px;margin-right: -30px;}
+    .page-id-7 h4.pageheaders {margin-left: -17px;}
+    .page-id-8 .blue-border-h4{ width: 79%; }
     #searchform #searchsubmit { top: 7px; }
     #vfbField43, #vfbField44, #vfbField45{top:0; left:0; float:none; margin:0 auto;}
     #vfbField48 .vfb-col-2, #vfbField49 .vfb-col-2, #vfbField50 .vfb-col-2 {width: 100%; font-size: 5.4vw;}
@@ -887,6 +892,9 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
   #vfbField72 .vfb-radio {float:left; clear: both;}
   #eModal-7 .emodal-content p {font-size: 2.3vw !important;}
   #eModal-8 .emodal-content p {font-size: 2.3vw !important;}
+  .wizard.wizard > .steps a {width:99.2%;}
+  .wizard > .steps li.current a::after{border-left:40px solid #5e8fc8 !important;}
+  #post_8 .pageheaders {margin:0; border-bottom: solid #2a6abb 4px;}
 }
 
 @media (max-width:575px){
@@ -963,6 +971,10 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
   #responsive-menu-container { top: 136px !important; }
   body { padding-top: 129px; }
   .woocommerce table.shop_table #coupon_code {width:100% !important; margin-bottom:0.23em;}
+  #ship-to-different-address label{font-size: 7.6vw;}
+  #payment .wc_payment_methods .payment_box
+  #add_payment_method #payment div.payment_box, .woocommerce-checkout #payment div.payment_box {font-size: 0.78em;}
+  .woocommerce form .form-row-first, .woocommerce form .form-row-last, .woocommerce-page form .form-row-first, .woocommerce-page form .form-row-last {width:50%;}
 }
 
 /* END */
