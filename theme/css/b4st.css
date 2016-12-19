@@ -310,7 +310,6 @@ div.festi-cart-content{color:#636363 !important; font-family: 'Open Sans', sans-
 .woocommerce-breadcrumb{ background-color:#2a6abb; color:#fff !important;  padding: 0 40px !important; text-align:center; font-size:20px !important; font-family: helvetica; text-transform: capitalize; margin-top:10px !important;margin-bottom: 5px !important;}
 .woocommerce-breadcrumb a{color:#fff !important; font-size:20px !important;}
 div.pp_woocommerce div.ppt {display:none !important;}
-.woocommerce-breadcrumb a:hover{color:#78be20 !important;font-size:20px !important;}
 /* END */
 
 /*Custom Size Form*/
@@ -416,7 +415,7 @@ img.custom-zoom {border:2px solid #004ea8;}
 /* END */
 
 /*Gallery Headers ETC*/
-.header-wrap-text-mattress{ width:auto; height:272px; padding:20px; border:8px solid #004ea8; margin-bottom: 10px; }
+.header-wrap-text-mattress{ width:auto; padding:20px; border:8px solid #004ea8; margin-bottom: 10px;}
 .header-wrap-text-mattress p{ text-transform: uppercase; font-weight:500; margin-top:30px !important;}
 .header-wrap-text-mattress-header{color: #004ea8; text-transform: uppercase;}
 .header-wrap-text-mattress-header span {font-size: 64px; line-height: 58px; }
@@ -522,7 +521,7 @@ img.custom-zoom {border:2px solid #004ea8;}
 #footerwrap { width: 992px; height: 102px;}
 #footer2014 {background: #2a66b1; clear: both; font-family: 'Open Sans', sans-serif;}
 .connecttop { font-size: 16px; color: #fff; line-height: 24px; }
-.connectbottom { font-size: 13px; color: #fff; line-height: 24px; }
+.connectbottom {  color: #fff; line-height: 24px; }
 .socialicons2014 { line-height: 0px; margin: -35px 0 0 118px; float:left; clear: both;}
 .socialicons2014 img {margin:0 5px;}
 #footerlinks1 { color: #a6d179; float: left; font-size: 14px; line-height: 23px; margin: 0 0 0 24px; width: 170px; font-weight: 800; }
@@ -544,6 +543,7 @@ img.custom-zoom {border:2px solid #004ea8;}
 /* END */
 
 /* Product Pages */
+.woocommerce div.product form.cart .variations select { max-width: 60% !important; }
 .woocommerce-main-image img {max-width:300px; border: 5px solid #004ea8; border-radius: 0 !important; min-width:240px;}
 .entry-content .images{ width:30% !important; }
 .woocommerce div.product .product_title {font-size:28px; color: #004ea8; font-family: 'Open Sans', sans-serif !important; font-weight:600; }
@@ -641,7 +641,7 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
 /* END */
 
 /*PROACTIVE FOAM*/
-.proactive-foam-wrap { font-family: 'Open Sans', sans-serif; clear:both; width:946px; height:900px; margin-bottom:1.8em; border:1px solid #a7a7a7; margin: 0 auto; }
+.proactive-foam-wrap { font-family: 'Open Sans', sans-serif; clear:both; width:946px; height:915px; margin-bottom:1.8em; border:1px solid #a7a7a7; margin: 0 auto; }
 .proactive-foam-wrap ul {  margin: 0 0 0.5em 0; padding: 2px 20px !important;}
 .proactive-foam-wrap img { max-height: 187px; max-width: 314px; width:100%; margin-top:0.87em; padding:0 3%; }
 .proactive-foam-wrap li { font-size:12px;  }
@@ -751,9 +751,14 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
   .page-id-7 .blue-border-h4{ width: 85%; }
   .page-id-8 .blue-border-h4{ width: 88%; margin-top: -30px;}
   .woocommerce table.shop_table #coupon_code {padding: 10.5px 5px; width:200px !important; }
+  .connectbottom {font-size:13px; }
+  .header-wrap-text-mattress { height:272px; background-size: 100%; background-image: url('https://medmattress.com/wp-content/imgs/Category-Mattress-header.png'); }
+
 }
 
 @media (max-width:1199px){
+  .header-wrap-text-mattress { height:200px; background-size: 100%; background-image: url('https://medmattress.com/wp-content/imgs/Category-Mattress-header.png'); }
+  .connectbottom {font-size:13px; }
 	#landing_nav-wrap div a.landing_nav{font-size: .7rem;}
 	.size-laptop{width:26.333%; float: left;}
 	.mobile-search-bar{display:none;}
@@ -785,6 +790,10 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
 }
 
 @media (max-width:991px){
+  .header-wrap-text-mattress {text-align:center;  height:auto; background-size: 100%; background-image: none; background-color: #cde4f4; }
+.covers-spread_copy{border:none;}
+.wraparound-category{display:none;}
+    .connectbottom {font-size:12px; }
 	  body {padding-top: 160px;}
 		.med-mat-mobile{display:inline-block; width:100%; text-align: center; height:50px;}
 		#header-container{width: 100%; padding:0;}
@@ -895,6 +904,7 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
   .wizard.wizard > .steps a {width:99.2%;}
   .wizard > .steps li.current a::after{border-left:40px solid #5e8fc8 !important;}
   #post_8 .pageheaders {margin:0; border-bottom: solid #2a6abb 4px;}
+  .woocommerce-breadcrumb a:hover{font-size:15px !important;}
 }
 
 @media (max-width:575px){
