@@ -111,7 +111,7 @@ textarea:focus::-moz-placeholder { color: transparent; } /* FF 19+ */
 #menu-item-1895 .sub-menu li { list-style:none; }
 #menu-item-1895 .sub-menu li a { color:#004ea8; line-height:24px; }
 #menu-item-1895 .sub-menu li a:hover{ background-color:#fff; color:#636363; }
-#menu-item-1895 .sub-menu .insert-img-here { padding:12px; color:#000; line-height:29px;}
+#menu-item-1895 .sub-menu .insert-img-here { padding:12px; color:#000; line-height:29px; margin-top: -20px; padding-top: 30px;}
 #menu-item-1895 .sub-menu #wppb-submit { font-size: 19px; font-weight: 500; text-transform:uppercase; font-family: 'Open Sans', sans-serif; padding: 12px 107px; background-color:#78be20; margin-top:3px;}
 #menu-item-1895 .sub-menu #wppb-submit:hover{text-decoration: underline;}
 #menu-item-1895 .sub-menu #benz-register-link { color:#fff; text-transform:uppercase; font-family: 'Open Sans', sans-serif; padding: 12px 0px; background-color:#004ea8; margin-top:5px;margin-bottom:5px; font-size:19px; font-weight:500;}
