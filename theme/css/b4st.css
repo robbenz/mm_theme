@@ -446,7 +446,7 @@ img.custom-zoom {border:2px solid #004ea8;}
 .header26-spread_copy { letter-spacing: 20px; }
 .header27-spread_copy { letter-spacing: 12px; }
 .header28-spread_copy { font-size: 57px !important; letter-spacing: 1px; }
-.mattress-spread_copy { font-family: "Open Sans",sans-serif; font-size: 46px !important;; font-weight: 400; letter-spacing: 6px !important; line-height: 53px !important; border-bottom: 5px solid #004ea8; padding-bottom:21px }
+.mattress-spread_copy { font-family: "Open Sans",sans-serif; font-size: 46px !important;; font-weight: 400; letter-spacing: 6px !important; line-height: 53px !important; border-bottom: 5px solid #004ea8; padding-bottom:14px }
 .covers-spread_copy { font-family: "Open Sans",sans-serif; font-size: 55px !important; font-weight: 400; letter-spacing: 26px !important;; line-height: 53px !important;; border-bottom: 5px solid #004ea8; padding-bottom:15px }
 .camp-spread_copy { margin-top:-30px; color:#fff; font-size: 94px !important; line-height: 81px !important; }
 .camp2-spread_copy { color:#fff; font-size: 94px !important; line-height: 81px !important; border-bottom: 5px solid #004ea8; padding-bottom:1px }
@@ -757,7 +757,7 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
 }
 
 @media (max-width:1199px){
-  .header-wrap-text-mattress { height:200px; background-size: 100%; background-image: url('https://medmattress.com/wp-content/imgs/Category-Mattress-header.png'); }
+  .header-wrap-text-mattress { height:272px; background-size: 116%; background-position: -87px; background-image: url('https://medmattress.com/wp-content/imgs/Category-Mattress-header.png'); }
   .connectbottom {font-size:13px; }
 	#landing_nav-wrap div a.landing_nav{font-size: .7rem;}
 	.size-laptop{width:26.333%; float: left;}
@@ -793,6 +793,7 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
   .header-wrap-text-mattress {text-align:center;  height:auto; background-size: 100%; background-image: none; background-color: #cde4f4; }
 .covers-spread_copy{border:none;}
 .wraparound-category{display:none;}
+.mattress-spread_copy {padding-bottom:8px;}
     .connectbottom {font-size:12px; }
 	  body {padding-top: 160px;}
 		.med-mat-mobile{display:inline-block; width:100%; text-align: center; height:50px;}
