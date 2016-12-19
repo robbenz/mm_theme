@@ -19,7 +19,7 @@
 
         /*** Remove blue bar when previous button is clicked on checkout page ***/
         $("[href='#previous']").click(function() {
-          $(".current").next().removeClass("done");
+            $(".current").next().removeClass("done");
         });
         /*** END ***/
 
@@ -27,8 +27,10 @@
             $(window).on($when, function() {
                 if ($(window).width() < 992) {
                     $("#fixed-top-header").addClass("navbar navbar-default navbar-fixed-top");
+                    $(".festi-cart-text-before-quantity").html("(");
                 } else {
                     $("#fixed-top-header").removeClass("navbar navbar-default navbar-fixed-top");
+                    $(".festi-cart-text-before-quantity").html("VIEW CART (");
                 }
             })
         }
