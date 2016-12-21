@@ -9,7 +9,7 @@
         </h2>
       </div>
       <ul class="products">
-        <?php if(have_posts()): while(have_posts()): the_post();wc_get_template_part( 'content', 'product' ); endwhile; ?>
+        <?php if ( have_posts() ): while ( have_posts() ): the_post(); wc_get_template_part( 'content', 'product' ); endwhile; ?>
       </ul>
 
       <?php

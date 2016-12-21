@@ -614,15 +614,14 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
 .woocommerce-checkout ul[role="tablist"] {overflow:hidden}
 .woocommerce form .form-row .required {text-decoration: none;}
 #post_8 .pageheaders {margin-left:-5vw;}
-#post_8
 /* END */
 
 /* PAGES */
-.wp-pagenavi{width:200px; float:right; position:relative; top:0.1em; height:80px;}
-.wp-pagenavi .current{font-weight:600; font-family: "Open Sans", sans-serif !important; padding:1em 1.2em;font-size:16px !important; background-color:#477d20; color:#464444 !important; border-radius:0.4em; border-radius:0.4em; margin:0 2px;}
-.wp-pagenavi .previouspostslink, .wp-pagenavi .page, .wp-pagenavi .nextpostslink{font-weight:600; font-family: "Open Sans", sans-serif !important; padding:1em 1.2em; font-size:16px !important; background-color:#72b323; color:#464444 !important; border-radius:0.4em;border-radius:0.4em; margin:0 2px;}
-.wp-pagenavi a:hover{background-color:#00426a; color:#fff !important}
-.search-results .wp-pagenavi{ right: 5em; top: 13em; }
+.wp-pagenavi .current { font-weight:600; font-family: "Open Sans", sans-serif !important; padding:1em 1.2em; font-size:16px !important; background-color:#477d20; color:#464444 !important; border-radius:0.4em; border-radius:0.4em; margin:0 2px; }
+.wp-pagenavi .previouspostslink, .wp-pagenavi .page, .wp-pagenavi .nextpostslink { font-weight:600; font-family: "Open Sans", sans-serif !important; padding:1em 1.2em; font-size:16px !important; background-color:#72b323; color:#464444 !important; border-radius:0.4em;border-radius:0.4em; margin:0 2px;}
+.wp-pagenavi a:hover { background-color:#00426a; color:#fff !important }
+.wp-pagenavi { width:auto; float:right; position:relative; top:-1em; }
+.wp-pagenavi .last, .wp-pagenavi .extend { display:none; }
 /* END */
 
 /* Tabs */
