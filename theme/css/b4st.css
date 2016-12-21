@@ -401,25 +401,24 @@ img.custom-zoom {border:2px solid #004ea8;}
 .custom-mat-wrap p {margin-top: 10px;}
 .vfbp-form .vfb-help-block {margin-top: 10px;}
 .vfbp-form label{font-size: 12.9px; font-family: "Open Sans", sans-serif;}
- #vfbField49 .vfb-col-2 {font-family:"Open Sans", sans-serif;}
- #vfbField37 label, #vfbField31 label, #vfbField34 label, #vfbField38 label, #vfbField52 label {font-size: 14px !important;}
- #vfb-field-29 {font-family: "Open Sans", sans-serif; transition: all 0.1s ease-in-out;}
- .page-id-316 > .container{padding:0 70px;}
- #vfbField24 .custom-mat-wrap {padding:0 10%;}
- /* Pop out pages */
- #eModal-3 .custom-pop-left, #eModal-4 .custom-pop-left, #eModal-5 .custom-pop-left {width: 66%; height: auto;}
- #eModal-3 .custom-pop-right, #eModal-4 .custom-pop-right, #eModal-5 .custom-pop-right {width: 34%; height: auto;}
- #eModal-3 .custom-pop-right img, #eModal-4 .custom-pop-right img, #eModal-5 .custom-pop-right img {width:100%; max-width: 375px;}
- .custom-pop-left, .custom-pop-wrap {text-align: left;}
-
+#vfbField49 .vfb-col-2 {font-family:"Open Sans", sans-serif;}
+#vfbField37 label, #vfbField31 label, #vfbField34 label, #vfbField38 label, #vfbField52 label {font-size: 14px !important;}
+#vfb-field-29 {font-family: "Open Sans", sans-serif; transition: all 0.1s ease-in-out;}
+.page-id-316 > .container{padding:0 70px;}
+#vfbField24 .custom-mat-wrap {padding:0 10%;}
+/* Pop out pages */
+#eModal-3 .custom-pop-left, #eModal-4 .custom-pop-left, #eModal-5 .custom-pop-left { width: 66%; height: auto ;}
+#eModal-3 .custom-pop-right, #eModal-4 .custom-pop-right, #eModal-5 .custom-pop-right { width: 34%; height: auto; }
+#eModal-3 .custom-pop-right img, #eModal-4 .custom-pop-right img, #eModal-5 .custom-pop-right img { width:100%; max-width: 375px; }
+.custom-pop-left, .custom-pop-wrap { text-align: left; }
 /* END */
 
 /*Gallery Headers ETC*/
-.header-wrap-text-mattress{ width:auto; padding:20px; border:8px solid #004ea8; margin-bottom: 10px;}
-.header-wrap-text-mattress p{ text-transform: uppercase; font-weight:500; margin-top:30px !important;}
-.header-wrap-text-mattress-header{color: #004ea8; text-transform: uppercase;}
-.header-wrap-text-mattress-header span {font-size: 64px; line-height: 58px; }
-.header-spread_copy {font-size: 52px; line-height: 59px; }
+.header-wrap-text-mattress, .header-wrap-camp-mattress { width:auto; padding:20px; border:8px solid #004ea8; margin-bottom: 10px; }
+.header-wrap-text-mattress p { text-transform: uppercase; font-weight:500; margin-top:30px !important; }
+.header-wrap-text-mattress-header { color: #004ea8; text-transform: uppercase; }
+.header-wrap-text-mattress-header span { font-size: 64px; line-height: 58px; }
+.header-spread_copy { font-size: 52px; line-height: 59px; }
 .header2-spread_copy { letter-spacing: 6px; }
 .header3-spread_copy { letter-spacing: 8px; }
 .header4-spread_copy { letter-spacing: 9px; }
@@ -466,6 +465,10 @@ img.custom-zoom {border:2px solid #004ea8;}
 .product a{ font-family: 'Open Sans', sans-serif; color:#004ea8;}
 .single-product ul.products li.product { width: 33.3333%; margin:0px 0 1px 0; }
 .single-product ul.products li.product a img {width:80%;}
+
+.header-wrap-camp-mattress{background-image: url('http://medmattress.com/wp-content/imgs/Camp-Mattress-Header.png'); }
+.header-wrap-camp-mattress-header{margin-top: -25px; font-weight:800;}
+.camp-lower-copy { color: #fff; font-size: 23px; letter-spacing: 2px; color: #fff; }
 /* END */
 
 /* Main Page */
@@ -617,11 +620,11 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
 /* END */
 
 /* PAGES */
-.wp-pagenavi .current { font-weight:600; font-family: "Open Sans", sans-serif !important; padding:1em 1.2em; font-size:16px !important; background-color:#477d20; color:#464444 !important; border-radius:0.4em; border-radius:0.4em; margin:0 2px; }
 .wp-pagenavi .previouspostslink, .wp-pagenavi .page, .wp-pagenavi .nextpostslink { font-weight:600; font-family: "Open Sans", sans-serif !important; padding:1em 1.2em; font-size:16px !important; background-color:#72b323; color:#464444 !important; border-radius:0.4em;border-radius:0.4em; margin:0 2px;}
 .wp-pagenavi a:hover { background-color:#00426a; color:#fff !important }
 .wp-pagenavi { width:auto; float:right; position:relative; top:-1em; }
 .wp-pagenavi .last, .wp-pagenavi .extend { display:none; }
+.wp-pagenavi .current { font-weight:600; font-family: "Open Sans", sans-serif !important; padding:1em 1.2em; font-size:16px !important; background-color:#477d20; color:#464444 !important; border-radius:0.4em; border-radius:0.4em; margin:0 2px; }
 /* END */
 
 /* Tabs */
@@ -647,7 +650,6 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
 .search-results-header { text-align: center; height:24px; color:#000; }
 .search-results-header:hover { color:#5e8fc8; }
 /* END */
-
 
 /*PROACTIVE FOAM*/
 .proactive-foam-wrap { font-family: 'Open Sans', sans-serif; clear:both; width:946px; height:915px; margin-bottom:1.8em; border:1px solid #a7a7a7; margin: 0 auto; }
@@ -888,6 +890,7 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
 }
 
 @media (max-width:767px){
+  .camper-mattress{display:none;}
 	#greenad-container{width:100%;}
 	#mattresshomeimgwrap{display: none;}
 	#mattress-home-box2{height:22vw; padding: 22px 0px 0px 0px;}
@@ -1009,13 +1012,15 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
   #eModal-7 .emodal-content p { font-size: 7.7vw !important;}
   #eModal-8 .emodal-content p { font-size: 4vw !important; }
   #mm-right-contact { display: none;}
-  .header-spread_copy{ font-size:60px !important; }
-  .covers-spread_copy{ font-size:50px !important; }
+  .header-spread_copy { font-size:60px !important; }
+  .covers-spread_copy { font-size:50px !important; }
 }
 
 @media (max-width:425px) {
-  .header-spread_copy{font-size:36px !important;}
-  .covers-spread_copy{font-size:44px !important;letter-spacing: 3px !important;}
+  .header-wrap-camp-mattress{height:269px;text-align:center;}
+  .camp-spread_copy, .camp2-spread_copy{font-size:69px !important;}
+  .header-spread_copy { font-size:36px !important; }
+  .covers-spread_copy { font-size:44px !important; letter-spacing: 3px !important; }
   .header-wrap-text-mattress {padding: 8px 20px;}
   .wraparound-category{display:none; }
 	.tg td {font-size: 5vw;}

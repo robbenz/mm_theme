@@ -5,7 +5,7 @@
     <div id="content" class="woocommerce" role="main">
       <div class="header-wrap-text-mattress">
         <h2 class="header-wrap-text-mattress-header">
-          <span class="header8-spread_copy" style="border-bottom: 5px solid #004ea8;padding-bottom: 14px;"><?php the_search_query(); ?></span>
+          <span class="header4-spread_copy"><?php the_search_query(); ?></span>
         </h2>
       </div>
       <ul class="products">
