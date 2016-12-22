@@ -3,6 +3,7 @@
     'use strict';
 
     $(document).ready(function() {
+      var t0 = performance.now();
 
         // Comments
         $('.commentlist li').addClass('card');
@@ -36,6 +37,11 @@
         }
         addClassesMobile('load');
         addClassesMobile('resize');
+
+        var t1 = performance.now();
+        console.log("document.ready() took " + (t1-t0) + " milliseconds." );
+        //alert("hello" );
+
     });
 
 }(jQuery));
