@@ -14,16 +14,16 @@ Alternatively, notice that index.php, category.php and single.php have a post_cl
 <?php if(have_posts()): while(have_posts()): the_post();?>
     <article role="article" id="post_<?php the_ID()?>">
         <header>
-            <h2><a href="<?php the_permalink(); ?>"><?php the_title()?></a></h2>
+            <h4><a style="color:#2a6abb;" href="<?php the_permalink(); ?>"><?php the_title()?></a></h4>
             <h5>
               <em>
                 <span class="text-muted author"><?php // _e('By', 'b4st'); echo " "; the_author() ?></span>
-                <time  class="text-muted" datetime="<?php the_time('d-m-Y')?>"><?php the_time('F jS Y') ?></time>
+                <a href="<?php the_permalink(); ?>"><time  class="text-muted" datetime="<?php the_time('d-m-Y')?>"><?php the_time('F jS Y') ?></time></a>
               </em>
             </h5>
         </header>
         <section>
-            <?php the_post_thumbnail( 'large' ); ?>
+          <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail( 'large' ); ?></a>
         </section>
         <footer>
             <p class="text-muted" style="margin-bottom: 20px;">
@@ -33,11 +33,17 @@ Alternatively, notice that index.php, category.php and single.php have a post_cl
     </article>
 <?php endwhile; ?>
 
-<?php if ( function_exists('b4st_pagination') ) { b4st_pagination(); } else if ( is_paged() ) { ?>
-  <ul class="pagination">
-    <li class="older"><?php next_posts_link('<i class="fa fa-arrow-left"></i> ' . __('Previous', 'b4st')) ?></li>
-    <li class="newer"><?php previous_posts_link(__('Next', 'b4st') . ' <i class="fa fa-arrow-right"></i>') ?></li>
-  </ul>
-<?php } ?>
+<?php
+if ( function_exists('wp_pagenavi') ) {
+  wp_pagenavi();
+} elseif ( function_exists('b4st_pagination') && !function_exists('wp_pagenavi') ) {
+  b4st_pagination();
+} elseif ( is_paged() && !function_exists('b4st_pagination') && !function_exists('wp_pagenavi')) { ?>
+      <ul class="pagination">
+        <li class="older"><?php next_posts_link('<i class="fa fa-arrow-left"></i> ' . __('Previous', 'b4st')) ?></li>
+        <li class="newer"><?php previous_posts_link(__('Next', 'b4st') . ' <i class="fa fa-arrow-right"></i>') ?></li>
+      </ul>
+
+      <?php } ?>
 
 <?php else: wp_redirect(get_bloginfo('siteurl').'/404', 404); exit; endif; ?>
