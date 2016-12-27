@@ -852,6 +852,7 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
 		.practive-blue1:after, .practive-blue2:after, .practive-blue3:after {top:239px; border-width: 45px 14.8vw 0;}
 		.proactive-foam-wrap { width:100%; display: table;}
     .proactive-3span {display: table-cell;}
+    @-moz-document url-prefix(){.proactive-3span {display: table;}}
 		.wc-tabs-wrapper {width:100%;}
 		.product_cat-camp-mattresses .wc-tabs-wrapper {width:90%;}
 		.tg {width:100%;}
@@ -883,10 +884,12 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
     .logged-in  a#festi-cart.festi-cart.festi-cart-customize div.festi-cart-content span.festi-cart-text-before-quantity, .logged-in  a#festi-cart.festi-cart.festi-cart-customize div.festi-cart-content span.festi-cart-quantity, .logged-in  a#festi-cart.festi-cart.festi-cart-customize div.festi-cart-content span.festi-cart-text-after-quantity, .logged-in  a#festi-cart.festi-cart.festi-cart-customize div.festi-cart-content span.festi-cart-text-before-total, .logged-in  a#festi-cart.festi-cart.festi-cart-customize div.festi-cart-content span.festi-cart-total span.amount,
     .logged-in  a#festi-cart.festi-cart.festi-cart-customize div.festi-cart-content span.festi-cart-text-after-total, .logged-in  a#festi-cart.festi-cart.festi-cart-customize div.festi-cart-content span.festi-cart-dropdown-arrow {font-size: 2.3vw !important;}
     .logged-in div.festi-cart-arrow {left:auto !important; right:30px !important; z-index: 1200 !important;}
-    .menu-need_help-container ul li {padding-left:51px;}
+    /*.menu-need_help-container ul li {padding-left:51px;}*/
     .arrow-up-mm {margin: -25px 0 0 144px;}
     .arrow-up-mm:after{left:150px;}
     .camper-mattress{margin-top: -23px; }
+    .camp-lower-copy{font-size: 21px;}
+    #mm-second-line {float: right; width: 100%;}
 }
 /* woocommerce messes up the related products images at specifically this width */
 @media (width:768px){
@@ -959,6 +962,7 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
   .header-wrap-camp-mattress-header {text-align: center; border-bottom: 5px solid #004ea8;}
   .camp2-spread_copy {border-bottom: none;}
   .wraparound-category{display: none;}
+  .camp-lower-copy {text-align: center;font-size: 23px;}
 
 }
 

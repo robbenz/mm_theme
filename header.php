@@ -66,7 +66,7 @@ ga('send', 'pageview');
 
 		echo '<span class="mm-right-contact-1">' . 'CONTACT US: (877) 593-6011' . '</span>';
 		echo '<span class="mm-right-contact-2">' . '   (M-F: 7-6 EST)' . '</span>' . '<br />';
-
+		echo '<div id="mm-second-line">';
 		wp_nav_menu( array( 'theme_location'  => 'header-menu',
 		                    'items_wrap'      => $benzitems,
 		                    'walker' => new BENZ_Walker_Nav_Menu
@@ -85,6 +85,7 @@ ga('send', 'pageview');
 		};
 
 		echo do_shortcode('[WooCommerceWooCartPro]');
+		echo '</div>';
 
 		?>
 		</div>
