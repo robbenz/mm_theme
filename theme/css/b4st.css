@@ -115,7 +115,7 @@ textarea:focus::-moz-placeholder { color: transparent; } /* FF 19+ */
 #menu-item-1895 .sub-menu #wppb-submit { font-size: 19px; font-weight: 500; text-transform:uppercase; font-family: 'Open Sans', sans-serif; padding: 12px 107px; background-color:#78be20; margin-top:3px;}
 #menu-item-1895 .sub-menu #wppb-submit:hover{text-decoration: underline;}
 #menu-item-1895 .sub-menu #benz-register-link { color:#fff; text-transform:uppercase; font-family: 'Open Sans', sans-serif; padding: 12px 0px; background-color:#004ea8; margin-top:5px;margin-bottom:5px; font-size:19px; font-weight:500;}
-.menu-sign_in-container, .menu-my-account-container {text-align:left; color:#636363; font-family: 'Open Sans', sans-serif; float:left; }
+.menu-sign_in-container, .menu-my-account-container {text-align:left; color:#636363; font-family: 'Open Sans', sans-serif; float:right; }
 .menu-sign_in-container ul li{list-style: none; }
 .menu-my-account-container ul li{list-style: none;}
 #menu-item-1896{ margin-left:13px; margin-bottom:7px;}
@@ -123,7 +123,7 @@ textarea:focus::-moz-placeholder { color: transparent; } /* FF 19+ */
 #menu-my-account{ margin: 0px !important; }
 .menu-sign_in-container input[type="text"], .menu-sign_in-container input[type="email"], .menu-sign_in-container input[type="url"], .menu-sign_in-container input[type="password"], .menu-sign_in-container input[type="search"], .menu-sign_in-container textarea { width:100%;}
 .menu-need_help-container {top: -5px; }
-.menu-need_help-container ul li{list-style: none; text-align:left; }
+.menu-need_help-container ul li{list-style: none; text-align:left; float:right;}
 #searchform #searchsubmit {background-color: #ebebeb; border-bottom-right-radius: 10px; top:8px;  border-top-right-radius: 10px; position:relative; left:-5px; border-top: 1px solid #aeaeae; border-right: 1px solid #aeaeae; border-bottom: 1px solid #aeaeae; border-left-color: transparent; border-top-left-radius: 3px; border-bottom-left-radius: 3px; border-style: solid; -moz-border-radius-bottomright: 10px;-moz-border-radius-topright: 10px;}
 @-moz-document url-prefix() { #searchform #searchsubmit { padding: 17px 20px; } }
 input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="tel"], textarea {padding:7px 15px; border-width: 1px; border-style: solid;}
@@ -145,7 +145,7 @@ body div.festi-cart-total{border-bottom: 1px solid #cccccc !important; border-ra
 span.festi-cart-product-count { margin-left:80%; text-align:right;}
 .festi-cart-product-price .amount { text-align:right;}
 .sf-menu .menu-item-has-children > a:first-child::after, .sf-menu .page_item_has_children > a:first-child::after {border:none !important; }
-#mm-right-contact{color: #636363; float: right; font-family: "Open Sans",sans-serif; font-size: 15px; text-align: right; width: 434px; }
+#mm-right-contact{color: #636363; float: right; font-family: "Open Sans",sans-serif; font-size: 15px; text-align: center; width: 434px; }
 .logged-in #mm-right-contact{ width: 358px; }
 .mm-right-drops {color:#464444; font-weight: 600; position:relative; top:5px; }
 .mm-right-contact-1 { font-weight:700; line-height:26px; }
@@ -302,7 +302,7 @@ li.main-header-link:hover, .benz-menu > ul > li > a:hover {background-color:#004
 /* END */
 
 /*CART STUFF DROP*/
-body a#festi-cart.festi-cart.festi-cart-customize {padding: 0 !important; }
+body a#festi-cart.festi-cart.festi-cart-customize {padding: 0 !important; float: right;}
 div.festi-cart-content{color:#636363 !important; font-family: 'Open Sans', sans-serif !important; font-weight: 600 !important; font-size:15px !important; }
 /* END */
 
@@ -802,6 +802,7 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
   .custom-pop-wrap ul {margin: 0 0 .5em 0;}
   .woocommerce table.shop_table #coupon_code {padding: 10.5px 5px; width:200px !important; }
   #green-bar .row{margin: 0 !important;}
+  #mm-right-contact{text-align: right;}
 }
 
 @media (max-width:991px){
@@ -890,6 +891,8 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
     .camper-mattress{margin-top: -23px; }
     .camp-lower-copy{font-size: 21px;}
     #mm-second-line {float: right; width: 100%;}
+    #menu-item-1887 .sub-menu {left: -120px;}
+    body div.festi-cart-arrow {left:auto !important; right:32px;}
 }
 /* woocommerce messes up the related products images at specifically this width */
 @media (width:768px){
@@ -941,8 +944,8 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
   .wizard > .steps li.current a::after{border-left:40px solid #5e8fc8 !important;}
   #post_8 .pageheaders {margin:0; border-bottom: solid #2a6abb 4px;}
   /*.menu-need_help-container ul li, .menu-sign_in-container ul li {margin-top: 3px;}*/
-  a.festi-cart div.festi-cart-content img.festi-cart-icon {width:35%; height: auto; margin-top: 0.3vw; max-width: 20px;}
-  div.festi-cart-content {margin-top: .22vw;}
+  a.festi-cart div.festi-cart-content img.festi-cart-icon {width:35%; height: auto; margin-top: 0.7vw; max-width: 20px;}
+    div.festi-cart-content {margin-top: -3px;}
   /* #mm-right-contact a {font-size: 2vw;} */
   .woocommerce-breadcrumb a:hover{ font-size:15px !important;}
   .shipp_section > .shipp_comment_wrap:first-of-type { display:none; }
@@ -963,6 +966,7 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
   .camp2-spread_copy {border-bottom: none;}
   .wraparound-category{display: none;}
   .camp-lower-copy {text-align: center;font-size: 23px;}
+  #menu-item-1887 .sub-menu{left: -65px;}
 
 }
 
@@ -1032,6 +1036,7 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
   #mm-right-contact { display: none;}
   .header-spread_copy { font-size:60px !important; }
   .covers-spread_copy { font-size:50px !important; }
+
 }
 
 @media (max-width:425px) {
