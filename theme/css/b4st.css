@@ -100,7 +100,7 @@ textarea:focus::-moz-placeholder { color: transparent; } /* FF 19+ */
 #mm-right-contact .sub-menu { background-color: #ffffff; border: 1px solid #d7d7d7; left: -71px; padding: 5px; width: 300px; top:40px; }
 #menu-item-1887 .sub-menu { }
 #menu-item-1887 .sub-menu li,
-#menu-item-2041 .sub-menu li { list-style:disc; margin: 10px 0 0 26px; }
+#menu-item-2041 .sub-menu li { list-style:disc; margin: 10px 0 0 26px; float: left; clear: both;}
 #menu-item-1887 .sub-menu li a,
 #menu-item-2041 .sub-menu li a  { color:#004ea8; line-height:24px; }
 #menu-item-1887 .sub-menu li a:hover,
