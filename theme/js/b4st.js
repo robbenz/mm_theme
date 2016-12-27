@@ -36,6 +36,7 @@
         }
         addClassesMobile('load');
         addClassesMobile('resize');
+
     });
 
 }(jQuery));
