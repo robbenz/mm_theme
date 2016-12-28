@@ -36,6 +36,7 @@
         /*** Header classes for mobile Nav ***/
         function viewport() {
             var e = window, a = 'inner';
+            
             if (!('innerWidth' in window )) {
                 a = 'client';
                 e = document.documentElement || document.body;
@@ -47,7 +48,18 @@
 
         function addClassesMobile($when) {
             $(window).on($when, function() {
-                if ($vpWidth < 992) {
+              function viewport() {
+                  var e = window, a = 'inner';
+                  if (!('innerWidth' in window )) {
+                      a = 'client';
+                      e = document.documentElement || document.body;
+                  }
+                  return { width : e[ a+'Width' ] , height : e[ a+'Height' ] };
+              }
+
+              var vpWidth = viewport().width; // This should match your media query
+
+                if (vpWidth < 992) {
                     $("#fixed-top-header").addClass("navbar navbar-default navbar-fixed-top");
                     cartModifier();
                 } else {
