@@ -127,7 +127,7 @@ textarea:focus::-moz-placeholder { color: transparent; } /* FF 19+ */
 #searchform #searchsubmit {background-color: #ebebeb; border-bottom-right-radius: 10px; top:8px;  border-top-right-radius: 10px; position:relative; left:-5px; border-top: 1px solid #aeaeae; border-right: 1px solid #aeaeae; border-bottom: 1px solid #aeaeae; border-left-color: transparent; border-top-left-radius: 3px; border-bottom-left-radius: 3px; border-style: solid; -moz-border-radius-bottomright: 10px;-moz-border-radius-topright: 10px;}
 @-moz-document url-prefix() { #searchform #searchsubmit { padding: 17px 20px; } }
 input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="tel"], textarea {padding:7px 15px; border-width: 1px; border-style: solid;}
-input[type="text"]{border-right: transparent;}
+#search-place input[type="text"]{border-right: transparent;}
 input[id="user_login"]{border-right: 1px solid rgba(0,0,0,.15);}
 button, html input[type="button"], input[type="reset"], input[type="submit"] { padding: 7px 20px; }
 .festi-cart-text-before-quantity{font-weight: 600 !important;}
