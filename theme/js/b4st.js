@@ -23,6 +23,7 @@
         });
         /*** END ***/
 
+        /*** Header classes for mobile Nav ***/
         function addClassesMobile($when) {
             $(window).on($when, function() {
                 if ($(window).width() < 992) {
@@ -36,6 +37,23 @@
         }
         addClassesMobile('load');
         addClassesMobile('resize');
+        /*** END ***/
+
+        /*** Max Length for checkout shipping input field ***/
+        function FUauthorize_net($inputField, $maxLen) {
+          $($inputField).attr("maxlength", $maxLen);
+          $($inputField).on("keyup", function() {
+            if ($(this).val().length == $maxLen) {
+              $(".red-alert").remove();
+              $($inputField+"_field").append("<p class='red-alert'>Maximum Length Reached</p>");
+              $(".red-alert").hide(2000, function() {
+              });
+            }
+          });
+        }
+        FUauthorize_net("#billing_address_1", 60)
+        FUauthorize_net("#billing_company", 50)
+        /*** END ***/
 
     });
 
