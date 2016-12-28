@@ -145,7 +145,7 @@ body div.festi-cart-total{border-bottom: 1px solid #cccccc !important; border-ra
 span.festi-cart-product-count { margin-left:80%; text-align:right;}
 .festi-cart-product-price .amount { text-align:right;}
 .sf-menu .menu-item-has-children > a:first-child::after, .sf-menu .page_item_has_children > a:first-child::after {border:none !important; }
-#mm-right-contact{color: #636363; float: right; font-family: "Open Sans",sans-serif; font-size: 15px; text-align: center; width: 434px; }
+#mm-right-contact{color: #636363; float: right; font-family: "Open Sans",sans-serif; font-size: 15px; text-align: right; width: 434px; }
 .logged-in #mm-right-contact{ width: 358px; }
 .mm-right-drops {color:#464444; font-weight: 600; position:relative; top:5px; }
 .mm-right-contact-1 { font-weight:700; line-height:26px; }
