@@ -23,7 +23,7 @@
         });
         /*** END ***/
 
-        /*** Header classes for mobile Nav ***/
+        /*** Check for festi cart ***/
         function cartModifier() {
           if($("#festi-cart").is(":visible")) {
             $(".festi-cart-text-before-quantity").html("(");
@@ -31,7 +31,9 @@
             setTimeout(cartModifier, 50);
           }
         }
+        /*** END ***/
 
+        /*** Header classes for mobile Nav ***/
         function addClassesMobile($when) {
             $(window).on($when, function() {
                 if ($(window).width() < 992) {
@@ -43,12 +45,10 @@
                 }
             })
         }
-        
+
         addClassesMobile('load');
         addClassesMobile('resize');
         /*** END ***/
-
-
 
         /*** Max Length for checkout shipping input field ***/
         function FUauthorize_net($inputField, $maxLen) {
