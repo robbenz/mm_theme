@@ -153,6 +153,8 @@ span.festi-cart-product-count { margin-left:80%; text-align:right;}
 #mm-right-contact .sub-menu a:hover{ background-color:#ececec; }
 #mm-right-contact .sf-menu .menu-item-has-children > a:first-child, .sf-menu .page_item_has_children > a:first-child {padding-right:3px;}
 #mm-right-contact a{color: #000000; font-size: 15px; font-weight: 600; }
+.woo-ma-login-failed{ text-align:center; color:#fff; background-color: #c31e1e; margin:1em auto; width: 75%;padding: 0.3em; border-radius: 0.3em; font-size: 22px; font-family: 'Open Sans', sans-serif;}
+.logged-in .woo-ma-login-failed{ display:none !important; }
 /*END*/
 
 /* Modal POP UP */
@@ -1038,6 +1040,7 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
   #mm-right-contact { display: none;}
   .header-spread_copy { font-size:60px !important; }
   .covers-spread_copy { font-size:50px !important; }
+  .woo-ma-login-failed{font-size: 16px;}
 
 }
 
