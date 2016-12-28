@@ -407,7 +407,8 @@ class BENZ_Walker_Nav_Menu extends Walker_Nav_Menu {
     }
 }
 
-$link = '<a href="' . wp_logout_url( $redirect ) . '" title="' .  __( 'Logout' ) .'">' . __( 'Logout' ) . '</a>';
+// not sure what happened here 
+// $link = '<a href="' . wp_logout_url( $redirect ) . '" title="' .  __( 'Logout' ) .'">' . __( 'Logout' ) . '</a>';
 
 class BENZ_Walker_Nav_Menu_MYACCOUNT extends Walker_Nav_Menu {
    function start_lvl(&$output, $depth) {
