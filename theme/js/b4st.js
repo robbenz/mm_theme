@@ -24,20 +24,31 @@
         /*** END ***/
 
         /*** Header classes for mobile Nav ***/
+        function cartModifier() {
+          if($("#festi-cart").is(":visible")) {
+            $(".festi-cart-text-before-quantity").html("(");
+          } else {
+            setTimeout(cartModifier, 50);
+          }
+        }
+
         function addClassesMobile($when) {
             $(window).on($when, function() {
                 if ($(window).width() < 992) {
                     $("#fixed-top-header").addClass("navbar navbar-default navbar-fixed-top");
-                    $(".festi-cart-text-before-quantity").html("(");
+                    cartModifier();
                 } else {
                     $("#fixed-top-header").removeClass("navbar navbar-default navbar-fixed-top");
                     $(".festi-cart-text-before-quantity").html("VIEW CART (");
                 }
             })
         }
+        
         addClassesMobile('load');
         addClassesMobile('resize');
         /*** END ***/
+
+
 
         /*** Max Length for checkout shipping input field ***/
         function FUauthorize_net($inputField, $maxLen) {
