@@ -15,8 +15,6 @@
         // Pagination fix for ellipsis
         $('.pagination .dots').addClass('page-link').parent().addClass('disabled');
 
-        // You can put your own code in here
-
         /*** Remove blue bar when previous button is clicked on checkout page ***/
         $("[href='#previous']").click(function() {
             $(".current").next().removeClass("done");
@@ -34,7 +32,6 @@
         /*** END ***/
 
         /*** Header classes for mobile Nav ***/
-
         function addClassesMobile($when) {
             $(window).on($when, function() {
               function viewport() {
