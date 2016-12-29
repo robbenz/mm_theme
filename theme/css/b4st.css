@@ -142,7 +142,7 @@ body div.festi-cart-arrow:after{ border-bottom: 19px solid #fff !important; bord
 body div.festi-cart-products { padding-top: 19px !important; z-index: 1039 !important;}
 body div.festi-cart-products-content > table.festi-cart-list tr, body div.festi-cart-products-content > table.festi-cart-list tr td { border-bottom: 1px solid #a1a1a1 !important; }
 body div.festi-cart-total{border-bottom: 1px solid #cccccc !important; border-radius: 0 !important;}
-span.festi-cart-product-count { margin-left:80%; text-align:right;}
+span.festi-cart-product-count { margin-left:60%; text-align:right;}
 .festi-cart-product-price .amount { text-align:right;}
 .sf-menu .menu-item-has-children > a:first-child::after, .sf-menu .page_item_has_children > a:first-child::after {border:none !important; }
 #mm-right-contact{color: #636363; float: right; font-family: "Open Sans",sans-serif; font-size: 15px; text-align: right; width: 434px; }
