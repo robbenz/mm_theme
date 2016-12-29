@@ -407,9 +407,6 @@ class BENZ_Walker_Nav_Menu extends Walker_Nav_Menu {
     }
 }
 
-// not sure what happened here 
-// $link = '<a href="' . wp_logout_url( $redirect ) . '" title="' .  __( 'Logout' ) .'">' . __( 'Logout' ) . '</a>';
-
 class BENZ_Walker_Nav_Menu_MYACCOUNT extends Walker_Nav_Menu {
    function start_lvl(&$output, $depth) {
         $output .= '<ul class="sub-menu" style="color:#004ea8; font-weight:700;"><div class="arrow-up-mm"></div><div class="insert-img-here">MANAGE YOUR ACCOUNT<br></div>';
