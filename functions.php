@@ -268,11 +268,11 @@ if(file_exists($preview)) {
  }
 /** END **/
 
-
-add_filter('woocommerce_empty_price_html', 'custom_call_for_price', 9999);
+/*
+add_filter('woocommerce_empty_price_html', 'custom_call_for_price');
 function custom_call_for_price() {
-     return '<button class="eModal-1">Request A Quote</button>';
-}
+     return '<button class="btn btn-small eModal-1">Request A Quote</button>';
+}*/
 
 /****** END WOOCOMMERCE SPECIFIC  ******/
 
@@ -283,7 +283,7 @@ function benz_chromefix_inline_css() {
  }
 add_action('admin_enqueue_scripts', 'benz_chromefix_inline_css');
 
-//  -- New Class to add Sortable Registered date in users wp dash -- HOT
+//  -- New Class to add Sortable Registered date in users wp dash
 
 class RRHE {
 
