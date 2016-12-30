@@ -268,6 +268,12 @@ if(file_exists($preview)) {
  }
 /** END **/
 
+
+add_filter('woocommerce_empty_price_html', 'custom_call_for_price', 9999);
+function custom_call_for_price() {
+     return '<button class="eModal-1">Request A Quote</button>';
+}
+
 /****** END WOOCOMMERCE SPECIFIC  ******/
 
 //Benz fix for multiple html input field in category edit smashboard becuase of tnymce plugin
