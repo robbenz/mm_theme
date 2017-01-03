@@ -646,15 +646,13 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
 .woocommerce div.product .woocommerce-tabs ul.tabs li a{font-size: 16px;}
 #tab-description h2 {font-weight: bold; font-size: 28px; margin-bottom: 25px;}
 #tab-description li {font-size: 19px;}
-.foam-table{display: flex; flex-direction: column;width:100%;}
-.foam-row-1, .foam-row-2{display: flex;}
-.table-border-1, .table-border-2, .table-border-3, .table-border-4{border:1px solid #000; flex: 1; height: auto;}
+.foam-table{display: flex; flex-direction: row; width:100%; flex-wrap: wrap;}
+.table-border-1, .table-border-2, .table-border-3, .table-border-4{border:1px solid #000; flex: 1; height: auto; flex-basis: 50%;}
 .table-border-1, .table-border-2{text-align: center;}
-.table-border-1 img, .table-border-2 img {margin:10px 0}
+.table-border-1 img, .table-border-2 img {padding:10px}
 .table-border-3, .table-border-4{padding-left: 25px;}
-.table-border-1{border-right: transparent; border-bottom: transparent;}
-.table-border-2{border-bottom:transparent;}
-.table-border-3{border-right: transparent;}
+.table-border-1, .table-border-2{border-bottom:transparent;}
+.table-border-1, .table-border-3{border-right: transparent;}
 /* END */
 
 /*Search Results*/
@@ -981,7 +979,12 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
   .wraparound-category{display: none;}
   .camp-lower-copy {text-align: center;font-size: 23px;}
   #menu-item-1887 .sub-menu{left: -65px;}
-
+  .table-border-1, .table-border-3{border-right:1px solid;}
+  .table-border-1, .table-border-2, .table-border-3, .table-border-4{flex-basis: 100%;}
+  .table-border-2{order:1; margin-top: 15px;}
+  .table-border-4{order:2;}
+  .table-border-3 {border-bottom: 1px solid;}
+  .foam-table{width:38vw; margin: auto;}
 }
 
 @media (max-width:575px){
@@ -1051,6 +1054,7 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
   .header-spread_copy { font-size:60px !important; }
   .covers-spread_copy { font-size:50px !important; }
   .woo-ma-login-failed{font-size: 16px;}
+  .foam-table{width:100%;}
 
 }
 
