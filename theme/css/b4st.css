@@ -335,9 +335,9 @@ h3.form-header {font-size:1.3em; font-family: "Rokkitt",serif !important;}
 #vfbField45,
 #vfbField44 { float: right; left: 100px; margin-bottom: -300px; position: relative; width: 300px; }
 #vfbField44 img, #vfbField43 img, #vfbField45 img { max-width:300px; }
-#vfbField43 { top:-297px; margin-right: 330px; float:right; }
-#vfbField44 { top:-365px; margin-right: 330px; float:right; }
-#vfbField45 { top:-316px; margin-right: 330px; float:right; }
+#vfbField43 { top:-343px; margin-right: 330px; float:right; }
+#vfbField44 { top:-440px; margin-right: 330px; float:right; }
+#vfbField45 { top:-400px; margin-right: 330px; float:right; }
 .page-id-316 .woocommerce-breadcrumb{display:none !important;}
 .blue-border-h4{ background-color: #004ea8; float: right; height: 3px; margin-right: -60px; margin-top: -34px; width: 653px; }
 .page-id-6 .woocommerce-breadcrumb { display:none !important; }
@@ -807,13 +807,14 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
   .page-id-7 .blue-border-h4{ width: 89%; }
   .page-id-8 .blue-border-h4{ width: 85%; }
   .blue-border-h4 {width:472px;}
-  #vfbField43, #vfbField44, #vfbField45 {margin-right: 230px;}
+  #vfbField43, #vfbField44, #vfbField45 {margin-right: 270px;}
   #eModal-3 .custom-pop-left, #eModal-4 .custom-pop-left, #eModal-5 .custom-pop-left {width: 100%;}
   #eModal-3 .custom-pop-right, #eModal-4 .custom-pop-right, #eModal-5 .custom-pop-right {width: 100%; text-align: center;}
   .custom-pop-wrap ul {margin: 0 0 .5em 0;}
   .woocommerce table.shop_table #coupon_code {padding: 10.5px 5px; width:200px !important; }
   #green-bar .row{margin: 0 !important;}
   #mm-right-contact{text-align: right;}
+  .page-id-316 .vfbp-form label {width:100%; text-align: left !important;}
 }
 
 @media (max-width:991px){
@@ -985,6 +986,7 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
   .table-border-4{order:2;}
   .table-border-3 {border-bottom: 1px solid;}
   .foam-table{width:38vw; margin: auto;}
+  .intl-tel-input .flag-dropdown {top:24px;}
 }
 
 @media (max-width:575px){
