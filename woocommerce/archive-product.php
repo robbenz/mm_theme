@@ -72,18 +72,14 @@ get_header( 'shop' ); ?>
 
 				<?php while ( have_posts() ) : the_post(); ?>
 
-					<?php wc_get_template_part( 'content', 'product' ); ?>
+					<?php wc_get_template_part( 'content', 'product' );
+			//		woocommerce_template_single_add_to_cart();
+					?>
+					<!-- <button class="eModal-9">Add to cart</button> -->
 
 				<?php endwhile; // end of the loop. ?>
 
 			<?php woocommerce_product_loop_end(); ?>
-
-			<?php // This didnt work, but I wanted to save the code
-            // $metafieldArray = get_option('taxonomy_'. $term->term_id);
-            // $metafieldoutput = $metafieldArray['custom_term_meta'];
-            // echo $metafieldoutput;
-						?>
-
 
 			<?php
 				/**

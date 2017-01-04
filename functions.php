@@ -54,7 +54,7 @@ if (is_woocommerce() && is_archive()) {
 }
 /** END **/
 
-//remove "Add to Cart" button on product listing page in WooCommerce
+//remove "Add to Cart" button on product listing page in WooCommerce 
 add_action( 'woocommerce_after_shop_loop_item', 'remove_add_to_cart_buttons', 1 );
 
 function remove_add_to_cart_buttons() {

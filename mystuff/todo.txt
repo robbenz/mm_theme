@@ -2,11 +2,16 @@
 Custom sizing Form modal close button doesn't scroll. Annoying to closecds
 http://medmattress.com/custom-sizing-form/
 -----------
-
+Add newsletter sign up pop up like diamedical
+-----------
+/product-category/mattresses/alternating-pressure/
+really not sure whats going on here at 575->767px wide in firefox
+didnt check chrome
+didnt actually look into it at all  
+-----------
 - “Shop Healthcare Mattresses” on home page — Look more like links
-- Mobile search — WTF is going on ‘/?m=$searchinput’ ‘/?s=$searchinput’ 
-- Gallery pages - less white space — tighter layout - show more content 
-- Foam Quality Tab for mobile 
+- Gallery pages - less white space — tighter layout - show more content
+- Foam Quality Tab for mobile
  _____________________________
 |                             |
 |      MED ULTRA COMFORT      |
@@ -26,30 +31,29 @@ http://medmattress.com/custom-sizing-form/
 
 - Add to cart button on gallery page for mobile only?
 - Add shopping cart icon & phone number to header 320 - 5**
-	- and drop down menu throughout 
+	- and drop down menu throughout
 - Hide header on keyboard
 
 CHECKOUT
-- enable guest checkout 
-have buttons say 
+- enable guest checkout
+have buttons say
 ‘checkout as guest’
 ‘login’
--previous button — plain text 
-- place order button — same as proceed to checkout button 
--If error — scroll up 
+-previous button — plain text
+- place order button — same as proceed to checkout button
+-If error — scroll up
 - last checkout step — hide coupon ( hide on checkout is plan b )
 
-CUSTOM SIZE FORM 
+CUSTOM SIZE FORM
 - Default style : ‘style A’
-- Click on green rectangle to activate radio button 
-- Make steps more clear 
+- Click on green rectangle to activate radio button
+- Make steps more clear
 	- two lines of text ?
 	- bolder — blue ?
 - Default Mattress: ‘Foam’
-- When modal is triggered scroll up to top — across the board probably is fine 
+- When modal is triggered scroll up to top — across the board probably is fine
 - Default: ‘Premium Foam’
 	- Add most popular banner somewhere
 - Change ‘Not Applicable’ -> ‘No Velcro’
-- Velcro pop-ups == same font size 
+- Velcro pop-ups == same font size
 - Date picker — drop everywhere verify email address
-

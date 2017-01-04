@@ -14,7 +14,6 @@
 			<link href="https://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet">
 			<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 			<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-			<script type="text/javascript" src="<?php echo site_url(); ?>/wp-content/themes/medmattress/theme/js/b4st.js"></script>
 	<?php wp_head(); ?>
 	<script>
  jQuery( ".menu-item-1917" ).addClass( "menu-white-link" );
@@ -94,7 +93,7 @@ ga('send', 'pageview');
 		<div class="navbar navbar-topbar med-mat-mobile">
 			<form method="get" id="searchform-mobile" action="<?php bloginfo('home'); ?>/">
 				<div id="search-bar-div">
-					<input type="text" size="20" name="m" id="m" class="search-bar" value="Search Here" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;"/>
+					<input type="text" size="20" name="s" id="s" class="search-bar" value="Search Here" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;"/>
 					<input type="submit" id="searchsubmit" value="" class="btn">
 					<i class="fa icon-search magnifying-icon"></i>
 				</div>
