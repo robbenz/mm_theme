@@ -7,7 +7,7 @@ Add newsletter sign up pop up like diamedical
 /product-category/mattresses/alternating-pressure/
 really not sure whats going on here at 575->767px wide in firefox
 didnt check chrome
-didnt actually look into it at all  
+didnt actually look into it at all
 -----------
 - “Shop Healthcare Mattresses” on home page — Look more like links
 - Gallery pages - less white space — tighter layout - show more content
@@ -31,7 +31,6 @@ didnt actually look into it at all
 
 - Add to cart button on gallery page for mobile only?
 - Add shopping cart icon & phone number to header 320 - 5**
-	- and drop down menu throughout
 - Hide header on keyboard
 
 CHECKOUT
