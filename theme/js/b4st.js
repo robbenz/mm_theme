@@ -19,6 +19,8 @@
         $("[href='#previous']").click(function() {
             $(".current").next().removeClass("done");
         });
+
+
         /*** END ***/
 
         /*** Check for festi cart ***/
@@ -75,6 +77,7 @@
         FUauthorize_net("#billing_company", 50)
         /*** END ***/
 
+        $("#premium-foam").append("</br><img class='most-popular' src='http://localhost:8888/medmattress/wp-content/uploads/2017/01/most_popular.png'/>");
     });
 
 }(jQuery));

@@ -323,9 +323,11 @@ h3.form-header {font-size:1.3em; font-family: "Rokkitt",serif !important;}
 .custom-center { }
 .custom-mat-wrap{ float: left; padding: 0px; width: 33%; text-align: center;}
 .custom-quality{ }
-.quality-good { background-color:#bbe461; height:100px;  margin-top:100px;}
-.quality-better { background-color:#9fd161; height:150px; margin-top:50px;}
+.quality-good { background-color:#bbe461; height:128px;  margin-top:73px;}
+.quality-better { background-color:#9fd161; height:178px; margin-top:23px;}
 .quality-best { background-color:#78be20; height:200px;}
+.most-popular{width:62%; margin-right: 18px;}
+#vfbField24 label {text-align: center !important;}
 
 #vfb-field-47,
 #vfb-field-17,
@@ -816,6 +818,7 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
   #green-bar .row{margin: 0 !important;}
   #mm-right-contact{text-align: right;}
   .page-id-316 .vfbp-form label {width:100%; text-align: left !important;}
+  .most-popular {width: 73%;}
 }
 
 @media (max-width:991px){
@@ -906,6 +909,7 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
     #mm-second-line {float: right; width: 100%;}
     #menu-item-1887 .sub-menu {left: -120px;}
     body div.festi-cart-arrow {left:auto !important; right:32px;}
+    .most-popular{width:100%; margin-right:8px;}
 }
 /* woocommerce messes up the related products images at specifically this width */
 @media (width:768px){
@@ -988,6 +992,8 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
   .table-border-3 {border-bottom: 1px solid;}
   .foam-table{width:38vw; margin: auto;}
   .intl-tel-input .flag-dropdown {top:24px;}
+  #vfbField45 div label {text-align: center !important;}
+  #vfbField24 .vfb-radio label input[type="radio"]{margin: 5px 0 0 -18px;}
 }
 
 @media (max-width:575px){
@@ -1043,17 +1049,16 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
   .custom-mat-wrap img {width: 80%;}
   #vfbField48 .vfb-col-2, #vfbField49 .vfb-col-2, #vfbField50 .vfb-col-2 {width: 100%; font-size: 7vw;}
   #vfb-field-47, #vfb-field-17, #vfb-field-21, #vfb-field-22, #vfb-field-46 {width:100%;}
-  #vfbField72 .vfb-col-10 .vfb-inline-group .vfb-radio:last-child label{padding-left: 0px;}
+  #vfbField72 .vfb-col-10 .vfb-inline-group .vfb-radio:last-child label{padding-left: 20px;}
   #vfbField53 .vfb-radio label { float: left; }
-  #vfbField24 .vfb-col-10 .vfb-inline-group .vfb-radio:first-child label{font-size: 3.9vw;}
-  #vfbField24 .vfb-col-10 .vfb-inline-group .vfb-radio:last-child label{font-size: 3.8vw;}
-  #vfbField24 .vfb-col-10 .vfb-inline-group .vfb-radio:nth-child(2) label{font-size: 3.7vw;}
+  #vfbField24 .vfb-col-10 .vfb-inline-group .vfb-radio:first-child label,
+  #vfbField24 .vfb-col-10 .vfb-inline-group .vfb-radio:last-child label,
+  #vfbField24 .vfb-col-10 .vfb-inline-group .vfb-radio:nth-child(2) label{font-size: 3.9vw;}
   .custom-pop-wrap ul { margin:0 0 .5em -25px; }
   #eModal-3 .emodal-title, #eModal-4 .emodal-title, #eModal-5 .emodal-title{font-size: 7vw !important;}
   #eModal-8 .emodal-title { font-size: 5.4vw !important;}
   #eModal-7 .emodal-title { font-size: 6.3vw !important;}
-  #eModal-7 .emodal-content p { font-size: 7.7vw !important;}
-  #eModal-8 .emodal-content p { font-size: 4vw !important; }
+  #eModal-7 .emodal-content p, #eModal-8 .emodal-content p { font-size: 4vw !important; }
   #mm-right-contact { display: none;}
   .header-spread_copy { font-size:60px !important; }
   .covers-spread_copy { font-size:50px !important; }
@@ -1061,7 +1066,7 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
   .foam-table{width:100%;}
   #vfbField51{text-align: left;}
   #vfbField53 div div{min-height: 36px;}
-
+  #vfbField24 .vfb-radio label input[type="radio"]{margin: 10px 0 0 -18px;}
 }
 
 @media (max-width:425px) {
@@ -1087,6 +1092,8 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
   .header-wrap-text-mattress-header span { font-size: 42px; line-height: 43px; }
   .header4-spread_copy,  .header7-spread_copy, .header13-spread_copy, .header14-spread_copy, .header16-spread_copy, .header20-spread_copy, .header25-spread_copy, .header28-spread_copy { font-size: 44px !important; }
   .mattress-spread_copy {font-size:30px !important; border-bottom: 0;}
+  #eModal-3, #eModal-4, #eModal-5 {height:380px;}
+  #vfbField24 .vfb-radio label input[type="radio"]{margin: 5px 0 0 -18px;}
 }
 
 /* END */
