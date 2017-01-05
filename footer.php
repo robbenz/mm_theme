@@ -3,7 +3,7 @@
     <div id="footerwrap" class="container">
       <div id="footerlogos" class="row">
         <div id="diamedicallogo" class="col-xs-4">
-          <a href="<?php echo site_url(); ?>">
+          <a href="http://diamedicalusa.com">
             <img src="https://diamedicalusa.com/wp-content/imgs/footer-sample/diamedicallogosmall.png" />
           </a>
         </div>
@@ -13,7 +13,7 @@
           </a>
         </div>
         <div id="simlablogo" class="col-xs-4">
-          <a href="<?php echo site_url(); ?>/simlabsolutions/">
+          <a href="https://diamedicalusa.com/simlabsolutions/">
             <img src="<?php echo site_url(); ?>/wp-content/imgs/footer-sample/simlablogo.png" />
           </a>
         </div>
