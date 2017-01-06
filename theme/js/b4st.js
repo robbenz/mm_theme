@@ -32,22 +32,22 @@
             }
         }
         /*** END ***/
-        function hideableHeader(){ //hides the header when an input field is focused
-        $(document).on('focus', 'input[type="text"], input[type="email"], textarea', function() {
-            var inputID = $(this).attr('id');
-            if (inputID != "s") { //don't run if input field is the search bar
-                $("#fixed-top-header").stop().slideUp();
-                $("#landing_nav, #searchform, .responsive-menu-inner").stop().hide();
-            }
-        });
-
-        //show header when input is NOT on focus
-        $(document).on('blur', 'input[type="text"], textarea', function() { //shows header when an input field is not in focus
-            $("#fixed-top-header").slideDown(function() {
-                $("#searchform, .responsive-menu-inner, #landing_nav").stop().show()
+        function hideableHeader() { //hides the header when an input field is focused
+            $(document).on('focus', 'input[type="text"], input[type="email"], textarea', function() {
+                var inputID = $(this).attr('id');
+                if (inputID != "s") { //don't run if input field is the search bar
+                    $("#fixed-top-header").stop().slideUp();
+                    $("#landing_nav, #searchform, .responsive-menu-inner").stop().hide();
+                }
             });
-        });
-    }
+
+            //show header when input is NOT on focus
+            $(document).on('blur', 'input[type="text"], textarea', function() { //shows header when an input field is not in focus
+                $("#fixed-top-header").slideDown(function() {
+                    $("#searchform, .responsive-menu-inner, #landing_nav").stop().show()
+                });
+            });
+        }
 
 
         /*** Header classes for mobile Nav ***/
@@ -72,7 +72,7 @@
                     cartModifier();
                     hideableHeader();
                 } else {
-                  console.log("vpWidth > 992: "+vpWidth);
+
                     $("#fixed-top-header").removeClass("navbar navbar-default navbar-fixed-top");
                     $(".festi-cart-text-before-quantity").html("VIEW CART (");
                     $(document).off('focus', 'input[type="text"], input[type="email"], textarea'); //removes the event binder for hideableHeader
@@ -103,10 +103,10 @@
         $("#premium-foam").append("</br><img class='most-popular' src='http://medmattress.com/wp-content/uploads/2017/01/most_popular.png'/>");
 
         /*** makes images update radio button on custom sizing form ***/
-        var radioID = "#vfb-field-4-0, #vfb-field-4-1, #vfb-field-4-2, #vfb-field-24-0, #vfb-field-24-1, #vfb-field-24-2";
+        var radioID = "#vfb-field-24-0, #vfb-field-24-1, #vfb-field-24-2";
         $(radioID).click(function() { // any element can update any radio as long as their id's match
-            var imgID = $(this).attr('id');
-            $('#' + imgID).attr("checked", true);
+            var imgID = $(this).attr('id'); //the id of the thing that is clicked
+            $('#' + imgID).attr("checked", true); //checks correct radio button
         });
         /*** END ***/
 

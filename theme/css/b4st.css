@@ -318,6 +318,8 @@ div.pp_woocommerce div.ppt {display:none !important;}
 /*Custom Size Form*/
 h3.form-header {font-size:1.3em; font-family: "Rokkitt",serif !important;}
 #vfbp-form-1 { font-size:1.8em; }
+#vfbp-form-1 > .vfb-form-group {font-size: 51px;; border-bottom: solid #004ea8 5px; color:#004ea8;}
+#vfbp-form-1 > .vfb-form-group > .vfb-col-10{width:100%; text-align: center;}
 .custom-steps {color:#78be20; font-size: 1.2em; }
 .green-custom { width: 150px; height: 200px; }
 .custom-center { }
@@ -338,9 +340,9 @@ h3.form-header {font-size:1.3em; font-family: "Rokkitt",serif !important;}
 #vfbField45,
 #vfbField44 { float: right; left: 100px; margin-bottom: -300px; position: relative; width: 300px; }
 #vfbField44 img, #vfbField43 img, #vfbField45 img { max-width:300px; }
-#vfbField43 { top:-343px; margin-right: 330px; float:right; }
-#vfbField44 { top:-440px; margin-right: 330px; float:right; }
-#vfbField45 { top:-400px; margin-right: 330px; float:right; }
+#vfbField43 { top:-320px; margin-right: 330px; float:right; }
+#vfbField44 { top:-380px; margin-right: 330px; float:right; }
+#vfbField45 { top:-335px; margin-right: 330px; float:right; }
 .page-id-316 .woocommerce-breadcrumb{display:none !important;}
 .blue-border-h4{ background-color: #004ea8; float: right; height: 3px; margin-right: -60px; margin-top: -34px; width: 653px; }
 .page-id-6 .woocommerce-breadcrumb { display:none !important; }
@@ -351,6 +353,8 @@ h3.form-header {font-size:1.3em; font-family: "Rokkitt",serif !important;}
 .pagedescripts{ color: #004ea8; font-family: "Open Sans",sans-serif; font-size: 18px; font-weight: 600; line-height: 14px; width: 300px; }
 #vfbField4 .vfb-inline-group .vfb-radio{ width:33%; margin-right:0px !important; text-align:center;}
 #vfbField4 label { display:none;}
+#post_316 #vfbField4 .vfb-radio label{height:270px;}
+#post_316 #vfbField4 .vfb-help-block .custom-mat-wrap{margin-top:-247px}
 .vfb-col-10 label { display:block !important; font-size:16px; font-weight:600;}
 .custom-mat-wrap p { color: #000; font-family: "Open Sans",sans-serif; font-size: 14.2px; font-weight: 600; text-align: center; }
 #vfbField4 .vfb-col-10, #vfbField24 .vfb-col-10 { width:100%;  }
@@ -365,10 +369,10 @@ h3.form-header {font-size:1.3em; font-family: "Rokkitt",serif !important;}
 #vfbField50 p {margin-bottom:0px;}
 #vfbField49 .vfb-help-block,
 #vfbField50 .vfb-help-block,
-#vfbField48 .vfb-help-block { clear:both; width: 104% !important;  font-size:1em; text-align:center; }
+#vfbField48 .vfb-help-block { clear:both; width: 104% !important;  font-size:1em; text-align:left; }
 #vfbField24 .vfb-inline-group .vfb-radio{ width:33%; margin-right:0px !important; text-align:center;}
 #vfbField24 label { display:none;}
-#vfbField24 { margin-bottom:1em; position:relative; height: 9em;}
+#vfbField24 { margin-bottom:1em; position:relative; height: 9em; margin-top: 15px;}
 #vfbField24 .vfb-col-10 { position:absolute; bottom:0; }
 label.foam-qual{ margin-top:100px;}
 #vfbField29 button { padding: 8px 80px; font-size:22px;}
@@ -509,6 +513,7 @@ img.custom-zoom {border:2px solid #004ea8;}
 #mattress-home-box1 img, #mattress-home-box3 img{width:100%;}
 #mattress-home-container{font-family: "Open Sans", sans-serif;}
 #body-container, #mattress-home-container{padding:0 !important;}
+#post_316 { margin:40px 0 -82px 0px !important;}
 /* END */
 
 /* BLOG STUFF */
@@ -818,7 +823,12 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
   #green-bar .row{margin: 0 !important;}
   #mm-right-contact{text-align: right;}
   .page-id-316 .vfbp-form label {width:100%; text-align: left !important;}
+  #post_316 #vfbField4 .vfb-radio label {text-align: center !important;}
   .most-popular {width: 73%;}
+  #vfbField43{top:-418px;}
+  #vfbField44{top:-520px;}
+  #vfbField45{top: -447px;}
+  #vfbp-form-1 > .vfb-form-group {font-size: 43px;}
 }
 
 @media (max-width:991px){
@@ -885,7 +895,7 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
     .category_desc{display:none;}
     @-moz-document url-prefix() {#searchform #searchsubmit{top:7px;}}
     #vfbField43, #vfbField44, #vfbField45{top:0; left:0; float:none; margin:0 auto;}
-    #vfbField48 .vfb-col-2, #vfbField49 .vfb-col-2, #vfbField50 .vfb-col-2 {width: 100%; font-size: 5.4vw;}
+    #vfbField48 .vfb-col-2, #vfbField49 .vfb-col-2, #vfbField50 .vfb-col-2 {width: 100%; font-size: 33px;}
     #vfb-field-47, #vfb-field-17, #vfb-field-21, #vfb-field-22, #vfb-field-46 {width:100%;}
     #eModal-8 .emodal-content p {font-size: 1.7vw !important;}
     #vfbField72 .vfb-radio {clear: both;}
@@ -910,6 +920,7 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
     #menu-item-1887 .sub-menu {left: -120px;}
     body div.festi-cart-arrow {left:auto !important; right:32px;}
     .most-popular{width:100%; margin-right:8px;}
+    #vfbp-form-1 > .vfb-form-group{font-size: 30px;}
 }
 /* woocommerce messes up the related products images at specifically this width */
 @media (width:768px){
@@ -994,6 +1005,8 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
   .intl-tel-input .flag-dropdown {top:24px;}
   #vfbField45 div label {text-align: center !important;}
   #vfbField24 .vfb-radio label input[type="radio"]{margin: 5px 0 0 -18px;}
+  #vfbField43 div label {text-align: center !important;}
+  #vfbp-form-1 > .vfb-form-group{font-size: 27px;}
 }
 
 @media (max-width:575px){
@@ -1047,7 +1060,7 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
   #post_316 h4 {font-size: 10vw;}
   #vfbp-form-1 {font-size: 4.8vw;}
   .custom-mat-wrap img {width: 80%;}
-  #vfbField48 .vfb-col-2, #vfbField49 .vfb-col-2, #vfbField50 .vfb-col-2 {width: 100%; font-size: 7vw;}
+  #vfbField48 .vfb-col-2, #vfbField49 .vfb-col-2, #vfbField50 .vfb-col-2 {width: 100%; font-size: 5vw;}
   #vfb-field-47, #vfb-field-17, #vfb-field-21, #vfb-field-22, #vfb-field-46 {width:100%;}
   #vfbField72 .vfb-col-10 .vfb-inline-group .vfb-radio:last-child label{padding-left: 20px;}
   #vfbField53 .vfb-radio label { float: left; }
@@ -1067,6 +1080,11 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
   #vfbField51{text-align: left;}
   #vfbField53 div div{min-height: 36px;}
   #vfbField24 .vfb-radio label input[type="radio"]{margin: 10px 0 0 -18px;}
+  #post_316 #vfbField4 .vfb-help-block .custom-mat-wrap{margin-top:-160px;}
+  #post_316 #vfbField4 .vfb-radio label {height:189px;}
+  #vfbField24 .vfb-col-10 .vfb-inline-group .vfb-radio:nth-child(2) label {font-size: 3.7vw;}
+  #vfbp-form-1 > .vfb-form-group{font-size: 4.7vw; border-bottom: solid #004ea8 3px;}
+  .page-id-316 > .container{width: 98%;}
 }
 
 @media (max-width:425px) {
