@@ -9,7 +9,7 @@
         $('.comment-reply-link').addClass('btn btn-secondary');
 
         // Forms
-        $('select, input[type=text], input[type=email], input[type=password], textarea').addClass('form-control');
+          $('select, input[type=text], input[type=email], input[type=password], textarea').addClass('form-control');
         $('input[type=submit]').addClass('btn btn-primary');
 
         // Pagination fix for ellipsis
@@ -33,7 +33,7 @@
         }
         /*** END ***/
         function hideableHeader() { //hides the header when an input field is focused
-            $(document).on('focus', 'input[type="text"], input[type="email"], textarea', function() {
+            $(document).on('focus', 'input[type="text"], input[type="email"], input[type=password], textarea', function() {
                 var inputID = $(this).attr('id');
                 if (inputID != "s") { //don't run if input field is the search bar
                     $("#fixed-top-header").stop().slideUp();
@@ -42,7 +42,7 @@
             });
 
             //show header when input is NOT on focus
-            $(document).on('blur', 'input[type="text"], textarea', function() { //shows header when an input field is not in focus
+            $(document).on('blur', 'input[type="text"], input[type="email"], input[type=password], textarea', function() { //shows header when an input field is not in focus
                 $("#fixed-top-header").slideDown(function() {
                     $("#searchform, .responsive-menu-inner, #landing_nav").stop().show()
                 });
