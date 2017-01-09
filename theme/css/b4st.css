@@ -353,8 +353,8 @@ h3.form-header {font-size:1.3em; font-family: "Rokkitt",serif !important;}
 .pagedescripts{ color: #004ea8; font-family: "Open Sans",sans-serif; font-size: 18px; font-weight: 600; line-height: 14px; width: 300px; }
 #vfbField4 .vfb-inline-group .vfb-radio{ width:33%; margin-right:0px !important; text-align:center;}
 #vfbField4 label { display:none;}
-#post_316 #vfbField4 .vfb-radio label{height:270px;}
-#post_316 #vfbField4 .vfb-help-block .custom-mat-wrap{margin-top:-247px}
+#post_316 #vfbField4 .vfb-radio label{height:290px;}
+#post_316 #vfbField4 .vfb-help-block .custom-mat-wrap{margin-top:-259px}
 .vfb-col-10 label { display:block !important; font-size:16px; font-weight:600;}
 .custom-mat-wrap p { color: #000; font-family: "Open Sans",sans-serif; font-size: 14.2px; font-weight: 600; text-align: center; }
 #vfbField4 .vfb-col-10, #vfbField24 .vfb-col-10 { width:100%;  }
@@ -1080,8 +1080,8 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
   #vfbField51{text-align: left;}
   #vfbField53 div div{min-height: 36px;}
   #vfbField24 .vfb-radio label input[type="radio"]{margin: 10px 0 0 -18px;}
-  #post_316 #vfbField4 .vfb-help-block .custom-mat-wrap{margin-top:-160px;}
-  #post_316 #vfbField4 .vfb-radio label {height:189px;}
+  #post_316 #vfbField4 .vfb-help-block .custom-mat-wrap{margin-top:-40vw;}
+  #post_316 #vfbField4 .vfb-radio label {height:44vw;}
   #vfbField24 .vfb-col-10 .vfb-inline-group .vfb-radio:nth-child(2) label {font-size: 3.7vw;}
   #vfbp-form-1 > .vfb-form-group{font-size: 4.7vw; border-bottom: solid #004ea8 3px;}
   .page-id-316 > .container{width: 98%;}
