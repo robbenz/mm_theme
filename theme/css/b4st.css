@@ -655,6 +655,7 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
 #tab-description h2 {font-weight: bold; font-size: 28px; margin-bottom: 25px;}
 #tab-description li {font-size: 19px;}
 .foam-table{display: flex; flex-direction: row; width:100%; flex-wrap: wrap;}
+.foam-table span {font-size: 2rem; font-weight: 600;}
 .table-border-1, .table-border-2, .table-border-3, .table-border-4{border:1px solid #000; flex: 1; height: auto; flex-basis: 50%;}
 .table-border-1, .table-border-2{text-align: center;}
 .table-border-1 img, .table-border-2 img {padding:10px}
@@ -927,7 +928,7 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
     #vfbField31 label, #vfbField34 label, #vfbField37 label, #vfbField38 label, #vfbField52 label {padding-left: 57px;}
     #post_316 #vfbField72{margin-left: 51px;}
     #post_316 #vfbField48, #post_316 #vfbField49, #post_316 #vfbField50, #post_316 #vfbField46, #post_316 #vfbField47, #post_316 #vfbField17, #post_316 #vfbField21, #post_316 #vfbField22, #post_316 #vfbField51, #post_316 #vfbField53, #post_316 #vfbField43, #post_316 #vfbField44, #post_316 #vfbField45 {margin-left: 7px;}
-
+    .foam-table span {font-size: 1.5rem; font-weight: 600;}
 }
 /* woocommerce messes up the related products images at specifically this width */
 @media (width:768px){
@@ -1009,6 +1010,7 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
   .table-border-4{order:2;}
   .table-border-3 {border-bottom: 1px solid;}
   .foam-table{width:38vw; margin: auto;}
+  .foam-table span {font-size: 3.3vw; font-weight: 600;}
   .intl-tel-input .flag-dropdown {top:24px;}
   #vfbField45 div label {text-align: center !important;}
   #vfbField24 .vfb-radio label input[type="radio"]{margin: 5px 0 0 -18px;}
@@ -1101,6 +1103,9 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
   #vfbp-form-1 > .vfb-form-group{font-size: 8.2vw; border-bottom: dotted #78be20 2px;}
   #vfbp-form-1 > .vfb-form-group > .vfb-col-10 {height:24.2vw; text-align: center;}
   .page-id-316 > .container{width: 98%;}
+  .foam-table span {font-size: 5.1vw; font-weight: 600;}
+  #free_ship-productpage {width:275px;}
+
 }
 
 @media (max-width:425px) {
