@@ -33,7 +33,7 @@
         }
         /*** END ***/
         function hideableHeader() { //hides the header when an input field is focused
-            $(document).on('focus', 'input[type="text"], input[type="email"], textarea', function() {
+            $(document).on('focus', 'input[type="text"], input[type="password"], input[type="email"], input[type="tel"], textarea', function() {
                 var inputID = $(this).attr('id');
                 if (inputID != "s" && inputID != "user_login" && inputID != "user_pass") { //don't run if input field is the search bar, login, or password in the header
                     $("#fixed-top-header").stop().slideUp(200);
@@ -42,10 +42,10 @@
             });
 
             //show header when input is NOT on focus
-            $(document).on('blur', 'input[type="text"], input[type="email"],input[type="password"], textarea', function() { //shows header when an input field is not in focus
-                $("#fixed-top-header").slideDown(200, function() {
-                  $("#landing_nav").slideDown();
-                  $("#searchform, .responsive-menu-inner").show();
+            $(document).on('blur', 'input[type="text"], input[type="email"],input[type="password"], input[type="tel"], textarea', function() { //shows header when an input field is not in focus
+                $("#fixed-top-header").stop().slideDown(200, function() {
+                  $("#landing_nav").stop().slideDown();
+                  $("#searchform, .responsive-menu-inner").stop().show();
                 });
             });
         }
@@ -76,7 +76,7 @@
 
                     $("#fixed-top-header").removeClass("navbar navbar-default navbar-fixed-top");
                     $(".festi-cart-text-before-quantity").html("VIEW CART (");
-                    $(document).off('focus', 'input[type="text"],input[type="password"] ,input[type="email"], textarea'); //removes the event binder for hideableHeader
+                    $(document).off('focus', 'input[type="text"], input[type="password"], input[type="email"], input[type="tel"], textarea'); //removes the event binder for hideableHeader
                 }
             })
         }

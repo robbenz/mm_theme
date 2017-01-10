@@ -330,7 +330,6 @@ h3.form-header {font-size:1.3em; font-family: "Rokkitt",serif !important;}
 .quality-best { background-color:#78be20; height:200px;}
 .most-popular{width:62%; margin-right: 18px;}
 #vfbField24 label {text-align: center !important;}
-
 #vfb-field-47,
 #vfb-field-17,
 #vfb-field-21,
@@ -415,6 +414,7 @@ img.custom-zoom {border:2px solid #004ea8;}
 .page-id-316 > .container{padding:0 70px;}
 #vfbField24 .custom-mat-wrap {padding:0 10%;}
 #post_316 #vfbField48, #post_316 #vfbField49, #post_316 #vfbField50, #post_316 #vfbField46, #post_316 #vfbField47, #post_316 #vfbField17, #post_316 #vfbField21, #post_316 #vfbField22, #post_316 #vfbField51, #post_316 #vfbField53, #post_316 #vfbField43, #post_316 #vfbField44, #post_316 #vfbField45 {margin-left: 116px;}
+#post_316 #vfb-field-72-other{width:200px;}
 /* Pop out pages */
 #eModal-3 .custom-pop-left, #eModal-4 .custom-pop-left, #eModal-5 .custom-pop-left { width: 66%; height: auto ;}
 #eModal-3 .custom-pop-right, #eModal-4 .custom-pop-right, #eModal-5 .custom-pop-right { width: 34%; height: auto; }
@@ -831,6 +831,7 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
   #vfbField31 label, #vfbField34 label, #vfbField37 label, #vfbField38 label, #vfbField52 label {padding-left: 76px;}
   #vfbField31 .vfb-col-10, #vfbField34 .vfb-col-10, #vfbField37 .vfb-col-10, #vfbField38 .vfb-col-10, #vfbField52 .vfb-col-10{float:none; margin: 0 auto;}
   .intl-tel-input .selected-flag{margin-top: 14px;}
+  #post_316 #vfbField72{margin-left: 72px;}
 }
 
 @media (max-width:991px){
@@ -924,7 +925,8 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
     .most-popular{width:100%; margin-right:8px;}
     #vfbp-form-1 > .vfb-form-group{font-size: 30px;}
     #vfbField31 label, #vfbField34 label, #vfbField37 label, #vfbField38 label, #vfbField52 label {padding-left: 57px;}
-
+    #post_316 #vfbField72{margin-left: 51px;}
+    #post_316 #vfbField48, #post_316 #vfbField49, #post_316 #vfbField50, #post_316 #vfbField46, #post_316 #vfbField47, #post_316 #vfbField17, #post_316 #vfbField21, #post_316 #vfbField22, #post_316 #vfbField51, #post_316 #vfbField53, #post_316 #vfbField43, #post_316 #vfbField44, #post_316 #vfbField45 {margin-left: 7px;}
 
 }
 /* woocommerce messes up the related products images at specifically this width */
@@ -1016,6 +1018,8 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
   #vfbField31 label, #vfbField34 label, #vfbField37 label, #vfbField38 label, #vfbField52 label {padding-left: 6px;}
   .intl-tel-input .selected-flag{margin-top: 0px;}
   #post_316 #vfbField48, #post_316 #vfbField49, #post_316 #vfbField50, #post_316 #vfbField46, #post_316 #vfbField47, #post_316 #vfbField17, #post_316 #vfbField21, #post_316 #vfbField22, #post_316 #vfbField51, #post_316 #vfbField53, #post_316 #vfbField43, #post_316 #vfbField44, #post_316 #vfbField45{margin-left: 0;}
+  #post_316 #vfbField72{margin-left: 11px;}
+  #vfbField50 .vfb-col-10 {width:100%;}
 
 
 }
