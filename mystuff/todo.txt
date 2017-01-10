@@ -9,6 +9,8 @@ really not sure whats going on here at 575->767px wide in firefox
 didnt check chrome
 didnt actually look into it at all
 -----------
+404 page -- need something better
+-----------
 - “Shop Healthcare Mattresses” on home page — Look more like links
 - Gallery pages - less white space — tighter layout - show more content
 - Foam Quality Tab for mobile
@@ -42,17 +44,3 @@ have buttons say
 - place order button — same as proceed to checkout button
 -If error — scroll up
 - last checkout step — hide coupon ( hide on checkout is plan b )
-
-CUSTOM SIZE FORM
-- Default style : ‘style A’
-- Click on green rectangle to activate radio button
-- Make steps more clear
-	- two lines of text ?
-	- bolder — blue ?
-- Default Mattress: ‘Foam’
-- When modal is triggered scroll up to top — across the board probably is fine
-- Default: ‘Premium Foam’
-	- Add most popular banner somewhere
-- Change ‘Not Applicable’ -> ‘No Velcro’
-- Velcro pop-ups == same font size
-- Date picker — drop everywhere verify email address
