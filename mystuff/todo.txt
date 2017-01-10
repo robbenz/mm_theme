@@ -4,6 +4,9 @@ http://medmattress.com/custom-sizing-form/
 -----------
 Add newsletter sign up pop up like diamedical
 -----------
+Alignment slightly off between 768 and 785
+http://medmattress.com/product/american-sterilizer-mattress-set/
+-----------
 /product-category/mattresses/alternating-pressure/
 really not sure whats going on here at 575->767px wide in firefox
 didnt check chrome
