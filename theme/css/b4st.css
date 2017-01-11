@@ -601,6 +601,8 @@ input {font-family: "Rokkitt", serif;}
 .diva{clear:both;}
 .mark, mark{display: none;}
 .term-107 ul.products li.product-category{width: 31.15%; margin: 0 1% 2.992em;}
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product{margin:0; width: 25%;}
+.woocommerce ul.products li.product a img {margin:0;}
 /* END */
 
 /*Checkout*/
@@ -787,7 +789,7 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
   .woocommerce table.shop_table #coupon_code {padding: 10.5px 5px; width:200px !important; }
   .connectbottom {font-size:13px; }
   .header-wrap-text-mattress { height:306px; background-size:cover;  background-repeat:no-repeat; background-image: url('https://medmattress.com/wp-content/imgs/Category-Mattress-header.png'); }
-.category_desc{ font-size: 15.7px; }
+.category_desc{ font-size: 15.2px; }
 }
 
 @media (max-width:1199px){
