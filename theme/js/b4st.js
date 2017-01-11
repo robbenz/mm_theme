@@ -68,9 +68,8 @@
                 }
 
                 var vpWidth = viewport().width; // This should match your media query
-                console.log(vpWidth);
-                console.log($(window).width());
-                if (vpWidth < 992 || $(window).width() < 992) {
+                
+                if (vpWidth < 992) {
                     $("#fixed-top-header").addClass("navbar navbar-default navbar-fixed-top");
                     cartModifier();
                     hideableHeader();
