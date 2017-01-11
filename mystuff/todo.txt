@@ -14,6 +14,11 @@ http://medmattress.com/product/american-sterilizer-mattress-set/
 - Add to cart button on gallery page for mobile only?
 - Add shopping cart icon & phone number to header 320 - 5**
 - Hide header on keyboard
+------------
+beds and more!" is running into the line
+------------
+less space between items
+------------
 
 CHECKOUT
 - enable guest checkout

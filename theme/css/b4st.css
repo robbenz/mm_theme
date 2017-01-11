@@ -1036,7 +1036,7 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
 	#benz-main-menu-wrap{display: none;}
 	#search-place{display: none;}
 	#search-bar-div{display:block;margin-top: -3px;}
-	#searchform-mobile .form-control{margin:0 0 0 14%; display: inline-block; width: 75%; margin-top: 0px;padding: 8px 15px !important;}
+	#searchform-mobile .form-control{margin:0 0 0 5%; display: inline-block; width: 68%; margin-top: 0px;padding: 8px 15px !important;}
 	#searchsubmit{margin:0px 0 0 -37px;background-color: #ebebeb; border-color: #ebebeb;border-top-right-radius: 10px; border-bottom-right-radius: 10px;}
   @-moz-document url-prefix() {#searchsubmit{margin: -2px 0 0 -37px;}}
 	@-moz-document url-prefix() {input[type="submit"]{padding: 17px 20px !important;}}
@@ -1091,7 +1091,7 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
   #eModal-8 .emodal-title { font-size: 5.4vw !important;}
   #eModal-7 .emodal-title { font-size: 6.3vw !important;}
   #eModal-7 .emodal-content p, #eModal-8 .emodal-content p { font-size: 4vw !important; }
-  #mm-right-contact { display: none;}
+  .mm-right-contact-1, .mm-right-contact-2, .menu-sign_in-container, .menu-need_help-container { display: none;}
   .header-spread_copy { font-size:60px !important; }
   .covers-spread_copy { font-size:50px !important; }
   .woo-ma-login-failed{font-size: 16px;}
@@ -1107,6 +1107,12 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
   .page-id-316 > .container{width: 98%;}
   .foam-table span {font-size: 5.1vw; font-weight: 600;}
   #free_ship-productpage {width:275px; }
+  #mm-right-contact{position: absolute; top: 95px; right: 0%; z-index: 99; font-size:0px; }
+  a.festi-cart div.festi-cart-content img.festi-cart-icon {width: 38px; margin-top: 16px; max-width: 40px;}
+  body  a#festi-cart.festi-cart.festi-cart-customize div.festi-cart-content span.festi-cart-text-before-quantity, body  a#festi-cart.festi-cart.festi-cart-customize div.festi-cart-content span.festi-cart-quantity, body  a#festi-cart.festi-cart.festi-cart-customize div.festi-cart-content span.festi-cart-text-after-quantity, body  a#festi-cart.festi-cart.festi-cart-customize div.festi-cart-content span.festi-cart-text-before-total, body  a#festi-cart.festi-cart.festi-cart-customize div.festi-cart-content span.festi-cart-total span.amount,
+  body  a#festi-cart.festi-cart.festi-cart-customize div.festi-cart-content span.festi-cart-text-after-total, body  a#festi-cart.festi-cart.festi-cart-customize div.festi-cart-content span.festi-cart-dropdown-arrow {display: none;}
+  a.festi-cart div.festi-cart-content{text-align: right; width: 25%;}
+
 
 }
 
@@ -1135,6 +1141,7 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
   .mattress-spread_copy {font-size:30px !important; border-bottom: 0;}
   #eModal-3, #eModal-4, #eModal-5 {height:380px;}
   #vfbField24 .vfb-radio label input[type="radio"]{margin: 5px 0 0 -18px;}
+  #mm-right-contact{top:64px;}
 }
 
 /* END */
