@@ -207,7 +207,7 @@ function logout_redirect(){
  add_action( 'after_theme_setup', 'mm_free_shipping_array' );
  function mm_free_shipping_array() {
    global $product_notfree_ship;
-   $product_notfree_ship = array( '799', '781', '768', '748', '2175', '2177', '2179', '2181', '2183', '2185', '2186', '2188', '2190', '2192', '2194', '2196', '2198' );
+   $product_notfree_ship = array( '799', '781', '768', '748', '2175', '2177', '2179', '2181', '2183', '2185', '2186', '2188', '2190', '2192', '2194', '2196', '2198', '3688' );
    return $product_notfree_ship;
  }
 
