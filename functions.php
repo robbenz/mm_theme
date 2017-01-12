@@ -54,7 +54,7 @@ if (is_woocommerce() && is_archive()) {
 }
 /** END **/
 
-//remove "Add to Cart" button on product listing page in WooCommerce 
+//remove "Add to Cart" button on product listing page in WooCommerce
 add_action( 'woocommerce_after_shop_loop_item', 'remove_add_to_cart_buttons', 1 );
 
 function remove_add_to_cart_buttons() {
@@ -214,7 +214,7 @@ function logout_redirect(){
  function my_free_shipping( $is_available ) {
  	global $woocommerce, $product_notfree_ship;
    // set the product ids that are $product_notfree_ship
- 	$product_notfree_ship = array( '799', '781', '768', '748', '2175', '2177', '2179', '2181', '2183', '2185', '2186', '2188', '2190', '2192', '2194', '2196', '2198' );
+ 	$product_notfree_ship = array( '799', '781', '768', '748', '2175', '2177', '2179', '2181', '2183', '2185', '2186', '2188', '2190', '2192', '2194', '2196', '2198', '3688' );
 
  	// get cart contents
  	$cart_items = $woocommerce->cart->get_cart();
