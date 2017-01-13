@@ -48,6 +48,7 @@ ga('send', 'pageview');
 		<div id="logo" class="size-tablet size-laptop size-desktop">
     	<a href="<?php echo site_url(); ?>">
 			<img class="med-logo" src="<?php echo site_url(); ?>/wp-content/imgs/medmattresslogo.png"></a>
+			<p id="phone">(877)593-6011</p>
 		</div>
 		<div id="search-place" class="size-tablet size-laptop size-desktop">
 			<form method="get" id="searchform" action="<?php bloginfo('home'); ?>/">

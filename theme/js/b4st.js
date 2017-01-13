@@ -29,9 +29,7 @@
               $(".festi-cart-text-before-quantity").html("(");
               if ($(".festi-cart-text-after-quantity").is(":hidden")){
                     $(".festi-cart-icon").attr("src", "//localhost:8888/medmattress/wp-content/plugins/woocommerce-woocartpro/static/images/icons/user/icon13.png")
-              } else {
-                    $(".festi-cart-icon").attr("src", "//localhost:8888/medmattress/wp-content/plugins/woocommerce-woocartpro/static/images/icons/user/icon11.png")
-                  }
+              }
             } else {
               setTimeout(cartModifier, 50);
             }
@@ -55,6 +53,17 @@
             });
         }
 
+        /*** Hide coupon on payment page ***/
+        function couponHider(){
+          if($(".finish-btn").is(":visible")){
+            $("#post_7 .woocommerce-info").hide();
+            setTimeout(couponHider, 50);
+          } else {
+            $("#post_7 .woocommerce-info").show();
+            setTimeout(couponHider, 50);
+          }
+        }
+        couponHider();
 
         /*** Header classes for mobile Nav ***/
         function addClassesMobile($when) {
@@ -74,13 +83,14 @@
 
                 var vpWidth = viewport().width; // This should match your media query
 
-                if (vpWidth < 992) {
+                if (vpWidth < 992 || $(window).width() < 992) {
                     $("#fixed-top-header").addClass("navbar navbar-default navbar-fixed-top");
                     cartModifier();
                     hideableHeader();
                 } else {
                     $("#fixed-top-header").removeClass("navbar navbar-default navbar-fixed-top");
                     $(".festi-cart-text-before-quantity").html("VIEW CART (");
+                    $(".festi-cart-icon").attr("src", "//localhost:8888/medmattress/wp-content/plugins/woocommerce-woocartpro/static/images/icons/user/icon11.png");
                     $(document).off('focus', 'input[type="text"], input[type="password"], input[type="email"], input[type="tel"], textarea'); //removes the event binder for hideableHeader
                 }
             })
