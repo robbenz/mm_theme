@@ -3,29 +3,55 @@
 <div class="container">
   <div class="row">
     <div id="content" class="woocommerce" role="main">
+
+
+      <?php
+      if ( have_posts() ): ?>
       <div class="header-wrap-text-mattress">
         <h2 class="header-wrap-text-mattress-header">
           <span class="header4-spread_copy"><?php the_search_query(); ?></span>
         </h2>
       </div>
-      <ul class="products">
-        <?php if ( have_posts() ): while ( have_posts() ): the_post(); wc_get_template_part( 'content', 'product' ); endwhile; ?>
-      </ul>
+      <?
+        echo '<ul class="products">';
+        while ( have_posts() ):  the_post(); wc_get_template_part( 'content', 'product' ); endwhile;
+        echo '</ul>';
+        mm_page_stuff();
+      elseif (! have_posts() ):
+      //  echo 'No Results Found';
 
-      <?php
-      if ( function_exists('wp_pagenavi') ) {
-        wp_pagenavi();
-      } elseif ( function_exists('b4st_pagination') && !function_exists('wp_pagenavi') ) {
-        b4st_pagination();
-      } elseif ( is_paged() && !function_exists('b4st_pagination') && !function_exists('wp_pagenavi')) { ?>
-            <ul class="pagination">
-              <li class="older"><?php next_posts_link('<i class="fa fa-arrow-left"></i> ' . __('Previous', 'b4st')) ?></li>
-              <li class="newer"><?php previous_posts_link(__('Next', 'b4st') . ' <i class="fa fa-arrow-right"></i>') ?></li>
-            </ul>
+        $params = array(
+        'posts_per_page' => 12,
+        'post_type' => 'product',
+        'product_cat' => 'mental-health-mattresses'
 
-            <?php } ?>
+      );
+      $wc_query = new WP_Query($params); // (2)
+        ?>
+        <?php if ($wc_query->have_posts()) : // (3) ?>
+          <div class="header-wrap-text-mattress">
+            <h2 class="header-wrap-text-mattress-header">
+              <span class="header4-spread_copy">No Results Found<br></span>
+              <p>Browse<br>Mental Healh Mattresses<br>Below</p>
+            </h2>
+          </div>
+        <?php echo '<ul class="products">';
+        while ($wc_query->have_posts()) : // (4)
+                        $wc_query->the_post(); // (4.1)
+                            ?>
+        <?php wc_get_template_part( 'content', 'product' ); // (4.2) ?>
 
-          <?php else: wp_redirect(get_bloginfo('siteurl').'/404', 404); exit; endif; ?>
+        <?php endwhile; ?>
+          <?php echo '</ul>'; ?>
+        <?php wp_reset_postdata(); // (5) ?>
+        <?php else:  ?>
+        <p>
+             <?php _e( 'No Products' ); // (6) ?>
+        </p>
+        <?php endif;
+
+      endif;
+        ?>
 
       </div><!-- /#content -->
   </div><!-- /.row -->
