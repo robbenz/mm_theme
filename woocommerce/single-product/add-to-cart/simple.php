@@ -26,6 +26,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 global $product;
 
 if ( ! $product->is_purchasable() ) {
+	echo '<button class="eModal-1" style="background-color:#004ea8; font-size:20px; border:0;box-shadow:none; margin-bottom:15px; padding:5px 12px; border-radius:0;color:#fff;">Request A Quote</button>';
 	return;
 }
 
