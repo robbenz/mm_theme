@@ -33,10 +33,7 @@
         <h3 style="width:100%;border-bottom:4px dotted #78be20;">Browse Our Most Popular Mattresses</h3>
         <?php
         echo '<ul class="products">';
-        while ($wc_query->have_posts()) :
-          $wc_query->the_post();
-          wc_get_template_part( 'content', 'product' );
-        endwhile;
+        while ($wc_query->have_posts()): $wc_query->the_post(); wc_get_template_part( 'content', 'product' ); endwhile;
         echo '</ul>';
         wp_reset_postdata();
        else:
