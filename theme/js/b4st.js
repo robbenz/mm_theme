@@ -128,6 +128,7 @@
             });
         }
         FUauthorize_net("#billing_address_1", 60)
+        FUauthorize_net("#billing_address_2", 50)
         FUauthorize_net("#billing_company", 50)
             /*** END ***/
 
