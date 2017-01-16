@@ -35,6 +35,7 @@
             }
         }
         /*** END ***/
+
         function hideableHeader() { //hides the header when an input field is focused
             $(document).on('focus', 'input[type="text"], input[type="password"], input[type="email"], input[type="tel"], textarea', function() {
                 var inputID = $(this).attr('id');
@@ -65,6 +66,19 @@
         }
         couponHider();
 
+        function blueRemover(){
+          if($("#wizard > div > ul li:first-child").hasClass("current")){
+            $("#wizard > div > ul li:nth-child(n+2)").removeClass("done");
+          } else if ($("#wizard > div > ul li:nth-child(2)").hasClass("current")){
+            $("#wizard > div > ul li:nth-child(n+3)").removeClass("done");
+          } else if ($("#wizard > div > ul li:nth-child(3)")) {
+            $("#wizard > div > ul li:last-child").removeClass("done");
+            $("#wizard > div > ul li:nth-child(2)").addClass("done");
+          } else {
+            $("#wizard > div > ul li").addClass("done");
+          }
+        }
+        $("#wizard > div > ul li").click(function(){blueRemover()});
         /*** Header classes for mobile Nav ***/
         function addClassesMobile($when) {
             $(window).on($when, function() {
