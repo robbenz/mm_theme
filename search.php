@@ -3,29 +3,47 @@
 <div class="container">
   <div class="row">
     <div id="content" class="woocommerce" role="main">
-      <div class="header-wrap-text-mattress">
-        <h2 class="header-wrap-text-mattress-header">
-          <span class="header4-spread_copy"><?php the_search_query(); ?></span>
-        </h2>
-      </div>
-      <ul class="products">
-        <?php if ( have_posts() ): while ( have_posts() ): the_post(); wc_get_template_part( 'content', 'product' ); endwhile; ?>
-      </ul>
+
+      <?php if ( have_posts() ): ?>
+        <div class="header-wrap-text-mattress">
+          <h2 class="header-wrap-text-mattress-header">
+            <span class="header4-spread_copy"><?php the_search_query(); ?></span>
+          </h2>
+        </div>
 
       <?php
-      if ( function_exists('wp_pagenavi') ) {
-        wp_pagenavi();
-      } elseif ( function_exists('b4st_pagination') && !function_exists('wp_pagenavi') ) {
-        b4st_pagination();
-      } elseif ( is_paged() && !function_exists('b4st_pagination') && !function_exists('wp_pagenavi')) { ?>
-            <ul class="pagination">
-              <li class="older"><?php next_posts_link('<i class="fa fa-arrow-left"></i> ' . __('Previous', 'b4st')) ?></li>
-              <li class="newer"><?php previous_posts_link(__('Next', 'b4st') . ' <i class="fa fa-arrow-right"></i>') ?></li>
-            </ul>
+      echo '<ul class="products">';
+      while ( have_posts() ):  the_post(); wc_get_template_part( 'content', 'product' ); endwhile;
+      echo '</ul>';
+      mm_page_stuff();
 
-            <?php } ?>
+      elseif (! have_posts() ):
+        $args = array(
+          'posts_per_page' => 20,
+          'post_type' => 'product',
+          'product_cat' => 'mental-health-mattresses,labor-delivery,pressure-redistribution',
+          'orderby' => 'rand'
+        );
+        $wc_query = new WP_Query($args);
+        if ($wc_query->have_posts()) :  ?>
 
-          <?php else: wp_redirect(get_bloginfo('siteurl').'/404', 404); exit; endif; ?>
+        <div style="height:13vw;" class="header-wrap-text-mattress">
+          <h2 style="color: #004ea8; text-transform: uppercase;font-size:3.2rem;">No Results Found</h2>
+        </div>
+        <h3 style="width:100%;border-bottom:4px dotted #78be20;">Browse Our Most Popular Mattresses</h3>
+        <?php
+        echo '<ul class="products">';
+        while ($wc_query->have_posts()) :
+          $wc_query->the_post();
+          wc_get_template_part( 'content', 'product' );
+        endwhile;
+        echo '</ul>';
+        wp_reset_postdata();
+       else:
+         echo '<p>No Products</p>';
+       endif; // $wc_query->have_posts()
+     endif; // have_posts()
+     ?>
 
       </div><!-- /#content -->
   </div><!-- /.row -->

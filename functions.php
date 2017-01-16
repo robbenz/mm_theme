@@ -536,3 +536,20 @@ function end_lvl( &$output, $depth, $args ) {
     $output .= "{$indent}</ul>\n";
   }
 }
+
+
+/** check for children categories -- if this returns true, its a gallery page with only products **/
+add_action( 'after_theme_setup', 'mm_page_stuff' );
+function mm_page_stuff() {
+  if ( function_exists('wp_pagenavi') ) {
+    wp_pagenavi();
+  } elseif ( function_exists('b4st_pagination') && !function_exists('wp_pagenavi') ) {
+    b4st_pagination();
+  } elseif ( is_paged() && !function_exists('b4st_pagination') && !function_exists('wp_pagenavi')) { ?>
+    <ul class="pagination">
+      <li class="older"><?php next_posts_link('<i class="fa fa-arrow-left"></i> ' . __('Previous', 'b4st')) ?></li>
+      <li class="newer"><?php previous_posts_link(__('Next', 'b4st') . ' <i class="fa fa-arrow-right"></i>') ?></li>
+    </ul>
+    <?php }
+}
+/* END */

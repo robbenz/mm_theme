@@ -33,17 +33,6 @@ Alternatively, notice that index.php, category.php and single.php have a post_cl
     </article>
 <?php endwhile; ?>
 
-<?php
-if ( function_exists('wp_pagenavi') ) {
-  wp_pagenavi();
-} elseif ( function_exists('b4st_pagination') && !function_exists('wp_pagenavi') ) {
-  b4st_pagination();
-} elseif ( is_paged() && !function_exists('b4st_pagination') && !function_exists('wp_pagenavi')) { ?>
-      <ul class="pagination">
-        <li class="older"><?php next_posts_link('<i class="fa fa-arrow-left"></i> ' . __('Previous', 'b4st')) ?></li>
-        <li class="newer"><?php previous_posts_link(__('Next', 'b4st') . ' <i class="fa fa-arrow-right"></i>') ?></li>
-      </ul>
-
-      <?php } ?>
+<?php mm_page_stuff(); ?>
 
 <?php else: wp_redirect(get_bloginfo('siteurl').'/404', 404); exit; endif; ?>
