@@ -28,7 +28,7 @@
         if ($wc_query->have_posts()) :  ?>
 
         <div style="height:13vw;" class="header-wrap-text-mattress">
-          <h2 style="color: #004ea8; text-transform: uppercase;font-size:3.2rem;">No Results Found</h2>
+          <h2 class="no-results-header">No Results Found</h2>
         </div>
         <h3 style="width:100%;border-bottom:4px dotted #78be20;">Browse Our Most Popular Mattresses</h3>
         <?php

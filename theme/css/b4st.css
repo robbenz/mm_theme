@@ -793,9 +793,11 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
   .connectbottom {font-size:13px; }
   .header-wrap-text-mattress { height:306px; background-size:cover;  background-repeat:no-repeat; background-image: url('https://medmattress.com/wp-content/imgs/Category-Mattress-header.png'); }
 .category_desc{ font-size: 15.2px; }
+.no-results-header {color: #004ea8; text-transform: uppercase;font-size:3.2rem; }
 }
 
 @media (max-width:1199px){
+  .no-results-header {color: #004ea8; text-transform: uppercase;font-size:3.2rem; }
   .header-wrap-text-mattress { height:267px; background-repeat:no-repeat; background-size: 116%; background-position: -87px; background-image: url('https://medmattress.com/wp-content/imgs/Category-Mattress-header.png'); }
   .connectbottom {font-size:13px; }
 	#landing_nav-wrap div a.landing_nav{font-size: .7rem;}
@@ -941,6 +943,7 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
 }
 
 @media (max-width:767px){
+  .no-results-header { font-size: 2rem; margin-top: -6px; }
   .camper-mattress{display:none;}
 	#greenad-container{width:100%;}
 	#mattresshomeimgwrap{display: none;}
@@ -1119,6 +1122,7 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
   body  a#festi-cart.festi-cart.festi-cart-customize div.festi-cart-content span.festi-cart-text-after-total, body  a#festi-cart.festi-cart.festi-cart-customize div.festi-cart-content span.festi-cart-dropdown-arrow {display: none;}
   a.festi-cart div.festi-cart-content{text-align: right; width: 25%;}
   #phone{display: block;}
+  .no-results-header { font-size: 1.5rem; margin-top: -6px; }
 
 }
 
