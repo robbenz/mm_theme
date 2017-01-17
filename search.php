@@ -20,9 +20,9 @@
       elseif (! have_posts() ):
         $args = array(
           'posts_per_page' => 20,
-          'post_type' => 'product',
-          'product_cat' => 'mental-health-mattresses,labor-delivery,pressure-redistribution',
-          'orderby' => 'rand'
+          'post_type'      => 'product',
+          'product_cat'    => 'mental-health-mattresses,labor-delivery,pressure-redistribution',
+          'orderby'        => 'rand'
         );
         $wc_query = new WP_Query($args);
         if ($wc_query->have_posts()) :  ?>

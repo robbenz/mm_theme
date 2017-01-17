@@ -4,7 +4,7 @@
       <div id="footerlogos" class="row">
         <div id="diamedicallogo" class="col-xs-4">
           <a href="http://diamedicalusa.com">
-            <img src="https://diamedicalusa.com/wp-content/imgs/footer-sample/diamedicallogosmall.png" />
+            <img src="https://diamedicalusa.com/wp-content/imgs/DiaMedical-USA-Logo-White.png" />
           </a>
         </div>
         <div id="medmatlogo" class="col-xs-4">
