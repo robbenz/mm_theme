@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
-	<title><?php wp_title('•', true, 'right'); bloginfo('name'); ?></title>
+	<title><?php wp_title(''); ?></title>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,8 +12,10 @@
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 			<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800italic,800' rel='stylesheet' type='text/css'>
 			<link href="https://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet">
+			<!--
 			<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 			<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		-->
 	<?php wp_head(); ?>
 	<script>
  jQuery( ".menu-item-1917" ).addClass( "menu-white-link" );

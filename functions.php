@@ -18,6 +18,8 @@ function benzy_enqueue_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'benzy_enqueue_styles' );
 
+
+
 // --  ADD woocommerce support to theme
 remove_action( 'woocommerce_before_main_content', 'woocommerce_output_content_wrapper', 10);
 remove_action( 'woocommerce_after_main_content', 'woocommerce_output_content_wrapper_end', 10);
@@ -400,21 +402,21 @@ function register_my_menus() {
 }
 
 class BENZ_Walker_Nav_Menu extends Walker_Nav_Menu {
-   function start_lvl(&$output, $depth) {
+   function start_lvl(&$output, $depth = 0, $args = Array()) {
         $output .= '<ul class="sub-menu" style="color:#004ea8; font-weight:700;"><div class="arrow-up-mm"></div><div class="insert-img-here">NEED SOME ASSISTANCE?<br>';
         $output .= '<span style="color:#000; font-weight:normal;"><em>Browse these pages to read<br>our policies or to drop us a line!</em></span></div>';
     }
-        function end_lvl(&$output, $depth) {
+        function end_lvl(&$output, $depth = 0, $args = Array()) {
         $output .= '</ul>';
     }
 }
 
 class BENZ_Walker_Nav_Menu_MYACCOUNT extends Walker_Nav_Menu {
-   function start_lvl(&$output, $depth) {
+   function start_lvl(&$output, $depth = 0, $args = Array()) {
         $output .= '<ul class="sub-menu" style="color:#004ea8; font-weight:700;"><div class="arrow-up-mm"></div><div class="insert-img-here">MANAGE YOUR ACCOUNT<br></div>';
 
     }
-        function end_lvl(&$output, $depth) {
+        function end_lvl(&$output, $depth = 0, $args = Array()) {
         $output .= '<li class="log-in-out-link"><a href="'. wp_logout_url() .'">Log Out</a></li>';
         $output .= '</ul>';
     }
@@ -422,10 +424,10 @@ class BENZ_Walker_Nav_Menu_MYACCOUNT extends Walker_Nav_Menu {
 
 class BENZ_Walker_Nav_Menu_SIGNIN extends BENZ_Walker_Nav_Menu {
 
-   function start_lvl(&$output, $depth) {
+   function start_lvl(&$output, $depth = 0, $args = Array()) {
         $output .= '<ul class="sub-menu"><div class="arrow-up-mm"></div><div class="insert-img-here"><strong>SIGN IN</strong>' . do_shortcode('[wppb-login]') . '</div>';
     }
-        function end_lvl(&$output, $depth) {
+        function end_lvl(&$output, $depth = 0, $args = Array()) {
         $output .= '<div class="insert-img-here" style="line-height: 22px; width:auto; height:110px; color:#004ea8; font-weight:700; text-align:center; border-top: 1px solid #cccccc; ">';
         $output .= 'NEW CUSTOMER? <br><span style="color:#000; font-weight:normal;"><em>Registration is easy and<br>only takes a few seconds!</em></span>';
         $output .= '<a href="http://www.medmattress.com/my-account" id="benz-register-link">REGISTER</a></div></ul>';
@@ -434,11 +436,11 @@ class BENZ_Walker_Nav_Menu_SIGNIN extends BENZ_Walker_Nav_Menu {
 }
 
 class BENZ_Walker_Nav_Menu_ACC extends Walker_Nav_Menu {
-    function start_lvl(&$output, $depth) {
+    function start_lvl(&$output, $depth = 0, $args = Array()) {
         $output .= '<ul class="sub-menu">';
     }
 
-function end_lvl( &$output, $depth, $args ) {
+function end_lvl(&$output, $depth = 0, $args = Array()) {
     if( 0 == $depth ) {
         $output .= '<img src="https://www.medmattress.com/wp-content/imgs/Accessories-Menu-Airpal-Transfer-Pad.png" id="benz-menu-img-acc" class="benz-menu-img" />';
         $output .= '<div class="benz-bottom-colors" style="background-color:#6dc6b0">Our collection of accessories is the perfect way to complete any mattress purchase.</div>';
@@ -450,11 +452,11 @@ function end_lvl( &$output, $depth, $args ) {
 }
 
     class BENZ_Walker_Nav_Menu_MFT extends Walker_Nav_Menu {
-    function start_lvl(&$output, $depth) {
+    function start_lvl(&$output, $depth = 0, $args = Array()) {
         $output .= '<ul class="sub-menu">';
     }
 
-function end_lvl( &$output, $depth, $args ) {
+function end_lvl(&$output, $depth = 0, $args = Array()) {
     if( 0 == $depth ) {
         $output .= '<img src="https://www.medmattress.com/wp-content/imgs/Hill-Rom-MFT.png" id="benz-menu-img-mft1" class="benz-menu-img" />';
         $output .= '<img src="https://www.medmattress.com/wp-content/imgs/MFT-drop-Stryker.png" id="benz-menu-img-mft2" class="benz-menu-img"/>';
@@ -468,11 +470,11 @@ function end_lvl( &$output, $depth, $args ) {
 }
 
 class BENZ_Walker_Nav_Menu_COV extends Walker_Nav_Menu {
-    function start_lvl(&$output, $depth) {
+    function start_lvl(&$output, $depth = 0, $args = Array()) {
         $output .= '<ul class="sub-menu">';
     }
 
-function end_lvl( &$output, $depth, $args ) {
+function end_lvl(&$output, $depth = 0, $args = Array()) {
     if( 0 == $depth ) {
         $output .= '<img src="https://www.medmattress.com/wp-content/imgs/Custom-size-Mattress.png" id="benz-menu-img-cov1" class="benz-menu-img" />';
         $output .= '<a href="http://www.medmattress.com/custom-sizing-form/"><img src="https://www.medmattress.com/wp-content/imgs/custom-size-blue.png" id="benz-menu-img-cov2" class="benz-menu-img" /></a>';
@@ -485,11 +487,11 @@ function end_lvl( &$output, $depth, $args ) {
   }
 }
 class BENZ_Walker_Nav_Menu_MATT extends Walker_Nav_Menu {
-    function start_lvl(&$output, $depth) {
+    function start_lvl(&$output, $depth = 0, $args = Array()) {
         $output .= '<ul class="sub-menu">';
     }
 
-function end_lvl( &$output, $depth, $args ) {
+function end_lvl(&$output, $depth = 0, $args = Array()) {
     if( 0 == $depth ) {
         $output .= '<div id="custom-size-imgmenu">';
         $output .= '<a href="http://www.medmattress.com/custom-sizing-form/"><img src="https://www.medmattress.com/wp-content/imgs/custom-size-blue.png" id="benz-menu-img-matt1" class="benz-menu-img" /></a></div>';
@@ -504,7 +506,7 @@ function end_lvl( &$output, $depth, $args ) {
 }
 
 class BENZ_Walker_Nav_Menu_ABOUT extends Walker_Nav_Menu {
-    function start_lvl(&$output, $depth) {
+    function start_lvl(&$output, $depth = 0, $args = Array()) {
         $output .= '<ul class="sub-menu">';
         $output .= '<div id="benz-menu-about"><p class="benz-menu-about-header">WHO ARE WE?</p>';
         $output .= '<p class="benz-menu-about-copy">MedMattress provides mattresses, stretcher pads, mattress covers and accessories<br>';
@@ -520,7 +522,7 @@ class BENZ_Walker_Nav_Menu_ABOUT extends Walker_Nav_Menu {
         $output .= '<div class="arrow-down"></div>';
     }
 
-function end_lvl( &$output, $depth, $args ) {
+function end_lvl(&$output, $depth = 0, $args = Array()) {
     if( 0 == $depth ) {
         $output .= '<p class="about-phone" style="color:#000;">Phone Number:</p>';
         $output .= '<p class="about-phone-number" style="color:#004ea8;"><i class="fa icon-phone fa-lg"></i>(877) 593-6011</p>';
