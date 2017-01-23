@@ -984,6 +984,7 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
   #vfbField43, #vfbField44, #vfbField45 {margin-bottom:0px;width: 100%; text-align: center;}
   .vfbp-form label {float:left;}
   #vfbField72 .vfb-radio {float:left; clear: both;}
+  #vfbField79 div label span { display:none; }
   #eModal-7 .emodal-content p {font-size: 2.3vw !important;}
   #eModal-8 .emodal-content p {font-size: 2.3vw !important;}
   .wizard.wizard > .steps a {width:99.2%;}
