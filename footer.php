@@ -33,7 +33,7 @@
         <a href="<?php echo site_url(); ?>/product-category/mattresses/">Mattresses</a><br />
         <a href="<?php echo site_url(); ?>/product-category/replacement-covers/">Replacement Covers</a><br />
 
-        <a href="#" class="eModal-2">Contact</a><br />
+        <a href="#" class="eModal-1">Contact</a><br />
         <a href="<?php echo site_url(); ?>/blog">Blog</a><br />
         <a href="<?php echo site_url(); ?>/terms-conditions">Terms &amp; Conditions</a><br />
         <a href="<?php echo site_url(); ?>/shipping-returns">Shipping &amp; Returns</a><br />
