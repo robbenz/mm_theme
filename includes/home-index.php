@@ -39,10 +39,10 @@
           for your Hill-Rom, Stryker, Hausted, MidMark, Span America beds and stretchers!<p>
         </div>
         <div id="mattresshomeimgwrap" class="row">
-        <img src="wp-content/imgs/haustedlogo.png" alt="Hausted Mattresses" />
-        <img src="wp-content/imgs/hill-rom-logo.png" alt="Hill-Rom Mattresses" />
-        <img src="wp-content/imgs/midmarklogo.png" alt="Midmark Mattresses" />
-        <img src="wp-content/imgs/strykerlogo.png" alt="Stryker Mattress Pads" />
+        <img src="<?php echo site_url(); ?>/wp-content/imgs/haustedlogo.png" alt="Hausted Mattresses" />
+        <img src="<?php echo site_url(); ?>/wp-content/imgs/hill-rom-logo.png" alt="Hill-Rom Mattresses" />
+        <img src="<?php echo site_url(); ?>/wp-content/imgs/midmarklogo.png" alt="Midmark Mattresses" />
+        <img src="<?php echo site_url(); ?>/wp-content/imgs/strykerlogo.png" alt="Stryker Mattress Pads" />
         </div>
       </div> <!-- /#greenad-container -->
     </div> <!-- /#mattress-homepage-greenad -->
@@ -51,18 +51,18 @@
 <div id="mattress-home-container" class="container">
   <div class="row">
     <div id="mattress-home-box1" class="col-xs-4">
-      <a href="http://medmattress.com/product-category/camp-dorm/">
-        <img src="http://medmattress.com/images/CAMP-home.png"  onmouseover="this.src='http://medmattress.com/images/CAMP-home-hover.png';" onmouseout="this.src='http://medmattress.com/images/CAMP-home.png';"/>
+      <a href="https://medmattress.com/product-category/camp-dorm/">
+        <img src="https://medmattress.com/images/CAMP-home.png"  onmouseover="this.src='https://medmattress.com/images/CAMP-home-hover.png';" onmouseout="this.src='https://medmattress.com/images/CAMP-home.png';"/>
       </a>
     </div>
-    <a href="http://medmattress.com//custom-sizing-form/"id="mattress-home-box2" class="col-xs-4">
+    <a href="https://medmattress.com//custom-sizing-form/"id="mattress-home-box2" class="col-xs-4">
       <h3>Mattresses</h3>
       <p>to fit</p>
       <h3>ANY bed</h3>
     </a>
     <div id="mattress-home-box3" class="col-xs-4">
       <a href="product-category/mattresses/stretcher-gurney/">
-        <img src="http://medmattress.com/images/EMS-home.png" onmouseover="this.src='http://medmattress.com/images/EMS-home-hover.png';"onmouseout="this.src='http://medmattress.com/images/EMS-home.png';">
+        <img src="https://medmattress.com/images/EMS-home.png" onmouseover="this.src='https://medmattress.com/images/EMS-home-hover.png';"onmouseout="this.src='https://medmattress.com/images/EMS-home.png';">
       </a>
     </div>
   </div> <!-- /.row -->
