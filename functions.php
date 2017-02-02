@@ -200,6 +200,12 @@ function logout_redirect(){
 }
 /** END **/
 
+
+
+
+
+
+
 /**
  * Hide ALL shipping options when free shipping is available and customer is NOT in certain states
  * Hide Free Shipping if customer IS in those states

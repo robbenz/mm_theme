@@ -603,6 +603,8 @@ input {font-family: "Rokkitt", serif;}
 .term-107 ul.products li.product-category{width: 31.15%; margin: 0 1% 2.992em;}
 .woocommerce ul.products li.product, .woocommerce-page ul.products li.product{margin:0 .5%; width: 24%;}
 .woocommerce ul.products li.product a img {margin:0;}
+.emodal-content select { height: 35px !important; }
+.emodal-content .vfb-form-control { margin-bottom:10px !important; }
 /* END */
 
 /*Checkout*/
