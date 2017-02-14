@@ -23,7 +23,7 @@
 
         /*** END ***/
 
-        /*** Check for festi cart ***/
+        /*** Check for festi cart ***
         function cartModifier() {
             if ($("#festi-cart").is(":visible")) {
               $(".festi-cart-text-before-quantity").html("(");
@@ -101,12 +101,12 @@
 
                 if (vpWidth < 992 || $(window).width() < 992) {
                     $("#fixed-top-header").addClass("navbar navbar-default navbar-fixed-top");
-                    cartModifier();
+                  //  cartModifier();
                     hideableHeader();
                 } else {
                     $("#fixed-top-header").removeClass("navbar navbar-default navbar-fixed-top");
                     $(".festi-cart-text-before-quantity").html("VIEW CART (");
-                    $(".festi-cart-icon").attr("src", "https://medmattress.com/wp-content/uploads/2017/01/icon11.png");
+                //    $(".festi-cart-icon").attr("src", "https://medmattress.com/wp-content/uploads/2017/01/icon11.png");
                     $(document).off('focus', 'input[type="text"], input[type="password"], input[type="email"], input[type="tel"], textarea'); //removes the event binder for hideableHeader
                 }
             })
