@@ -133,7 +133,7 @@
             /*** END ***/
 
 
-        $("#premium-foam").append("</br><img class='most-popular' src='https://medmattress.com/wp-content/uploads/2017/01/most_popular.png'/>");
+      //  $("#premium-foam").append("</br><img class='most-popular' src='https://medmattress.com/wp-content/uploads/2017/01/most_popular.png'/>");
 
         /*** makes images update radio button on custom sizing form ***/
         var radioID = "#vfb-field-24-0, #vfb-field-24-1, #vfb-field-24-2";
