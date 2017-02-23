@@ -36,7 +36,7 @@ ga('send', 'pageview');
 <header id="masthead" role-"banner" class="">
 		<nav id="fixed-top-header" class="">
 	<div id="landing_nav-wrap">
-		<div id="landing-menu" class="container">
+		<div id="landing-menu"  class="container">
 			<a class="landing_nav hvr-shutter-out-horizontal landing_nav-hospital" href="http://www.diamedicalusa.com/hospital-equipment">Hospitals</a>
 			<a class="landing_nav hvr-shutter-out-horizontal landing_nav-mattresses" target="_blank" href="<?php echo site_url(); ?>">Mattresses</a>
 			<a class="landing_nav hvr-shutter-out-horizontal landing_nav-schools" href="http://www.diamedicalusa.com/healthcare-education">Healthcare Education</a>
