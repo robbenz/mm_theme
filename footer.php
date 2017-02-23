@@ -61,19 +61,29 @@
     </div> <!--footer-links-->
     <div class="socialicons2014">
       <a href="http://www.facebook.com/pages/DiaMedical-USA/231317596883279" target="_blank">
-        <img class="social-left" src="https://diamedicalusa.com/wp-content/imgs/social/facebook-hover.png" onMouseOver="this.src='https://diamedicalusa.com/wp-content/imgs/social/facebook.png';" onMouseOut="this.src='https://diamedicalusa.com/wp-content/imgs/social/facebook-hover.png';"/>
+        <img class="social-left" src="https://diamedicalusa.com/wp-content/imgs/social/facebook-hover.png"
+        onMouseOver="this.src='https://diamedicalusa.com/wp-content/imgs/social/facebook.png';"
+        onMouseOut="this.src='https://diamedicalusa.com/wp-content/imgs/social/facebook-hover.png';"/>
       </a>
       <a href="http://twitter.com/DiaMedicalUSA" target="_blank">
-        <img class="social-mid" src="https://diamedicalusa.com/wp-content/imgs/social/twitter-hover.png" onMouseOver="this.src='https://diamedicalusa.com/wp-content/imgs/social/twitter.png';" onMouseOut="this.src='https://diamedicalusa.com/wp-content/imgs/social/twitter-hover.png';"/>
+        <img class="social-mid" src="https://diamedicalusa.com/wp-content/imgs/social/twitter-hover.png"
+        onMouseOver="this.src='https://diamedicalusa.com/wp-content/imgs/social/twitter.png';"
+        onMouseOut="this.src='https://diamedicalusa.com/wp-content/imgs/social/twitter-hover.png';"/>
       </a>
       <a href="http://www.linkedin.com/company/2439975?goback=.fcs_GLHD_diamedical+usa_false_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2&trk=ncsrch_hits" target="_blank">
-        <img class="social-mid" src="https://diamedicalusa.com/wp-content/imgs/social/linkedin-hover.png" onMouseOver="this.src='https://diamedicalusa.com/wp-content/imgs/social/linkedin.png';" onMouseOut="this.src='https://diamedicalusa.com/wp-content/imgs/social/linkedin-hover.png';"/>
+        <img class="social-mid" src="https://diamedicalusa.com/wp-content/imgs/social/linkedin-hover.png"
+        onMouseOver="this.src='https://diamedicalusa.com/wp-content/imgs/social/linkedin.png';"
+        onMouseOut="this.src='https://diamedicalusa.com/wp-content/imgs/social/linkedin-hover.png';"/>
       </a>
       <a href="http://www.pinterest.com/medmattress/" target="_blank">
-        <img class="social-mid" src="https://diamedicalusa.com/wp-content/imgs/social/pinterest-hover.png" onMouseOver="this.src='https://diamedicalusa.com/wp-content/imgs/social/pinterest.png';" onMouseOut="this.src='https://diamedicalusa.com/wp-content/imgs/social/pinterest-hover.png';"/>
+        <img class="social-mid" src="https://diamedicalusa.com/wp-content/imgs/social/pinterest-hover.png"
+        onMouseOver="this.src='https://diamedicalusa.com/wp-content/imgs/social/pinterest.png';"
+        onMouseOut="this.src='https://diamedicalusa.com/wp-content/imgs/social/pinterest-hover.png';"/>
       </a>
-      <a href="http://diamedicalusa.com/blog/" target="_blank">
-        <img class="social-right" src="https://diamedicalusa.com/wp-content/imgs/social/wordpress-hover.png" onMouseOver="this.src='https://diamedicalusa.com/wp-content/imgs/social/wordpress.png';" onMouseOut="this.src='https://diamedicalusa.com/wp-content/imgs/social/wordpress-hover.png';"/>
+      <a href="http://medmattress.com/blog/" target="_blank">
+        <img class="social-right" src="https://diamedicalusa.com/wp-content/imgs/social/wordpress-hover.png"
+        onMouseOver="this.src='https://diamedicalusa.com/wp-content/imgs/social/wordpress.png';"
+        onMouseOut="this.src='https://diamedicalusa.com/wp-content/imgs/social/wordpress-hover.png';"/>
       </a>
     </div><!--socialicons2014-->
   </div><!--footer2014-->

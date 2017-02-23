@@ -34,7 +34,7 @@ ga('send', 'pageview');
 
 <body itemtype="http://schema.org/WebPage" itemscope="itemscope" <?php body_class(); ?>>
 <header id="masthead" role-"banner" class="">
-		<nav id="fixed-top-header" class="">
+		<nav id="fixed-top-header" style="height:10.5vw;" class="">
 	<div id="landing_nav-wrap">
 		<div id="landing-menu"  class="container">
 			<a class="landing_nav hvr-shutter-out-horizontal landing_nav-hospital" href="http://www.diamedicalusa.com/hospital-equipment">Hospitals</a>
