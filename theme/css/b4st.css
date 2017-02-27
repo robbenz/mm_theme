@@ -926,6 +926,7 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
     .logged-in  a#festi-cart.festi-cart.festi-cart-customize div.festi-cart-content span.festi-cart-text-before-quantity, .logged-in  a#festi-cart.festi-cart.festi-cart-customize div.festi-cart-content span.festi-cart-quantity, .logged-in  a#festi-cart.festi-cart.festi-cart-customize div.festi-cart-content span.festi-cart-text-after-quantity, .logged-in  a#festi-cart.festi-cart.festi-cart-customize div.festi-cart-content span.festi-cart-text-before-total, .logged-in  a#festi-cart.festi-cart.festi-cart-customize div.festi-cart-content span.festi-cart-total span.amount,
     .logged-in  a#festi-cart.festi-cart.festi-cart-customize div.festi-cart-content span.festi-cart-text-after-total, .logged-in  a#festi-cart.festi-cart.festi-cart-customize div.festi-cart-content span.festi-cart-dropdown-arrow {font-size: 2.3vw !important;}
     .logged-in div.festi-cart-arrow {left:auto !important; right:30px !important; z-index: 1200 !important;}
+    a.festi-cart div.festi-cart-content span {font-weight:600 !important; }
     /*.menu-need_help-container ul li {padding-left:51px;}*/
     .arrow-up-mm {margin: -25px 0 0 144px;}
     .arrow-up-mm:after{left:150px;}
