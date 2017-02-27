@@ -72,7 +72,7 @@ no-touch .cs-style-8 figure:hover img, .cs-style-8 figure.cs-hover img { -webkit
 .hos-links-menu a:visited{color:#c3e2ff;text-decoration:none; background-color: none !important;}
 .med-logo{margin-bottom: 16px; margin-top: 10px; }
 .search-form, #mm-right-contact{margin-top:15px;}
-#search-place .form-control{margin-right:-10px;display: inline-block; width: 69%; margin-top: 20px; margin-left: 23px;}
+#search-place .form-control { margin-right: -38px; display: inline-block; width: 73%; margin-top: 20px; margin-left: 39px; }
 #searchsubmit{border-radius: 0 .25rem .25rem 0; margin-top: -16px;}
 .float-sm-right{float:none !important;}
 .fa-search{font-size: 1.2rem;}
@@ -126,7 +126,7 @@ textarea:focus::-moz-placeholder { color: transparent; } /* FF 19+ */
 .menu-need_help-container {top: -5px; }
 .menu-need_help-container ul li{list-style: none; text-align:left; float:right;}
 #searchform #searchsubmit {background-color: #ebebeb; border-bottom-right-radius: 10px; top:7px;  border-top-right-radius: 10px; position:relative; left:-5px; border-top: 1px solid #aeaeae; border-right: 1px solid #aeaeae; border-bottom: 1px solid #aeaeae; border-left-color: transparent; border-top-left-radius: 3px; border-bottom-left-radius: 3px; border-style: solid; -moz-border-radius-bottomright: 10px;-moz-border-radius-topright: 10px;}
-@-moz-document url-prefix() { #searchform #searchsubmit { padding: 17px 20px; top:7px; }  }
+@-moz-document url-prefix() { #searchform #searchsubmit { padding: 17px 19.5px; top:7px; }  }
 input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="tel"], textarea {padding:7px 15px; border-width: 1px; border-style: solid;}
 #search-place input[type="text"]{border-right: transparent;}
 input[id="user_login"]{border-right: 1px solid rgba(0,0,0,.15);}
@@ -196,7 +196,6 @@ span.festi-cart-product-count { margin-left:60%; text-align:right;}
 /*ACC MENU*/
 #menu-accessories .sub-menu{height: 184px; }
 @-moz-document url-prefix() { #menu-accessories .sub-menu{ height: 185px; } }
-#menu-accessories .sub-menu .menu-item-type-custom { width: 250px; }
 #menu-accessories > li:hover {color:#fff;}
 #menu-accessories > li:hover a{color:#fff;}
 #menu-replacement-covers-menu .benz-bottom-colors { top: 30px; }
@@ -265,6 +264,7 @@ p.about-mail-number { position:relative; top: -45px; left:-74px;  }
 
 /*Special sub-menu widths and display for header menus*/
 #menu-item-1922 .sub-menu,
+#menu-item-4013 .sub-menu,
 #menu-item-1966 .sub-menu,
 #menu-item-1979 .sub-menu,
 #menu-item-1923 .sub-menu,
@@ -741,9 +741,11 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
   #benz-menu-img-matt1 { left: 19px; }
   #search-place {margin-top:0px; }
   @-moz-document url-prefix() {  #searchform #searchsubmit {top:7px} }
-  #menu-accessories .benz-bottom-colors { top: -112px; }
-  #menu-accessories .arrow-down { left: 500px; top: -299px; }
-  #benz-menu-img-acc {left: 67px; top: -101px; }
+  #menu-accessories .benz-bottom-colors { top: 113px; }
+  #menu-accessories .arrow-down { left: 500px; top: -73px; }
+  #menu-accessories .sub-menu .menu-item-type-custom { width: 228px; }
+  #benz-menu-img-acc { display: none; }
+  #benz-menu-img-acc {left: 67px; top: -42px; }
   #benz-menu-img-mft1 { left: -200px; top: 11px; }
   #benz-menu-img-mft2 { display:none;}
   #benz-menu-img-mft3 { left: 171px; top: -5px; }
@@ -778,9 +780,11 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
   #benz-menu-img-matt1 { left: -91px; }
   @-moz-document url-prefix() {  #searchform #searchsubmit { top:8px;} }
   #search-place { margin-top:10px; }
-  #menu-accessories .benz-bottom-colors { top: -91px; }
-  #menu-accessories .arrow-down { left: 631px; top: -276px; }
-  #benz-menu-img-acc { left: -10px;  }
+  #menu-accessories .benz-bottom-colors { top: -64px; }
+  #menu-accessories .arrow-down { left: 631px; top: -250px; }
+  #menu-accessories .sub-menu .menu-item-type-custom { width: 250px; }
+  #benz-menu-img-acc { display: block; }
+  #benz-menu-img-acc { left: 49px; }
   #benz-menu-img-mft1 { left: -383px; }
   #benz-menu-img-mft2 { left: -24px; top: 20px; display:block }
   #benz-menu-img-mft3 { left: 338px; }

@@ -448,7 +448,8 @@ class BENZ_Walker_Nav_Menu_ACC extends Walker_Nav_Menu {
 
 function end_lvl(&$output, $depth = 0, $args = Array()) {
     if( 0 == $depth ) {
-        $output .= '<img src="https://www.medmattress.com/wp-content/imgs/Accessories-Menu-Airpal-Transfer-Pad.png" id="benz-menu-img-acc" class="benz-menu-img" />';
+        $output .= '<a href="https://medmattress.com/product-category/camp-dorm/bunk-beds/">';
+        $output .= '<img style="width:180px;" src="https://www.medmattress.com/wp-content/imgs/University-Bunk-Bed.png" id="benz-menu-img-acc" class="benz-menu-img" /></a>';
         $output .= '<div class="benz-bottom-colors" style="background-color:#6dc6b0">Our collection of accessories is the perfect way to complete any mattress purchase.</div>';
         $output .= '<div class="arrow-down"></div>';
     }
