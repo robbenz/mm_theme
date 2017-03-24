@@ -233,7 +233,7 @@ p.about-email-number { position:relative; top: -59px; left: -89px; }
 .about-email-number i { position:relative; top:0px; left:-8px;}
 /*about-mail*/
 p.about-mail { position:relative; top: -46px; left: -105px; }
-p.about-mail-number { position:relative; top: -45px; left:-74px;  }
+p.about-mail-number { position:relative; top: -45px; left: 63px; text-align: left; }
 .about-mail-number i { position:relative; top:0px; left:-8px; }
 /*LEAVE THIS MENU STUFF AT THE END!!!!*/
 #benz-main-menu-box p.benz-menu-copy{ padding-top:10px; color:#000; display: inline; float: right; font-size: 16px; font-style: italic; font-weight: 600; text-align:left;}

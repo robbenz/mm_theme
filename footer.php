@@ -1,4 +1,4 @@
-3<footer id="colophon" class="site-footer" role="contentinfo">
+<footer id="colophon" class="site-footer" role="contentinfo">
   <div id="footer2014">
     <div id="footerwrap" class="container">
       <div id="footerlogos" class="row">
