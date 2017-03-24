@@ -533,7 +533,7 @@ function end_lvl(&$output, $depth = 0, $args = Array()) {
         $output .= '<p class="about-email" style="color:#000;">Email Address:</p>';
         $output .= '<p class="about-email-number" style="color:#004ea8;"><i class="fa icon-laptop fa-lg"></i>Info@MedMattress.com</p>';
         $output .= '<p class="about-mail" style="color:#000;">Mailing Address: </p>';
-        $output .= '<p class="about-mail-number" style="color:#004ea8;"><i class="fa icon-envelope fa-lg"></i>5807 W. Maple, Suite #175<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;West Bloomfield, MI 48322</p>';
+        $output .= '<p class="about-mail-number" style="color:#004ea8;"><i class="fa icon-envelope fa-lg"></i>7013 Orchard Lake Rd, Suite #110<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;West Bloomfield, MI 48322</p>';
         $output .= '<div class="benz-bottom-colors" style="background-color:#7fa6d3">Need help finding our policies? Visit our help page for our shipping and return policies.</div>';
     }
     $indent = str_repeat( "\t", $depth );

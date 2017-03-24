@@ -1,4 +1,4 @@
-<footer id="colophon" class="site-footer" role="contentinfo">
+3<footer id="colophon" class="site-footer" role="contentinfo">
   <div id="footer2014">
     <div id="footerwrap" class="container">
       <div id="footerlogos" class="row">
@@ -25,7 +25,7 @@
       <div class="row">
       <div id="footerconnect" class="col-xs-3">
         <p class="connecttop">p. (877) 593-6011<br />f.&nbsp;&nbsp;(248) 671-1550<br /></p>
-        <p class="connectbottom">Info@DiaMedicalUSA.com<br />5807 W. Maple, Suite #175, <br>West Bloomfield, MI 48322</p>
+        <p class="connectbottom">Info@DiaMedicalUSA.com<br />7013 Orchard Lake Rd, Suite #110<br>West Bloomfield, MI 48322</p>
      </div><!--footerconnect-->
 
       <div id="footerlinks1" class="col-xs-3">
