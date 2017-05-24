@@ -744,6 +744,7 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
 table.wccpf_fields_table td.wccpf_label, table.wccpf_fields_table td.wccpf_label label { width: 216px !important ; }
 table.wccpf_fields_table td.wccpf_value input[type="number"] {padding: 3px 10px !important; width:45% !important; }
 table.wccpf_fields_table {margin-bottom: 0.25em !important; }
+.woocommerce td.product-name dl.variation dd {margin-bottom: 0.1em !important; }
 /* END */
 
 /* Responsive Stuff */
