@@ -127,9 +127,31 @@
                 }
             });
         }
-        FUauthorize_net("#billing_address_1", 60)
-        FUauthorize_net("#billing_address_2", 50)
-        FUauthorize_net("#billing_company", 50)
+        FUauthorize_net("#billing_address_1", 60);
+        FUauthorize_net("#billing_address_2", 50);
+        FUauthorize_net("#billing_company", 50);
+            /*** END ***/
+
+
+            /*** Hide show Custom Size input fields based on selection ***/
+            $(function() {
+              if ($(".product_cat-build-your-mattress")[0]){
+                $('.head_taper_custom-wrapper').hide();
+                $('.foot_taper_custom-wrapper').hide();
+                $('#configuration').change(function(){
+                  if($('#configuration').val() == 'Style B (Four Tapered Corners)') {
+                    $('.head_taper_custom-wrapper').show();
+                    $('.foot_taper_custom-wrapper').show();
+                  } else if($('#configuration').val() == 'Style C (Two Tapered Corners)') {
+                    $('.head_taper_custom-wrapper').show();
+                    $('.foot_taper_custom-wrapper').hide();
+                  } else {
+                    $('.head_taper_custom-wrapper').hide();
+                    $('.foot_taper_custom-wrapper').hide();
+                  }
+                });
+              }
+            });
             /*** END ***/
 
 
