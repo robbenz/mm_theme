@@ -557,3 +557,19 @@ function mm_page_stuff() {
     <?php }
 }
 /* END */
+
+/* bst.css Load Last Version */
+add_action( 'wp_enqueue_scripts', 'mm_last_css_enqueue_scripts', 999 );
+function mm_last_css_enqueue_scripts() {
+	if ( ! wp_style_is( 'style', 'done' ) ) {
+		wp_deregister_style( 'style' );
+		wp_dequeue_style( 'style' );
+		$style_filepath = get_stylesheet_directory() . '/theme/css/b4st.css';
+		if ( file_exists($style_filepath) ) {
+      wp_enqueue_style('style',
+      get_template_directory_uri() . '/theme/css/b4st.css', false,
+      filemtime(get_stylesheet_directory() . '/theme/css/b4st.css'));
+		}
+	}
+}
+/* END */
