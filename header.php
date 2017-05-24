@@ -10,13 +10,9 @@
 		<?php endif; ?>
 		<link rel="profile" href="http://gmpg.org/xfn/11">
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-			<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800italic,800' rel='stylesheet' type='text/css'>
-			<link href="https://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet">
-			<!--
-			<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-			<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-		-->
-	<?php wp_head(); ?>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800italic,800' rel='stylesheet' type='text/css'>
+		<link href="https://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet">
+		<?php wp_head(); ?>
 	<script>
  jQuery( ".menu-item-1917" ).addClass( "menu-white-link" );
 	</script>
