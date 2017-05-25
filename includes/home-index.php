@@ -4,7 +4,7 @@
       <div id="homerotator">
         <?php if ( function_exists( 'soliloquy' ) ) { soliloquy( '3536' ); } ?>
       </div>
-      <a id="home-custom-size-mattress" href="custom-sizing-form/">
+      <a id="home-custom-size-mattress" href="product-category/mattresses/build-your-mattress/">
         <div>Need an outdated or a unique size mattress, stretcher pad or cover?
         <strong>Click Here</strong> to submit your unique dimensions!</div>
       </a>

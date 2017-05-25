@@ -78,6 +78,23 @@ get_header( 'shop' ); ?>
 
 				<?php endwhile; // end of the loop. ?>
 
+				<?php if ( is_product_category('build-your-mattress') ) : ?>
+					<li style="margin-top:35px; " class="last product">
+						<a href="<?php echo site_url(); ?>/custom-sizing-form/">
+							<img src="<?php echo site_url(); ?>/wp-content/imgs/Build-your-own-mattress.png" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="Build Your Custom Size Mattress" height="275" width="250">
+						</a>
+					</li>
+				<?php endif ; ?>
+
+
+								<?php if ( is_product_category('stretcher-gurney') ) : ?>
+									<li style="margin-top:35px; " class="last product">
+										<a href="<?php echo site_url(); ?>/product-category/mattresses/build-your-mattress/">
+											<img src="<?php echo site_url(); ?>/wp-content/imgs/Shop-By-Size.png" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="Build Your Custom Size Mattress" height="275" width="250">
+										</a>
+									</li>
+								<?php endif ; ?>
+
 			<?php woocommerce_product_loop_end(); ?>
 
 			<?php
