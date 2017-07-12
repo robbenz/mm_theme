@@ -30,7 +30,6 @@ function my_theme_wrapper_start() {
   echo '';
 }
 
-
 function my_theme_wrapper_end() {
   echo '';
 }

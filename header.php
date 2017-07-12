@@ -31,16 +31,28 @@ ga('send', 'pageview');
 <body itemtype="http://schema.org/WebPage" itemscope="itemscope" <?php body_class(); ?>>
 <header id="masthead" role-"banner" class="">
 		<nav id="fixed-top-header" style="height:10.5vw; max-height:142px;" class="">
-	<div id="landing_nav-wrap">
-		<div id="landing-menu"  class="container">
-			<a class="landing_nav hvr-shutter-out-horizontal landing_nav-hospital" href="http://www.diamedicalusa.com/hospital-equipment">Hospitals</a>
-			<a class="landing_nav hvr-shutter-out-horizontal landing_nav-mattresses" target="_blank" href="<?php echo site_url(); ?>">Mattresses</a>
-			<a class="landing_nav hvr-shutter-out-horizontal landing_nav-schools" href="http://www.diamedicalusa.com/healthcare-education">Healthcare Education</a>
-			<a class="landing_nav hvr-shutter-out-horizontal landing_nav-simlab" href="http://www.diamedicalusa.com/simlabsolutions">SimLabSolutions</a>
-			<a class="landing_nav hvr-shutter-out-horizontal landing_nav-ems" href="http://www.diamedicalusa.com/emergency-rescue">Emergency &amp; Rescue</a>
-			<a class="landing_nav hvr-shutter-out-horizontal landing_nav-ltc" href="http://www.diamedicalusa.com/long-term-care">Long Term Care</a>
-			<a class="landing_nav hvr-shutter-out-horizontal landing_nav-qq" href="http://www.diamedicalusa.com/request-quote">Quick Quote</a>
+
+			<div id="landing_nav-wrap">
+			<div class="container">
+				<a class="landing_nav hvr-shutter-out-horizontal landing_nav-hospital" href="https://diamedicalusa.com/hospital-equipment">Hospitals</a>
+				<a class="landing_nav hvr-shutter-out-horizontal landing_nav-mattresses" target="_blank" href="<?php echo site_url(); ?>">Mattresses</a>
+				<a class="landing_nav hvr-shutter-out-horizontal landing_nav-schools" href="https://diamedicalusa.com/healthcare-education">Healthcare Education</a>
+				<a class="landing_nav hvr-shutter-out-horizontal landing_nav-simlab" href="https://diamedicalusa.com//simlabsolutions">SimLabSolutions</a>
+
+				<div class="dropdown ">
+					<button class="dropbtn hvr-shutter-out-horizontal landing_nav-ems landing_nav ems-button-cursor">Emergency &amp; Rescue</button>
+					<div class="dropdown-content">
+						<a href="https://diamedicalusa.com/emergency-rescue/">EMS Education</a>
+		      	<a href="https://diamedicalusa.com/field-ready-ems-equipment/">Field Ready Gear</a>
+		    	</div>
+				</div>
+
+				<a class="landing_nav hvr-shutter-out-horizontal landing_nav-ltc" href="https://diamedicalusa.com/long-term-care">Long Term Care</a>
+				<a class="landing_nav hvr-shutter-out-horizontal landing_nav-pt" href="https://diamedicalusa.com/product-category/physical-therapy/">Physical Therapy</a>
+				<a class="landing_nav hvr-shutter-out-horizontal landing_nav-qq" href="https://diamedicalusa.com/request-quote">Quick Quote</a>
+			</div>
 		</div>
+
 		<div id="header-container" class="container">
 			<div id="fixed-row" class="row">
 		<div id="logo" class="size-tablet size-laptop size-desktop">

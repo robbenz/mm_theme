@@ -55,7 +55,7 @@ button.eModal-1{font-size: 14px; text-align: center; padding: 2px 1px;}
 .navbar .dropdown-menu li { width: 100%; margin-left: 0 !important; }
 .landing_page ul.products li.product { margin: 0 2% !important;}
 #landing_nav-wrap{width:100%; background-color:#fff; text-align: center;}
-#landing_nav-wrap div a.landing_nav{color:#464444; padding:0.4em 0; text-align:center; width:14%; display:block; float:left; }
+#landing_nav-wrap div a.landing_nav{color:#464444; text-align:center; display:block; float:left; }
 #landing_nav-wrap div a.landing_nav:hover{text-decoration:none; color:#fff;}
 .landing_nav-hospital{border-bottom:5px solid #00426a;}
 .landing_nav-mattresses{border-bottom:5px solid #78be20;}
@@ -64,6 +64,15 @@ button.eModal-1{font-size: 14px; text-align: center; padding: 2px 1px;}
 .landing_nav-ems{border-bottom:5px solid #d6001c;}
 .landing_nav-ltc{border-bottom:5px solid #72d0f4;}
 .landing_nav-qq { border-bottom:5px solid #464444;}
+.landing_nav-pt{ border-bottom:5px solid #9e71a2;}
+.ems-button-cursor {cursor: default;}
+.dropdown { float: left; position: relative;font-family: "Open Sans",sans-serif; }
+.dropdown .dropbtn { border-left:none; border-top:none; border-right:none; background-color: inherit; }
+.dropdown:hover .dropbtn { background-color:#d6001c; color:#fff; font-weight:600 !important;  }
+.dropdown-content { display: none; position: absolute; z-index: 9999; }
+.dropdown-content a { float: none; font-weight: 600 !important; color:white; background-color:#d6001c; text-decoration: none; display: block; text-align: center; }
+.dropdown-content a:hover { background-color:#fff; color:#d6001c; border: 2px solid #d6001c; }
+.dropdown:hover .dropdown-content { display: block; }
 .cs-style-8 figure {overflow: hidden;}
 .cs-style-8 figure img {-webkit-transition: -webkit-transform 0.4s;-moz-transition: -moz-transform 0.4s;transition: transform 0.4s;}
 ul.cs-style-8{list-style:none;}
@@ -81,6 +90,7 @@ no-touch .cs-style-8 figure:hover img, .cs-style-8 figure.cs-hover img { -webkit
 .landing_nav-ems:before { background:#d6001c;  }
 .landing_nav-ltc:before { background:#72d0f4; }
 .landing_nav-qq:before { background:#464444; color:#fff; }
+.landing_nav-pt:before { background:#9e71a2; }
 .hvr-shutter-out-horizontal:hover, .hvr-shutter-out-horizontal:focus, .hvr-shutter-out-horizontal:active { color: #fff;  }
 .hvr-shutter-out-horizontal:hover:before { -webkit-transform: scaleX(1); transform: scaleX(1); text-transform:none; }
 .hvr-shutter-out-horizontal:active, .hvr-shutter-out-horizontal:visited, .hvr-shutter-out-horizontal:focus{ text-transform: none !important;}
@@ -88,8 +98,8 @@ no-touch .cs-style-8 figure:hover img, .cs-style-8 figure.cs-hover img { -webkit
 .hos-links-menu a{color:#c3e2ff;text-decoration:none; background-color: none !important; }
 .hos-links-menu a:hover{color:#c3e2ff;text-decoration: none; background-color: none !important;}
 .hos-links-menu a:visited{color:#c3e2ff;text-decoration:none; background-color: none !important;}
-.med-logo{margin-bottom: 16px; margin-top: 10px; }
-.search-form, #mm-right-contact{margin-top:15px;}
+.med-logo{margin-bottom: 16px; margin-top: -8px; }
+.search-form, #mm-right-contact{margin-top:-1px;}
 #search-place .form-control { margin-right: -38px; display: inline-block; width: 73%; margin-top: 20px; margin-left: 39px; }
 #searchsubmit{border-radius: 0 .25rem .25rem 0; margin-top: -16px;}
 .float-sm-right{float:none !important;}
@@ -766,7 +776,9 @@ table.wccpf_fields_table {margin-bottom: 0.25em !important; }
   #benz-menu-img-matt3 { left: 608px; }
   #benz-menu-img-matt2 { left: 146px;}
   #benz-menu-img-matt1 { left: 19px; }
-  #search-place {margin-top:0px; }
+  #search-place {margin-top: -20px; }
+  .med-logo{margin-top: -13px;}
+  #mm-right-contact {margin-top: -12px;}
   @-moz-document url-prefix() {  #searchform #searchsubmit {top:7px} }
   #menu-accessories .benz-bottom-colors { top: 113px; }
   #menu-accessories .arrow-down { left: 500px; top: -73px; }
@@ -783,9 +795,17 @@ table.wccpf_fields_table {margin-bottom: 0.25em !important; }
   #benz-menu-img-cov2 { left: 360px; top: 98px; width: 351px; }
   #benz-menu-img-cov3 { display:none;}
   .category_desc{ font-size: 14px; }
+  #landing_nav-wrap a.landing_nav{font-size: 0.69em;}
+  #landing_nav-wrap{display:block }
+  .dropdown .dropbtn { padding: 4px 7px; font-size: 0.69em;}
+  .dropdown-content a { float: none; font-size: 0.69em; padding: 7px 0; width: 121px;}
+  #landing_nav-wrap a.landing_nav{ width: 12.3%; }
+  .dropdown-content { top:25px; }
+
+
 }
 
-@media(min-width:1200px){
+@media(min-width:1200px) {
 	.size-desktop{width:30.333%; float: left;}
 	.mobile-search-bar{display:none;}
 	.med-mat-mobile{background: #9ed05e;display: none;}
@@ -805,8 +825,13 @@ table.wccpf_fields_table {margin-bottom: 0.25em !important; }
   #benz-menu-img-matt3 { left: 508px; }
   #benz-menu-img-matt2 { left: 46px; }
   #benz-menu-img-matt1 { left: -91px; }
-  @-moz-document url-prefix() {  #searchform #searchsubmit { top:8px;} }
-  #search-place { margin-top:10px; }
+  #landing_nav-wrap a.landing_nav{ font-size:0.79em; font-weight: 600 !important; }
+  .dropdown .dropbtn { padding: 5px 9px; font-size: 0.79em; font-weight: 500 !important; }
+  .dropdown-content a { float: none; font-size: 0.79em; padding: 8px 0; width: 144px; }
+  #landing_nav-wrap a.landing_nav{ width: 12.22%;}
+  .dropdown-content { top:28px; }
+  @-moz-document url-prefix() {  #searchform #searchsubmit { top:7px;} }
+  #search-place { margin-top:-10px; }
   #menu-accessories .benz-bottom-colors { top: -63px; }
   #menu-accessories .arrow-down { left: 631px; top: -250px; }
   #menu-accessories .sub-menu .menu-item-type-custom { width: 250px; }
@@ -824,15 +849,14 @@ table.wccpf_fields_table {margin-bottom: 0.25em !important; }
   .woocommerce table.shop_table #coupon_code {padding: 10.5px 5px; width:200px !important; }
   .connectbottom {font-size:13px; }
   .header-wrap-text-mattress { height:306px; background-size:cover;  background-repeat:no-repeat; background-image: url('https://medmattress.com/wp-content/imgs/Category-Mattress-header.png'); }
-.category_desc{ font-size: 15.2px; }
-.no-results-header {color: #004ea8; text-transform: uppercase;font-size:3.2rem; }
+  .category_desc{ font-size: 15.2px; }
+  .no-results-header {color: #004ea8; text-transform: uppercase;font-size:3.2rem; }
 }
 
 @media (max-width:1199px){
   .no-results-header {color: #004ea8; text-transform: uppercase;font-size:3.2rem; }
   .header-wrap-text-mattress { height:267px; background-repeat:no-repeat; background-size: 116%; background-position: -87px; background-image: url('https://medmattress.com/wp-content/imgs/Category-Mattress-header.png'); }
   .connectbottom {font-size:13px; }
-	#landing_nav-wrap div a.landing_nav{font-size: .7rem;}
 	.size-laptop{width:26.333%; float: left;}
 	.mobile-search-bar{display:none;}
 	.med-mat-mobile{background: #9ed05e;display: none;}
@@ -967,11 +991,14 @@ table.wccpf_fields_table {margin-bottom: 0.25em !important; }
     #post_316 #vfbField72{margin-left: 51px;}
     #post_316 #vfbField48, #post_316 #vfbField49, #post_316 #vfbField50, #post_316 #vfbField46, #post_316 #vfbField47, #post_316 #vfbField17, #post_316 #vfbField21, #post_316 #vfbField22, #post_316 #vfbField51, #post_316 #vfbField53, #post_316 #vfbField43, #post_316 #vfbField44, #post_316 #vfbField45 {margin-left: 7px;}
     .foam-table span {font-size: 1.5rem; font-weight: 600;}
+    #landing_nav-wrap{display:none;}
+
 }
 /* woocommerce messes up the related products images at specifically this width */
 @media (width:768px){
 	.woocommerce ul.products li.last, .woocommerce-page ul.products li.last {clear:none;}
 	.woocommerce ul.products li.product:nth-child(2n), .woocommerce-page ul.products li.product:nth-child(2n){float: left;}
+
 }
 
 @media (max-width:767px){
@@ -1065,8 +1092,6 @@ table.wccpf_fields_table {margin-bottom: 0.25em !important; }
   #post_316 #vfbField72{margin-left: 11px;}
   #vfbField50 .vfb-col-10 {width:100%;}
   .page-id-6 h4.pageheaders, .page-id-7 h4.pageheaders { margin-left:0px;  }
-
-
 
 }
 
