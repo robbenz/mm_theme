@@ -44,7 +44,7 @@ ol.karenBlogList>li:before {
 }
 
 
-body{font-family: "Rokkitt", serif;}
+body{font-family: "Rokkitt", serif; overflow-x: hidden; }
 body > .container{padding: 0px 5%;}
 a, a:visited{color: #78be20;}
 a:hover, a:focus, a:active{color: #00426a;}
@@ -68,6 +68,8 @@ button.eModal-1{font-size: 14px; text-align: center; padding: 2px 1px;}
 .ems-button-cursor {cursor: default;}
 .dropdown { float: left; position: relative;font-family: "Open Sans",sans-serif; }
 .dropdown .dropbtn { border-left:none; border-top:none; border-right:none; background-color: inherit; }
+
+
 .dropdown:hover .dropbtn { background-color:#d6001c; color:#fff; font-weight:600 !important;  }
 .dropdown-content { display: none; position: absolute; z-index: 9999; }
 .dropdown-content a { float: none; font-weight: 600 !important; color:white; background-color:#d6001c; text-decoration: none; display: block; text-align: center; }
@@ -827,10 +829,11 @@ table.wccpf_fields_table {margin-bottom: 0.25em !important; }
   #benz-menu-img-matt1 { left: -91px; }
   #landing_nav-wrap a.landing_nav{ font-size:0.79em; font-weight: 600 !important; }
   .dropdown .dropbtn { padding: 5px 9px; font-size: 0.79em; font-weight: 500 !important; }
+  .dropdown .dropbtn:hover {   }
   .dropdown-content a { float: none; font-size: 0.79em; padding: 8px 0; width: 144px; }
-  #landing_nav-wrap a.landing_nav{ width: 12.22%;}
+  #landing_nav-wrap a.landing_nav{ width: 12.22%; }
   .dropdown-content { top:28px; }
-  @-moz-document url-prefix() {  #searchform #searchsubmit { top:7px;} }
+  @-moz-document url-prefix() {  #searchform #searchsubmit { top:7px; } }
   #search-place { margin-top:-10px; }
   #menu-accessories .benz-bottom-colors { top: -63px; }
   #menu-accessories .arrow-down { left: 631px; top: -250px; }
