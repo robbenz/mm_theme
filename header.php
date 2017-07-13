@@ -10,6 +10,7 @@
 		<?php endif; ?>
 		<link rel="profile" href="http://gmpg.org/xfn/11">
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800italic,800' rel='stylesheet' type='text/css'>
 		<link href="https://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet">
 		<?php wp_head(); ?>
