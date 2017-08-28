@@ -50,7 +50,7 @@ ga('send', 'pageview');
 
 				<a class="landing_nav hvr-shutter-out-horizontal landing_nav-ltc" href="https://diamedicalusa.com/long-term-care">Long Term Care</a>
 				<a class="landing_nav hvr-shutter-out-horizontal landing_nav-pt" href="https://diamedicalusa.com/product-category/physical-therapy/">Physical Therapy</a>
-				<a class="landing_nav hvr-shutter-out-horizontal landing_nav-qq" href="https://diamedicalusa.com/request-quote">Quick Quote</a>
+				<a class="landing_nav hvr-shutter-out-horizontal landing_nav-qq" href="https://diamedicalusa.com//product-category/veterinary-equipment/">Veterinary</a>
 			</div>
 		</div>
 
