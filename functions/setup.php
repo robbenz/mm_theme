@@ -1,7 +1,7 @@
 <?php
 
 function b4st_setup() {
-	add_editor_style('theme/css/editor-style.css');
+	//add_editor_style('theme/css/editor-style.css');
 	add_theme_support('post-thumbnails');
 	update_option('thumbnail_size_w', 170);
 	update_option('medium_size_w', 470);

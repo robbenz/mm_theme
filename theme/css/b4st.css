@@ -639,6 +639,11 @@ input {font-family: "Rokkitt", serif;}
 .emodal-content .vfb-form-control { margin-bottom:10px !important; }
 /* END */
 
+body#tinymce {
+  padding: 10px !important;
+}
+
+
 /*Checkout*/
 #s2id_billing_country, #s2id_billing_state {padding:0; border: 0;}
 .woocommerce .woocommerce-info { border-top-color: #2a6abb; margin: 30px 0 0em !important;}
