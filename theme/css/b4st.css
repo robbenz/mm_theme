@@ -610,7 +610,6 @@ a.festi-cart div.festi-cart-content { font-weight:600 !important; }
 .woocommerce .quantity, .woocommerce-page .quantity { /*float:right !important; margin: -52px 350px 0 0 !important; */}
 .woocommerce div.product form.cart .variations {margin-bottom:0.1em; }
 .variations td {height:20px; padding-top:0px }
-.single-product .images .thumbnails{display:none;}
 .woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary{float:left;}
 .woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images{float:left; width:355px;}
 .inside-article{padding:20px 50px 5px;}
