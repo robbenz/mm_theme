@@ -59,7 +59,7 @@ ga('send', 'pageview');
 		<div id="logo" class="size-tablet size-laptop size-desktop">
     	<a href="<?php echo site_url(); ?>">
 			<img class="med-logo" src="<?php echo site_url(); ?>/wp-content/imgs/medmattresslogo.png"></a>
-			<p id="phone">(877)593-6011</p>
+			<p id="phone">(877) 593-6011</p>
 		</div>
 		<div id="search-place" class="size-tablet size-laptop size-desktop">
 			<form method="get" id="searchform" action="<?php bloginfo('home'); ?>/">
@@ -70,6 +70,9 @@ ga('send', 'pageview');
 				</div>
 			</form>
 		</div>
+
+
+
 		<div id="mm-right-contact">
 		<?php
 		$benzitems = '<ul id="%1$s" class="%2$s sf-menu sf-js-enabled">%3$s</ul>';
@@ -110,6 +113,9 @@ ga('send', 'pageview');
 					<i class="fa icon-search magnifying-icon"></i>
 				</div>
 			</form>
+			<a id="mobile_cart_icon" href="<?php echo site_url(); ?>/cart" style="">
+				<i class="fa icon-shopping-cart"></i>
+			</a>
 		</div>
 		<?php do_action( 'generate_after_header_content'); ?>
 
