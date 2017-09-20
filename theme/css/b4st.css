@@ -1131,7 +1131,7 @@ table.wccpf_fields_table {margin-bottom: 0.25em !important; }
 	#search-place{display: none;}
 	#search-bar-div{display:block;margin-top: -3px;}
 	#searchform-mobile .form-control{margin:0 0 0 5%; display: inline-block; width: 68%; margin-top: 0px;padding: 8px 15px !important;}
-	#searchsubmit{margin:0px 0 0 -37px;background-color: #ebebeb; border-color: #ebebeb;border-top-right-radius: 10px; border-bottom-right-radius: 10px;}
+	#searchsubmit{margin:-1px 0 0 -37px;background-color: #ebebeb; border-color: #ebebeb;border-top-right-radius: 10px; border-bottom-right-radius: 10px;}
   @-moz-document url-prefix() {#searchsubmit{margin: -2px 0 0 -37px;}}
 	@-moz-document url-prefix() {input[type="submit"]{padding: 17px 20px !important;}}
   .magnifying-icon{pointer-events:none;color:#9ed05e;position:relative;left: -34px;}
