@@ -71,8 +71,13 @@ if ( 0 === $woocommerce_loop['loop'] % $woocommerce_loop['columns'] ) {
 	 *
 	 * @hooked woocommerce_template_loop_product_title - 10
 	 */
-	do_action( 'woocommerce_shop_loop_item_title' );
-
+	 if (is_product_category('med-surg-mattresses')) {
+		 $title = get_the_title();
+		 $new_title = str_replace('Med-Surg Mattress','Med-Surg Mattress<br />', $title  );
+		 echo '<h3>'.$new_title.'</h3>';
+	 } else {
+		 do_action( 'woocommerce_shop_loop_item_title' );
+	 }
 	/**
 	 * woocommerce_after_shop_loop_item_title hook.
 	 *
@@ -89,5 +94,5 @@ if ( 0 === $woocommerce_loop['loop'] % $woocommerce_loop['columns'] ) {
 	 */
 	do_action( 'woocommerce_after_shop_loop_item' );
 	?>
-<!-- <button class="eModal-11">Add to cart</button> --> 
+<!-- <button class="eModal-11">Add to cart</button> -->
 </li>
