@@ -465,7 +465,7 @@ img.custom-zoom {border:2px solid #004ea8;}
 #post_4860 h4 {font-size: 50px; margin-top: -20px;}
 
 
-#vfbField126 .vfb-radio {width: 50%; padding: 0; margin: 0 0 0 -3vw; text-align: center;}
+#vfbField126 .vfb-radio {width: 50%; padding: 0; margin: 0 0 0 -2.4vw; text-align: center;}
 #post_4860 .vfb-radio {font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';  }
 #post_4860 .vfb-radio label {font-size: 16px; float: none; clear: both;}
 .page-id-4860 > .container{padding:0 70px;}
@@ -478,6 +478,9 @@ img.custom-zoom {border:2px solid #004ea8;}
 #vfbField151 select,
 #post_4860 .vfb-clearfix,
 #vfbField150 .vfb-col-10 { width: 30%; }
+
+
+#vfbField131 {margin-top:1vw; }
 
 #vfbField138 {width:40%; float:right;}
 
