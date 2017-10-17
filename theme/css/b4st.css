@@ -457,6 +457,7 @@ img.custom-zoom {border:2px solid #004ea8;}
 .custom-mat-wrap-50 p {display:none;}
 #post_4860 .descriptwraps { margin-top: 20px;}
 #post_4860 h4 {font-size: 50px; margin-top: -20px;}
+#post_4860 .vfbp-form .vfb-form-group {margin-bottom: 22px;}
 #vfbField126 .vfb-radio {width: 50%; padding: 0; margin: 0 0 0 -2.4vw; text-align: center;}
 #post_4860 .vfb-radio {font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';  }
 #post_4860 .vfb-radio label {font-size: 16px; float: none; clear: both;}
@@ -1053,9 +1054,10 @@ table.wccpf_fields_table {margin-bottom: 0.25em !important; }
 /* fix logo positioning and font size between 575 < 992 */
 @media (min-width: 575px) and (max-width: 991px) {
   .med-logo {margin: 20px 30px;}
-  div.festi-cart-content {display: -webkit-box !important; display: -ms-flexbox !important; display: flex !important; -webkit-box-align: center; -ms-flex-align: center; align-items: center;}
+  div.festi-cart-content {display: -webkit-box !important; display: -ms-flexbox !important; display: flex !important; -webkit-box-align: center; -ms-flex-align: center; align-items: center; font-size: 1.5vw;}
   #mm-second-line {margin-top: 24px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: reverse; -ms-flex-direction: row-reverse; flex-direction: row-reverse; -webkit-box-align: start; -ms-flex-align: start; align-items: start; height: 30px;}
   .menu-need_help-container, .menu-sign_in-container {line-height: 20px;}
+  .logged-in #mm-right-contact a {font-size: 1.5vw;}
 }
 
 /* woocommerce messes up the related products images at specifically this width */
