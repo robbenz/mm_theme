@@ -471,9 +471,15 @@ img.custom-zoom {border:2px solid #004ea8;}
 #post_4860 .vfb-clearfix,
 #vfbField150 .vfb-col-10 { width: 30%; }
 #vfbField131 { margin-top:1vw; }
-#vfbField138 {width:40%; float:right;margin-top: -300px; right: 100px;}
+#vfbField138 {width:40%; float:right; margin-top: -265px; right: 100px;}
 #vfbField126 label.vfb-col-2.vfb-control-label {display: none !important;}
 #vfbField126 .vfb-col-10 {width: 100% !important;}
+
+
+#vfbField153 label.vfb-col-2{width:100% !important;}
+#sleeper_chair_wrap {width:100%; text-align:center;}
+#sleeper_chair_wrap img{max-width:54%;}
+
 /*** END ***/
 
 /* Pop out pages */

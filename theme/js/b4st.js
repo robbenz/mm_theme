@@ -165,49 +165,6 @@
         });
         /*** END ***/
 
-        /*** provides different options for custom beds on Murphy/Hide a Bed page ***
-          $(function() {
-            if($('#vfb-field-126-1:checked')) {
-              console.log('checked');
-            }
-          });
-        /*** END ***/
-
-        $('#vfbField126').click(function() {
-           if($('#vfb-field-126-1').is(':checked')) {
-             $('#vfbField136 .vfb-col-10 .vfb-radio:nth-child(1)').show();
-             $('#vfbField136 .vfb-col-10 .vfb-radio:nth-child(2)').hide();
-           } else if($('#vfb-field-126-0').is(':checked')) {
-             $('#vfbField136 .vfb-col-10 .vfb-radio:nth-child(1)').show();
-             $('#vfbField136 .vfb-col-10 .vfb-radio:nth-child(2)').show();
-           }
-        });
-
-
-        $('#vfbField136').click(function() {
-           if($('#vfb-field-136-0').is(':checked')) {
-             $('#vfb-field-135 option:nth-child(1)').prop('disabled',false);
-             $('#vfb-field-135 option:nth-child(2)').prop('disabled',false);
-             $('#vfb-field-135 option:nth-child(3)').prop('disabled',false);
-             $('#vfb-field-135 option:nth-child(4)').prop('disabled',false);
-             $('#vfb-field-135 option:nth-child(5)').prop('disabled',true);
-
-
-           } else if($('#vfb-field-136-1').is(':checked')) {
-
-             $('#vfb-field-135 option:nth-child(1)').prop('disabled',true);
-             $('#vfb-field-135 option:nth-child(2)').prop('disabled',true);
-             $('#vfb-field-135 option:nth-child(3)').prop('disabled',true);
-             $('#vfb-field-135 option:nth-child(4)').prop('disabled',true);
-             $('#vfb-field-135 option:nth-child(5)').prop('disabled',false);
-           }
-        });
-
-
-
-
-
-        //  $(".custom-mat-wrapped-input").wrapAll("<div class='custom-mat-wrapped-input-wrapper'></div>");
 
 
     });
