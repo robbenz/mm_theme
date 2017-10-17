@@ -177,7 +177,7 @@
            if($('#vfb-field-126-1').is(':checked')) {
              $('#vfbField136 .vfb-col-10 .vfb-radio:nth-child(1)').show();
              $('#vfbField136 .vfb-col-10 .vfb-radio:nth-child(2)').hide();
-           } else if($('#vfb-field-126-2').is(':checked')) {
+           } else if($('#vfb-field-126-0').is(':checked')) {
              $('#vfbField136 .vfb-col-10 .vfb-radio:nth-child(1)').show();
              $('#vfbField136 .vfb-col-10 .vfb-radio:nth-child(2)').show();
            }

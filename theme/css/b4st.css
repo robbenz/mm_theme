@@ -405,8 +405,8 @@ h3.form-header {font-size:1.3em; font-family: "Rokkitt",serif !important;}
 #vfbField24 { margin-bottom:1em; position:relative; height: 9em; margin-top: 15px;}
 #vfbField24 .vfb-col-10 { position:absolute; bottom:0; }
 label.foam-qual{ margin-top:100px;}
-#vfbField29 button { padding: 8px 80px; font-size:22px;}
-#vfbField29 { text-align: center; }
+#vfbField29 button, #vfbField149 button{ padding: 8px 80px; font-size:22px;}
+#vfbField29, #vfbField149 { text-align: center; }
 #eModal-3, #eModal-4, #eModal-5 { background-color: #ffffff !important; border: 3px solid #78be20 !important; height: 572px; overflow: scroll;}
 #eModal-7, #eModal-8 { background-color: #ffffff !important; border: 3px solid #78be20 !important; }
 #eModal-3 .emodal-content p,
@@ -448,28 +448,19 @@ img.custom-zoom {border:2px solid #004ea8;}
 #post_316 #vfb-field-72-other{width:200px;}
 
 /*** Custom Size Form for Murphy and Hide a Beds ***/
-
-
 .custom-mat-wrap-50 img#vfb-field-126-0 {width: 63%; }
 .custom-mat-wrap-50 img#vfb-field-126-1 {width: 80%; margin-top: -83px; }
 .page-id-4860 .woocommerce-breadcrumb {display: none !important;}
-
 .page-id-4860  .blue-border-h4 { width: 30%; }
-
 .custom-mat-wrap-50 {float: left; padding: 0px; width: 50%; text-align: center;}
 .custom-mat-wrap-50 img {height: auto;}
 .custom-mat-wrap-50 p {display:none;}
- /* .custom-mat-wrapped-input-wrapper {width: 60%;} */
-
 #post_4860 .descriptwraps { margin-top: 20px;}
 #post_4860 h4 {font-size: 50px; margin-top: -20px;}
-
-
 #vfbField126 .vfb-radio {width: 50%; padding: 0; margin: 0 0 0 -2.4vw; text-align: center;}
 #post_4860 .vfb-radio {font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';  }
 #post_4860 .vfb-radio label {font-size: 16px; float: none; clear: both;}
 .page-id-4860 > .container{padding:0 70px;}
-
 #vfbField131 input,
 #vfbField135 input,
 #vfbField151 input,
@@ -478,19 +469,10 @@ img.custom-zoom {border:2px solid #004ea8;}
 #vfbField151 select,
 #post_4860 .vfb-clearfix,
 #vfbField150 .vfb-col-10 { width: 30%; }
-
-
-#vfbField131 {margin-top:1vw; }
-
-#vfbField138 {width:40%; float:right;}
-
-
+#vfbField131 { margin-top:1vw; }
+#vfbField138 {width:40%; float:right;margin-top: -300px; right: 100px;}
 #vfbField126 label.vfb-col-2.vfb-control-label {display: none !important;}
 #vfbField126 .vfb-col-10 {width: 100% !important;}
-
-/* #vfbField126 .vfb-radio {width: 50%; box-sizing: border-box;} */
-
-
 /*** END ***/
 
 /* Pop out pages */
@@ -968,6 +950,7 @@ table.wccpf_fields_table {margin-bottom: 0.25em !important; }
   .intl-tel-input .selected-flag{margin-top: 14px;}
   #post_316 #vfbField72{margin-left: 72px;}
   .page-id-6 .blue-border-h4{width:74%;}
+  .page-id-4860  .blue-border-h4 { display:none; }
 }
 
 @media (max-width:991px){
