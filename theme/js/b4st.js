@@ -183,14 +183,21 @@
            }
         });
 
+        $('#vfb-field-135 option:nth-child(1)').prop('disabled',true);
+        $('#vfb-field-135 option:nth-child(2)').prop('disabled',false);
+        $('#vfb-field-135 option:nth-child(3)').prop('disabled',false);
+        $('#vfb-field-135 option:nth-child(4)').prop('disabled',false);
+        $('#vfb-field-135 option:nth-child(5)').prop('disabled',false);
+        $('#vfb-field-135 option:nth-child(6)').prop('disabled',true);
 
-        $('#vfbField136').click(function() {
+        $('#vfbField136').change(function() {
            if($('#vfb-field-136-0').is(':checked')) {
-             $('#vfb-field-135 option:nth-child(1)').prop('disabled',false);
+             $('#vfb-field-135 option:nth-child(1)').prop('disabled',true);
              $('#vfb-field-135 option:nth-child(2)').prop('disabled',false);
              $('#vfb-field-135 option:nth-child(3)').prop('disabled',false);
              $('#vfb-field-135 option:nth-child(4)').prop('disabled',false);
-             $('#vfb-field-135 option:nth-child(5)').prop('disabled',true);
+             $('#vfb-field-135 option:nth-child(5)').prop('disabled',false);
+             $('#vfb-field-135 option:nth-child(6)').prop('disabled',true);
 
 
            } else if($('#vfb-field-136-1').is(':checked')) {
@@ -199,7 +206,8 @@
              $('#vfb-field-135 option:nth-child(2)').prop('disabled',true);
              $('#vfb-field-135 option:nth-child(3)').prop('disabled',true);
              $('#vfb-field-135 option:nth-child(4)').prop('disabled',true);
-             $('#vfb-field-135 option:nth-child(5)').prop('disabled',false);
+             $('#vfb-field-135 option:nth-child(5)').prop('disabled',true);
+             $('#vfb-field-135 option:nth-child(6)').prop('disabled',false);
            }
         });
 
