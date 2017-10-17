@@ -21,6 +21,7 @@
         });
 
 
+
         /*** END ***/
 
         /*** Check for festi cart ***
@@ -164,7 +165,7 @@
         });
         /*** END ***/
 
-        /*** provides different options for custom beds on Murphy/Hide a Bed page ***/
+        /*** provides different options for custom beds on Murphy/Hide a Bed page ***
           $(function() {
             if($('#vfb-field-126-1:checked')) {
               console.log('checked');
@@ -172,7 +173,7 @@
           });
         /*** END ***/
 
-          $(".custom-mat-wrapped-input").wrapAll("<div class='custom-mat-wrapped-input-wrapper'></div>");
+        //  $(".custom-mat-wrapped-input").wrapAll("<div class='custom-mat-wrapped-input-wrapper'></div>");
 
 
     });

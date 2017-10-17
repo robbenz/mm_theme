@@ -448,18 +448,46 @@ img.custom-zoom {border:2px solid #004ea8;}
 #post_316 #vfb-field-72-other{width:200px;}
 
 /*** Custom Size Form for Murphy and Hide a Beds ***/
-.custom-mat-wrap-50 {float: left; padding: 0px; width: 50%; text-align: center;}
-.custom-mat-wrap-50 img {width: 80%; height: auto;}
-.custom-mat-wrapped-input-wrapper {width: 60%;}
+
+
+.custom-mat-wrap-50 img#vfb-field-126-0 {width: 63%; }
+.custom-mat-wrap-50 img#vfb-field-126-1 {width: 80%; margin-top: -83px; }
 .page-id-4860 .woocommerce-breadcrumb {display: none !important;}
+
+.page-id-4860  .blue-border-h4 { width: 30%; }
+
+.custom-mat-wrap-50 {float: left; padding: 0px; width: 50%; text-align: center;}
+.custom-mat-wrap-50 img {height: auto;}
+.custom-mat-wrap-50 p {display:none;}
+ /* .custom-mat-wrapped-input-wrapper {width: 60%;} */
+
 #post_4860 .descriptwraps { margin-top: 20px;}
 #post_4860 h4 {font-size: 50px; margin-top: -20px;}
-#post_4860 .vfb-radio{font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'; }
+
+
+#vfbField126 .vfb-radio {width: 50%; padding: 0; margin: 0 0 0 -3vw; text-align: center;}
+#post_4860 .vfb-radio {font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';  }
 #post_4860 .vfb-radio label {font-size: 16px; float: none; clear: both;}
 .page-id-4860 > .container{padding:0 70px;}
+
+#vfbField131 input,
+#vfbField135 input,
+#vfbField151 input,
+#vfbField132 input,
+#vfbField135 select,
+#vfbField151 select,
+#post_4860 .vfb-clearfix,
+#vfbField150 .vfb-col-10 { width: 30%; }
+
+#vfbField138 {width:40%; float:right;}
+
+
 #vfbField126 label.vfb-col-2.vfb-control-label {display: none !important;}
 #vfbField126 .vfb-col-10 {width: 100% !important;}
-#vfbField126 .vfb-radio {width: 50%; box-sizing: border-box;}
+
+/* #vfbField126 .vfb-radio {width: 50%; box-sizing: border-box;} */
+
+
 /*** END ***/
 
 /* Pop out pages */
