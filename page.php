@@ -4,7 +4,7 @@
 
 <?php get_template_part('includes/home-index', 'page'); ?>
 
-<?php elseif ( is_cart() || is_checkout() || is_account_page() || is_page('316') || is_page('3498') || is_page('3428') ): ?>
+<?php elseif ( is_cart() || is_checkout() || is_account_page() || is_page('316') || is_page('3498') || is_page('3428') || is_page('4860')): ?>
   <div class="container">
     <div class="row">
       <div id="content" role="main">

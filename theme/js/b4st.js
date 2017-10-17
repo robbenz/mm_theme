@@ -158,12 +158,22 @@
       //  $("#premium-foam").append("</br><img class='most-popular' src='https://medmattress.com/wp-content/uploads/2017/01/most_popular.png'/>");
 
         /*** makes images update radio button on custom sizing form ***/
-        var radioID = "#vfb-field-24-0, #vfb-field-24-1, #vfb-field-24-2";
-        $(radioID).click(function() { // any element can update any radio as long as their id's match
+        $('[id^="vfb-field-"]').click(function() { // any element can update any radio as long as their id's match
             var imgID = $(this).attr('id'); //the id of the thing that is clicked
             $('#' + imgID).attr("checked", true); //checks correct radio button
         });
         /*** END ***/
+
+        /*** provides different options for custom beds on Murphy/Hide a Bed page ***/
+          $(function() {
+            if($('#vfb-field-126-1:checked')) {
+              console.log('checked');
+            }
+          });
+        /*** END ***/
+
+          $(".custom-mat-wrapped-input").wrapAll("<div class='custom-mat-wrapped-input-wrapper'></div>");
+
 
     });
 
