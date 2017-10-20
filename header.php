@@ -164,11 +164,18 @@ ga('send', 'pageview');
 		</div>
 
 		<?php
-		if ( 'failed' == $_GET["login"] ) {
-			echo '<p class="woo-ma-login-failed woo-ma-error error-home-class-red">';
-			_e('Login failed, please try again','woocommerce-my-account-widget');
-			echo '</p>';
+
+			if ( 'failed' == $_GET["login"] ) {
+				if (!is_checkout()) {
+				echo '<p class="woo-ma-login-failed woo-ma-error error-home-class-red">';
+				_e('Login failed, please try again','woocommerce-my-account-widget');
+				echo '</p>';
+			} else {
+				wp_redirect( '/my-account' );
+				exit();
+			}
 		}
+
 		?>
 
 <?php woocommerce_breadcrumb(); ?>
