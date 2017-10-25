@@ -792,6 +792,11 @@ table.wccpf_fields_table td.wccpf_label, table.wccpf_fields_table td.wccpf_label
 table.wccpf_fields_table td.wccpf_value input[type="number"] {padding: 3px 10px !important; width:45% !important; }
 table.wccpf_fields_table {margin-bottom: 0.25em !important; }
 .woocommerce td.product-name dl.variation dd {margin-bottom: 0.1em !important; }
+#vfbField72 .vfb-inline-group {display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column;}
+#vfbField31 label, #vfbField34 label, #vfbField37 label, #vfbField152 label, #vfbField52 label {width:175px;}
+input#vfb-field-31, input#vfb-field-34, input#vfb-field-37, input#vfb-field-152 {width:100%;}
+#vfbField52 div.vfb-col-10 {clear: both;}
+.vfbp-form .vfb-form-group {margin-bottom: 15px; display: -webkit-box;display: -ms-flexbox;display: flex;}
 /* END */
 
 /* Responsive Stuff */
