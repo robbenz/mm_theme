@@ -799,14 +799,22 @@ table.wccpf_fields_table td.wccpf_value input[type="number"] {padding: 3px 10px 
 table.wccpf_fields_table {margin-bottom: 0.25em !important; }
 .woocommerce td.product-name dl.variation dd {margin-bottom: 0.1em !important; }
 #vfbField72 .vfb-inline-group {display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column;}
-#vfbField31 label, #vfbField34 label, #vfbField37 label, #vfbField152 label, #vfbField52 label {width:175px;}
-input#vfb-field-31, input#vfb-field-34, input#vfb-field-37, input#vfb-field-152 {width:100%;}
+#vfbField31 label, #vfbField34 label, #vfbField37 label, #vfbField154 label, #vfbField52 label {width:175px;}
+input#vfb-field-31, input#vfb-field-34, input#vfb-field-37, input#vfb-field-154 {width:100%;}
 #vfbField52 div.vfb-col-10 {clear: both;}
 .vfbp-form .vfb-form-group {margin-bottom: 15px; display: -webkit-box;display: -ms-flexbox;display: flex;}
 /* END */
 
-/* Responsive Stuff */
+/* Request a Quote Modal */
+input#vfb-field-71, input#vfb-field-67, input#vfb-field-80, input#vfb-field-68 {width: 393px;}
+input#vfb-field-123 {width: 176px;}
+input#vfb-field-124 {width: 142px; margin-right: -12px; }
+form#vfbp-form-3 label.vfb-control-label {width: 100px;}
+form#vfbp-form-3 label[for=vfb-field-123] {width: 60px;}
+form#vfbp-form-3 label[for=vfb-field-79] {margin-right: 4px;}
+/* END */
 
+/* Responsive Stuff */
 
 @media (min-width:992px) {
 
