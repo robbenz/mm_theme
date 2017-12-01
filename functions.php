@@ -19,6 +19,13 @@ function benzy_enqueue_styles() {
 add_action( 'wp_enqueue_scripts', 'benzy_enqueue_styles' );
 
 
+// Remove reviews tab
+add_filter( 'woocommerce_product_tabs', 'wcs_woo_remove_reviews_tab', 98 );
+    function wcs_woo_remove_reviews_tab($tabs) {
+    unset($tabs['reviews']);
+    return $tabs;
+}
+/* END */
 
 // --  ADD woocommerce support to theme
 remove_action( 'woocommerce_before_main_content', 'woocommerce_output_content_wrapper', 10);

@@ -341,7 +341,7 @@ div.festi-cart-content{color:#636363 !important; font-family: 'Open Sans', sans-
 /* END */
 
 /*Breadcrumbs*/
-.woocommerce-breadcrumb{ background-color:#2a6abb; color:#fff !important;  padding: 0 40px !important; text-align:center; font-size:20px !important; font-family: helvetica; text-transform: capitalize; margin-top:10px !important;margin-bottom: 5px !important;}
+.woocommerce-breadcrumb{ background-color:#004ea8; color:#fff !important;  padding: 0 40px !important; text-align:center; font-size:20px !important; font-family: helvetica; text-transform: capitalize; margin-top:10px !important;margin-bottom: 5px !important;}
 .woocommerce-breadcrumb a{color:#fff !important; font-size:20px !important;}
 div.pp_woocommerce div.ppt {display:none !important;}
 /* END */
@@ -591,7 +591,7 @@ a.festi-cart div.festi-cart-content { font-weight:600 !important; }
 #sidebar div { margin-bottom:5px; padding: 10px; }
 #sidebar h4 { margin: 10px 0; background-color: #9ed05e; border-radius: 0.25em; padding: 0.25em 0; text-align: center; color:#000; font-weight: 600; font-size:19px !important; font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';text-transform: uppercase;}
 #sidebar select, #blog_sidebar_wrap input { width:100% !important;}
-#sidebar ul li a { color:#2a6abb; }
+#sidebar ul li a { color:#004ea8; }
 .social-icons-widget ul li {margin: 0 6%; }
 #robly_embedded_subscribe_form #robly_embedded_subscribe { margin-top: 5%; width: 100%; }
 #sidebar #text-4 h3{margin-bottom:-15px; }
@@ -682,10 +682,10 @@ body#tinymce {
 
 /*Checkout*/
 #s2id_billing_country, #s2id_billing_state {padding:0; border: 0;}
-.woocommerce .woocommerce-info { border-top-color: #2a6abb; margin: 30px 0 0em !important;}
+.woocommerce .woocommerce-info { border-top-color: #004ea8; margin: 30px 0 0em !important;}
 form.login .button, .woocommerce form.login input[type="submit"] {background-color: ##5e8fc8; color: #FFFFFF;font-size: 19px; border:none; border-radius: 4px;font-weight: normal; }
 .po-application{margin-top:30px;}
-.po-application button{background-color: #2a6abb; color: #FFFFFF;font-size: 19px; border:none; }
+.po-application button{background-color: #004ea8; color: #FFFFFF;font-size: 19px; border:none; }
 article > header > h2{ display: none !important; }
 h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; margin-bottom: 4px;  text-transform: uppercase;}
 .wizard.wizard > .steps a::before {content: none; }
@@ -777,9 +777,9 @@ h4.pageheaders{clear:both; color: #004ea8; font-size: 42px; font-weight: 500; ma
 .term-camp-mattresses #post-748 ul.products li{margin:0 0.65em; width: 22.05%;}
 #post-2139 .category_desc, #post-2186 .category_desc,#post-748 .category_desc, #post-2185 .category_desc { padding-top: 27px; height:114px;}
 /*camp table*/
-.holding-cell{height: 280px; width: 100%; padding: 10px 10px; margin: 0px; overflow: hidden;}
-.left-camp-cell{float: left; width: 60%; padding: 10px; height: 260px; overflow: auto; color: #000;}
-.camp-right-table{float: right; width: 40%; padding: 0px; height: 260px; overflow: auto;}
+.holding-cell{ padding: 10px 10px; margin: 0px; }
+.left-camp-cell{float: left; width: 60%; padding: 10px; color: #000;}
+.camp-right-table{float: right; width: 40%; padding: 0px;}
 .tg { border-collapse:collapse;border-spacing:0;border-color:#aabcfe;margin:0px auto;width:363px; }
 .tg td{ font-family:serif; font-size:16px; font-weight:600; padding:6px 3px; border-style:solid; border-width:2px; overflow:hidden; word-break:normal; border-color:#aabcfe; color:#669;background-color:#e8edff; width:111px; text-align:left;}
 .tg th{ font-family:serif; font-size:14px; font-weight:normal; padding:10px 5px; border-style:solid; border-width:2px; overflow:hidden; word-break:normal; border-color:#aabcfe; color:#039;background-color:#b9c9fe;}
@@ -814,6 +814,8 @@ form#vfbp-form-3 label[for=vfb-field-123] {width: 60px;}
 form#vfbp-form-3 label[for=vfb-field-79] {margin-right: 4px;}
 /* END */
 
+
+#woocommerce_tabs h2{font-size: 1.62rem;border-bottom: 3px solid #004ea8;}
 /* Responsive Stuff */
 
 @media (min-width:992px) {
@@ -1132,7 +1134,7 @@ form#vfbp-form-3 label[for=vfb-field-79] {margin-right: 4px;}
   #eModal-8 .emodal-content p {font-size: 2.3vw !important;}
   .wizard.wizard > .steps a {width:99.2%;}
   .wizard > .steps li.current a::after{border-left:40px solid #5e8fc8 !important;}
-  #post_8 .pageheaders {margin:0; border-bottom: solid #2a6abb 4px;}
+  #post_8 .pageheaders {margin:0; border-bottom: solid #004ea8 4px;}
   /*.menu-need_help-container ul li, .menu-sign_in-container ul li {margin-top: 3px;}*/
   a.festi-cart div.festi-cart-content img.festi-cart-icon {width:35%; height: auto; margin-top: 0.7vw; max-width: 20px;}
     div.festi-cart-content {margin-top: -3px;}
